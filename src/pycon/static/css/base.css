@@ -1,0 +1,425 @@
+@font-face {
+    font-family: 'GT Pressura Bold';
+    src: url('../fonts/gt_pressua_pro/GT-Pressura-Pro-Trial-Bold.otf');
+}
+
+
+@font-face {
+    font-family: 'GT Pressura Regular';
+    src: url('../fonts/gt_pressua_pro/GT-Pressura-Pro-Trial-Regular.otf');
+}
+
+@font-face {
+    font-family: 'GT Haptik Bold';
+    src: url('../fonts/gt_pressura_pro_m/GT-Haptik-Trial-Bold.otf');
+}
+
+@font-face {
+    font-family: 'GT Haptik Ligth';
+    src: url('../fonts/gt_pressura_pro_m/GT-Haptik-Trial-Light.otf')
+}
+
+@font-face {
+    font-family: 'GT Haptik Trial Bold Oblique';
+    src: url('../fonts/gt_pressura_pro_m/GT-Haptik-Trial-Bold-Oblique.otf');
+}
+
+body{
+  font-family: nudista-web,sans-serif;
+  min-width:305px;
+  box-sizing:border-box;
+}
+
+h2{
+  margin-top: 20px;
+}
+
+ul{
+  padding-bottom: 10px;
+}
+
+.user_bar{
+    width: 100%;
+    background: linear-gradient(to right, rgba(25,59,84,0.0) 55%, rgba(25,59,84,1) 100%);
+    font-size: 12px;
+    padding:2px 0px;
+    color: white;
+    text-align: right;
+    padding-right: 16px;
+    box-sizing: border-box;
+}
+
+.user_bar a{
+  color:inherit;
+  text-decoration: none;
+  opacity:0.8;
+}
+
+.user_bar a:hover{ opacity: 1; }
+
+@media only screen and (max-width: 640px) {
+  .user_bar{
+    background: linear-gradient(to right, rgba(25,59,84,0.0) 20%, rgba(25,59,84,1) 80%);
+  }
+}
+
+.nav-link{
+  box-sizing: border-box;
+  color:white !important;
+  letter-spacing:1px;
+  text-decoration: none;
+  font-size:17px;
+  background:inherit;
+  transition:0.2s;
+  padding-right:8px !important;
+  padding-left:8px !important;
+}
+
+.navbar-toggler{
+  border-color: white !important;
+}
+
+.navbar-toggler:focus{
+  outline:none !important;
+}
+
+.navbar-toggler-icon{
+  background-image: url(../img/hamburger-white.svg) !important;
+}
+
+.navbar-collapse{
+  justify-content: flex-end;
+}
+
+.toggle-off.btn{
+  background:#e6e6e6;
+  box-shadow:inset 0 3px 5px rgba(0,0,0,.125);
+}
+
+.toggle-handle{
+  background:white;
+}
+
+
+.nav-link:hover{
+  /* color:#ffffff !important; */
+  background: rgba(255,255,255,0.2);
+  border-radius:5px;
+
+}
+
+.navbar-default {
+    background-color: transparent;
+    border-color: transparent;
+    margin-top: 10px;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: white;
+}
+
+.navbar-default .navbar-nav>li>a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: 'GT Pressura Regular';
+    letter-spacing: 3px;
+    font-weight: 580;
+}
+
+.topnav {
+    overflow: hidden;
+}
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: 'GT Pressura Regular';
+    letter-spacing: 3px;
+    font-weight: 580;
+}
+
+.topnav-right {
+    float: right;
+}
+
+.navbar-brand{
+  padding:0 20px;
+}
+.navbar-brand img{
+  height: 90px;
+  display: block;
+}
+
+li.translation {
+    padding-top: 5px;
+    padding-left: 10px;
+}
+
+/* li .btn-default.active{
+  background-color: #16b1bf;
+  color: white;
+}
+
+li .btn-default.active:hover, li .btn-default.active:active{
+  background-color: #3c6367;
+  color: white;
+} */
+
+li .btn-primary {
+    background-color: #d68027;
+}
+
+li .btn-primary:hover, li .btn-primary:active {
+    background-color: #bb6f1f;
+}
+
+section {
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+/* Footer CSS Begins */
+
+footer{
+  background: #193B54;
+  width:100%;
+  color:white;
+  padding-top:48px;
+  padding-bottom:24px;
+}
+
+footer h3{
+  margin:0px 0px 16px 0px;
+  font-size:18.5px;
+  letter-spacing:1px;
+}
+
+footer ul{
+  padding:0px;
+  margin:0px;
+  display:flex;
+  list-style:none;
+  flex-wrap:wrap;
+}
+
+footer a{
+  text-decoration:none!important;
+  color:inherit;
+  transition:0.2s;
+  padding:2px 4px;
+}
+
+footer p {
+  margin:0px;
+  font-size:18.5px;
+}
+
+
+.footer__body{
+  display:flex;
+  justify-content:space-between;
+  width:100%;
+  min-height:180px;
+  max-width:1200px;
+  margin:0 auto;
+}
+
+.footer__social-media{
+  margin-bottom:24px;
+  box-sizing:border-box;
+  min-height:120px;
+  padding:0px 16px;
+}
+
+.footer__social-media li:not(:last-of-type){
+  margin-right:24px;
+}
+
+.footer__social-media i{
+  color:rgba(255,255,255,0.5);
+  display:block;
+  font-size:36px;
+  padding-bottom:24px;
+  border-bottom-style:solid;
+  border-bottom-width:2px;
+  transition:0.15s;
+  min-width:34px;
+  text-align:center;
+}
+
+.footer__social-media i:hover{
+  color:rgba(255,255,255,0.8);
+  border-bottom-width:4px;
+}
+
+.color--facebook{border-color:#3B5998;}
+.color--twitter{border-color:rgba(51,204,255,0.9);}
+.color--linkedin{border-color:#4875B4;}
+.color--instagram{border-color:rgba(248,154,77,0.9);}
+
+.footer__more-info{
+  padding:0px 16px;
+  box-sizing:border-box;
+  width:100%;
+  max-width:50%;
+  min-width:200px;
+}
+
+.footer__more-info p{
+  margin-bottom:48px;
+}
+
+
+.footer__newsletter{ /* Added Mar 27 */
+  display:block;
+  width:100%;
+  max-width:1200px;
+  padding:0px 16px;
+  padding-bottom: 24px;
+  margin:0 auto;
+}
+
+footer #mce-EMAIL {
+  padding:4px 8px;
+  font-size:18px;
+}
+
+footer .footer__newsletter{
+  display:block;
+  width:100%;
+  max-width:1200px;
+  padding:0px 16px;
+  padding-bottom: 24px;
+  margin:0 auto;
+}
+
+footer .subscribe-button{
+  border:1px solid white;
+  background:transparent;
+  color:white;
+  font-size:18px;
+  padding:4px 16px;
+}
+
+footer .subscribe-button:hover{
+  background:rgba(255,255,255,0.2);
+  cursor:pointer;
+}
+
+footer .subscribe-button:active{
+  outline:none;
+  background: rgba(255,255,255,0.5);
+}
+
+
+
+.footer__nav-bar{
+  color:rgba(255,255,255,0.5);
+  padding:8px 16px;
+  box-sizing:border-box;
+  display:flex;
+  justify-content:space-between;
+  border-top:1px solid rgba(255,255,255,0.1);
+  width:100%;
+  max-width:1200px;
+  margin:0 auto;
+  line-height:24px;
+}
+
+.footer__nav-bar a:hover{
+  color:rgba(255,255,255,0.8);
+}
+
+.footer__nav-bar li:not(:last-of-type){
+  margin-right:8px;
+}
+
+footer .built-with {
+    text-align: center;
+    font-size: 12px;
+    color: #4e6277;
+    margin-top: 15px;
+}
+
+footer .built-with a {
+    padding: 0;
+}
+
+@media only screen and (max-width: 420px) {
+  .footer__body{
+    flex-direction:column;
+  }
+
+  .footer__more-info{
+    max-width:100%;
+  }
+
+  .footer__nav-bar{
+    flex-direction:column;
+    align-items:center;
+  }
+
+  .footer__social-media ul{
+    justify-content:space-around;
+  }
+
+  .footer__social-media li{
+    margin:4px!important;
+  }
+
+  .footer__nav-bar ul{
+    justify-content:center;
+    margin-bottom:8px;
+  }
+}
+
+ul.messages {
+    list-style: none;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.messages li {
+    text-align: center;
+}
+
+#tickets {
+    background-color: #f8bf52;
+    color: white;
+}
+
+section#tickets a {
+    background-color: var(--palette-03);
+    border-color: var(--palette-03);
+    color: white;
+    margin: 16px 0;
+    display: block;
+    padding: 12px;
+}
+
+section#tickets a:hover {
+    border-color: white;
+}
+
+section#tickets ul {
+    text-align: left;
+    font-size: 1.2rem;
+}
+
+#tickets h3 {
+    margin-bottom: 1em;
+}
+
+
+/* Footer CSS Ends */

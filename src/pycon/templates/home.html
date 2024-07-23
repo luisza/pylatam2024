@@ -1,0 +1,293 @@
+{% extends 'base.html' %}
+{% load  i18n  static  %}
+
+{% block css %}
+<link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}" />
+<link rel="stylesheet" type="text/css" href="{% static 'css/home.css' %}" />
+{% endblock css %}
+
+{% block content %}
+
+  <section class="hero is-bold" >
+    <div class="">
+		<img src="{% static 'img/encabezado.png' %}" class="img-fluid" alt="Logo">
+    </div>
+  </section>
+
+  <!-- Información del evento -->
+  <section class="section is-info" style="background-color: #87CEEB;">
+    <div class="container p-2">
+      <h3 class="title has-text-white">{% trans 'From September 19th to September 22th' %}</h3>
+      <p class="" style="color: #000;">
+        {% trans 'It will take place within the facilities of "El Cid Resorts" in Mazatlán, Sinaloa, Mexico.' %}
+      </p>
+    </div>
+  </section>
+
+  <!-- Como ser Patrocidor del evento -->
+  <section class="section is-grey" style="background-color: #F7F7F7;">
+    <div class="container-fluid">
+      <h3 class="text-default"></h3>
+
+
+      <div class="card" style="background-color: #F7F7F7; border: none;">
+          <img src="{% static 'img/serpienteshead.png' %}" class="card-img-top" alt="{% trans 'Become a sponsor' %}" style="max-height: 100px; width: auto; margin: auto;">
+          <div class="card-body">
+            <h3 class="card-title">{% trans 'How to become a sponsor?' %}</h3>
+            <p class="card-text">
+
+            <div class="row">
+            <div class="col">
+            <div class="btn-group-vertical">
+            <p class="dropdown-item text-center sponsoritem sponsorcommunity">
+               <i class="fa fa-star fw-bold fs-1" aria-hidden="true"></i>
+               <br><strong> {% trans 'Community' %}</strong>
+               <br> $ 6 000 MX
+            </p>
+            <p class="dropdown-item text-center sponsoritem sponsorbasic">
+               <i class="fa fa-star fw-bold fs-1" aria-hidden="true"></i>
+               <br> <strong>{% trans 'Basic' %}</strong>
+               <br> $ 15 000 MX
+            </p>
+            <p class="dropdown-item text-center sponsoritem sponsorbronce">
+               <i class="fa fa-star fw-bold fs-1" aria-hidden="true"></i>
+               <br> <strong>{% trans 'Bronze' %}</strong>
+               <br> $ 15 000 MX
+            </p>
+            </div>
+            </div>
+            <div class="col text-justify">
+            <h3 >{% trans 'MARKETING TOOL' %}</h3>
+            <p  class="text-black-50">
+            {% blocktrans %} If you are a user of Python technology, you host platforms and create SaaS products.
+PyCon Latam provides you with the opportunity to meet potential customers for your products.
+{% endblocktrans %}
+            </p>
+             <h3 > {% trans 'RECRUITMENT' %} </h3>
+            <p class="text-black-50">{% trans 'This is the best place to find talent for your company. This is where the best technology developers in Latin America gather. PyCon Latam offers you this great opportunity.' %} </p>
+               </div>  <div class="col text-justify">
+            <h3> {% trans 'SUPPORTING DIVERSITY' %} </h3>
+
+            <p class="text-black-50">{% trans 'PyCon Latam makes a great effort to be a space where inclusion and cultural diversity are possible. To achieve this, it is necessary to have the support of sponsors who can help us build this goal.' %} </p>
+            <h3> {% trans 'NETWORKING' %} </h3>
+            <p class="text-black-50"> {% trans 'At PyCon Latam, work and learning networks are built to create ties with future collaborators.' %} </p>
+            </div>
+            <div class="col">
+             <div class="btn-group-vertical">
+            <p class="dropdown-item text-center sponsoritem sponsordiamond" >
+               <i class="fa fa-star" aria-hidden="true"></i>
+               <br> <strong>{% trans 'Diamond' %}</strong>
+               <br> $ 130 000 MX
+            </p>
+            <p class="dropdown-item text-center sponsoritem sponsorgold" >
+               <i class="fa fa-star" aria-hidden="true"></i>
+               <br> <strong>{% trans 'Gold' %}</strong>
+               <br> $ 95 000 MX
+            </p>
+            <p class="dropdown-item text-center sponsoritem sponsorplate" >
+               <i class="fa fa-star" aria-hidden="true"></i>
+               <br> <strong>{% trans 'Silver' %}</strong>
+               <br> $ 30 000 MX
+            </p>
+            </div>
+            </div>
+            </div>
+
+            </p>
+
+            <a  class="btn btn-success text-center mt-5" href="https://drive.google.com/file/d/1ADKZZ9or1swZUM8TKMRaCRNYXMj7Ro3u/view?usp=sharing" target="_blank">{% trans 'More information on how to sponsor' %}</a>
+          </div>
+      </div>
+
+
+    </div>
+  </section>
+
+    <!-- Llamado a expositores -->
+  <section class="section is-danger" style="background-color: #328c99;">
+    <div class="container" style="min-height: 10em">
+
+      <div class="row">
+		  <div class="col-sm">
+		  <img class="imgserp" src="{% static 'img/serpiente.png' %}">
+		  </div>
+<div class="col-sm">
+      <div class="container">
+  <div class="container p-2">
+
+	  <a class="btn btn-warning m-2" href="https://www.papercall.io/pyconlatam24">{% trans 'Call for papers' %}</a></div>
+</div>
+	  <p class="text-black-50">
+        {% trans 'Would you like to become an exhibitor at the event? Showcase your knowledge in any area where Python is used.' %}
+      </p>
+      <!-- Animación en CSS para mostrar múltiples categorías de donde Python tiene impacto en el sector tecnológico -->
+      <div class="row">
+        <div class="col wave">
+          <span>{% trans 'Data Science' %}</span>
+          <span>{% trans 'Machine Learning' %}</span>
+          <span>{% trans 'Web developmnet' %}</span>
+          <span>{% trans 'Artificial Intelligence' %}</span>
+          <!-- Agregar más categorías aquí -->
+        </div>
+        <div class="col wave">
+          <span>{% trans 'Cybersecurity' %}</span>
+          <span>{% trans 'Automation' %}</span>
+          <span>{% trans 'IoT' %}</span>
+          <span>{% trans 'DevOps' %}</span>
+          <!-- Agregar más categorías aquí -->
+        </div>
+        <!-- Agregar más olas aquí -->
+      </div>
+        <div class="container m-3">
+	  <span class="text-center text-warning" style="font-size: 2em;">{% trans  'and more' %}</span></div>
+    </div>
+<div class="col-sm">
+	<img class="imgserp" src="{% static 'img/serpiente1.png' %}">
+</div>
+</div>
+</div>
+
+</div>
+  </section>
+
+
+  <!-- Opciones de precios -->
+  <section class="section is-warning" style="background-image: url('{% static 'img/bg1.png' %}'); text-align: justify; background-size: cover; min-height: 35em;">
+    <div class="container">
+
+
+      <div class="row align-items-start">
+  <div class="col-md-4 col-sm-12">
+        <h4 class="title card-title text-center">{% trans 'Pricing' %}</h4>
+	  <div class="card"><p class="p-2 card-body" style="color: #000;">
+{% blocktrans %}The price is per night, per person depending on occupancy.
+Minimum booking of 3 nights.
+The special price will be valid for 3 days before and 3 days after the conference dates.
+You can secure your booking with a $1,000 peso deposit, with the remaining balance to be paid in installments.
+The full payment must be completed by August 19.
+Resort Fee: $250.00 pesos per room per night.
+Minors must book accompanied by an adult.
+{% endblocktrans %}
+      </p>
+      <p>
+        <a class="btn btn-danger m-3" href="https://wa.me/message/WONVGQU7R7SPC1" target="_blank">{% trans 'Contact us by WhatsApp' %}</a>
+      </p>
+      </div>
+  </div>
+   <div class="col-md-4 col-sm-12">
+	<img class="imgserp mt-5 mb-5" src="{% static 'img/serpientes2.png' %}" alt="serpientes">
+  </div>
+  <div class="col-md-4 col-sm-12">
+    <div class="card">
+    <div class="card-body">
+  <table class="table table-responsive table-striped">
+
+ <thead>
+ <td>{% trans 'All-inclusive Packages' %}</td>
+<td>USD*</td>
+<td>MX</td>
+</thead>
+<tbody>
+<tr>
+<td>{% trans 'Single room' %}</td>
+<td>$185.50</td>
+<td>$3,710</td>
+</tr>
+<tr>
+<td>{% trans 'Double room' %} </td>
+<td>$109.75</td>
+<td>$2,195</td>
+</tr>
+<tr>
+<td>{% trans 'Triple room' %}</td>
+<td>$105.50</td>
+<td>$2,110</td>
+</tr>
+<tr>
+<td>{% trans 'Quadruple room' %}</td>
+<td>$100.50</td>
+<td>$2,010</td>
+</tr>
+<td>{% trans 'Youngs (13-17 yrs)' %}</td>
+<td>$50.00</td>
+<td>$1,000</td>
+</tr>
+<tr><td>{% trans 'Children (6- 12 yrs)' %}</td>
+<td>$37.50</td>
+<td>$750</td>
+</tr>
+<tr>
+<td colspan=2>{% trans 'Children (0- 5 yrs) without charges' %}</td>
+</tbody>
+<tfoot>
+<td>* {% trans 'Prices fluctuate based on exchange rate' %}</td>
+</tfoot>
+</table>
+</div></div>
+  </div>
+
+  </div>
+
+
+
+    </div>
+  </section>
+
+  <!-- Animación en CSS para mostrar múltiples categorías de donde Python tiene impacto en el sector tecnológico -->
+  <style>
+
+    .wave  {
+      margin: 10px;
+      padding: 10px;
+      border-radius: 10px;
+      background-color: #f0f0f0;
+      transition: background-color 0.3s ease;
+    }
+    .wave :hover {
+      background-color: #ccc;
+    }
+    .imgserp{
+      max-height: 400px;
+      width: 100%;
+    }
+    .has-text-light{
+      color: darkgray;
+      padding: 1.2em;
+    }
+    section{
+      padding: 2em;
+    }
+    .hero{
+      padding: 0em;
+    }
+    .sponsorcommunity i {
+        color: #bbdb7e;
+        font-size: 2em;
+    }
+
+    .sponsorbasic i {
+        color: #92d3dc;
+        font-size: 2em;
+    }
+    .sponsorbronce i{
+        color: #cc9900;
+        font-size: 2em;
+    }
+
+
+    .sponsordiamond i{
+        color: #f1f7fb;
+        font-size: 2em;
+    }
+    .sponsorgold i{
+        color: #FFD700;
+        font-size: 2em;
+    }
+    .sponsorplate i{
+        color: #a6a6a6;
+        font-size: 2em;
+    }
+
+
+  </style>
+{% endblock content %}

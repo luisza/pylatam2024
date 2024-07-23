@@ -1,0 +1,130 @@
+{% load i18n static %}
+<!doctype html>
+<html lang="{{ LANGUAGE_CODE }}">
+
+<head>
+    {% if not debug and not request.user.is_staff %}
+    <!-- Google Tag Manager -->
+    <script>(function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-54898D6');</script>
+    <!-- End Google Tag Manager -->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-131160725-1"></script>
+
+
+    {% comment %}
+    <!-- Google AdSense -->
+    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <script>
+        (adsbygoogle = window.adsbygoogle || []).push({
+            google_ad_client: "ca-pub-4093219097078356",
+            enable_page_level_ads: true
+        });
+    </script>
+    {% endcomment %}
+    {% endif %}
+    {% block google_meta %}{% endblock google_meta %}
+    <title>{% block title %}PyLatam 2024{% endblock title %}</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="{{ request.build_absolute_uri }}">
+    <meta property="og:title" content="PyLatam 2024">
+    <meta property="og:description" content="PyCon Latam 2024">
+    <meta name="description" content="PyCon Latam 2024">
+    <meta property="og:image" content="{{ request.scheme }}://{{ request.get_host }}{% static 'img/logo.jpeg' %}">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@pylatam">
+    <meta name="twitter:creator" content="@pylatam">
+
+    <link rel="stylesheet" href="{% static 'bootstrap/css/bootstrap.min.css' %}">
+    <link rel="stylesheet" href="https://gitcdn.github.io/bootstrap-toggle/2.2.2/css/bootstrap-toggle.min.css">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/base.css' %}" />
+    <link rel="stylesheet" href="https://use.typekit.net/rns7ahv.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    {% block css %}{% endblock css %}
+    {% include 'includes/favicon.html' %}
+</head>
+
+<body>
+    {% if not debug and not request.user.is_staff %}
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-54898D6" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+    {% endif %}
+
+    <!-- Placeholder user bar -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="navbar-collapse collapse" id="navbarNav" style="">
+                <ul class="navbar-nav navbar-right">
+                    <li class="translation"><a href="{% url 'home_es' %}">ES</a></li>
+                    <li class="translation"><a href="{% url 'home_en' %}">EN</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+
+        {% if messages %}
+        <ul class="messages">
+            {% for message in messages %}
+            <li class="alert alert-{{ message.tags }}">{{ message }}</li>
+            {% endfor %}
+        </ul>
+        {% endif %}
+        {% block content %}{% endblock content %}
+    </main>
+    {% block footer %}
+    <footer>
+        <div class='footer__body'>
+            <div class='footer__social-media'>
+                <h3>{% trans "Stay Connected" %}</h3>
+                <ul>
+                    <li><a href='https://www.facebook.com/PyLatam/' target="_blank"><i
+                                class="fa fa-facebook color--facebook" aria-hidden="true"></i></a></li>
+                    <li><a href='https://twitter.com/PyLatam' target="_blank"><i class="fa fa-twitter color--twitter"
+                                aria-hidden="true"></i></a></li>
+                    <li><a href='https://www.linkedin.com/company/pylatam'><i class="fa fa-linkedin color--linkedin"
+                                aria-hidden="true"></i></a></li>
+                    <li><a href='https://www.instagram.com/pylatam'><i class="fa fa-instagram color--instagram"
+                                aria-hidden="true"></i></a></li>
+                </ul>
+            </div>
+            <div class='footer__more-info'>
+                <p><strong>Pycon Latam</strong> {% trans "commits unyieldingly to the rights of all individuals to mutual respect and acceptance of others, without biases based on differences of any kind." %}
+                </p>
+            </div>
+        </div>
+        <div class='footer__nav-bar'>
+            <ul>
+                <li><a href="conducta/">{% trans 'Code of conduct' %}</a></li>
+            </ul>
+            <span>&copy;2024 Pycon Latam. {% trans "All rights reserved." %}</span>
+        </div>
+        <div class="built-with">{% trans 'Built with' %} <a href="https://www.djangoproject.com/"
+                                                            target="_blank">Django</a> </div>
+    </footer>
+    {% endblock footer %}
+
+    {% block js %}
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="{% static 'bootstrap/js/bootstrap.min.js' %}"></script>
+    <script src="https://gitcdn.github.io/bootstrap-toggle/2.2.2/js/bootstrap-toggle.min.js"></script>
+
+    {% endblock js %}
+</body>
+
+</html>

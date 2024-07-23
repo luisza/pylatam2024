@@ -1,0 +1,1285 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-07-24 23:35-0500\n"
+"PO-Revision-Date: 2024-06-10 19:19-0600\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.2.2\n"
+
+#: src/account_extensions/forms.py:14 templates/account/dashboard.html:97
+msgid "Reservation E-Mail"
+msgstr "Correo electrónico de la reservación"
+
+#: src/account_extensions/forms.py:15 templates/account/dashboard.html:103
+msgid "Reservation Number"
+msgstr "Número de Reservación"
+
+#: src/account_extensions/forms.py:29
+msgid "You've already registered"
+msgstr "Ya te has registrado"
+
+#: src/account_extensions/forms.py:38
+msgid "Unable to find matching reservation"
+msgstr "No se puede encontrar la reservación correspondiente"
+
+#: src/account_extensions/forms.py:42
+msgid "The reservation is not active"
+msgstr "La reservación no esta activada."
+
+#: src/account_extensions/forms.py:57
+msgid "The reservation is fully booked and no longer has vacancies."
+msgstr "La reservación esta completa y no hay vacantes."
+
+#: src/account_extensions/forms.py:83
+msgid "first name"
+msgstr "nombre"
+
+#: src/account_extensions/forms.py:84
+msgid "last name"
+msgstr "apellidos"
+
+#: src/account_extensions/forms.py:87
+msgid "Do you need a simultaneous interpretation receiver?"
+msgstr "¿Necesitas un transmisor de interpretación simulatanea?"
+
+#: src/account_extensions/forms.py:92
+msgid "Would you like to join a free sponsored presentation on Github's Learning Lab?"
+msgstr "¿Te gustaría asistir a una presentación gratuita acerca de el Github Learning Lab?"
+
+#: src/core/constants.py:4
+msgid "Your name"
+msgstr "Tu nombre"
+
+#: src/core/constants.py:5
+msgid "Hotel confirmation"
+msgstr "Confirmación de Hotel"
+
+#: src/core/models.py:33
+msgid "Men's S"
+msgstr "Hombre S"
+
+#: src/core/models.py:34
+msgid "Men's M"
+msgstr "Hombre M"
+
+#: src/core/models.py:35
+msgid "Men's L"
+msgstr "Hombre L"
+
+#: src/core/models.py:36
+msgid "Men's XL"
+msgstr "Hombre XL"
+
+#: src/core/models.py:37
+msgid "Men's 2XL"
+msgstr "Hombre 2XL"
+
+#: src/core/models.py:38
+msgid "Men's 3XL"
+msgstr "Hombre 3XL"
+
+#: src/core/models.py:39
+msgid "Men's 4XL"
+msgstr "Hombre 4XL"
+
+#: src/core/models.py:40
+msgid "Women's S"
+msgstr "Mujer S"
+
+#: src/core/models.py:41
+msgid "Women's M"
+msgstr "Mujer M"
+
+#: src/core/models.py:42
+msgid "Women's L"
+msgstr "Mujer L"
+
+#: src/core/models.py:43
+msgid "Women's XL"
+msgstr "Mujer XL"
+
+#: src/core/models.py:44
+msgid "Women's 2XL"
+msgstr "Mujer 2XL"
+
+#: src/core/models.py:45
+msgid "Women's 3XL"
+msgstr "Mujer 3XL"
+
+#: src/core/models.py:46
+msgid "Women's 4XL"
+msgstr "Mujer 4XL"
+
+#: src/sponsors/models.py:13
+msgid "Basic"
+msgstr "Básico"
+
+#: src/sponsors/models.py:14
+msgid "Bronze"
+msgstr "Bronce"
+
+#: src/sponsors/models.py:15
+msgid "Silver"
+msgstr "Plata"
+
+#: src/sponsors/models.py:16
+msgid "Gold"
+msgstr "Oro"
+
+#: src/sponsors/models.py:17
+msgid "Diamond"
+msgstr "Diamante"
+
+#: src/sponsors/models.py:18
+msgid "T-Shirt"
+msgstr ""
+
+#: templates/account/dashboard.html:17
+msgid "Dashboard"
+msgstr "Tablero"
+
+#: templates/account/dashboard.html:22
+msgid "REGISTRATION STATUS"
+msgstr "ESTADO DE REGISTRO"
+
+#: templates/account/dashboard.html:25
+msgid ""
+"\n"
+"                        <p><strong>Ready for PyCon Latam 2023</strong></p>\n"
+"                        <p>You've registered and paid for this year's attendance.</p>\n"
+"                        <p>\n"
+"                            <small>Get ready to pack your bags!</small>\n"
+"                        </p>\n"
+"                    "
+msgstr ""
+
+#: templates/account/dashboard.html:34
+msgid "Your Pycon Latam 2023 registration is missing:"
+msgstr "Falta tu registro para PyCon Latam 2023:"
+
+#: templates/account/dashboard.html:44 templates/account/dashboard.html:78
+msgid "TICKET"
+msgstr "BOLETO"
+
+#: templates/account/dashboard.html:50
+msgid "Add name"
+msgstr "Agrega nombre"
+
+#: templates/account/dashboard.html:58
+msgid "Conference"
+msgstr "Conferencia"
+
+#: templates/account/dashboard.html:63
+msgid "Reservation #"
+msgstr "# de Reservación"
+
+#: templates/account/dashboard.html:67
+msgid "Check In"
+msgstr "Check In"
+
+#: templates/account/dashboard.html:71
+msgid "Check Out"
+msgstr "Check Out"
+
+#: templates/account/dashboard.html:83
+msgid "Ticket not yet confirmed"
+msgstr "El boleto no ha sido confirmado"
+
+#: templates/account/dashboard.html:85
+msgid "GET YOUR TICKET NOW"
+msgstr "OBTEN TU BOLETO AHORA"
+
+#: templates/account/dashboard.html:89
+msgid "Got your ticket already?"
+msgstr "¿Ya tienes tu boleto?"
+
+#: templates/account/dashboard.html:89
+msgid "Confirm Your booking"
+msgstr "Confirma tu reservación"
+
+#: templates/account/dashboard.html:94
+msgid "Please enter your confirmation number below"
+msgstr "Por favor, ingresa tu número de confirmación"
+
+#: templates/account/dashboard.html:109
+msgid "Confirm Booking"
+msgstr "Confirma Reservación"
+
+#: templates/account/dashboard.html:114
+msgid "Thank you for submitting your booking confirmation!"
+msgstr "¡Gracias por enviar su confirmación de reserva!"
+
+#: templates/account/dashboard.html:115
+msgid "Refresh the page to see your ticket details."
+msgstr "Actualiza la página para ver los detalles de tu boleto"
+
+#: templates/account/dashboard.html:118
+msgid "Refresh Page"
+msgstr "Actualizar página"
+
+#: templates/account/dashboard.html:126
+msgid "Booking Details"
+msgstr "Detalles de Reservación"
+
+#: templates/account/dashboard.html:131
+msgid "Arrival"
+msgstr "Llegada"
+
+#: templates/account/dashboard.html:143
+msgid "Departure"
+msgstr "Salida"
+
+#: templates/account/dashboard.html:155
+msgid "Number of Guests"
+msgstr "Número de invitados"
+
+#: templates/account/dashboard.html:169
+msgid "Search for Rooms"
+msgstr "Buscar habitaciones"
+
+#: templates/account/dashboard.html:174
+msgid "Let's Go!"
+msgstr "¡Vámonos!"
+
+#: templates/account/dashboard.html:175
+msgid ""
+"You'll be redirected to Friendly Vallarta's website. PyCon Latam is\n"
+"                                    all-inclusive and\n"
+"                                    paying for a hotel room takes care of your ticket as well! Please place your booking\n"
+"                                    with them, then come back to this dashboard to add your confirmation\n"
+"                                    number."
+msgstr ""
+"Serás redireccionado al sitio web de Friendly Vallarta. La conferencia PyCon Latam esta\n"
+"incluida al pagar por tu habitación. Por favor reserva tu habitación con ellos y después\n"
+" regresa a este tablero para agregar tu número de confirmación."
+
+#: templates/account/dashboard.html:183
+msgid "TO FRIENDLY VALLARTA"
+msgstr "A FRIENDLY VALLARTA"
+
+#: templates/account/dashboard.html:189
+msgid "Confirm Your Booking"
+msgstr "Confirma tu Reservación"
+
+#: templates/account/dashboard.html:198
+msgid "WHAT CAN I DO?"
+msgstr "¿QUÉ PUEDO HACER?"
+
+#: templates/account/dashboard.html:201 templates/account/settings.html:6
+msgid "Account Settings"
+msgstr "Configuración de Cuenta"
+
+#: templates/account/dashboard.html:206
+msgid "View Conference Schedule"
+msgstr "Ver el calendario de conferencias"
+
+#: templates/account/dashboard.html:211
+msgid "View Hotel Information"
+msgstr "Ver información de Hotel"
+
+#: templates/account/dashboard.html:216
+msgid "DAYS REMAINING"
+msgstr "DÍAS RESTANTES"
+
+#: templates/account/dashboard.html:219
+msgid ""
+"\n"
+"                        <small> day left</small>\n"
+"                    "
+msgid_plural ""
+"\n"
+"                        <small> days left</small>\n"
+"                    "
+msgstr[0] ""
+"\n"
+"                        <small> día restante </small>\n"
+"                    "
+msgstr[1] ""
+"\n"
+"                        <small> días restantes</small>\n"
+"                    "
+
+#: templates/account/dashboard.html:225
+msgid "PyCon Latam 2023 just can't come any faster!"
+msgstr "¡PyCon Latam 2023 no puede venir mas rápido!"
+
+#: templates/account/dashboard.html:229
+msgid "Our Sponsors"
+msgstr "Nuestros Patrocinadores"
+
+#: templates/account/dashboard.html:347
+msgid "Arrival date is required"
+msgstr ""
+
+#: templates/account/dashboard.html:351
+msgid "End date is required"
+msgstr ""
+
+#: templates/account/dashboard.html:355
+msgid "Guest count is required"
+msgstr ""
+
+#: templates/account/dashboard.html:367
+msgid "There is a minimum requirement of three or more nights"
+msgstr ""
+
+#: templates/account/delete.html:4 templates/account/delete.html:6
+#: templates/account/settings.html:46
+msgid "Delete Account"
+msgstr "Borrar Cuenta"
+
+#: templates/account/delete.html:12
+#, python-format
+msgid ""
+"If you go ahead and delete your account, your information will be\n"
+"                <b>expunged within %(ACCOUNT_DELETION_EXPUNGE_HOURS)s hours</b>."
+msgstr ""
+"Si decides proceder y borrar tu cuenta, tu información será \n"
+"                <b>borrada dentro de %(ACCOUNT_DELETION_EXPUNGE_HOURS)s horas</b>."
+
+#: templates/account/delete.html:15
+msgid "Delete My Account"
+msgstr "Borrar Mi Cuenta"
+
+#: templates/account/email/email_confirmation_message.txt:1
+#, python-format
+msgid ""
+"A user on %(site_name)s has created an account using this email address.\n"
+"\n"
+"To confirm this email address, go to %(activate_url)s\n"
+"\n"
+"If you did not sign up for this site, you can ignore this message.\n"
+msgstr ""
+"Un usuario ha creado una cuenta en el sitio %(site_name)s usando este correo electrónico.\n"
+"\n"
+"Para confirmar este correo electrónico, ve a %(activate_url)s\n"
+"\n"
+"Si tu no te registraste en este sitio, puedes ignorar este mensaje.\n"
+
+#: templates/account/email/email_confirmation_subject.txt:1
+#, python-format
+msgid "Confirm email address for %(site_name)s"
+msgstr "Confirma el correo electrónico para %(site_name)s"
+
+#: templates/account/email/password_change.txt:1
+#, python-format
+msgid "This is the email notification to confirm your password has been changed on %(now)s."
+msgstr "Esta es un notificación de correo electrónico para confirmar que tu contraseña ha sido cambiada en %(now)s."
+
+#: templates/account/email/password_change_subject.txt:1
+msgid "Change password email notification"
+msgstr "Cambio de contraseña de tu correo electrónico"
+
+#: templates/account/email/password_reset.txt:1
+#, python-format
+msgid ""
+"You're receiving this email because you or someone else has requested a password for your user account at %(site_name)s.\n"
+"It can be safely ignored if you did not request a password reset. Click the link below to reset your password.\n"
+"\n"
+"%(password_reset_url)s\n"
+msgstr ""
+"Usted esta recibiendo este correo porque usted o alguien ha solicitado una contraseña para su cuenta de usuario en el sitio web %(site_name)s.\n"
+"Si usted no ha solicitado restablecer su contraseña puede ignorar este mensaje. Haga click en el enlace debajo para restablecer su contraseña.\n"
+"\n"
+"%(password_reset_url)s\n"
+
+#: templates/account/email/password_reset_subject.txt:1
+#, python-format
+msgid "[%(site_name)s] Password reset"
+msgstr "[%(site_name)s] Restablecer Constraseña"
+
+#: templates/account/email_confirm.html:11
+msgid "Confirm Email"
+msgstr "Confirma tu correo electrónico"
+
+#: templates/account/email_confirm.html:13
+msgid "Email Confirmation"
+msgstr "Confirmación de Correo electrónico"
+
+#: templates/account/email_confirm.html:19
+#, python-format
+msgid "Confirm email address <b>%(email)s</b>?"
+msgstr "Confirma el correo electrónico <b>%(email)s</b>"
+
+#: templates/account/email_confirm.html:21
+msgid "Confirm"
+msgstr "Confirmar"
+
+#: templates/account/email_confirmation_sent.html:3
+msgid "Confirm your email address"
+msgstr "Confirma tu correo electrónico"
+
+#: templates/account/email_confirmation_sent.html:5
+msgid "Confirmation Email Sent"
+msgstr "Confirmación de correo electrónico enviado"
+
+#: templates/account/email_confirmation_sent.html:11
+msgid "An email has been sent to the provided email address containing a link to confirm your account."
+msgstr "Se ha enviando un mensaje al correo electrónico proporcionado con un enlace para confirmar tu cuenta."
+
+#: templates/account/login.html:4
+msgid "Log in"
+msgstr "Iniciar sesión"
+
+#: templates/account/login.html:6
+msgid "Log in to an existing account"
+msgstr "Iniciar sesión en una cuenta existente"
+
+#: templates/account/login.html:25
+msgid "Login"
+msgstr "Iniciar Sesión"
+
+#: templates/account/login.html:28
+msgid "Forgot your password?"
+msgstr "¿Olvidaste tu contraseña?"
+
+#: templates/account/login.html:31
+msgid "Don't have an account?"
+msgstr "¿Aún no tienes cuenta?"
+
+#: templates/account/login.html:31
+msgid "Sign up now"
+msgstr "Registrate ahora"
+
+#: templates/account/password_change.html:4
+msgid "Change password"
+msgstr "Cambiar contraseña"
+
+#: templates/account/password_change.html:6 templates/account/settings.html:44
+msgid "Change Your Password"
+msgstr "Cambia tu contraseña"
+
+#: templates/account/password_change.html:27 templates/account/settings.html:49
+msgid "Save"
+msgstr "Guardar"
+
+#: templates/account/password_reset.html:4
+msgid "Password reset"
+msgstr "Restablecer contraseña"
+
+#: templates/account/password_reset.html:6
+msgid "Enter the email associated with your account"
+msgstr "Ingrese el correo electrónico asociado a su cuenta"
+
+#: templates/account/password_reset.html:19
+msgid "Reset Password"
+msgstr "Restablecer la contraseña"
+
+#: templates/account/password_reset_sent.html:4
+msgid "Password reset sent"
+msgstr "Reinicio de contraseña enviado"
+
+#: templates/account/password_reset_sent.html:6
+msgid "Password Reset Email Sent"
+msgstr "Reinicio de Contraseña enviado por correo electrónico"
+
+#: templates/account/password_reset_sent.html:17
+msgid "An email has been sent to the provided address containing a link to reset your password."
+msgstr "Un correo electrónico ha sido enviado con un enlace para restablecer su contraseña."
+
+#: templates/account/password_reset_sent.html:19
+msgid "Resend Email"
+msgstr "Reenviar correo electrónico"
+
+#: templates/account/password_reset_sent.html:22
+msgid "We have resent the password reset email."
+msgstr "Hemos reenviado un correo electrónico para restablecer su contraseña"
+
+#: templates/account/password_reset_token.html:4
+#: templates/account/password_reset_token.html:6
+msgid "Set your new password"
+msgstr "Ingresa tu nueva contraseña"
+
+#: templates/account/password_reset_token.html:22
+msgid "Change Password"
+msgstr "Cambiar contraseña"
+
+#: templates/account/password_reset_token_fail.html:4
+msgid "Bad token"
+msgstr "Token equivocado"
+
+#: templates/account/password_reset_token_fail.html:6
+msgid "Bad Token"
+msgstr "Token equivocado"
+
+#: templates/account/password_reset_token_fail.html:12
+#, python-format
+msgid ""
+"The password reset link was invalid, possibly because it has already been used.  Please\n"
+"                request a <a href=\"%(reset_url)s\">new password reset</a>."
+msgstr ""
+"El enlace para restablecer la contraseña es inválido. Es posible que ya haya sido utilizado. Por favor \n"
+"                solicita un nuevo enlace para <a href=\"%(reset_url)s\">restablecer la contraseña</a>."
+
+#: templates/account/settings.html:4
+msgid "Account"
+msgstr "Cuenta"
+
+#: templates/account/settings.html:14
+msgid "First Name"
+msgstr "Nombre"
+
+#: templates/account/settings.html:19
+msgid "Last Name"
+msgstr "Apellidos"
+
+#: templates/account/settings.html:24
+msgid "Shirt Size"
+msgstr "Talla de la playera"
+
+#: templates/account/settings.html:39
+msgid "Email"
+msgstr "Correo electrónico"
+
+#: templates/account/settings.html:43
+msgid "Password"
+msgstr "Constraseña"
+
+#: templates/account/signup.html:4 templates/account/signup.html:6
+msgid "Sign Up"
+msgstr "Regístrate"
+
+#: templates/account/signup.html:31
+msgid "Create an account"
+msgstr "Crear una cuenta"
+
+#: templates/account/signup.html:35
+#, python-format
+msgid ""
+"By clicking 'Create an account' you agree to\n"
+"            <a href=\"%(terms_url)s\" target=\"_blank\">our terms & conditions</a>"
+msgstr "Al hacer click en 'Crear una cuenta' estas de acuerdo con <a href=\"%(terms_url)s\" target=\"_blank\">nuestras politicas</a>"
+
+#: templates/account/signup.html:39
+msgid "Already have an account?"
+msgstr "¿Ya tienes una cuenta?"
+
+#: templates/account/signup.html:39
+msgid "Login now"
+msgstr "Inicia sesión ahora"
+
+#: templates/account/signup_closed.html:3
+#: templates/account/signup_closed.html:5
+msgid "Sign Up Closed"
+msgstr "Inscripción cerrada"
+
+#: templates/account/signup_closed.html:10
+msgid "Thank you for your interest. Sign ups for this year's PyCon Latam are officially closed."
+msgstr "Gracias por su interés. Las inscripciones para PyCon Latam de este año están oficialmente cerradas."
+
+#: templates/base.html:126
+msgid "Stay Connected"
+msgstr "Manténgase Informado"
+
+#: templates/base.html:139
+msgid "commits unyieldingly to the rights of all individuals to mutual respect and acceptance of others, without biases based on differences of any kind."
+msgstr "se compromete a respetar los derechos de todos los individuos, a partir de la tolerancia mutua y la aceptación de los demás sin distinción alguna."
+
+#: templates/base.html:147
+msgid "All rights reserved."
+msgstr "Todos los derechos reservados."
+
+#: templates/base.html:149
+msgid "Built with"
+msgstr "Desarrollado con"
+
+#: templates/base.html:150
+msgid "powered by"
+msgstr "Impulsado por"
+
+#: templates/cms/plugins/widgets/ckeditor.html:25
+#: templates/cms/plugins/widgets/ckeditor.html:28
+msgid "CMS Plugins"
+msgstr "CMS Plugins"
+
+#: templates/cms/plugins/widgets/ckeditor.html:26
+msgid "Add CMS Plugin"
+msgstr "Agrega Plugin CMS"
+
+#: templates/cms/plugins/widgets/ckeditor.html:27
+msgid "Edit CMS Plugin"
+msgstr "Edita Plugin CMS"
+
+#: templates/cms/plugins/widgets/ckeditor.html:33
+msgid "Standard Plugins"
+msgstr "Standard Plugins"
+
+#: templates/djangocms_file/button/folder.html:14
+#: templates/djangocms_file/default/folder.html:14
+msgid "No files were found in the specified folder."
+msgstr ""
+
+#: templates/djangocms_transfer/import_plugins.html:5
+msgid "Import plugins"
+msgstr "Importar plugins"
+
+#: templates/djangocms_transfer/import_plugins.html:8
+msgid "Please correct the error below."
+msgid_plural "Please correct the errors below."
+msgstr[0] "Por favor corrige el error."
+msgstr[1] "Por favor corrige los errores."
+
+#: templates/djangocms_transfer/import_plugins.html:31
+msgid "Import"
+msgstr "Importar"
+
+#: templates/home.html:17
+msgid "Monterrey, Mexico"
+msgstr "Monterrey, México"
+
+#: templates/home.html:18
+msgid "August 24th to 26th"
+msgstr "24 al 26 de Agosto"
+
+#: templates/home.html:27
+msgid "Keynote Speakers"
+msgstr "Ponentes Principales"
+
+#: templates/home.html:42
+msgid "Karo is a maker and product manager with a background in robotics engineering and Data Analytics master's degree. She is also a professor and digital educator. Karo leads PyLadies Bogotá and Colombia, organizations promoting women in Python programming in her country Colombia. She is an active member of the community and a fellow of the Python Software Foundation.  With over ten years of experience creating hardware for various disciplines, Karo has extensive expertise in her field. She is passionate about creating opportunities and fostering personal and professional growth spaces. In her free time, she pursues her interest in jewelry making and enjoys spending time with her four cats and one dog."
+msgstr "Karo es una maker y product manager con background en ingeniería robótica y con un master en Analítica de Datos. También es profesora y educadora digital. Karo lidera PyLadies Bogotá y Colombia, organizaciones que promueven la participación de las mujeres en la programación en Python en su país, Colombia. Ella es parte activa de la comunidad y fellow de la Python Software Foundation. Con más de diez años de experiencia creando hardware para diversas disciplinas, Karo tiene un amplio conocimiento en su campo. Le apasiona crear oportunidades y fomentar espacios de crecimiento personal y profesional. En su tiempo libre, se dedica a la joyería y disfruta pasar tiempo con sus cuatro gatos y un perro."
+
+#: templates/home.html:57
+msgid "After a career as an accountant and a university instructor, Kojo became a software developer. He's been active in the Python &amp; Django communities since 2013, a DjangoCon US organizer since 2016 &amp; the DEFNA North American Ambassador since 2017. He's also led the Newcomer Orientation for PyCon US since 2022. He's currently a software engineer at REVSYS. He has been fortunate enough to have spoken at multiple conferences in multiple countries on most continents. You can find Kojo on Twitter as @KojoIdrissa and Mastodon as @kojoidrissa@fosstodon.org. He's into a lot of disparate things and still sorting out his online presence, so...you've been warned."
+msgstr "Después de una carrera como contador e instructor universitario, Kojo se convirtió en desarrollador de software. Ha estado activo en las comunidades de Python y Django desde 2013, organizador de [DjangoCon US](https://djangocon.us/) desde 2016 y embajador norteamericano de [DEFNA](https://www.defna.org/). desde 2017. También dirigió la [Orientación para recién llegados] (https://us.pycon.org/2023/events/newcomer-orientation/) para PyCon US desde 2022. Actualmente es ingeniero de software en [REVSYS](https://twitter.com/revsys). Ha tenido la suerte de haber hablado en múltiples conferencias en varios países en la mayoría de los continentes. Puede encontrar a Kojo en Twitter como [@KojoIdrissa](https://twitter.com/KojoIdrissa) y a Mastodon como [@kojoidrissa@fosstodon.org](https://fosstodon.org/@kojoidrissa). Está metido en un montón de cosas dispares y aún está resolviendo su presencia en línea, así que... has sido advertido."
+
+#: templates/home.html:72
+msgid "Ee Durbin is Director of Infrastructure at the Python Software Foundation, past PyCon US chair, and long term volunteer keeping Python community infrastructure like PyPI online. Calling Cleveland, Ohio home, Ee finds joy in exploring the world on their bike and convincing themself that their cats love them."
+msgstr "Ee Durbin es director de infraestructura de la Fundación de Software Python, el ex presidente de PyCon de los Estados Unidos y un voluntario de larga data que mantiene la infraestructura de la comunidad Python, como PyPI. Llamando hogar a Cleveland, Ohio, Ee disfruta explorando el mundo en su bicicleta y convenciéndose de que sus gatos los aman."
+
+#: templates/home.html:87
+msgid "Abigail Mesrenyame Dogbe is an Open Source Programs Manager, Researcher and Community Builder who believes in the power of Open Source Community Building. Her current research focuses on Improving DEI in Open Source Community Leadership. She is a contributor and community member in the African Python Software Community and has served as an organizer for local and international community events. Mesrenyame is a Fellow and a Community Service award winner at the Python Software Foundation."
+msgstr "Abigail Mesrenyame Dogbe es gerente de programas de código abierto, investigadora y constructora de comunidades que cree en el poder de la creación de comunidades de código abierto. Su investigación actual se centra en la mejora de DEI en el liderazgo comunitario de código abierto. Es colaboradora y miembro de la comunidad African Python Software Community y se ha desempeñado como organizadora de eventos comunitarios locales e internacionales. Mesrenyame es miembro y ganador del premio Community Service en la Python Software Foundation."
+
+#: templates/home.html:105
+msgid "We are Back!"
+msgstr "Estamos de vuelta"
+
+#: templates/home.html:106
+msgid "Tickets are now available for our early birds."
+msgstr "Los boletos ya están disponibles para nuestros early birds."
+
+#: templates/home.html:107
+msgid "Join the conference where enthusiasts from all over Latin America come together to live, talk and contribute. For a limited time, take advantage of early bird prices"
+msgstr "Únete a la conferencia donde entusiastas de todo latinoamérica se unen para convivir, hablar y contribuir. Por tiempo limitado, aprovecha los precios de early bird."
+
+#: templates/home.html:110
+msgid "Get your ticket"
+msgstr "Obten tu boleto"
+
+#: templates/home.html:112
+msgid "4 Keynotes"
+msgstr "4 Ponentes principales."
+
+#: templates/home.html:113
+msgid "2 Conference days."
+msgstr "2 dias de conferencia."
+
+#: templates/home.html:114
+msgid "Learn more about Python."
+msgstr "Aprende mas de python."
+
+#: templates/home.html:115
+msgid "Enjoy the weekend with other python enthusiasts."
+msgstr "Disfruta el fin de semana con otros entusiastas de python."
+
+#: templates/home.html:124
+msgid "Welcome to PyCon Latam 2023 in Monterrey, Mexico!"
+msgstr "¡Bienvenidos a la PyCon Latam 2023 en Monterrey, México!"
+
+#: templates/home.html:125
+msgid "The call for papers for the event is open from March 14th to May 7th at 11:50 PM. This is a great opportunity for professionals in the field to submit their research and share their expertise with others in the community. Do not miss out on the chance to be part of this exciting event!"
+msgstr "La convocatoria para enviar ponencias al evento estará abierta del 14 de Marzo hasta el 7 de mayo a las 11:50 p.m. Esta es una gran oportunidad para que los profesionales del campo presenten sus investigaciones y compartan su experiencia con otros miembros de la comunidad. ¡No pierdas la oportunidad de formar parte de este emocionante evento!"
+
+#: templates/home.html:127
+msgid "Call for Papers"
+msgstr "Llamado a propuestas"
+
+#: templates/home.html:133
+msgid "SPONSORS"
+msgstr "PATROCINADORES"
+
+#: templates/home.html:135
+msgid "PyCon Latam is made possible by the companies and organizations that sponsor it,"
+msgstr "PyCon Latam es posible gracias a las empresas y organizaciones que lo patrocinan,"
+
+#: templates/home.html:136
+msgid "and they have the opportunity to connect with a wide community of Python programmers."
+msgstr "y estas tienen la oportunidad de conectar con una amplia comunidad de programadores de Python."
+
+#: templates/schedule/detail.html:19 templates/schedule/detail.html:47
+#, fuzzy, python-format
+#| msgid "Keynote Speakers"
+msgid "by %(speaker)s"
+msgstr "Ponentes Principales"
+
+#: templates/schedule/detail.html:28 templates/schedule/detail.html:56
+msgid "Room:"
+msgstr "Sala:"
+
+#: templates/schedule/detail.html:29 templates/schedule/detail.html:57
+msgid "Day:"
+msgstr "Día:"
+
+#: templates/schedule/detail.html:30 templates/schedule/detail.html:58
+msgid "Time:"
+msgstr "Hora:"
+
+#: templates/schedule/detail.html:31 templates/schedule/detail.html:59
+msgid "Language:"
+msgstr "Idioma:"
+
+#: templates/schedule/detail.html:32
+msgid "Audience:"
+msgstr "Audiencia:"
+
+#: templates/schedule/detail.html:34 templates/schedule/detail.html:60
+#: templates/schedule/detail.html:71
+msgid "Speaker Bio"
+msgstr "Biografía del ponente"
+
+#: templates/schedule/detail.html:62
+msgid "Abstract"
+msgstr "Abstracto"
+
+#: templates/schedule/detail.html:66
+msgid "Description"
+msgstr "Descripción"
+
+#: templates/schedule/landing.html:11
+msgid "Friday, August 25"
+msgstr "Viernes 25 de Agosto"
+
+#: templates/schedule/landing.html:15 templates/schedule/landing.html:194
+#, fuzzy
+#| msgid "Time:"
+msgid "Time"
+msgstr "Hora:"
+
+#: templates/schedule/landing.html:16 templates/schedule/landing.html:195
+msgid "Track A"
+msgstr ""
+
+#: templates/schedule/landing.html:17 templates/schedule/landing.html:196
+msgid "Track B"
+msgstr ""
+
+#: templates/schedule/landing.html:23
+msgid "Register"
+msgstr "Registro"
+
+#: templates/schedule/landing.html:27
+msgid "Conference welcome"
+msgstr "Bienvenida Conferencia"
+
+#: templates/schedule/landing.html:31 templates/schedule/landing.html:202
+#, fuzzy
+#| msgid "4 Keynotes"
+msgid "Keynote 1"
+msgstr "4 Ponentes principales."
+
+#: templates/schedule/landing.html:39 templates/schedule/landing.html:167
+#: templates/schedule/landing.html:210 templates/schedule/landing.html:334
+msgid "Break"
+msgstr ""
+
+#: templates/schedule/landing.html:45 templates/schedule/landing.html:386
+#: templates/schedule/landing.html:663 templates/schedule/landing.html:689
+msgid "The adventures of Python in the land of random (and pseudorandom) numbers"
+msgstr "Las aventuras de Python en el país de los números aleatorios (y pseudoaleatorios)"
+
+#: templates/schedule/landing.html:54 templates/schedule/landing.html:412
+msgid "Migrating legacy data to Django"
+msgstr "Migrando datos heredados hacia Django"
+
+#: templates/schedule/landing.html:64 templates/schedule/landing.html:87
+#: templates/schedule/landing.html:129 templates/schedule/landing.html:148
+#: templates/schedule/landing.html:231 templates/schedule/landing.html:254
+#: templates/schedule/landing.html:296 templates/schedule/landing.html:315
+msgid "Small Break "
+msgstr "Mini Break"
+
+#: templates/schedule/landing.html:69
+msgid "Back to the Future: Programming in the Era of AI"
+msgstr "Volver al futuro: programar en la era de la AI"
+
+#: templates/schedule/landing.html:78 templates/schedule/landing.html:467
+msgid "There is only one good: knowledge. There is only one evil: ignorance."
+msgstr "Sólo hay un bien: el conocimiento. Sólo hay un mal: la ignorancia."
+
+#: templates/schedule/landing.html:92 templates/schedule/landing.html:500
+msgid "Generative Art: Exploring History, Random Operations, and Chaos Theory with Python"
+msgstr "Arte Generativo: Explorando la Historia, las Operaciones Aleatorias y la Teoría del Caos con Python"
+
+#: templates/schedule/landing.html:101
+msgid "Building Authorization with Python: Do's and Dont's"
+msgstr ""
+
+#: templates/schedule/landing.html:110 templates/schedule/landing.html:273
+msgid "Lunch"
+msgstr "Comida"
+
+#: templates/schedule/landing.html:115 templates/schedule/landing.html:556
+msgid "Break the Mold and Develop Asynchronous Web with Python"
+msgstr "Salga de lo convencional y desarrolle web asincrónico con Python"
+
+#: templates/schedule/landing.html:124 templates/schedule/landing.html:143
+#: templates/schedule/landing.html:162 templates/schedule/landing.html:225
+#: templates/schedule/landing.html:268 templates/schedule/landing.html:291
+#: templates/schedule/landing.html:301 templates/schedule/landing.html:329
+msgid "TBD"
+msgstr ""
+
+#: templates/schedule/landing.html:134 templates/schedule/landing.html:585
+msgid "Using AWS Artificial Intelligence services with Python"
+msgstr ""
+
+#: templates/schedule/landing.html:153 templates/schedule/landing.html:616
+msgid "Data Analysis for Content Creators: Boost Your Audience & Improve Content"
+msgstr ""
+
+#: templates/schedule/landing.html:171
+msgid "Lightning Talks"
+msgstr "Charlas Relámpago"
+
+#: templates/schedule/landing.html:175
+msgid "Small Break"
+msgstr "Mini Brak"
+
+#: templates/schedule/landing.html:179 templates/schedule/landing.html:338
+#, fuzzy
+#| msgid "4 Keynotes"
+msgid "Keynote 3"
+msgstr "4 Ponentes principales."
+
+#: templates/schedule/landing.html:190
+msgid "Saturday, August 26"
+msgstr "Sábado 26 de Agosto"
+
+#: templates/schedule/landing.html:216
+msgid "In Search of Bugs Without Using Print"
+msgstr "En búsqueda de bugs sin usar print"
+
+#: templates/schedule/landing.html:236
+msgid "Maximizing Your Potential with GitHub Copilot and Prompt Engineering"
+msgstr "Maximizando Tu Potencial con GitHub Copilot y Prompt Engineering"
+
+#: templates/schedule/landing.html:245
+msgid "Let's Make Music Without Instruments (Audio Analysis with Python)"
+msgstr "Hagamos música sin instrumentos (Análisis de audio con Python)"
+
+#: templates/schedule/landing.html:259
+msgid "What's Up, Pumpkin (_bot)? Data Engineering for My Mental Health"
+msgstr "¿Qué pasa, calabaza(_bot)? Ingenería de datos para mi salud mental"
+
+#: templates/schedule/landing.html:277
+msgid "Discussion Panel: "
+msgstr "Panel de Discusión"
+
+#: templates/schedule/landing.html:277
+msgid "PyLadies Chapters Around Latin America"
+msgstr "Capitulos PyLadies alrededor de América Latina"
+
+#: templates/schedule/landing.html:282
+msgid "Two Python Puzzles - Seeking the Why"
+msgstr "Dos rompecabezas de Python - buscando el por qué"
+
+#: templates/schedule/landing.html:306
+msgid "Impact of LLM Models and AI Tools on Software Development with Python"
+msgstr "Impacto de los modelos LLM y herramientas de IA en el desarrollo de software con Python"
+
+#: templates/schedule/landing.html:320
+msgid "Explaining the System of an Autonomous Vehicle with Python"
+msgstr "Explicando el sistema de un vehículo autónomo con Python"
+
+#: templates/schedule/landing.html:346
+msgid "Ending"
+msgstr "Cierre Conferencia"
+
+#: templates/schedule/landing.html:365
+#, fuzzy
+#| msgid "Karo is a maker and product manager with a background in robotics engineering and Data Analytics master's degree. She is also a professor and digital educator. Karo leads PyLadies Bogotá and Colombia, organizations promoting women in Python programming in her country Colombia. She is an active member of the community and a fellow of the Python Software Foundation.  With over ten years of experience creating hardware for various disciplines, Karo has extensive expertise in her field. She is passionate about creating opportunities and fostering personal and professional growth spaces. In her free time, she pursues her interest in jewelry making and enjoys spending time with her four cats and one dog."
+msgid "Karo is a maker and product manager with a background in robotic engineering and a master's in Data Analytics. She is also a professor and digital educator. Karo leads PyLadies Bogotá and Colombia, organizations that promote the participation of women in Python programming in her country, Colombia. She is an active part of the community and a fellow of the Python Software Foundation. With over ten years of experience creating hardware for various disciplines, Karo has extensive knowledge in her field. She is passionate about creating opportunities and fostering spaces for personal and professional growth. In her spare time, she dedicates herself to jewelry making and enjoys spending time with her four cats and a dog."
+msgstr "Karo es una maker y product manager con background en ingeniería robótica y con un master en Analítica de Datos. También es profesora y educadora digital. Karo lidera PyLadies Bogotá y Colombia, organizaciones que promueven la participación de las mujeres en la programación en Python en su país, Colombia. Ella es parte activa de la comunidad y fellow de la Python Software Foundation. Con más de diez años de experiencia creando hardware para diversas disciplinas, Karo tiene un amplio conocimiento en su campo. Le apasiona crear oportunidades y fomentar espacios de crecimiento personal y profesional. En su tiempo libre, se dedica a la joyería y disfruta pasar tiempo con sus cuatro gatos y un perro."
+
+#: templates/schedule/landing.html:368 templates/schedule/landing.html:394
+#: templates/schedule/landing.html:421 templates/schedule/landing.html:449
+#: templates/schedule/landing.html:482 templates/schedule/landing.html:508
+#: templates/schedule/landing.html:538 templates/schedule/landing.html:567
+#: templates/schedule/landing.html:598 templates/schedule/landing.html:623
+#: templates/schedule/landing.html:645 templates/schedule/landing.html:671
+#: templates/schedule/landing.html:697
+msgid "Close"
+msgstr ""
+
+#: templates/schedule/landing.html:387 templates/schedule/landing.html:664
+#: templates/schedule/landing.html:690
+msgid "Random numbers play a fundamental role in various types of computational applications, such as: games, cryptography, simulators, statistical sampling, and artistic production software"
+msgstr ""
+
+#: templates/schedule/landing.html:391 templates/schedule/landing.html:668
+#: templates/schedule/landing.html:694
+msgid "Ariel Ortiz is a full-time professor at Tecnológico de Monterrey in Mexico. He has been programming computers since 1985. In 2001, he started programming in Python and liked it so much that he has not stopped doing it. In recent years, he has been a presenter at PyCon USA, PyCon Latam, Python Brazil, and PythonDay Mexico"
+msgstr ""
+
+#: templates/schedule/landing.html:413
+msgid "A software developer born in Managua, Nicaragua, he has worked with Python and Django for over 10 years on various types of projects."
+msgstr ""
+
+#: templates/schedule/landing.html:414
+msgid "He is passionate about sharing his knowledge and participating in open source software and open code communities"
+msgstr ""
+
+#: templates/schedule/landing.html:417
+msgid "Having legacy data for a new project is a common scenario one can frequently face, data sources can vary and having them ready for production without losing any old data is a priority"
+msgstr ""
+
+#: templates/schedule/landing.html:418
+msgid "This talk will guide you on how to achieve this goal by sharing past experiences and mistakes that can be encountered in legacy data migration projects."
+msgstr ""
+
+#: templates/schedule/landing.html:438
+msgid "Volver al futuro: programar en la era de la AI"
+msgstr ""
+
+#: templates/schedule/landing.html:439
+msgid "Hablaremos con pioneras y pioneros de la computación (Ada Lovelace, Adan Turing) y viajaremos al laboratorio de Xerox en los 50 para entender cómo será el futuro de la programación."
+msgstr ""
+
+#: templates/schedule/landing.html:440
+msgid "¿Existirán frameworks? ¿Lenguajes de programación? ¿Programadores? "
+msgstr ""
+
+#: templates/schedule/landing.html:441
+msgid "¿Cuál es el futuro de Python?"
+msgstr ""
+
+#: templates/schedule/landing.html:442
+msgid "Estás y otras preguntas las responderemos con ayuda de las mentes más brillantes del pasado (spoiler: vamos a simularlas con GPT y elevenlabs para interactuar con ellas y preguntarles qué opinan!)"
+msgstr ""
+
+#: templates/schedule/landing.html:446
+msgid "Cofundador de MONOKU. Orgulloso de ser latinoamericano. Apasionado por Python, la inteligencia artificial, el trabajo remoto, la tecnología (¡y el café!)"
+msgstr ""
+
+#: templates/schedule/landing.html:468 templates/schedule/landing.html:477
+msgid "Gonzalo Nina Mamani is a Bolivian professional, holding a degree in computer systems engineering with a specialization in Information Security."
+msgstr ""
+
+#: templates/schedule/landing.html:469
+msgid "The data to be collected will be the computer resources provided by LACNIC:"
+msgstr ""
+
+#: templates/schedule/landing.html:474
+msgid "The importance of collecting IP information from a country for the identification of potential threats and vulnerabilities will be discussed, as well as for evaluating an organization's security posture in relation to the geographical region in which it operates"
+msgstr ""
+
+#: templates/schedule/landing.html:478
+msgid "With over 10 years of providing security to areas such as private enterprise, government, finance, strategic companies, and education in different parts of America"
+msgstr ""
+
+#: templates/schedule/landing.html:479
+msgid "He is currently the CTO at Ethical Hacking Consultores CORP with a presence in Latin America."
+msgstr ""
+
+#: templates/schedule/landing.html:527
+msgid "Building Authorization with Python: Do's and Don'ts"
+msgstr ""
+
+#: templates/schedule/landing.html:528
+msgid "Authorization is a critical part of any application due to users' greater privacy awareness and new privacy standards like GDPR. Therefore, developers today are required to build complex authorization logic. "
+msgstr ""
+
+#: templates/schedule/landing.html:529
+msgid "However, most developers lack the expertise to build authorization with Python correctly, and they rebuild authorization from scratch repeatedly."
+msgstr ""
+
+#: templates/schedule/landing.html:530
+msgid "This talk will provide best practices for building authorization with Python. To do so, he will show how to use existing tools in the ecosystem: OPA, OSO, OPAL, Zanzibar and others. Finally, he will provide recommendations about how to replace the pain of building authorization with implementing a simple and scalable solution."
+msgstr ""
+
+#: templates/schedule/landing.html:533
+msgid "For the past 10 years, I have been engaged in full-stack development with a strong focus on security."
+msgstr ""
+
+#: templates/schedule/landing.html:534
+msgid "Leveraging my superpower to transform mundane engineering moments into captivating stories, I currently dedicate myself to educating developers on access control at Permit.io."
+msgstr ""
+
+#: templates/schedule/landing.html:535
+msgid "During my leisure time, I am renowned for my repertoire of dad jokes (ever wondered why they're called dad jokes? Because they're 'dead' funny!), my culinary skills in preparing aromatic dishes, my propensity for short-term engagements with various hobbies, my penchant for collecting elite statuses, and my knack for constructing affordable LEGO kits."
+msgstr ""
+
+#: templates/schedule/landing.html:558
+msgid "Historical context of the evolution of Asynchronous Python."
+msgstr ""
+
+#: templates/schedule/landing.html:559
+msgid "Brief introduction to asynchronous programming in Python."
+msgstr ""
+
+#: templates/schedule/landing.html:560
+msgid "We will review the support for asynchronous development in three most common frameworks (Django, Flask, FastAPI)."
+msgstr ""
+
+#: templates/schedule/landing.html:561
+msgid "Advantages and disadvantages of asynchronous programming in Python."
+msgstr ""
+
+#: templates/schedule/landing.html:562
+msgid "Some benchmarks of both development paradigms."
+msgstr ""
+
+#: templates/schedule/landing.html:563
+msgid "Perspective on why synchronous web development is still in use and why one should consider migrating to asynchronous development with Python."
+msgstr ""
+
+#: templates/schedule/landing.html:586
+msgid "How hard is it to use Artificial Intelligence in our applications?"
+msgstr ""
+
+#: templates/schedule/landing.html:587
+msgid "With Python and AWS, it is effortless."
+msgstr ""
+
+#: templates/schedule/landing.html:588
+msgid "This talk will show how you only need Boto3 and a dozen Python code lines to use AI cloud services and add them to our code and applications!"
+msgstr ""
+
+#: templates/schedule/landing.html:589
+msgid "Optical Character Recognition? Language translation? Sentiment analysis? Sound transcoding? Image analysis? Creating audio from text?"
+msgstr ""
+
+#: templates/schedule/landing.html:590
+msgid "Yes, we can do all of that!"
+msgstr ""
+
+#: templates/schedule/landing.html:591
+msgid "Come and learn about this new frontier, Artificial Intelligence!"
+msgstr ""
+
+#: templates/schedule/landing.html:594
+msgid "Accompanied by his ingenious wife, his talented daughter, and his brilliant rabbit (a university graduate), David spends his days on the network, connected from Mexico City, trying to learn as much as he can about computing, watching all the movies that exist, and reading the great literary works of humanity. "
+msgstr ""
+
+#: templates/schedule/landing.html:595
+msgid "Although in reality, he spends a lot of time reading comic books. He works as an SRE at Wizeline, and believes that Cloud Computing, DevOps, and automation are the future of our profession, and he wants to spread that idea to everyone. They cultivated so we could eat, let's cultivate so they can eat."
+msgstr ""
+
+#: templates/schedule/landing.html:617
+msgid "Discover how to leverage the power of Python and data analysis to enhance content creation. "
+msgstr ""
+
+#: templates/schedule/landing.html:618
+msgid "We will delve into the world of data-driven strategies, teaching you how to analyze audience information, optimize your content for search engines and social media, and implement A/B tests to perfect your content strategies. "
+msgstr ""
+
+#: templates/schedule/landing.html:619
+msgid "With real-world examples, this talk will empower content creators to produce targeted and high-impact material that resonates with their audience. "
+msgstr ""
+
+#: templates/schedule/landing.html:620
+msgid "Join us and learn the secret to unlocking your maximum potential in content creation"
+msgstr ""
+
+#: templates/schedule/landing.html:642
+msgid "After a career as an accountant and university instructor, Kojo became a software developer. He has been active in the Python and Django communities since 2013, an organizer of"
+msgstr ""
+
+#: templates/schedule/landing.html:642
+msgid "since 2016, and the North American ambassador for"
+msgstr ""
+
+#: templates/schedule/landing.html:642
+msgid "since 2017. He also led the Newcomer Orientation for PyCon US from 2022. He is currently a software engineer at"
+msgstr ""
+
+#: templates/schedule/landing.html:642
+msgid "He's been fortunate to have spoken at multiple conferences in several countries on most continents. You can find Kojo on Twitter as"
+msgstr ""
+
+#: templates/schedule/landing.html:642
+msgid "and on Mastodon as"
+msgstr ""
+
+#: templates/schedule/landing.html:642
+msgid "He's into a lot of disparate things and is still figuring out his online presence, so... you've been warned."
+msgstr ""
+
+#: pylatam/templates/home.html:20
+msgid "From September 19th to September 22th"
+msgstr "Del 19 Septiembre al 22 de Septiembre"
+
+#: pylatam/templates/home.html:22
+msgid "It will take place within the facilities of \"El Cid Resorts\" in Mazatlán, Sinaloa, Mexico."
+msgstr "Se llevará a cabo dentro de las instalaciones de “El Cid Resorts” en Mazatlán, Sinaloa, México."
+
+#: pylatam/templates/home.html:35
+msgid "Become a sponsor"
+msgstr "Conviértete en patrocinador"
+
+#: pylatam/templates/home.html:37
+msgid "How to become a sponsor?"
+msgstr "¿Cómo ser patrocinador?"
+
+#: pylatam/templates/home.html:45
+msgid "Community"
+msgstr "Comunidad"
+
+#: pylatam/templates/home.html:61
+msgid "MARKETING TOOL"
+msgstr "HERRAMIENTA DE MERCADEO"
+
+#: pylatam/templates/home.html:63
+msgid ""
+" If you are a user of Python technology, you host platforms and create SaaS products.\n"
+"PyCon Latam provides you with the opportunity to meet potential customers for your products.\n"
+msgstr ""
+" Si eres usuario de la tecnología Python, hospedas plataformas y creas productos saas.\n"
+"PyCon Latam te brinda la oportunidad de conocer clientes potenciales para tus productos.\n"
+
+#: pylatam/templates/home.html:67
+msgid "RECRUITMENT"
+msgstr "RECLUTAMIENTO"
+
+#: pylatam/templates/home.html:68
+msgid "This is the best place to find talent for your company. This is where the best technology developers in Latin America gather. PyCon Latam offers you this great opportunity."
+msgstr "Este es el mejor lugar para encontrar talento para tu empresa.  Aquí se reúnen los mejores desarrolladores de tecnología en Latinoamérica. PyCon Latam te ofrece esta gran oportunidad."
+
+#: pylatam/templates/home.html:70
+msgid "SUPPORTING DIVERSITY"
+msgstr "APOYANDO LA DIVERSIDAD"
+
+#: pylatam/templates/home.html:72
+msgid "PyCon Latam makes a great effort to be a space where inclusion and cultural diversity are possible. To achieve this, it is necessary to have the support of sponsors who can help us build this goal."
+msgstr "PyCon Latam realiza un gran esfuerzo para ser un espacio donde la inclusión y la diversidad cultural sean posibles. Para lograrlo es necesario contar con el apoyo de patrocinadores que nos ayuden a construir esta meta."
+
+#: pylatam/templates/home.html:73
+msgid "NETWORKING"
+msgstr "RED DE CONTACTOS"
+
+#: pylatam/templates/home.html:74
+msgid "At PyCon Latam, work and learning networks are built to create ties with future collaborators."
+msgstr "En Pycon Latam se construyen redes de trabajo y aprendizaje para crear lazos con futuros colaboradores."
+
+#: pylatam/templates/home.html:98
+msgid "More information on how to sponsor"
+msgstr "Más información de cómo patrocinar"
+
+#: pylatam/templates/home.html:118
+msgid "Call for papers"
+msgstr "Llamado a expositores"
+
+#: pylatam/templates/home.html:121
+msgid "Would you like to become an exhibitor at the event? Showcase your knowledge in any area where Python is used."
+msgstr "Te gustaría convertirte en un expositor en el evento, muéstranos tu conocimiento en cualquier área donde se utilice Python."
+
+#: pylatam/templates/home.html:126
+msgid "Data Science"
+msgstr "Ciencia de datos"
+
+#: pylatam/templates/home.html:127
+msgid "Machine Learning"
+msgstr "Aprendizaje de máquinas"
+
+#: pylatam/templates/home.html:128
+msgid "Web developmnet"
+msgstr "Desarrollo web"
+
+#: pylatam/templates/home.html:129
+msgid "Artificial Intelligence"
+msgstr "Inteligencia Artificial"
+
+#: pylatam/templates/home.html:133
+msgid "Cybersecurity"
+msgstr "Cyberseguridad"
+
+#: pylatam/templates/home.html:134
+msgid "Automation"
+msgstr "Automatización"
+
+#: pylatam/templates/home.html:135
+msgid "IoT"
+msgstr "IoT"
+
+#: pylatam/templates/home.html:136
+msgid "DevOps"
+msgstr "DevOps"
+
+#: pylatam/templates/home.html:142
+msgid "and more"
+msgstr "y mucho más"
+
+#: pylatam/templates/home.html:157
+msgid "Pricing"
+msgstr "Opciones de Precios"
+
+#: pylatam/templates/home.html:162
+msgid ""
+"The price is per night, per person depending on occupancy.\n"
+"Minimum booking of 3 nights.\n"
+"The special price will be valid for 3 days before and 3 days after the conference dates.\n"
+"You can secure your booking with a $1,000 peso deposit, with the remaining balance to be paid in installments.\n"
+"The full payment must be completed by August 19.\n"
+"Resort Fee: $250.00 pesos per room per night.\n"
+"Minors must book accompanied by an adult.\n"
+msgstr ""
+"El precio es por noche, por persona dependiendo de la ocupación.\n"
+"Reserva mínima de 3 noches.\n"
+"El precio especial será válido durante 3 días antes y 3 días después de las fechas de la conferencia.\n"
+"Se puede separar con $1,000 pesos y el resto pagar en abonos.\n"
+"El total del pago deberá estar cubierto para el día 19 de agosto.\n"
+"Resort Fee: $250.00 pesos por habitación por noche.\n"
+"Menores de edad deberán reservar acompañados de un adulto.\n"
+
+#: pylatam/templates/home.html:172
+msgid "Contact us by WhatsApp"
+msgstr "Contactar por WhatsApp"
+
+#: pylatam/templates/home.html:185
+msgid "All-inclusive Packages"
+msgstr "Paquetes todo incluido"
+
+#: pylatam/templates/home.html:191
+msgid "Single room"
+msgstr "Habitación simple"
+
+#: pylatam/templates/home.html:196
+msgid "Double room"
+msgstr "Habitación doble"
+
+#: pylatam/templates/home.html:201
+msgid "Triple room"
+msgstr "Habitación triple"
+
+#: pylatam/templates/home.html:206
+msgid "Quadruple room"
+msgstr "Habitación cuadruple"
+
+#: pylatam/templates/home.html:210
+msgid "Youngs (13-17 yrs)"
+msgstr "Jóvenes (13-17 años)"
+
+#: pylatam/templates/home.html:214
+msgid "Children (6- 12 yrs)"
+msgstr "Niños (6- 12 años)"
+
+#: pylatam/templates/home.html:219
+msgid "Children (0- 5 yrs) without charges"
+msgstr "Niños (0- 5 años) sin cargo"
+
+#: pylatam/templates/home.html:222
+msgid "Prices fluctuate based on exchange rate"
+msgstr "Precios oscilan según tipo de cambio"
