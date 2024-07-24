@@ -9,4 +9,6 @@ urlpatterns = [
     path('en/conducta/', views.conduct, {'lang': 'en'}, name="conduct_en"),
     path('es/conducta/', views.conduct, {'lang': 'es'}, name="conduct_es"),
     path('scheduled/', views.scheduled, {'lang': 'es'}, name="scheduled"),
+    path('en/scheduled/', views.scheduled, {'lang': 'en'}, name="scheduled_en"),
+    path('es/scheduled/', views.scheduled, {'lang': 'es'}, name="scheduled_es"),
 ]

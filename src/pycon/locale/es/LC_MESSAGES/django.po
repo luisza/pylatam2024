@@ -7,22 +7,22 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-23 19:28-0600\n"
+"POT-Creation-Date: 2024-07-24 00:38-0600\n"
 "PO-Revision-Date: 2024-06-10 19:19-0600\n"
 "Last-Translator: \n"
 "Language-Team: \n"
-"Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: es\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Poedit 3.2.2\n"
 
-#: .\pycon\templates\base.html:95
+#: .\pycon\templates\base.html:121
 msgid "Stay Connected"
 msgstr "Manténgase Informado"
 
-#: .\pycon\templates\base.html:108
+#: .\pycon\templates\base.html:134
 msgid ""
 "commits unyieldingly to the rights of all individuals to mutual respect and "
 "acceptance of others, without biases based on differences of any kind."
@@ -30,15 +30,15 @@ msgstr ""
 "se compromete a respetar los derechos de todos los individuos, a partir de "
 "la tolerancia mutua y la aceptación de los demás sin distinción alguna."
 
-#: .\pycon\templates\base.html:114
+#: .\pycon\templates\base.html:140
 msgid "Code of conduct"
 msgstr "Código de conducta"
 
-#: .\pycon\templates\base.html:116
+#: .\pycon\templates\base.html:142
 msgid "All rights reserved."
 msgstr "Todos los derechos reservados."
 
-#: .\pycon\templates\base.html:118
+#: .\pycon\templates\base.html:144
 msgid "Built with"
 msgstr "Desarrollado con"
 
@@ -52,8 +52,8 @@ msgid ""
 "include the promotion and improvement of communication, collaboration and "
 "integration among developers in Latin America."
 msgstr ""
-"PyCon Latam es una conferencia organizada por la comunidad Py Latam. Entre sus objetivos "
-"está el fomentar y mejorar la comunicación, colaboración e "
+"PyCon Latam es una conferencia organizada por la comunidad Py Latam. Entre "
+"sus objetivos está el fomentar y mejorar la comunicación, colaboración e "
 "integración entre los desarrolladores de Latinoamérica."
 
 #: .\pycon\templates\conduct.html:17
@@ -68,11 +68,12 @@ msgid ""
 "help and ensure everyone's safety. We value your attendance, and with your "
 "help we will make this a successful and pleasant event for everyone."
 msgstr ""
-"Si eres víctima o testigo de alguien incumpliendo estas reglas por favor manda un "
-"correo a: conducta@pylatam.org. Alguien del comité se hará responsable "
-"de la incidencia. Durante la conferencia, el equipo estará siempre disponible para "
-"ayudar y garantizar la seguridad de todos. Valoramos mucho tu presencia en el evento y queremos que con tu "
-"ayuda sea un evento exitoso y grato para todos."
+"Si eres víctima o testigo de alguien incumpliendo estas reglas por favor "
+"manda un correo a: conducta@pylatam.org. Alguien del comité se hará "
+"responsable de la incidencia. Durante la conferencia, el equipo estará "
+"siempre disponible para ayudar y garantizar la seguridad de todos. Valoramos "
+"mucho tu presencia en el evento y queremos que con tu ayuda sea un evento "
+"exitoso y grato para todos."
 
 #: .\pycon\templates\conduct.html:24
 msgid ""
@@ -84,11 +85,13 @@ msgid ""
 "this, any person involved must conform to the following Code of Conduct."
 msgstr ""
 "Valoramos la participación de todos los involucrados en la comunidad Python "
-"y queremos que todos los asistentes tengan una experiencia agradable y satisfactoria. "
-"Inspirados en el código de conducta de la PSF, todos los participantes en la comunidad, incluidos "
-"asistentes, ponentes, voluntarios, patrocinadores y organizadores deberán mostrar respeto "
-"y cortesía a los demás en cada interacción qué se lleve a cabo durante la conferencia. Para lograr lo "
-"anterior, cualquier persona involucrada deberá seguir el siguiente código de conducta."
+"y queremos que todos los asistentes tengan una experiencia agradable y "
+"satisfactoria. Inspirados en el código de conducta de la PSF, todos los "
+"participantes en la comunidad, incluidos asistentes, ponentes, voluntarios, "
+"patrocinadores y organizadores deberán mostrar respeto y cortesía a los "
+"demás en cada interacción qué se lleve a cabo durante la conferencia. Para "
+"lograr lo anterior, cualquier persona involucrada deberá seguir el siguiente "
+"código de conducta."
 
 #: .\pycon\templates\conduct.html:28
 #, fuzzy
@@ -130,9 +133,9 @@ msgid ""
 "of gender, sexual orientation, physical appearance, disability, race, or "
 "religion. Py Latam is a community that does not tolerate harassment."
 msgstr ""
-"Todos son bienvenidos. Queremos que la experiencia de todos sea buena sin importar "
-"el género, orientación sexual, apariencia física, discapacidades, raza o "
-"religión. Py Latam es una comunidad que no tolera el acoso."
+"Todos son bienvenidos. Queremos que la experiencia de todos sea buena sin "
+"importar el género, orientación sexual, apariencia física, discapacidades, "
+"raza o religión. Py Latam es una comunidad que no tolera el acoso."
 
 #: .\pycon\templates\conduct.html:41
 msgid ""
@@ -140,8 +143,8 @@ msgid ""
 "personal characteristics. Be professional and completely avoid making "
 "comments or jokes with sexist, racist or religious undertones."
 msgstr ""
-"Sé respetuoso y amable con los demás. No insultes o expongas a los demás por alguna "
-"característica personal. Se profesional y evita por completo hacer "
+"Sé respetuoso y amable con los demás. No insultes o expongas a los demás por "
+"alguna característica personal. Se profesional y evita por completo hacer "
 "comentarios o chistes con tonos sexistas, racistas o sobre religión."
 
 #: .\pycon\templates\conduct.html:43
@@ -151,10 +154,10 @@ msgid ""
 "participants is strictly prohibited. Participants who are asked to stop any "
 "harassing behavior are expected to comply immediately."
 msgstr ""
-"Está prohibido intimidar, seguir, acosar, fotografiar,  hacer contacto físico "
-"inapropiado y atención sexual no deseada a algún otro participante "
-"del evento. Se espera que los participantes a los que se les indique desisitir de cualquier "
-"comportamiento de acoso, cumplan de inmediato."
+"Está prohibido intimidar, seguir, acosar, fotografiar,  hacer contacto "
+"físico inapropiado y atención sexual no deseada a algún otro participante "
+"del evento. Se espera que los participantes a los que se les indique "
+"desisitir de cualquier comportamiento de acoso, cumplan de inmediato."
 
 #: .\pycon\templates\conduct.html:45
 msgid ""
@@ -163,10 +166,11 @@ msgid ""
 "environment including multiple backgrounds. Sexual language, implications or "
 "examples are not considered appropriate in any context."
 msgstr ""
-"Elige con cuidado tus palabras. En esto están incluidos todos los contenidos generados por y para "
-"la comunidad. Deberán ser apropiados para un ambiente "
+"Elige con cuidado tus palabras. En esto están incluidos todos los contenidos "
+"generados por y para la comunidad. Deberán ser apropiados para un ambiente "
 "profesional que incluya múltiples experiencias. Lenguaje, implicaciones o "
-"ejemplos con temática sexual no son considerados apropiados en ningún contexto. "
+"ejemplos con temática sexual no son considerados apropiados en ningún "
+"contexto. "
 
 #: .\pycon\templates\conduct.html:47
 msgid ""
@@ -174,9 +178,9 @@ msgid ""
 "be asked, by one of the organizers, to leave the conference and will not be "
 "entitled to ask for a refund of any fees paid."
 msgstr ""
-"A los asistentes que sean sorprendidos o denunciados incumpliendo estas reglas se les "
-"pedirá, por uno de los organizadores, que abandonen la conferencia sin derecho "
-"a pedir reembolso de lo invertido."
+"A los asistentes que sean sorprendidos o denunciados incumpliendo estas "
+"reglas se les pedirá, por uno de los organizadores, que abandonen la "
+"conferencia sin derecho a pedir reembolso de lo invertido."
 
 #: .\pycon\templates\home.html:20
 msgid "From September 19th to September 22th"
@@ -395,6 +399,187 @@ msgstr "Niños (0- 5 años) sin cargo"
 msgid "Prices fluctuate based on exchange rate"
 msgstr "Precios oscilan según tipo de cambio"
 
+#: .\pycon\views.py:21
+msgid "Bienvenida al evento"
+msgstr ""
+
+#: .\pycon\views.py:23 .\pycon\views.py:31 .\pycon\views.py:127
+#: .\pycon\views.py:133 .\pycon\views.py:237 .\pycon\views.py:243
+msgid "Personal administrativo"
+msgstr ""
+
+#: .\pycon\views.py:29
+msgid "Bienvenida a conferencia"
+msgstr ""
+
+#: .\pycon\views.py:35
+#, fuzzy
+#| msgid "4 Keynotes"
+msgid "Keynote 1"
+msgstr "4 Ponentes principales."
+
+#: .\pycon\views.py:41
+msgid ""
+"Conviértete en un maestro de la automatización: Aprende a implementar RPA y "
+"PYTHON en el sector financiero."
+msgstr ""
+
+#: .\pycon\views.py:44 .\pycon\views.py:58 .\pycon\views.py:72
+#: .\pycon\views.py:86 .\pycon\views.py:100 .\pycon\views.py:114
+#: .\pycon\views.py:148 .\pycon\views.py:162 .\pycon\views.py:176
+#: .\pycon\views.py:196 .\pycon\views.py:210 .\pycon\views.py:224
+msgid "Salon A"
+msgstr ""
+
+#: .\pycon\views.py:48
+msgid "De Bichos y Serpientes: Seguridad en el Ecosistema de Paquetes Python"
+msgstr ""
+
+#: .\pycon\views.py:51 .\pycon\views.py:65 .\pycon\views.py:79
+#: .\pycon\views.py:93 .\pycon\views.py:107 .\pycon\views.py:121
+#: .\pycon\views.py:155 .\pycon\views.py:169 .\pycon\views.py:183
+#: .\pycon\views.py:203 .\pycon\views.py:217 .\pycon\views.py:231
+msgid "Salon B"
+msgstr ""
+
+#: .\pycon\views.py:55
+msgid ""
+"DeepSignBridge: Traductor de Lenguaje de Señas en Tiempo Real Usando "
+"Transformers y Visión Computacional"
+msgstr ""
+
+#: .\pycon\views.py:62
+msgid ""
+"De pixeles a predicciones: Transformando la experiencia de videos con python."
+msgstr ""
+
+#: .\pycon\views.py:69
+msgid "Desplegando tu aplicación Python sin morir en el intento."
+msgstr ""
+
+#: .\pycon\views.py:76
+msgid "Domina al Tiburón: Pipelines en Python para Wireshark"
+msgstr ""
+
+#: .\pycon\views.py:83
+msgid "Espacios vectoriales con python y langchain"
+msgstr ""
+
+#: .\pycon\views.py:90
+msgid "Fortaleciendo el acceso a la justicia: Whisper y PyQt en Acción"
+msgstr ""
+
+#: .\pycon\views.py:97
+msgid "From Dependency Hell to Environment Heaven"
+msgstr "Del infierno de la dependencia al paraíso del entorno"
+
+#: .\pycon\views.py:104
+msgid ""
+"Insights Ocultos: Cómo la Estadística y Python Empoderan Decisiones "
+"Estratégicas"
+msgstr ""
+
+#: .\pycon\views.py:111
+msgid "Laberintos del Lenguaje: Borges y las Narrativas Infinitas con LLMs"
+msgstr ""
+
+#: .\pycon\views.py:118
+msgid "Micropython First Contact"
+msgstr "Primer contacto con Micropython"
+
+#: .\pycon\views.py:125
+msgid "Charlas Relámpago"
+msgstr ""
+
+#: .\pycon\views.py:131
+#, fuzzy
+#| msgid "4 Keynotes"
+msgid "Keynote 2"
+msgstr ""
+
+#: .\pycon\views.py:139
+#, fuzzy
+#| msgid "4 Keynotes"
+msgid "Keynote 3"
+msgstr ""
+
+#: .\pycon\views.py:145
+msgid ""
+"Prompt engineering: la llave maestra para aprovechar al máximo la generative "
+"IA"
+msgstr ""
+
+#: .\pycon\views.py:152
+msgid "Reputación en Tiempo Real y Análisis de Sentimiento con Python"
+msgstr ""
+
+#: .\pycon\views.py:159
+msgid ""
+"Revolutionizing CI/CD with Python and Generative AI: Next-Level Automation "
+"in DevOps"
+msgstr "Revolucionando CI/CD con Python e IA Generativa: Automatización de Próximo Nivel "
+"en DevOps"
+
+#: .\pycon\views.py:166
+msgid "Supercharge Python with Nuitka: Witness a 10-Year Plan Come to Life!"
+msgstr "Potencie Python con Nuitka: Sea testigo de cómo cobra vida un plan de 10 años."
+
+#: .\pycon\views.py:173
+msgid "Tests efectivos con pytest, o sobre como escribir código duro de fallar"
+msgstr ""
+
+#: .\pycon\views.py:180
+msgid ""
+"Todo lo que necesitas saber sobre Unicode, pero nunca se te ocurrió preguntar"
+msgstr ""
+
+#: .\pycon\views.py:187
+msgid "PyLadies Panel"
+msgstr ""
+
+#: .\pycon\views.py:189
+msgid "Capitulos PyLadies alrededor de América Latina"
+msgstr ""
+
+#: .\pycon\views.py:193
+msgid "Una introducción al análisis de datos topológicos"
+msgstr ""
+
+#: .\pycon\views.py:200
+msgid ""
+"Python y los esquemas ETL: El Pivote Esencial para la Inteligencia Artificial"
+msgstr ""
+
+#: .\pycon\views.py:207
+msgid "A Journey into MLOps: Kubeflow's Magic Revealed"
+msgstr "Un viaje a MLOps: la magia de Kubeflow al descubierto"
+
+#: .\pycon\views.py:214
+msgid ""
+"Del Oro Negro al Oro Digital: La Historia de un Ingeniero Convertido en "
+"Líder de Python"
+msgstr ""
+
+#: .\pycon\views.py:221
+msgid ""
+"Transformando Startups con Kubernetes: Gestión de Aplicaciones Django para "
+"un Crecimiento Explosivo"
+msgstr ""
+
+#: .\pycon\views.py:228
+msgid "Sculpting Data for Machine Learning using Python: Generative AI edition"
+msgstr "Esculpir datos para el aprendizaje automático con Python: Generative AI edition"
+
+#: .\pycon\views.py:235
+#, fuzzy
+#| msgid "4 Keynotes"
+msgid "Keynote 4"
+msgstr ""
+
+#: .\pycon\views.py:241
+msgid "Cierre de Conferencia"
+msgstr ""
+
 #~ msgid "Reservation E-Mail"
 #~ msgstr "Correo electrónico de la reservación"
 
@@ -611,7 +796,6 @@ msgstr "Precios oscilan según tipo de cambio"
 #~ msgid "Delete Account"
 #~ msgstr "Borrar Cuenta"
 
-#, python-format
 #~ msgid ""
 #~ "If you go ahead and delete your account, your information will be\n"
 #~ "                <b>expunged within %(ACCOUNT_DELETION_EXPUNGE_HOURS)s "
@@ -624,7 +808,6 @@ msgstr "Precios oscilan según tipo de cambio"
 #~ msgid "Delete My Account"
 #~ msgstr "Borrar Mi Cuenta"
 
-#, python-format
 #~ msgid ""
 #~ "A user on %(site_name)s has created an account using this email address.\n"
 #~ "\n"
@@ -639,11 +822,9 @@ msgstr "Precios oscilan según tipo de cambio"
 #~ "\n"
 #~ "Si tu no te registraste en este sitio, puedes ignorar este mensaje.\n"
 
-#, python-format
 #~ msgid "Confirm email address for %(site_name)s"
 #~ msgstr "Confirma el correo electrónico para %(site_name)s"
 
-#, python-format
 #~ msgid ""
 #~ "This is the email notification to confirm your password has been changed "
 #~ "on %(now)s."
@@ -654,7 +835,6 @@ msgstr "Precios oscilan según tipo de cambio"
 #~ msgid "Change password email notification"
 #~ msgstr "Cambio de contraseña de tu correo electrónico"
 
-#, python-format
 #~ msgid ""
 #~ "You're receiving this email because you or someone else has requested a "
 #~ "password for your user account at %(site_name)s.\n"
@@ -670,7 +850,6 @@ msgstr "Precios oscilan según tipo de cambio"
 #~ "\n"
 #~ "%(password_reset_url)s\n"
 
-#, python-format
 #~ msgid "[%(site_name)s] Password reset"
 #~ msgstr "[%(site_name)s] Restablecer Constraseña"
 
@@ -680,7 +859,6 @@ msgstr "Precios oscilan según tipo de cambio"
 #~ msgid "Email Confirmation"
 #~ msgstr "Confirmación de Correo electrónico"
 
-#, python-format
 #~ msgid "Confirm email address <b>%(email)s</b>?"
 #~ msgstr "Confirma el correo electrónico <b>%(email)s</b>"
 
@@ -768,7 +946,6 @@ msgstr "Precios oscilan según tipo de cambio"
 #~ msgid "Bad Token"
 #~ msgstr "Token equivocado"
 
-#, python-format
 #~ msgid ""
 #~ "The password reset link was invalid, possibly because it has already been "
 #~ "used.  Please\n"
@@ -777,8 +954,8 @@ msgstr "Precios oscilan según tipo de cambio"
 #~ msgstr ""
 #~ "El enlace para restablecer la contraseña es inválido. Es posible que ya "
 #~ "haya sido utilizado. Por favor \n"
-#~ "                solicita un nuevo enlace para <a "
-#~ "href=\"%(reset_url)s\">restablecer la contraseña</a>."
+#~ "                solicita un nuevo enlace para <a href=\"%(reset_url)s"
+#~ "\">restablecer la contraseña</a>."
 
 #~ msgid "Account"
 #~ msgstr "Cuenta"
@@ -804,14 +981,13 @@ msgstr "Precios oscilan según tipo de cambio"
 #~ msgid "Create an account"
 #~ msgstr "Crear una cuenta"
 
-#, python-format
 #~ msgid ""
 #~ "By clicking 'Create an account' you agree to\n"
 #~ "            <a href=\"%(terms_url)s\" target=\"_blank\">our terms & "
 #~ "conditions</a>"
 #~ msgstr ""
-#~ "Al hacer click en 'Crear una cuenta' estas de acuerdo con <a "
-#~ "href=\"%(terms_url)s\" target=\"_blank\">nuestras politicas</a>"
+#~ "Al hacer click en 'Crear una cuenta' estas de acuerdo con <a href=\"%"
+#~ "(terms_url)s\" target=\"_blank\">nuestras politicas</a>"
 
 #~ msgid "Already have an account?"
 #~ msgstr "¿Ya tienes una cuenta?"
@@ -1012,7 +1188,7 @@ msgstr "Precios oscilan según tipo de cambio"
 #~ "y estas tienen la oportunidad de conectar con una amplia comunidad de "
 #~ "programadores de Python."
 
-#, fuzzy, python-format
+#, fuzzy
 #~| msgid "Keynote Speakers"
 #~ msgid "by %(speaker)s"
 #~ msgstr "Ponentes Principales"
@@ -1055,11 +1231,6 @@ msgstr "Precios oscilan según tipo de cambio"
 #~ msgid "Conference welcome"
 #~ msgstr "Bienvenida Conferencia"
 
-#, fuzzy
-#~| msgid "4 Keynotes"
-#~ msgid "Keynote 1"
-#~ msgstr "4 Ponentes principales."
-
 #~ msgid ""
 #~ "The adventures of Python in the land of random (and pseudorandom) numbers"
 #~ msgstr ""
@@ -1097,11 +1268,6 @@ msgstr "Precios oscilan según tipo de cambio"
 
 #~ msgid "Small Break"
 #~ msgstr "Mini Brak"
-
-#, fuzzy
-#~| msgid "4 Keynotes"
-#~ msgid "Keynote 3"
-#~ msgstr "4 Ponentes principales."
 
 #~ msgid "Saturday, August 26"
 #~ msgstr "Sábado 26 de Agosto"
