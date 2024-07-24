@@ -43,7 +43,7 @@ iconify-icon {
     inline-size: inherit;
 }
 
-.track{
+.salon{
     padding: .5rem;
     width: 5rem;
     text-align: center;
@@ -56,10 +56,10 @@ iconify-icon {
     color: #333;
 }
 
-.track-a{
+.salon-a{
     background-color: #d5f3ff;
 }
 
-.track-b{
-    background-color: #d8f1aa;
+.salon-b{
+    background-color: #dcf0b8;
 }
