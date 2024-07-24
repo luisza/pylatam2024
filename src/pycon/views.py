@@ -2,8 +2,6 @@ from django.shortcuts import render
 from django.utils.translation import activate
 from django.utils.translation import gettext as _
 
-# Create your views here.
-
 def home(request, lang='es'):
     activate(lang)
     return render(request, 'home.html')
@@ -20,7 +18,7 @@ def scheduled(request, lang='es'):
             'events': [
                 {
                     'title': _('Bienvenida al evento'),
-                    'duration': '9:00 am - 9:30 am',
+                    'duration': '6:00 pm - 8:00 pm',
                     'speaker': _('Personal administrativo'),
                     'image': 'bienvenida_evento.jpg'
                 },
@@ -30,7 +28,7 @@ def scheduled(request, lang='es'):
             'date': _('Viernes 20 de Septiembre'),
             'events': [
                 {
-                    'title': _('Bienvenida a conferencia'),
+                    'title': _('Bienvenida conferencia'),
                     'duration': '9:00 am - 9:30 am',
                     'speaker': _('Personal administrativo'),
                     'image': 'bienvenida_conferencia.jpg'
@@ -56,21 +54,21 @@ def scheduled(request, lang='es'):
                     'image': 'seguridad_paquetes_python.jpg'
                 },
                 {
-                    'title': _('Conviértete en un maestro de la automatización: Aprende a implementar RPA y PYTHON en el sector financiero.'),
+                    'title': _('DeepSignBridge: Traductor de Lenguaje de Señas en Tiempo Real Usando Transformers y Visión Computacional'),
                     'duration': '11:15 am - 11:55 am',
                     'speaker': 'Gerardo Vilcamiza',
                     'salon': _('Salon A'),
                     'image': 'rpa_python_sector_financiero_gerardo.jpg'
                 },
                 {
-                    'title': _('De pixeles a predicciones: Transformando la experiencia de videos con python.'),
+                    'title': _('De pixeles a predicciones: Transformando la experiencia de videos con python'),
                     'duration': '11:15 am - 11:55 am',
                     'speaker': 'Fernanda Ochoa',
                     'salon': _('Salon B'),
                     'image': 'videos_python.jpg'
                 },
                 {
-                    'title': _('Desplegando tu aplicación Python sin morir en el intento.'),
+                    'title': _('Desplegando tu aplicación Python sin morir en el intento'),
                     'duration': '12:00 pm - 12:40 pm',
                     'speaker': 'Adolfo Fitoria',
                     'salon': _('Salon A'),
@@ -145,7 +143,7 @@ def scheduled(request, lang='es'):
                 {
                     'title': _('Keynote 3'),
                     'duration': '9:00 am - 9:45 am',
-                    'speaker': 'Abigail',
+                    'speaker': 'Abigail Messreyames',
                     'image': 'keynote_3.jpg'
                 },
                 {
@@ -253,8 +251,6 @@ def scheduled(request, lang='es'):
             ],
         }
     }
-
-    
 
     context = {'data': data}
 

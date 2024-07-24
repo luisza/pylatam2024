@@ -6,15 +6,17 @@
 {% endblock css %}
 
 {% block content %}
-<section class="row mb-2 container">
-    <h1 class="col-md-9 col-lg-9 mb-3 px-0 text-start">{% trans 'Scheduled' %}</h1>
-    <div class="col-md-3 col-lg-3 px-0 d-flex gap-3">
-        {% for day, details in data.items %}
-        <button class="btn-outline-primary px-3 py-1 border-0 rounded-1 btn-day" id="{{day}}" onClick="updateDay('{{day}}', this)">
-            Day {{ forloop.counter0|add:1 }}
-        </button>
-        {% endfor %}
-    </div>
+<div class="row mb-2 container">
+    <section class="d-flex flex-column p-0">
+        <h1 class="mb-3 px-0 text-start">{% trans 'Scheduled' %}</h1>
+        <div class="px-0 d-flex gap-3">
+            {% for day, details in data.items %}
+            <button class="btn-outline-primary px-3 py-1 border-0 rounded-1 btn-day" id="{{day}}" onClick="updateDay('{{day}}', this)">
+                {% trans 'Day'%} {{ forloop.counter0|add:1 }}
+            </button>
+            {% endfor %}
+        </div>
+    </section>
 
     {% for day, details in data.items %}
     <div id="div-{{ day }}" class="day-container mt-4 p-0">
@@ -50,7 +52,7 @@
         {% endfor %}
     </div>
     {% endfor %}
-</section>
+</div>
 <script>
     let btnDays = document.querySelectorAll('.btn-day');
     let divDays = document.querySelectorAll('.day-container');
