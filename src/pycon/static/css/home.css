@@ -1,5 +1,14 @@
 /* starts section 1*/
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 35px;
+}
+
 #banner {
     height: auto;
     background-image: url(../img/background.png);
@@ -143,12 +152,6 @@
         z-index: 1;
     }
 
-    #sponsors .sponsor img {
-        max-width: 100%;
-        height: auto;
-        border-radius: 0.5em;
-        padding: 0.5em;
-    }
 
     .content-text {
         font-size: 1rem;
@@ -180,13 +183,6 @@
         font-size: 1em;
         color: #fff;
         margin-top: 0em;
-    }
-
-    #sponsors .sponsor img {
-        max-width: 100%;
-        height: auto;
-        border-radius: 0.5em;
-        padding: 0.5em;
     }
 }
 
@@ -233,7 +229,11 @@
 
 /* end section 1*/
 
-
+.img-sponsor {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
 
 #brief-info {
     display: flex;
@@ -336,59 +336,6 @@ newsletter-section
     background-color: var(--palette-05);
 }
 
-/*Parthnerships section*/
-.sponsor-body {
-    padding: 3em;
-}
-
-#sponsors .sponsor-body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    background-color: var(--palette-02);
-
-    animation-name: slide-in-right;
-    animation-duration: 1s;
-    animation-timing-function: ease-out;
-}
-
-#sponsors .sponsor-body  h2 {
-    font-size: 2.2rem;
-    color: #fff;
-    margin-bottom: 1em;
-}
-
-
-#sponsors .sponsors-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-    margin-left: 0em;
-}
-
-.sponsor {
-    width: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 1em;
-}
-
-.sponsor img {
-    max-width: 50%;
-    height: auto;
-    border-radius: 0.5em;
-    padding: 0.5em;
-}
-
-#sponsors .sponsor-body p {
-    font-size: 1.2rem;
-    color: #fff;
-    margin: 0.5em;
-}
-
 
 @keyframes slide-in-right {
     from {
@@ -465,5 +412,3 @@ section#speakers .btn, section#speakers p {
   opacity: 0.5;
   margin-bottom: 20px;
 }
-
-.sponsor-logos { margin: 24px 0; }

@@ -1,0 +1,25 @@
+{% load static %}
+{% load i18n static %}
+<footer>
+    <div class='footer__body'>
+      <div class='footer__social-media'>
+        <h3>{% trans "Stay Connected" %}</h3>
+        <ul>
+          <li><a href='https://www.facebook.com/PyLatam/' target="_blank"><i class="fa fa-facebook color--facebook" aria-hidden="true"></i></a></li>
+          <li><a href='https://twitter.com/PyLatam' target="_blank"><i class="fa fa-twitter color--twitter" aria-hidden="true"></i></a></li>
+          <li><a href='https://www.linkedin.com/company/pylatam'><i class="fa fa-linkedin color--linkedin" aria-hidden="true"></i></a></li>
+          <li><a href='https://www.instagram.com/pylatam'><i class="fa fa-instagram color--instagram" aria-hidden="true"></i></a></li>
+        </ul>
+      </div>
+      <div class='footer__more-info'>
+        <p><strong>Pycon Latam</strong> {% trans "commits unyieldingly to the rights of all individuals to mutual respect and acceptance of others, without biases based on differences of any kind." %}</p>
+      </div>
+    </div>
+    <div class='footer__nav-bar'>
+      <ul>
+        <li><a href="conducta/">{% trans 'Code of conduct' %}</a></li>
+      </ul>
+      <span>&copy;2024 Pycon Latam. {% trans "All rights reserved." %}</span>
+    </div>
+    <div class="built-with">{% trans 'Built with' %} <a href="https://www.djangoproject.com/" target="_blank">Django</a></div>
+  </footer>

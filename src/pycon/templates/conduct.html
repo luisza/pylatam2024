@@ -2,48 +2,69 @@
 {% load i18n static %}
 
 {% block css %}
+<link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}" />
 <link rel="stylesheet" type="text/css" href="{% static 'css/conduct.css' %}" />
 {% endblock css %}
 
+<!--Content-->
 {% block content %}
-<section>
-    <h1>{% trans "Code of Conduct" %}</h1>
+<div class="row mx-auto mb-3 p-5 gap-3 banner-conduct">
+    <section class="container text-white m-auto max-900">
+        <h1 class="text-white">{% trans "Code of Conduct" %}</h1>
+        <p>{% trans "PyCon Latam is a conference organized by the Py Latam community. Its goals include the promotion and improvement of communication, collaboration and integration among developers in Latin America"%}</p>
+    </section>
+</div>
+<div class="p-4">
+    <div class="row mx-auto max-900 border rounded-2 overflow-hidden p-4 gap-3 my-3">
+        <div class="col-md-4 col-sm-12 p-0 img-container">
+            <img src="{% static 'img/logo_python_mx.png' %}" alt="Conduct" />
+        </div>
+        <section class="col-sm-12 col-md-6 text-left m-auto">
+            <h2>{% trans "Need help?" %}</h2>
+            <span class="my-4 text-important"><iconify-icon icon="carbon:email" class="align-middle me-1 my-2"></iconify-icon> conducta@pylatam.org</span>
+        <p>{% trans "Report any rule violations to conducta@pylatam.org. The committee will handle it. Our team will ensure safety during the conference, and your cooperation will help make the event successful and enjoyable"%}</p>
+        </section>
+    </div>
 
-    <p>{% trans "PyCon Latam is a conference organized by the Py Latam community. Its goals include the promotion and improvement of communication, collaboration and integration among developers in Latin America." %}</p>
-</section>
-<img src="/static/img/top-mountain (2).svg" weight="100%" height="100%" id="top-mountain">
-<section>
-    <aside>
-        <h2>{% trans "Need help?" %}<br></h2>
-        <h3>conducta@pylatam.org</h3>
+    <section class="mx-auto max-900 p-0 gap-3 my-5 text-start">
+        <h2 class="fs-4 text-third mb-4 fw-normal">{% trans "Guiding Principles" %}</h2>
+        <div class="row px-0 mx-auto g-3 g-md-5 fs-5">
+            <span class="col-md-4 col-sm-6 col-sm-6 p-0">
+                <iconify-icon icon="cil:happy" class="align-middle me-2 icon-container" width="25"></iconify-icon>
+                {% trans "Be nice to everyone" %}
+            </span>
+            <span class="col-md-4 col-sm-6 col-sm-6 p-0">
+                <iconify-icon icon="ph:briefcase-simple-light" class="align-middle me-2 icon-container" width="25"></iconify-icon>
+                {% trans "Behave professionally" %}
+            </span>
+            <span class="col-md-4 col-sm-6 col-sm-6 p-0">
+                <iconify-icon icon="clarity:talk-bubbles-line" class="align-middle me-2 icon-container" width="25"></iconify-icon>
+                {% trans "Respect differing viewpoints" %}
+            </span>
 
-        <p>{% trans "If you are a victim or witness someone violating these rules, please contact this email: conducta@pylatam.org. Someone from the committee will take care of the incident. During the conference, our team will always be available to help and ensure everyone's safety. We value your attendance, and with your help we will make this a successful and pleasant event for everyone." %}</p>
+            <span class="col-md-4 col-sm-6 col-sm-6 p-0">
+                <iconify-icon icon="radix-icons:person" class="align-middle me-2 icon-container" width="25"></iconify-icon>
+                {% trans "Be mindful of your words" %}
+            </span>
+            <span class="col-md-4 col-sm-6 col-sm-6 p-0">
+                <iconify-icon icon="carbon:growth" class="align-middle me-2 icon-container" width="25"></iconify-icon>
+                {% trans "Promote community growth" %}
+            </span>
+            <span class="col-md-4 col-sm-6 col-sm-6 p-0">
+                <iconify-icon icon="ph:heart" class="align-middle me-2 icon-container" width="25"></iconify-icon>
+                {% trans "Show empathy towards others" %}
+            </span>
+        </div>
 
-        <p style="text-align: center;"><img src="{% static 'img/yellow_asterisc.png' %}"></p>
-    </aside>
-    <p>{% trans "We appreciate the participation of everyone involved in the Python community and want all participants to have an enjoyable and satisfying experience. Inspired by the PSF's code of conduct, all community participants −including attendees, speakers, volunteers, sponsors and organizers− must show respect and courtesy to others at each conference-related interaction. To accomplish this, any person involved must conform to the following Code of Conduct." %}</p>
-</section>
-<img src="{% static 'img/bottom-mountain.svg' %}" width="100%" height="100%" id="bottom-mountain">
-<section>
-    <h2>{% trans "SHORT VERSION" %}</h2>
-    <ul>
-        <li>{% trans "Be nice to everyone" %}</li>
-        <li>{% trans "Behave professionally" %}</li>
-        <li>{% trans "Choose your words carefully" %}</li>
-        <li>{% trans "Be respectful of differing viewpoints and experiences" %}</li>
-        <li>{% trans "Focus on doing what is best for the community" %}</li>
-        <li>{% trans "Show empathy in your interactions with others" %}</li>
-    </ul>
-    <h2>{% trans "LONG VERSION" %}</h2>
+        <section class="d-grid gap-4 my-5 text-start fw-light">
+            <h2 class="fs-4 text-third mb-2">{% trans "Long version" %}</h2>
+            <p><span class="fw-bold">{% trans "Everyone is welcome" %}: </span>{% trans "We want everyone to have a great experience regardless of gender, sexual orientation, physical appearance, disability, race, or religion. Py Latam is a community that does not tolerate harassment." %}</p>
+            <p><span class="fw-bold">{% trans "Be respectful and kind to others" %}: </span>{% trans "Do not insult or expose others based on personal characteristics. Be professional and completely avoid making comments or jokes with sexist, racist or religious undertones." %}</p>
+            <p><span class="fw-bold">{% trans "Intimidation, stalking, harassment" %}: </span>{% trans "We want everyone to have a great experience regardless of gender, sexual orientation, physical appearance, disability, race, or religion. Py Latam is a community that does not tolerate harassment." %}</p>
+            <p><span class="fw-bold">{% trans "Choose your words carefully" %}: </span>{% trans "This includes all content generated by and for the community. Such content should be appropriate for a professional environment including multiple backgrounds. Sexual language, implications or examples are not considered appropriate in any context." %}</p>
+            <p class="text-important">Attendees who are caught or reported to be in violation of these rules will be asked, by one of the organizers, to leave the conference and will not be entitled to ask for a refund of any fees paid.</p>
+        </section>
+    </section>
+</div>
 
-    <p>{% trans "Everyone is welcome. We want everyone to have a great experience regardless of gender, sexual orientation, physical appearance, disability, race, or religion. Py Latam is a community that does not tolerate harassment." %}</p>
-
-    <p>{% trans "Be respectful and kind to others. Do not insult or expose others based on personal characteristics. Be professional and completely avoid making comments or jokes with sexist, racist or religious undertones." %}</p>
-
-    <p>{% trans "Intimidation, stalking, harassment, taking pictures, making inappropriate physical contact or unwanted sexual attention of or against other event participants is strictly prohibited. Participants who are asked to stop any harassing behavior are expected to comply immediately." %}</p>
-
-    <p>{% trans "Choose your words carefully. This includes all content generated by and for the community. Such content should be appropriate for a professional environment including multiple backgrounds. Sexual language, implications or examples are not considered appropriate in any context." %}</p>
-
-    <p>{% trans "Attendees who are caught or reported to be in violation of these rules will be asked, by one of the organizers, to leave the conference and will not be entitled to ask for a refund of any fees paid." %}<br></p>
-</section>
 {% endblock content %}
