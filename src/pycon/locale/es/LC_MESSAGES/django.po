@@ -401,117 +401,125 @@ msgstr "Precios oscilan según tipo de cambio"
 
 #: .\pycon\views.py:21
 msgid "Bienvenida al evento"
-msgstr ""
+msgstr "Bienvenida al evento"
 
 #: .\pycon\views.py:23 .\pycon\views.py:31 .\pycon\views.py:127
 #: .\pycon\views.py:133 .\pycon\views.py:237 .\pycon\views.py:243
 msgid "Personal administrativo"
-msgstr ""
+msgstr "Personal administrativo"
 
 #: .\pycon\views.py:29
 msgid "Bienvenida a conferencia"
-msgstr ""
+msgstr "Bienvenida a conferencia"
 
 #: .\pycon\views.py:35
 #, fuzzy
 #| msgid "4 Keynotes"
 msgid "Keynote 1"
-msgstr "4 Ponentes principales."
+msgstr "Ponente principal 1"
 
 #: .\pycon\views.py:41
 msgid ""
 "Conviértete en un maestro de la automatización: Aprende a implementar RPA y "
 "PYTHON en el sector financiero."
 msgstr ""
+"Conviértete en un maestro de la automatización: Aprende a implementar RPA y "
+"PYTHON en el sector financiero."
 
 #: .\pycon\views.py:44 .\pycon\views.py:58 .\pycon\views.py:72
 #: .\pycon\views.py:86 .\pycon\views.py:100 .\pycon\views.py:114
 #: .\pycon\views.py:148 .\pycon\views.py:162 .\pycon\views.py:176
 #: .\pycon\views.py:196 .\pycon\views.py:210 .\pycon\views.py:224
 msgid "Salon A"
-msgstr ""
+msgstr "Salón A"
 
 #: .\pycon\views.py:48
 msgid "De Bichos y Serpientes: Seguridad en el Ecosistema de Paquetes Python"
-msgstr ""
+msgstr "De Bichos y Serpientes: Seguridad en el Ecosistema de Paquetes Python"
 
 #: .\pycon\views.py:51 .\pycon\views.py:65 .\pycon\views.py:79
 #: .\pycon\views.py:93 .\pycon\views.py:107 .\pycon\views.py:121
 #: .\pycon\views.py:155 .\pycon\views.py:169 .\pycon\views.py:183
 #: .\pycon\views.py:203 .\pycon\views.py:217 .\pycon\views.py:231
 msgid "Salon B"
-msgstr ""
+msgstr "Salón B"
 
 #: .\pycon\views.py:55
 msgid ""
 "DeepSignBridge: Traductor de Lenguaje de Señas en Tiempo Real Usando "
 "Transformers y Visión Computacional"
 msgstr ""
+"DeepSignBridge: Traductor de Lenguaje de Señas en Tiempo Real Usando "
+"Transformers y Visión Computacional"
 
 #: .\pycon\views.py:62
 msgid ""
 "De pixeles a predicciones: Transformando la experiencia de videos con python."
 msgstr ""
+"De píxeles a predicciones: Transformando la experiencia de videos con Python."
 
 #: .\pycon\views.py:69
 msgid "Desplegando tu aplicación Python sin morir en el intento."
-msgstr ""
+msgstr "Desplegando tu aplicación Python sin morir en el intento."
 
 #: .\pycon\views.py:76
 msgid "Domina al Tiburón: Pipelines en Python para Wireshark"
-msgstr ""
+msgstr "Domina al Tiburón: Pipelines en Python para Wireshark"
 
 #: .\pycon\views.py:83
 msgid "Espacios vectoriales con python y langchain"
-msgstr ""
+msgstr "Espacios vectoriales con Python y Langchain"
 
 #: .\pycon\views.py:90
 msgid "Fortaleciendo el acceso a la justicia: Whisper y PyQt en Acción"
-msgstr ""
+msgstr "Fortaleciendo el acceso a la justicia: Whisper y PyQt en Acción"
 
 #: .\pycon\views.py:97
 msgid "From Dependency Hell to Environment Heaven"
-msgstr "Del infierno de la dependencia al paraíso del entorno"
+msgstr "Del Infierno de Dependencias al Paraíso del Entorno"
 
 #: .\pycon\views.py:104
 msgid ""
 "Insights Ocultos: Cómo la Estadística y Python Empoderan Decisiones "
 "Estratégicas"
 msgstr ""
+"Insights Ocultos: Cómo la Estadística y Python Empoderan Decisiones "
+"Estratégicas"
 
 #: .\pycon\views.py:111
 msgid "Laberintos del Lenguaje: Borges y las Narrativas Infinitas con LLMs"
-msgstr ""
+msgstr "Laberintos del Lenguaje: Borges y las Narrativas Infinitas con LLMs"
 
 #: .\pycon\views.py:118
 msgid "Micropython First Contact"
-msgstr "Primer contacto con Micropython"
+msgstr "Primer Contacto con Micropython"
 
 #: .\pycon\views.py:125
 msgid "Charlas Relámpago"
-msgstr ""
+msgstr "Charlas Relámpago"
 
 #: .\pycon\views.py:131
 #, fuzzy
 #| msgid "4 Keynotes"
 msgid "Keynote 2"
-msgstr ""
+msgstr "Ponente principal 2"
 
 #: .\pycon\views.py:139
 #, fuzzy
 #| msgid "4 Keynotes"
 msgid "Keynote 3"
-msgstr ""
+msgstr "Ponente principal 3"
 
 #: .\pycon\views.py:145
 msgid ""
 "Prompt engineering: la llave maestra para aprovechar al máximo la generative "
 "IA"
 msgstr ""
+"Engineering de Prompts: La llave maestra para aprovechar al máximo la IA Generativa"
 
 #: .\pycon\views.py:152
 msgid "Reputación en Tiempo Real y Análisis de Sentimiento con Python"
-msgstr ""
+msgstr "Reputación en Tiempo Real y Análisis de Sentimiento con Python"
 
 #: .\pycon\views.py:159
 msgid ""
@@ -522,63 +530,68 @@ msgstr "Revolucionando CI/CD con Python e IA Generativa: Automatización de Pró
 
 #: .\pycon\views.py:166
 msgid "Supercharge Python with Nuitka: Witness a 10-Year Plan Come to Life!"
-msgstr "Potencie Python con Nuitka: Sea testigo de cómo cobra vida un plan de 10 años."
+msgstr "Potencia Python con Nuitka: Sé testigo de cómo cobra vida un plan de 10 años."
 
 #: .\pycon\views.py:173
 msgid "Tests efectivos con pytest, o sobre como escribir código duro de fallar"
-msgstr ""
+msgstr "Tests Efectivos con Pytest, o Cómo Escribir Código Difícil de Fallar"
 
 #: .\pycon\views.py:180
 msgid ""
 "Todo lo que necesitas saber sobre Unicode, pero nunca se te ocurrió preguntar"
 msgstr ""
+"Todo lo que necesitas saber sobre Unicode, pero nunca se te ocurrió preguntar"
 
 #: .\pycon\views.py:187
 msgid "PyLadies Panel"
-msgstr ""
+msgstr "Panel de PyLadies"
 
 #: .\pycon\views.py:189
 msgid "Capitulos PyLadies alrededor de América Latina"
-msgstr ""
+msgstr "Capítulos PyLadies alrededor de América Latina"
 
 #: .\pycon\views.py:193
 msgid "Una introducción al análisis de datos topológicos"
-msgstr ""
+msgstr "Una Introducción al Análisis de Datos Topológicos"
 
 #: .\pycon\views.py:200
 msgid ""
 "Python y los esquemas ETL: El Pivote Esencial para la Inteligencia Artificial"
 msgstr ""
+"Python y los Esquemas ETL: El Pivote Esencial para la Inteligencia Artificial"
 
 #: .\pycon\views.py:207
 msgid "A Journey into MLOps: Kubeflow's Magic Revealed"
-msgstr "Un viaje a MLOps: la magia de Kubeflow al descubierto"
+msgstr "Un Viaje a MLOps: La Magia de Kubeflow al Descubierto"
 
 #: .\pycon\views.py:214
 msgid ""
 "Del Oro Negro al Oro Digital: La Historia de un Ingeniero Convertido en "
 "Líder de Python"
 msgstr ""
+"Del Oro Negro al Oro Digital: La Historia de un Ingeniero Convertido en Líder de Python"
 
 #: .\pycon\views.py:221
 msgid ""
 "Transformando Startups con Kubernetes: Gestión de Aplicaciones Django para "
 "un Crecimiento Explosivo"
 msgstr ""
+"Transformando Startups con Kubernetes: Gestión de Aplicaciones Django para un Crecimiento Explosivo"
 
 #: .\pycon\views.py:228
 msgid "Sculpting Data for Machine Learning using Python: Generative AI edition"
-msgstr "Esculpir datos para el aprendizaje automático con Python: Generative AI edition"
+msgstr "Esculpir Datos para el Aprendizaje Automático con Python: Edición IA Generativa"
 
 #: .\pycon\views.py:235
 #, fuzzy
 #| msgid "4 Keynotes"
 msgid "Keynote 4"
-msgstr ""
+msgstr "Ponente principal 4"
 
 #: .\pycon\views.py:241
 msgid "Cierre de Conferencia"
-msgstr ""
+msgstr "Cierre de la Conferencia"
+
 
 #~ msgid "Reservation E-Mail"
 #~ msgstr "Correo electrónico de la reservación"

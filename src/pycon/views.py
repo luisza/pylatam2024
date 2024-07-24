@@ -12,7 +12,6 @@ def conduct(request, lang='es'):
 
 def scheduled(request, lang='es'):
     activate(lang)
-
     data = {
         'day1': {
             'date': _('Jueves 19 de Septiembre'),
