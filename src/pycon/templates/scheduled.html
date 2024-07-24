@@ -11,7 +11,7 @@
         <h1 class="mb-3 px-0 text-start">{% trans 'Scheduled' %}</h1>
         <div class="px-0 d-flex gap-3">
             {% for day, details in data.items %}
-            <button class="btn-outline-primary px-3 py-1 border-0 rounded-1 btn-day" id="{{day}}" onClick="updateDay('{{day}}', this)">
+            <button class="btn-outline-secondary px-3 py-1 border-0 rounded-1 btn-day" id="{{day}}" onClick="updateDay('{{day}}', this)">
                 {% trans 'Day'%} {{ forloop.counter0|add:1 }}
             </button>
             {% endfor %}
@@ -22,18 +22,18 @@
     <div id="div-{{ day }}" class="day-container mt-4 p-0">
         <h3 class="subtitle text-start">{{ details.date }}</h3>
         {% for evento in details.events %}
-        <div class="row p-0 mt-4 mx-0 border rounded-2 position-relative">
-            {% if evento.salon == 'Salon A' %}
+        <div class="row p-0 mt-4 mx-0 border rounded-2 position-relative overflow-hidden">
+            {% if evento.salon == 'Salón A' %}
             <span class="salon salon-a">
                 {{ evento.salon }}
             </span>
-            {% elif evento.salon == 'Salon B' %}
+            {% elif evento.salon == 'Salón B' %}
             <span class="salon salon-b">
                 {{ evento.salon }}
             </span>
             {% endif %}
             <div class="col-md-2 img-container">
-                <img src="https://i.pinimg.com/736x/50/08/32/500832144c3040994d7975f89eb5730e.jpg" alt="placeholder"/>
+                <img src="{% static 'img/events/'|add:evento.image %}" alt="{{evento.title|slice:":19"}}"/>
             </div>
             <section class="col-md-10 p-4 text-start">
                 <h3 class="subtitle">{{ evento.title }}</h3>
