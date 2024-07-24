@@ -3,10 +3,6 @@ h1{
     font-weight: bold;
 }
 
-h2{
-    font-size: 1.8rem;
-}
-
 .banner-conduct{
     background-image: url('../img/banner_conduct.png');
     background-size: cover;
