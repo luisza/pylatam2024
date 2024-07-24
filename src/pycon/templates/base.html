@@ -68,10 +68,32 @@
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="navbar-collapse collapse" id="navbarNav" style="">
+            <div class="navbar-collapse collapse" id="navbarNav">
                 <ul class="navbar-nav navbar-right">
-                    <li class="translation"><a href="{% url 'home_es' %}">ES</a></li>
-                    <li class="translation"><a href="{% url 'home_en' %}">EN</a></li>
+
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="/en/">Home</a>
+                    </li>
+
+
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            About
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+
+                            <a class="dropdown-item" href="/en/conducta/">Code of Conduct</a>
+
+                        </div>
+                    </li>
+
+
+
+                    <li class="translation"><input checked id="lang" type="checkbox" data-toggle="toggle" data-on="EN"
+                            data-off="ES"></li>
                 </ul>
             </div>
         </nav>

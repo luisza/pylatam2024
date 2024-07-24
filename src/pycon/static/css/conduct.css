@@ -1,0 +1,275 @@
+:root {
+    --palette-01: #66bee1;
+    --palette-02: #3691bd;
+    --palette-03: #236f97;
+    --palette-04: #d69a38;
+    --palette-05: #f8bf52;
+    --palette-06: #c59746;
+    --palette-07: #2d465c;
+    --palette-08: #75aa41;
+    --palette-09: #4b6f3f;
+    --palette-010: #d9919c;
+  }
+  
+  @font-face {
+    font-family: 'GT Pressura Bold';
+    src: url("../fonts/gt_pressua_pro/GT-Pressura-Pro-Trial-Bold.796062933c34.otf");
+  }
+  
+  
+  @font-face {
+    font-family: 'GT Pressura Regular';
+    src: url("../fonts/gt_pressua_pro/GT-Pressura-Pro-Trial-Regular.cc17986358ec.otf");
+  }
+  
+  @font-face {
+    font-family: 'GT Haptik Bold';
+    src: url("../fonts/gt_pressura_pro_m/GT-Haptik-Trial-Bold.7fa573baa061.otf");
+  }
+  
+  @font-face {
+    font-family: 'GT Haptik Ligth';
+    src: url("../fonts/gt_pressura_pro_m/GT-Haptik-Trial-Light.9817b086f393.otf")
+  }
+  
+  @font-face {
+    font-family: 'GT Haptik Trial Bold Oblique';
+    src: url("../fonts/gt_pressura_pro_m/GT-Haptik-Trial-Bold-Oblique.e4df7aec268f.otf");
+  }
+  
+  body {
+    background: var(--palette-07);
+    max-width: 1300px;
+    margin: 0 auto;
+    font-family: nudista-web, sans-serif;
+  }
+  
+  .navbar-default .navbar-nav>li>a {
+    color: var(--palette-07);
+  }
+  
+  h1,
+  h2,
+  h3 {
+    color: var(--palette-04);
+    margin-top: 0em;
+  }
+  
+  a {
+    color: var(--palette-01);
+    text-decoration: underline;
+  }
+  
+  ul {
+    text-align: justify;
+  }
+  
+  ol {
+    text-align: justify;
+  }
+  
+  /*all sections*/
+  section {
+    padding: 20px 10%;
+    overflow: auto;
+    padding-bottom: 20px;
+  }
+  
+  section p {
+    padding: 5px;
+  }
+  
+  /*aside component in section*/
+  section aside {
+    float: left;
+    width: 50%;
+    max-width: 50%;
+    margin-right: 5%;
+    background: white;
+    border-top: solid 10px #344c2c;
+    border-radius: 20px;
+    position: relative;
+  }
+  
+  
+  aside {
+    display: inline-block;
+    background-color: white;
+    padding: 0px 20px;
+    color: black;
+  }
+  
+  aside p image {
+    margin: 0 auto;
+  }
+  
+  aside p {
+    margin: 0 auto;
+    color: black !important;
+  }
+  
+  aside h2 {
+    color: #1f7982;
+    padding-top: 20px;
+  }
+  
+  aside h3 {
+    padding: 0 0 10px;
+    margin-top: 1em;
+  }
+  
+  aside li {
+    color: black !important;
+  }
+  
+  aside img {
+    padding: 10px;
+  }
+  
+  
+  /*first section styles*/
+  section:first-of-type {
+    background-color: var(--palette-03);
+  }
+  
+  section:first-of-type h1 {
+    padding-top: 10px;
+    text-align: center;
+    font-size: 3.6rem;
+  }
+  
+  section:first-of-type p {
+    padding-top: 10px;
+    text-align: start;
+    font-size: 1.6rem;
+    color: white;
+  }
+  
+  
+  /*Second section styles*/
+  section:not(:first-of-type):not(:nth-of-type(3)) {
+    background-color: var(--palette-09);
+    margin-top: -7em;
+  }
+  
+  section:not(:first-of-type):not(:nth-of-type(3)) p {
+    text-align: justify;
+    color: white;
+  }
+  
+  section:not(:first-of-type):not(:nth-of-type(3)) ol {
+    text-align: justify;
+    color: white;
+  }
+  
+  section:not(:first-of-type):not(:nth-of-type(3)) li {
+    text-align: justify;
+    color: white;
+  }
+  
+  
+  /*Bottom mountain image*/
+  img#bottom-mountain {
+    background-color: white;
+  }
+  
+  
+  /*Django Third section styles*/
+  section:not(:first-of-type):not(:nth-of-type(2)) {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  section:not(:first-of-type):not(:nth-of-type(2)) h2 {
+    color: var(--palette-07);
+    font-size: 2.2rem;
+  }
+  
+  section:not(:first-of-type):not(:nth-of-type(2)) p {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    text-align: justify;
+  }
+  
+  section:not(:first-of-type):not(:nth-of-type(2)) ul {
+    text-align: justify;
+  }
+  
+  @media only screen and (max-width: 803px) {
+  
+    /*first section*/
+    section:first-of-type h1 {
+      font-size: 2.3rem;
+    }
+  
+    section:first-of-type p {
+      font-size: 1.4rem;
+    }
+  
+  
+    /*Second section styles*/
+    section:not(:first-of-type):not(:nth-of-type(3)) {
+      margin-top: -1em;
+    }
+  
+  
+    section aside {
+      margin-right: 0em;
+      width: 100%;
+      max-width: 100%;
+      margin-bottom: 1.5em;
+  
+    }
+  
+    /*third section*/
+    section:not(:first-of-type):not(:nth-of-type(2)) h2 {
+      font-size: 1.7rem;
+    }
+    
+  }
+  
+  
+  @media only screen and (max-width: 394px) {
+  
+    /*Second section styles*/
+    section:not(:first-of-type):not(:nth-of-type(3)) {
+      margin-bottom: -1em;
+    }
+  
+    section:not(:first-of-type):not(:nth-of-type(3)) h2 {
+      font-size: 1.5rem;
+    }
+  
+    section:not(:first-of-type):not(:nth-of-type(3)) h3 {
+      padding: 0px;
+      font-size: 1.5rem;
+    }
+  
+  
+    /*Bottom mountain image*/
+    img#bottom-mountain {
+      background-color: white;
+      margin-bottom: -1em;
+    }
+  }
+  
+  
+  @media only screen and (max-width: 340px) {
+  
+    /*Second section styles*/
+    section:not(:first-of-type):not(:nth-of-type(3)) h2 {
+      font-size: 1.2rem;
+    }
+  
+    section:not(:first-of-type):not(:nth-of-type(3)) h3 {
+      padding: 0px;
+      font-size: 1.2rem;
+    }
+  
+  }
+  
+  
+  

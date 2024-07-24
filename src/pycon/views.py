@@ -7,3 +7,7 @@ from django.utils.translation import activate
 def home(request, lang='es'):
     activate(lang)
     return render(request, 'home.html')
+
+def conduct(request, lang='es'):
+    activate(lang)
+    return render(request, 'conduct.html')
