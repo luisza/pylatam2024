@@ -1,4 +1,5 @@
 {% load i18n static %}
+
 <!doctype html>
 <html lang="{{ LANGUAGE_CODE }}">
 
@@ -63,61 +64,12 @@
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-54898D6" height="0" width="0"
             style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
-
     {% endif %}
 
-    <!-- Placeholder user bar -->
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-light nav-bg">
-            <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="navbar-collapse collapse" id="navbarNav">
-                <ul class="navbar-nav navbar-right">
-
-
-                    <li class="nav-item">
-                        {% if LANGUAGE_CODE == 'es' %}
-                        <a class="nav-link" href="{% url 'home' %}">{% trans "Home" %}</a>
-                        {%else%}
-                        <a class="nav-link" href="{% url 'home_en' %}">{% trans "Home" %}</a>
-                        {%endif%}
-                    </li>
-
-
-
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
-                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            {% trans "About" %}
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-
-                            {% if LANGUAGE_CODE == 'es' %}
-                            <a class="dropdown-item" href="{% url 'conduct' %}">{% trans "Code of Conduct" %}</a>
-                            <a class="dropdown-item" href="{% url 'scheduled' %}">{% trans "Scheduled" %}</a>
-                            {% else %}
-                            <a class="dropdown-item" href="{% url 'conduct_en' %}">{% trans "Code of Conduct" %}</a>
-                            <a class="dropdown-item" href="{% url 'scheduled_en' %}">{% trans "Scheduled" %}</a>
-                            {% endif %}
-
-                        </div>
-                    </li>
-
-
-                    <!-- No lo detecta -->
-                    <li class="translation" style="position: relative;">
-                        <input type="checkbox" data-on="EN" data-off="ES" data-toggle="toggle" style="position: relative; z-index: 0;" {% if LANGUAGE_CODE == 'en' %}checked{% endif %}>
-                        <input id="lang" type="checkbox" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; opacity: 0; z-index: 1;" {% if LANGUAGE_CODE == 'en' %}checked{% endif %}>
-                    </li>
-                    <!-- Si lo detecta -->
-                </ul>
-            </div>
-        </nav>
-    </header>
+    <!--Navbar-->
+    {%  block nav %}{% include 'includes/nav.html' %}{% endblock nav %}
+    
     <main>
-
         {% if messages %}
         <ul class="messages">
             {% for message in messages %}
@@ -125,40 +77,16 @@
             {% endfor %}
         </ul>
         {% endif %}
+
+        <!-- Content -->
         {% block content %}{% endblock content %}
-    </main>
-    {% block footer %}
-    <footer>
-        <div class='footer__body'>
-            <div class='footer__social-media'>
-                <h3>{% trans "Stay Connected" %}</h3>
-                <ul>
-                    <li><a href='https://www.facebook.com/PyLatam/' target="_blank"><i
-                                class="fa fa-facebook color--facebook" aria-hidden="true"></i></a></li>
-                    <li><a href='https://twitter.com/PyLatam' target="_blank"><i class="fa fa-twitter color--twitter"
-                                aria-hidden="true"></i></a></li>
-                    <li><a href='https://www.linkedin.com/company/pylatam'><i class="fa fa-linkedin color--linkedin"
-                                aria-hidden="true"></i></a></li>
-                    <li><a href='https://www.instagram.com/pylatam'><i class="fa fa-instagram color--instagram"
-                                aria-hidden="true"></i></a></li>
-                </ul>
-            </div>
-            <div class='footer__more-info'>
-                <p><strong>Pycon Latam</strong> {% trans "commits unyieldingly to the rights of all individuals to
-                    mutual respect and acceptance of others, without biases based on differences of any kind." %}
-                </p>
-            </div>
-        </div>
-        <div class='footer__nav-bar'>
-            <ul>
-                <li><a href="conducta/">{% trans 'Code of conduct' %}</a></li>
-            </ul>
-            <span>&copy;2024 Pycon Latam. {% trans "All rights reserved." %}</span>
-        </div>
-        <div class="built-with">{% trans 'Built with' %} <a href="https://www.djangoproject.com/"
-                target="_blank">Django</a> </div>
-    </footer>
-    {% endblock footer %}
+
+        <!-- Sponsors -->
+        {% include 'includes/sponsors.html' %}
+    </main>   
+
+    <!-- Footer -->
+    {% block footer %}{% include 'includes/footer.html' %}{% endblock footer %}
 
     <script>
         document.addEventListener('DOMContentLoaded', function () {
