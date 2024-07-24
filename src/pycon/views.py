@@ -11,3 +11,6 @@ def home(request, lang='es'):
 def conduct(request, lang='es'):
     activate(lang)
     return render(request, 'conduct.html')
+def scheduled(request, lang='es'):
+    activate(lang)
+    return render(request, 'scheduled.html')

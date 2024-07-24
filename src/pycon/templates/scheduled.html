@@ -1,0 +1,97 @@
+{% extends 'base.html' %}
+{% load  i18n  static  %}
+
+{% block css %}
+<link rel="stylesheet" type="text/css" href="{% static 'css/scheduled.css' %}" />
+{% endblock css %}
+
+{% block content %}
+<section class="row mb-2 container">
+    <h1 class="col-md-9 col-lg-9 mb-3 px-0 text-start">Agenda</h1>
+    <div class="col-md-3 col-lg-3 px-0 d-flex gap-3">
+        <button class="btn-outline-primary px-3 py-1 border-0 rounded-1">Día 1</button>
+        <button class="btn-outline-primary px-3 py-1 border-0 rounded-1 active">Día 2</button>
+        <button class="btn-outline-primary px-3 py-1 border-0 rounded-1">Día 3</button>
+    </div>
+
+    <div class="row p-0 mt-4 mx-0 border rounded-2 position-relative">
+        <span class="track track-a">Track A</span>
+        <div class="col-md-2 img-container">
+            <img src="{% static './img/1.jpg' %}" alt="placeholder"/>
+        </div>
+        <section class="col-md-10 p-4 text-start">
+            <h3 class="subtitle">Conviértete en un maestro de la automatización: Aprende a implementar RPA y PYTHON en el sector financiero</h3>
+            <div class="d-grid gap-1 mt-3">
+                <span>
+                    <iconify-icon icon="radix-icons:person" class="align-middle me-2"></iconify-icon>
+                    Nadia Ayala
+                </span>
+                <span>
+                    <iconify-icon icon="carbon:time" class="align-middle me-2"></iconify-icon>
+                    10:30 am - 11:10 am
+                </span>
+            </div>
+        </section>
+    </div>
+
+    <div class="row p-0 mt-4 mx-0 border rounded-2 position-relative">
+        <span class="track track-b">Track B</span>
+        <div class="col-md-2 img-container">
+            <img src="{% static './img/2.jpg' %}" alt="placeholder"/>
+        </div>
+        <section class="col-md-10 p-4 text-start">
+            <h3 class="subtitle">De Bichos y Serpientes: Seguridad en el Ecosistema de Paquetes Python</h3>
+            <div class="d-grid gap-1 mt-3">
+                <span>
+                    <iconify-icon icon="radix-icons:person" class="align-middle me-2"></iconify-icon>
+                    Oscar Cortez
+                </span>
+                <span>
+                    <iconify-icon icon="carbon:time" class="align-middle me-2"></iconify-icon>
+                    10:30 am - 11:10 am
+                </span>
+            </div>
+        </section>
+    </div>
+
+    <div class="row mt-4 mx-0 p-0 border rounded-2 position-relative">
+        <span class="track track-a">Track A</span>
+        <div class="col-md-2 img-container">
+            <img src="{% static './img/3.jpg' %}" alt="placeholder"/>
+        </div>
+        <section class="col-md-10 p-4 text-start">
+            <h3 class="subtitle">DeepSignBridge: Traductor de Lenguaje de Señas en Tiempo Real Usando Transformers y Visión Computacional</h3>
+            <div class="d-grid gap-1 mt-3">
+                <span>
+                    <iconify-icon icon="radix-icons:person" class="align-middle me-2"></iconify-icon>
+                    Gerardo Vilcamiza
+                </span>
+                <span>
+                    <iconify-icon icon="carbon:time" class="align-middle me-2"></iconify-icon>
+                    11:15 am - 11:55h am
+                </span>
+            </div>
+        </section>
+    </div>
+
+    <div class="row mt-4 mx-0 p-0 border rounded-2 position-relative">
+        <span class="track track-b">Track B</span>
+        <div class="col-md-2 img-container">
+            <img src="{% static './img/4.jpg' %}" alt="placeholder"/>
+        </div>
+        <section class="col-md-10 p-4 text-start">
+            <h3 class="subtitle">De pixeles a predicciones: Transformando la experiencia de videos con python.</h3>
+            <div class="d-grid gap-1 mt-3">
+                <span>
+                    <iconify-icon icon="radix-icons:person" class="align-middle me-2"></iconify-icon>
+                    Fernanda Ochoa
+                </span>
+                <span>
+                    <iconify-icon icon="carbon:time" class="align-middle me-2"></iconify-icon>
+                    11:15 am - 11:55h am
+                </span>
+            </div>
+        </section>
+    </div>
+</section>
+{% endblock content %}
