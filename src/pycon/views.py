@@ -7,3 +7,7 @@ from django.utils.translation import activate
 def home(request, lang='es'):
     activate(lang)
     return render(request, 'home.html')
+
+def scheduled(request, lang='es'):
+    activate(lang)
+    return render(request, 'scheduled.html')
