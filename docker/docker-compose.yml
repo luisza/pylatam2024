@@ -1,0 +1,14 @@
+services:
+  pylatam:
+    image: "pylatam"
+    container_name: "pylatam"
+    env_file: pylatam.env
+    build: ..
+    networks:
+      - apps
+    ports:
+      - 80:80
+        
+networks:
+  apps:
+    driver: bridge
