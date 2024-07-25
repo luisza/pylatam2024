@@ -7,7 +7,6 @@
 {% endblock css %}
 
 {% block content %}
-
   <section class="hero is-bold" >
     <div class="">
 		<img src="{% static 'img/encabezado.png' %}" class="img-fluid" alt="Logo">
@@ -15,23 +14,48 @@
   </section>
 
   <!-- Información del evento -->
-  <section class="section is-info" style="background-color: #87CEEB;">
+  <section class="section is-info introduction-info">
     <div class="container p-2">
+      <img src="{% static 'img/yellow_asterisc.png' %}" alt="Asterisc" />
       <h3 class="title has-text-white">{% trans 'From September 19th to September 22th' %}</h3>
       <p class="" style="color: #000;">
         {% trans 'It will take place within the facilities of "El Cid Resorts" in Mazatlán, Sinaloa, Mexico.' %}
       </p>
     </div>
+
+    <div class="row mt-4 g-4 max-900 mx-auto">
+      <div class="border rounded-2 overflow-hidden p-4 gap-3 my-3 card col-md-6">
+        <div class="col-sm-12 p-0 img-container">
+          <img class="img-introduction" src="{% static 'img/estamos_devuelta.jpg' %}" alt="Estamos de vuelta" />
+        </div>
+        <section class="col-sm-12 text-left m-auto p-0">
+          <h2 class="fs-4 text-center mb-4 mt-2">{% trans "We're back" %}</h2>
+          <p>{% trans "After the success of the first 4 editions of this conference, we're back! This time, for the third occasion, we'll have an in-person event with the same mission: to bring together communities from all Latin American countries."%}</p>
+        </section>
+    </div>
+    
+    <div class="border rounded-2 overflow-hidden p-4 gap-3 my-3 card col-md-6">
+      <div class="col-sm-12 p-0 img-container">
+        <img class="img-introduction" src="{% static 'img/que_es_pyconlatam.jpg' %}" alt="Estamos de vuelta" />
+      </div>
+      <section class="col-sm-12 text-left m-auto p-0">
+        <h2 class="fs-4 text-center mb-4 mt-2">{% trans "What is PyCon Latam?" %}</h2>
+        <p>{% trans "It is an event aimed at bringing together communities from all Latin American countries, where Python developers, software development communities, and other technical experts can share and learn about the latest advancements in the Python development ecosystem. PyCon Latam aims to connect enthusiastic communities and companies to collaborate in one place, fostering competition and innovation."%}</p>
+      </section>
+    </div>
+  </div>
   </section>
 
   <!-- Como ser Patrocidor del evento -->
   <section class="section is-grey" style="background-color: #F7F7F7;">
     <div class="container-fluid">
       <h3 class="text-default"></h3>
-
-
       <div class="card" style="background-color: #F7F7F7; border: none;">
-          <img src="{% static 'img/serpienteshead.png' %}" class="card-img-top" alt="{% trans 'Become a sponsor' %}" style="max-height: 100px; width: auto; margin: auto;">
+          {% comment %} <img src="{% static 'img/serpienteshead.png' %}" class="card-img-top" alt="{% trans 'Become a sponsor' %}" style="max-height: 100px; width: auto; margin: auto;"> {% endcomment %}
+          <div class="row p-0 m-auto">
+            <img class="col-md-6" src="{% static 'img/serpiente_2.png' %}" alt="Serpiente 1" width="100" />
+            <img class="col-md-6" src="{% static 'img/serpiente_1.png' %}" alt="Serpiente 2" width="100"/>
+          </div>
           <div class="card-body">
             <h3 class="card-title">{% trans 'How to become a sponsor?' %}</h3>
             <p class="card-text">

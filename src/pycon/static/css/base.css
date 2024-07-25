@@ -432,7 +432,7 @@ section#tickets ul {
   display: grid;
   gap: 1rem;
   margin: 0 auto;
-  background-color: #236f97;
+  background-color: rgb(53, 137, 183);
   padding: 2rem 0;
 }
 
@@ -449,6 +449,7 @@ section#tickets ul {
   flex-wrap: wrap;
   width: 100%;
   gap: 1.5em;
+  padding: 0 2rem;
   justify-content: space-around;
 }
 
@@ -460,6 +461,10 @@ section#tickets ul {
   text-align: center;
 }
 
+.sponsor-xl{
+  max-width: 18rem;
+}
+
 .sponsor-img {
   width: 100%;
   height: 100%;
@@ -467,3 +472,8 @@ section#tickets ul {
 }
 
 /* Sponsors CSS Ends */
+
+.max-900{
+  max-width: 900px;
+  margin: 0 auto;
+}

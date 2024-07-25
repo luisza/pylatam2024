@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-24 02:14-0600\n"
+"POT-Creation-Date: 2024-07-24 19:22-0600\n"
 "PO-Revision-Date: 2024-06-10 19:19-0600\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -18,169 +18,125 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Poedit 3.2.2\n"
 
-#: .\pycon\templates\base.html:122
-msgid "Stay Connected"
-msgstr "Manténgase Informado"
-
-#: .\pycon\templates\base.html:135
-msgid ""
-"commits unyieldingly to the rights of all individuals to mutual respect and "
-"acceptance of others, without biases based on differences of any kind."
-msgstr ""
-"se compromete a respetar los derechos de todos los individuos, a partir de "
-"la tolerancia mutua y la aceptación de los demás sin distinción alguna."
-
-#: .\pycon\templates\base.html:141
-msgid "Code of conduct"
-msgstr "Código de conducta"
-
-#: .\pycon\templates\base.html:143
-msgid "All rights reserved."
-msgstr "Todos los derechos reservados."
-
-#: .\pycon\templates\base.html:145
-msgid "Built with"
-msgstr "Desarrollado con"
-
-#: .\pycon\templates\conduct.html:10
+#: .\pycon\templates\conduct.html:13 .\pycon\templates\includes\nav.html:40
+#: .\pycon\templates\includes\nav.html:42
 msgid "Code of Conduct"
 msgstr "Código de conducta"
 
-#: .\pycon\templates\conduct.html:12
+#: .\pycon\templates\conduct.html:14
 msgid ""
 "PyCon Latam is a conference organized by the Py Latam community. Its goals "
 "include the promotion and improvement of communication, collaboration and "
-"integration among developers in Latin America."
+"integration among developers in Latin America"
 msgstr ""
 "PyCon Latam es una conferencia organizada por la comunidad Py Latam. Entre "
 "sus objetivos está el fomentar y mejorar la comunicación, colaboración e "
 "integración entre los desarrolladores de Latinoamérica."
 
-#: .\pycon\templates\conduct.html:17
+#: .\pycon\templates\conduct.html:23
 msgid "Need help?"
 msgstr "Necesitas ayuda?"
 
-#: .\pycon\templates\conduct.html:20
+#: .\pycon\templates\conduct.html:25
 msgid ""
-"If you are a victim or witness someone violating these rules, please contact "
-"this email: conducta@pylatam.org. Someone from the committee will take care "
-"of the incident. During the conference, our team will always be available to "
-"help and ensure everyone's safety. We value your attendance, and with your "
-"help we will make this a successful and pleasant event for everyone."
+"Report any rule violations to conducta@pylatam.org. The committee will "
+"handle it. Our team will ensure safety during the conference, and your "
+"cooperation will help make the event successful and enjoyable"
 msgstr ""
-"Si eres víctima o testigo de alguien incumpliendo estas reglas por favor "
-"manda un correo a: conducta@pylatam.org. Alguien del comité se hará "
-"responsable de la incidencia. Durante la conferencia, el equipo estará "
-"siempre disponible para ayudar y garantizar la seguridad de todos. Valoramos "
-"mucho tu presencia en el evento y queremos que con tu ayuda sea un evento "
-"exitoso y grato para todos."
-
-#: .\pycon\templates\conduct.html:24
-msgid ""
-"We appreciate the participation of everyone involved in the Python community "
-"and want all participants to have an enjoyable and satisfying experience. "
-"Inspired by the PSF's code of conduct, all community participants −including "
-"attendees, speakers, volunteers, sponsors and organizers− must show respect "
-"and courtesy to others at each conference-related interaction. To accomplish "
-"this, any person involved must conform to the following Code of Conduct."
-msgstr ""
-"Valoramos la participación de todos los involucrados en la comunidad Python "
-"y queremos que todos los asistentes tengan una experiencia agradable y "
-"satisfactoria. Inspirados en el código de conducta de la PSF, todos los "
-"participantes en la comunidad, incluidos asistentes, ponentes, voluntarios, "
-"patrocinadores y organizadores deberán mostrar respeto y cortesía a los "
-"demás en cada interacción qué se lleve a cabo durante la conferencia. Para "
-"lograr lo anterior, cualquier persona involucrada deberá seguir el siguiente "
-"código de conducta."
-
-#: .\pycon\templates\conduct.html:28
-#, fuzzy
-#| msgid "SUPPORTING DIVERSITY"
-msgid "SHORT VERSION"
-msgstr "VERSIÓN CORTA"
+"Comunique cualquier infracción de las normas a conducta@pylatam.org. El "
+"comité se encargará de ello. Nuestro equipo velará por la seguridad durante "
+"la conferencia, y su cooperación contribuirá a que el evento sea un éxito y "
+"resulte agradable."
 
 #: .\pycon\templates\conduct.html:30
+msgid "Guiding Principles"
+msgstr "Principios fundamentales"
+
+#: .\pycon\templates\conduct.html:34
 msgid "Be nice to everyone"
 msgstr "Se amable con todos"
 
-#: .\pycon\templates\conduct.html:31
+#: .\pycon\templates\conduct.html:38
 msgid "Behave professionally"
 msgstr "Comportate profesionalmente"
 
-#: .\pycon\templates\conduct.html:32
+#: .\pycon\templates\conduct.html:42
+msgid "Respect differing viewpoints"
+msgstr "Respetar los diferentes puntos de vista"
+
+#: .\pycon\templates\conduct.html:47
+msgid "Be mindful of your words"
+msgstr "Sé consciente de tus palabras"
+
+#: .\pycon\templates\conduct.html:51
+msgid "Promote community growth"
+msgstr "Promover el crecimiento de la comunidad"
+
+#: .\pycon\templates\conduct.html:55
+msgid "Show empathy towards others"
+msgstr "Mostrar empatía hacia los demás"
+
+#: .\pycon\templates\conduct.html:60
+msgid "Long version"
+msgstr "Versión larga"
+
+#: .\pycon\templates\conduct.html:61
+msgid "Everyone is welcome"
+msgstr "Todos son bienvenidos"
+
+#: .\pycon\templates\conduct.html:61
+msgid ""
+"We want everyone to have a great experience regardless of gender, sexual "
+"orientation, physical appearance, disability, race, or religion. Py Latam is "
+"a community that does not tolerate harassment."
+msgstr ""
+"Queremos que todos tengan una gran experiencia independientemente de su "
+"género, orientación sexual, apariencia física, discapacidad, raza o "
+"religión. Py Latam es una comunidad que no tolera el acoso."
+
+#: .\pycon\templates\conduct.html:62
+msgid "Be respectful and kind to others"
+msgstr "Se respetuoso y amable con los demás"
+
+#: .\pycon\templates\conduct.html:62
+msgid ""
+"Do not insult or expose others based on personal characteristics. Be "
+"professional and completely avoid making comments or jokes with sexist, "
+"racist or religious undertones."
+msgstr ""
+"No insultes ni expongas a los demás basándote en características personales. "
+"Sé profesional y evita por completo hacer comentarios o bromas con trasfondo "
+"sexista, racista o religioso."
+
+#: .\pycon\templates\conduct.html:63
+#, fuzzy
+#| msgid "Intimidation, stalking, harassment"
+msgid "Intimidation, stalking, harassment not allowed"
+msgstr "Intimidación, acoso, hostigamiento"
+
+#: .\pycon\templates\conduct.html:65
+msgid ""
+"Any act that makes a person uncomfortable must be stopped immediately or "
+"actions will be taken."
+msgstr ""
+"Cualquier acto que incomode a una persona debe detenerse inmediatamente o se "
+"tomarán medidas."
+
+#: .\pycon\templates\conduct.html:64
 msgid "Choose your words carefully"
 msgstr "Elige con cuidado tus palabras"
 
-#: .\pycon\templates\conduct.html:33
-msgid "Be respectful of differing viewpoints and experiences"
-msgstr "Se respetuoso de puntos de vista y experiencias diferentes"
-
-#: .\pycon\templates\conduct.html:34
-msgid "Focus on doing what is best for the community"
-msgstr "Enfócate en hacer lo mejor para la comunidad"
-
-#: .\pycon\templates\conduct.html:35
-msgid "Show empathy in your interactions with others"
-msgstr "Demuestra empatía en tus interacciones con otros"
-
-#: .\pycon\templates\conduct.html:37
-msgid "LONG VERSION"
-msgstr "VERSIÓN LARGA"
-
-#: .\pycon\templates\conduct.html:39
+#: .\pycon\templates\conduct.html:64
 msgid ""
-"Everyone is welcome. We want everyone to have a great experience regardless "
-"of gender, sexual orientation, physical appearance, disability, race, or "
-"religion. Py Latam is a community that does not tolerate harassment."
+"This includes all content generated by and for the community. Such content "
+"should be appropriate for a professional environment including multiple "
+"backgrounds. Sexual language, implications or examples are not considered "
+"appropriate in any context."
 msgstr ""
-"Todos son bienvenidos. Queremos que la experiencia de todos sea buena sin "
-"importar el género, orientación sexual, apariencia física, discapacidades, "
-"raza o religión. Py Latam es una comunidad que no tolera el acoso."
-
-#: .\pycon\templates\conduct.html:41
-msgid ""
-"Be respectful and kind to others. Do not insult or expose others based on "
-"personal characteristics. Be professional and completely avoid making "
-"comments or jokes with sexist, racist or religious undertones."
-msgstr ""
-"Sé respetuoso y amable con los demás. No insultes o expongas a los demás por "
-"alguna característica personal. Se profesional y evita por completo hacer "
-"comentarios o chistes con tonos sexistas, racistas o sobre religión."
-
-#: .\pycon\templates\conduct.html:43
-msgid ""
-"Intimidation, stalking, harassment, taking pictures, making inappropriate "
-"physical contact or unwanted sexual attention of or against other event "
-"participants is strictly prohibited. Participants who are asked to stop any "
-"harassing behavior are expected to comply immediately."
-msgstr ""
-"Está prohibido intimidar, seguir, acosar, fotografiar,  hacer contacto "
-"físico inapropiado y atención sexual no deseada a algún otro participante "
-"del evento. Se espera que los participantes a los que se les indique "
-"desisitir de cualquier comportamiento de acoso, cumplan de inmediato."
-
-#: .\pycon\templates\conduct.html:45
-msgid ""
-"Choose your words carefully. This includes all content generated by and for "
-"the community. Such content should be appropriate for a professional "
-"environment including multiple backgrounds. Sexual language, implications or "
-"examples are not considered appropriate in any context."
-msgstr ""
-"Elige con cuidado tus palabras. En esto están incluidos todos los contenidos "
-"generados por y para la comunidad. Deberán ser apropiados para un ambiente "
-"profesional que incluya múltiples experiencias. Lenguaje, implicaciones o "
-"ejemplos con temática sexual no son considerados apropiados en ningún "
-"contexto. "
-
-#: .\pycon\templates\conduct.html:47
-msgid ""
-"Attendees who are caught or reported to be in violation of these rules will "
-"be asked, by one of the organizers, to leave the conference and will not be "
-"entitled to ask for a refund of any fees paid."
-msgstr ""
-"A los asistentes que sean sorprendidos o denunciados incumpliendo estas "
-"reglas se les pedirá, por uno de los organizadores, que abandonen la "
-"conferencia sin derecho a pedir reembolso de lo invertido."
+"Esto incluye todos los contenidos generados por y para la comunidad. Dichos "
+"contenidos deben ser apropiados para un entorno profesional que incluya "
+"múltiples orígenes. El lenguaje, las implicaciones o los ejemplos sexuales "
+"no se consideran apropiados en ningún contexto."
 
 #: .\pycon\templates\home.html:20
 msgid "From September 19th to September 22th"
@@ -194,31 +150,63 @@ msgstr ""
 "Se llevará a cabo dentro de las instalaciones de “El Cid Resorts” en "
 "Mazatlán, Sinaloa, México."
 
-#: .\pycon\templates\home.html:34
-msgid "Become a sponsor"
-msgstr "Conviértete en patrocinador"
+#: .\pycon\templates\home.html:32
+msgid "We're back"
+msgstr "Estamos de vuelta"
 
-#: .\pycon\templates\home.html:36
+#: .\pycon\templates\home.html:33
+msgid ""
+"After the success of the first 4 editions of this conference, we're back! "
+"This time, for the third occasion, we'll have an in-person event with the "
+"same mission: to bring together communities from all Latin American "
+"countries."
+msgstr ""
+"Después del éxito de las primeras 4 ediciones de esta conferencia, ¡estamos "
+"de regreso! Esta vez tendremos por tercera ocasión  un evento presencial y "
+"con la misma misión, reunir a las comunidades de todos los países de "
+"Latinoamérica"
+
+#: .\pycon\templates\home.html:42
+msgid "What is PyCon Latam?"
+msgstr "¿Que es PyCon Latam?"
+
+#: .\pycon\templates\home.html:43
+msgid ""
+"It is an event aimed at bringing together communities from all Latin "
+"American countries, where Python developers, software development "
+"communities, and other technical experts can share and learn about the "
+"latest advancements in the Python development ecosystem. PyCon Latam aims to "
+"connect enthusiastic communities and companies to collaborate in one place, "
+"fostering competition and innovation."
+msgstr ""
+"Es un evento que tiene como objetivo reunir a comunidades de todos los "
+"países de américa latina, donde desarrolladores de Python, comunidades de "
+"desarrollo de desarrollo de software y otros expertos técnicos podrán "
+"compartir y conocer las últimas mejoras en el ecosistema de desarrollo de "
+"Python. Pycon latam quiere conectar comunidades y empresas entusiastas para "
+"colaborar en un solo lugar, fomentando la competencia y la innovación."
+
+#: .\pycon\templates\home.html:61
 msgid "How to become a sponsor?"
 msgstr "¿Cómo ser patrocinador?"
 
-#: .\pycon\templates\home.html:44
+#: .\pycon\templates\home.html:69
 msgid "Community"
 msgstr "Comunidad"
 
-#: .\pycon\templates\home.html:49
+#: .\pycon\templates\home.html:74
 msgid "Basic"
 msgstr "Básico"
 
-#: .\pycon\templates\home.html:54
+#: .\pycon\templates\home.html:79
 msgid "Bronze"
 msgstr "Bronce"
 
-#: .\pycon\templates\home.html:60
+#: .\pycon\templates\home.html:85
 msgid "MARKETING TOOL"
 msgstr "HERRAMIENTA DE MERCADEO"
 
-#: .\pycon\templates\home.html:62
+#: .\pycon\templates\home.html:87
 msgid ""
 " If you are a user of Python technology, you host platforms and create SaaS "
 "products.\n"
@@ -230,11 +218,11 @@ msgstr ""
 "PyCon Latam te brinda la oportunidad de conocer clientes potenciales para "
 "tus productos.\n"
 
-#: .\pycon\templates\home.html:66
+#: .\pycon\templates\home.html:91
 msgid "RECRUITMENT"
 msgstr "RECLUTAMIENTO"
 
-#: .\pycon\templates\home.html:67
+#: .\pycon\templates\home.html:92
 msgid ""
 "This is the best place to find talent for your company. This is where the "
 "best technology developers in Latin America gather. PyCon Latam offers you "
@@ -244,11 +232,11 @@ msgstr ""
 "reúnen los mejores desarrolladores de tecnología en Latinoamérica. PyCon "
 "Latam te ofrece esta gran oportunidad."
 
-#: .\pycon\templates\home.html:69
+#: .\pycon\templates\home.html:94
 msgid "SUPPORTING DIVERSITY"
 msgstr "APOYANDO LA DIVERSIDAD"
 
-#: .\pycon\templates\home.html:71
+#: .\pycon\templates\home.html:96
 msgid ""
 "PyCon Latam makes a great effort to be a space where inclusion and cultural "
 "diversity are possible. To achieve this, it is necessary to have the support "
@@ -258,11 +246,11 @@ msgstr ""
 "y la diversidad cultural sean posibles. Para lograrlo es necesario contar "
 "con el apoyo de patrocinadores que nos ayuden a construir esta meta."
 
-#: .\pycon\templates\home.html:72
+#: .\pycon\templates\home.html:97
 msgid "NETWORKING"
 msgstr "RED DE CONTACTOS"
 
-#: .\pycon\templates\home.html:73
+#: .\pycon\templates\home.html:98
 msgid ""
 "At PyCon Latam, work and learning networks are built to create ties with "
 "future collaborators."
@@ -270,27 +258,27 @@ msgstr ""
 "En Pycon Latam se construyen redes de trabajo y aprendizaje para crear lazos "
 "con futuros colaboradores."
 
-#: .\pycon\templates\home.html:79
+#: .\pycon\templates\home.html:104
 msgid "Diamond"
 msgstr "Diamante"
 
-#: .\pycon\templates\home.html:84
+#: .\pycon\templates\home.html:109
 msgid "Gold"
 msgstr "Oro"
 
-#: .\pycon\templates\home.html:89
+#: .\pycon\templates\home.html:114
 msgid "Silver"
 msgstr "Plata"
 
-#: .\pycon\templates\home.html:98
+#: .\pycon\templates\home.html:123
 msgid "More information on how to sponsor"
 msgstr "Más información de cómo patrocinar"
 
-#: .\pycon\templates\home.html:118
+#: .\pycon\templates\home.html:143
 msgid "Call for papers"
 msgstr "Llamado a expositores"
 
-#: .\pycon\templates\home.html:121
+#: .\pycon\templates\home.html:146
 msgid ""
 "Would you like to become an exhibitor at the event? Showcase your knowledge "
 "in any area where Python is used."
@@ -298,47 +286,47 @@ msgstr ""
 "Te gustaría convertirte en un expositor en el evento, muéstranos tu "
 "conocimiento en cualquier área donde se utilice Python."
 
-#: .\pycon\templates\home.html:126
+#: .\pycon\templates\home.html:151
 msgid "Data Science"
 msgstr "Ciencia de datos"
 
-#: .\pycon\templates\home.html:127
+#: .\pycon\templates\home.html:152
 msgid "Machine Learning"
 msgstr "Aprendizaje de máquinas"
 
-#: .\pycon\templates\home.html:128
+#: .\pycon\templates\home.html:153
 msgid "Web developmnet"
 msgstr "Desarrollo web"
 
-#: .\pycon\templates\home.html:129
+#: .\pycon\templates\home.html:154
 msgid "Artificial Intelligence"
 msgstr "Inteligencia Artificial"
 
-#: .\pycon\templates\home.html:133
+#: .\pycon\templates\home.html:158
 msgid "Cybersecurity"
 msgstr "Cyberseguridad"
 
-#: .\pycon\templates\home.html:134
+#: .\pycon\templates\home.html:159
 msgid "Automation"
 msgstr "Automatización"
 
-#: .\pycon\templates\home.html:135
+#: .\pycon\templates\home.html:160
 msgid "IoT"
 msgstr "IoT"
 
-#: .\pycon\templates\home.html:136
+#: .\pycon\templates\home.html:161
 msgid "DevOps"
 msgstr "DevOps"
 
-#: .\pycon\templates\home.html:142
+#: .\pycon\templates\home.html:167
 msgid "and more"
 msgstr "y mucho más"
 
-#: .\pycon\templates\home.html:161
+#: .\pycon\templates\home.html:186
 msgid "Pricing"
 msgstr "Opciones de Precios"
 
-#: .\pycon\templates\home.html:163
+#: .\pycon\templates\home.html:188
 msgid ""
 "The price is per night, per person depending on occupancy.\n"
 "Minimum booking of 3 nights.\n"
@@ -359,51 +347,91 @@ msgstr ""
 "Resort Fee: $250.00 pesos por habitación por noche.\n"
 "Menores de edad deberán reservar acompañados de un adulto.\n"
 
-#: .\pycon\templates\home.html:173
+#: .\pycon\templates\home.html:198
 msgid "Contact us by WhatsApp"
 msgstr "Contactar por WhatsApp"
 
-#: .\pycon\templates\home.html:186
+#: .\pycon\templates\home.html:214
 msgid "All-inclusive Packages"
 msgstr "Paquetes todo incluido"
 
-#: .\pycon\templates\home.html:192
+#: .\pycon\templates\home.html:220
 msgid "Single room"
 msgstr "Habitación simple"
 
-#: .\pycon\templates\home.html:197
+#: .\pycon\templates\home.html:225
 msgid "Double room"
 msgstr "Habitación doble"
 
-#: .\pycon\templates\home.html:202
+#: .\pycon\templates\home.html:230
 msgid "Triple room"
 msgstr "Habitación triple"
 
-#: .\pycon\templates\home.html:207
+#: .\pycon\templates\home.html:235
 msgid "Quadruple room"
 msgstr "Habitación cuadruple"
 
-#: .\pycon\templates\home.html:211
+#: .\pycon\templates\home.html:239
 msgid "Youngs (13-17 yrs)"
 msgstr "Jóvenes (13-17 años)"
 
-#: .\pycon\templates\home.html:215
+#: .\pycon\templates\home.html:243
 msgid "Children (6- 12 yrs)"
 msgstr "Niños (6- 12 años)"
 
-#: .\pycon\templates\home.html:220
+#: .\pycon\templates\home.html:248
 msgid "Children (0- 5 yrs) without charges"
 msgstr "Niños (0- 5 años) sin cargo"
 
-#: .\pycon\templates\home.html:223
+#: .\pycon\templates\home.html:251
 msgid "Prices fluctuate based on exchange rate"
 msgstr "Precios oscilan según tipo de cambio"
 
-#: .\pycon\templates\scheduled.html:11
+#: .\pycon\templates\includes\footer.html:6
+msgid "Stay Connected"
+msgstr "Manténgase Informado"
+
+#: .\pycon\templates\includes\footer.html:15
+msgid ""
+"commits unyieldingly to the rights of all individuals to mutual respect and "
+"acceptance of others, without biases based on differences of any kind."
+msgstr ""
+"se compromete a respetar los derechos de todos los individuos, a partir de "
+"la tolerancia mutua y la aceptación de los demás sin distinción alguna."
+
+#: .\pycon\templates\includes\footer.html:20
+msgid "Code of conduct"
+msgstr "Código de conducta"
+
+#: .\pycon\templates\includes\footer.html:22
+msgid "All rights reserved."
+msgstr "Todos los derechos reservados."
+
+#: .\pycon\templates\includes\footer.html:24
+msgid "Built with"
+msgstr "Desarrollado con"
+
+#: .\pycon\templates\includes\nav.html:15
+#: .\pycon\templates\includes\nav.html:22
+msgid "Home"
+msgstr ""
+
+#: .\pycon\templates\includes\nav.html:18
+#: .\pycon\templates\includes\nav.html:25 .\pycon\templates\scheduled.html:12
 msgid "Scheduled"
 msgstr "Agenda"
 
-#: .\pycon\templates\scheduled.html:15
+#: .\pycon\templates\includes\nav.html:35
+#, fuzzy
+#| msgid "Account"
+msgid "About"
+msgstr "Cuenta"
+
+#: .\pycon\templates\includes\sponsors.html:4
+msgid "Know our sponsors"
+msgstr "Nuestros Patrocinadores"
+
+#: .\pycon\templates\scheduled.html:16
 msgid "Day"
 msgstr "Día:"
 
@@ -623,6 +651,74 @@ msgstr "Ponente principal 4"
 msgid "Cierre de Conferencia"
 msgstr "Cierre de la Conferencia"
 
+#: .\pycon\templates\conduct:63
+msgid ""
+"Attendees who are caught or reported to be in violation of these rules "
+"will be asked, by one of the organizers, to leave the conference and will "
+"not be entitled to ask for a refund of any fees paid."
+msgstr ""
+"A los asistentes que sean sorprendidos o denunciados incumpliendo estas "
+"reglas se les pedirá, por uno de los organizadores, que abandonen la "
+"conferencia sin derecho a pedir reembolso de lo invertido."
+
+#~ msgid "Become a sponsor"
+#~ msgstr "Conviértete en patrocinador"
+
+#~ msgid ""
+#~ "If you are a victim or witness someone violating these rules, please "
+#~ "contact this email: conducta@pylatam.org. Someone from the committee will "
+#~ "take care of the incident. During the conference, our team will always be "
+#~ "available to help and ensure everyone's safety. We value your attendance, "
+#~ "and with your help we will make this a successful and pleasant event for "
+#~ "everyone."
+#~ msgstr ""
+#~ "Si eres víctima o testigo de alguien incumpliendo estas reglas por favor "
+#~ "manda un correo a: conducta@pylatam.org. Alguien del comité se hará "
+#~ "responsable de la incidencia. Durante la conferencia, el equipo estará "
+#~ "siempre disponible para ayudar y garantizar la seguridad de todos. "
+#~ "Valoramos mucho tu presencia en el evento y queremos que con tu ayuda sea "
+#~ "un evento exitoso y grato para todos."
+
+#~ msgid ""
+#~ "We appreciate the participation of everyone involved in the Python "
+#~ "community and want all participants to have an enjoyable and satisfying "
+#~ "experience. Inspired by the PSF's code of conduct, all community "
+#~ "participants −including attendees, speakers, volunteers, sponsors and "
+#~ "organizers− must show respect and courtesy to others at each conference-"
+#~ "related interaction. To accomplish this, any person involved must conform "
+#~ "to the following Code of Conduct."
+#~ msgstr ""
+#~ "Valoramos la participación de todos los involucrados en la comunidad "
+#~ "Python y queremos que todos los asistentes tengan una experiencia "
+#~ "agradable y satisfactoria. Inspirados en el código de conducta de la PSF, "
+#~ "todos los participantes en la comunidad, incluidos asistentes, ponentes, "
+#~ "voluntarios, patrocinadores y organizadores deberán mostrar respeto y "
+#~ "cortesía a los demás en cada interacción qué se lleve a cabo durante la "
+#~ "conferencia. Para lograr lo anterior, cualquier persona involucrada "
+#~ "deberá seguir el siguiente código de conducta."
+
+#, fuzzy
+#~| msgid "SUPPORTING DIVERSITY"
+#~ msgid "SHORT VERSION"
+#~ msgstr "VERSIÓN CORTA"
+
+#~ msgid "Focus on doing what is best for the community"
+#~ msgstr "Enfócate en hacer lo mejor para la comunidad"
+
+#~ msgid "LONG VERSION"
+#~ msgstr "VERSIÓN LARGA"
+
+#~ msgid ""
+#~ "Intimidation, stalking, harassment, taking pictures, making inappropriate "
+#~ "physical contact or unwanted sexual attention of or against other event "
+#~ "participants is strictly prohibited. Participants who are asked to stop "
+#~ "any harassing behavior are expected to comply immediately."
+#~ msgstr ""
+#~ "Está prohibido intimidar, seguir, acosar, fotografiar,  hacer contacto "
+#~ "físico inapropiado y atención sexual no deseada a algún otro participante "
+#~ "del evento. Se espera que los participantes a los que se les indique "
+#~ "desisitir de cualquier comportamiento de acoso, cumplan de inmediato."
+
 #~ msgid "Reservation E-Mail"
 #~ msgstr "Correo electrónico de la reservación"
 
@@ -833,9 +929,6 @@ msgstr "Cierre de la Conferencia"
 #~ msgid "PyCon Latam 2023 just can't come any faster!"
 #~ msgstr "¡PyCon Latam 2023 no puede venir mas rápido!"
 
-#~ msgid "Our Sponsors"
-#~ msgstr "Nuestros Patrocinadores"
-
 #~ msgid "Delete Account"
 #~ msgstr "Borrar Cuenta"
 
@@ -921,9 +1014,6 @@ msgstr "Cierre de la Conferencia"
 #~ "Se ha enviando un mensaje al correo electrónico proporcionado con un "
 #~ "enlace para confirmar tu cuenta."
 
-#~ msgid "Log in"
-#~ msgstr "Iniciar sesión"
-
 #~ msgid "Log in to an existing account"
 #~ msgstr "Iniciar sesión en una cuenta existente"
 
@@ -999,9 +1089,6 @@ msgstr "Cierre de la Conferencia"
 #~ "haya sido utilizado. Por favor \n"
 #~ "                solicita un nuevo enlace para <a href=\"%(reset_url)s"
 #~ "\">restablecer la contraseña</a>."
-
-#~ msgid "Account"
-#~ msgstr "Cuenta"
 
 #~ msgid "First Name"
 #~ msgstr "Nombre"
@@ -1165,9 +1252,6 @@ msgstr "Cierre de la Conferencia"
 #~ "locales e internacionales. Mesrenyame es miembro y ganador del premio "
 #~ "Community Service en la Python Software Foundation."
 
-#~ msgid "We are Back!"
-#~ msgstr "Estamos de vuelta"
-
 #~ msgid "Tickets are now available for our early birds."
 #~ msgstr "Los boletos ya están disponibles para nuestros early birds."
 
@@ -1267,9 +1351,6 @@ msgstr "Cierre de la Conferencia"
 
 #~ msgid "Register"
 #~ msgstr "Registro"
-
-#~ msgid "Conference welcome"
-#~ msgstr "Bienvenida Conferencia"
 
 #~ msgid ""
 #~ "The adventures of Python in the land of random (and pseudorandom) numbers"

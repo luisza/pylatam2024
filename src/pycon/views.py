@@ -36,8 +36,8 @@ def scheduled(request, lang='es'):
                 {
                     'title': _('Keynote 1'),
                     'duration': '9:30 am - 10:15 am',
-                    'speaker': 'Lynn',
-                    'image': 'keynote_1.jpg'
+                    'speaker': 'Lynn Root',
+                    'image': 'Lynn.jpg'
                 },
                 {
                     'title': _('Conviértete en un maestro de la automatización: Aprende a implementar RPA y PYTHON en el sector financiero.'),
@@ -144,7 +144,7 @@ def scheduled(request, lang='es'):
                     'title': _('Keynote 3'),
                     'duration': '9:00 am - 9:45 am',
                     'speaker': 'Abigail Messreyames',
-                    'image': 'keynote_3.jpg'
+                    'image': 'Abigail.jpg'
                 },
                 {
                     'title': _('Prompt engineering: la llave maestra para aprovechar al máximo la generative IA'),

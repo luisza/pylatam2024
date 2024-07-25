@@ -1,23 +1,54 @@
+{% load i18n static %}
+
+
 <header>
     <nav class="navbar navbar-expand-lg navbar-light nav-bg">
-        <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="navbar-collapse collapse" id="navbarNav">
-            <ul class="navbar-nav navbar-right py-0">
+            <ul class="navbar-nav navbar-right">
+
+                {% if LANGUAGE_CODE == 'es' %}
                 <li class="nav-item">
-                    <a class="nav-link" href="/en/">Home</a>
+                    <a class="nav-link" href="{% url 'home' %}">{% trans "Home" %}</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/scheduled/">Scheduled</a>
+                    <a class="nav-link" href="{% url 'scheduled' %}">{% trans "Scheduled" %}</a>
                 </li>
+                {%else%}
+                <li class="nav-item">
+                    <a class="nav-link" href="{% url 'home_en' %}">{% trans "Home" %}</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{% url 'scheduled_en' %}">{% trans "Scheduled" %}</a>
+                </li>
+                {%endif%}
+
+
+
+
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> About</a>
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        {% trans "About" %}
+                    </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <a class="dropdown-item" href="/en/conducta/">Code of Conduct</a>
+
+                        {% if LANGUAGE_CODE == 'es' %}
+                        <a class="dropdown-item" href="{% url 'conduct' %}">{% trans "Code of Conduct" %}</a>
+                        {% else %}
+                        <a class="dropdown-item" href="{% url 'conduct_en' %}">{% trans "Code of Conduct" %}</a>
+                        {% endif %}
+
                     </div>
                 </li>
-                <li class="translation"><input checked id="lang" type="checkbox" data-toggle="toggle" data-on="EN"data-off="ES"></li>
+
+                <li class="translation" style="position: relative;">
+                    <input type="checkbox" data-on="EN" data-off="ES" data-toggle="toggle" style="position: relative; z-index: 0;" {% if LANGUAGE_CODE == 'en' %}checked{% endif %}>
+                    <input id="lang" type="checkbox" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; opacity: 0; z-index: 1;" {% if LANGUAGE_CODE == 'en' %}checked{% endif %}>
+                </li>
             </ul>
         </div>
     </nav>
