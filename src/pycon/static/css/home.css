@@ -227,6 +227,7 @@ h6 {
     }
 }
 
+
 /* end section 1*/
 
 .img-sponsor {
@@ -411,4 +412,23 @@ section#speakers .btn, section#speakers p {
   background-color: white;
   opacity: 0.5;
   margin-bottom: 20px;
+}
+
+
+/* New */
+.img-container {
+    overflow: hidden;
+    max-height: 15rem;
+    padding: 0;
+}
+
+.introduction-info{
+    background-color: #a6def5;
+    color: #767f87;
+}
+
+.img-introduction{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }

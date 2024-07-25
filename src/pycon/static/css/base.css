@@ -472,3 +472,8 @@ section#tickets ul {
 }
 
 /* Sponsors CSS Ends */
+
+.max-900{
+  max-width: 900px;
+  margin: 0 auto;
+}
