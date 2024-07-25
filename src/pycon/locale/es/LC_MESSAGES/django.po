@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-24 17:16-0600\n"
+"POT-Creation-Date: 2024-07-24 19:22-0600\n"
 "PO-Revision-Date: 2024-06-10 19:19-0600\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -84,7 +84,7 @@ msgstr "Versión larga"
 msgid "Everyone is welcome"
 msgstr "Todos son bienvenidos"
 
-#: .\pycon\templates\conduct.html:61 .\pycon\templates\conduct.html:63
+#: .\pycon\templates\conduct.html:61
 msgid ""
 "We want everyone to have a great experience regardless of gender, sexual "
 "orientation, physical appearance, disability, race, or religion. Py Latam is "
@@ -100,15 +100,27 @@ msgstr "Se respetuoso y amable con los demás"
 
 #: .\pycon\templates\conduct.html:62
 msgid ""
+"Do not insult or expose others based on personal characteristics. Be "
+"professional and completely avoid making comments or jokes with sexist, "
+"racist or religious undertones."
+msgstr ""
+"No insultes ni expongas a los demás basándote en características personales. "
+"Sé profesional y evita por completo hacer comentarios o bromas con trasfondo "
+"sexista, racista o religioso."
+
+#: .\pycon\templates\conduct.html:63
+#, fuzzy
+#| msgid "Intimidation, stalking, harassment"
+msgid "Intimidation, stalking, harassment not allowed"
+msgstr "Intimidación, acoso, hostigamiento"
+
+#: .\pycon\templates\conduct.html:65
+msgid ""
 "Any act that makes a person uncomfortable must be stopped immediately or "
 "actions will be taken."
 msgstr ""
-"Cualquier acto que incomode a una persona debe detenerse inmediatamente o "
-"se tomarán medidas."
-
-#: .\pycon\templates\conduct.html:63
-msgid "Intimidation, stalking, harassment"
-msgstr "Intimidación, acoso, hostigamiento"
+"Cualquier acto que incomode a una persona debe detenerse inmediatamente o se "
+"tomarán medidas."
 
 #: .\pycon\templates\conduct.html:64
 msgid "Choose your words carefully"
@@ -126,16 +138,6 @@ msgstr ""
 "múltiples orígenes. El lenguaje, las implicaciones o los ejemplos sexuales "
 "no se consideran apropiados en ningún contexto."
 
-#: .\pycon\templates\conduct.html:65
-msgid ""
-"Attendees who are caught or reported to be in violation of these rules will "
-"be asked, by one of the organizers, to leave the conference and will not be "
-"entitled to ask for a refund of any fees paid."
-msgstr ""
-"A los asistentes que sean sorprendidos o denunciados incumpliendo estas "
-"reglas se les pedirá, por uno de los organizadores, que abandonen la "
-"conferencia sin derecho a pedir reembolso de lo invertido."
-
 #: .\pycon\templates\home.html:20
 msgid "From September 19th to September 22th"
 msgstr "Del 19 Septiembre al 22 de Septiembre"
@@ -148,31 +150,63 @@ msgstr ""
 "Se llevará a cabo dentro de las instalaciones de “El Cid Resorts” en "
 "Mazatlán, Sinaloa, México."
 
-#: .\pycon\templates\home.html:34
-msgid "Become a sponsor"
-msgstr "Conviértete en patrocinador"
+#: .\pycon\templates\home.html:32
+msgid "We're back"
+msgstr "Estamos de vuelta"
 
-#: .\pycon\templates\home.html:36
+#: .\pycon\templates\home.html:33
+msgid ""
+"After the success of the first 4 editions of this conference, we're back! "
+"This time, for the third occasion, we'll have an in-person event with the "
+"same mission: to bring together communities from all Latin American "
+"countries."
+msgstr ""
+"Después del éxito de las primeras 4 ediciones de esta conferencia, ¡estamos "
+"de regreso! Esta vez tendremos por tercera ocasión  un evento presencial y "
+"con la misma misión, reunir a las comunidades de todos los países de "
+"Latinoamérica"
+
+#: .\pycon\templates\home.html:42
+msgid "What is PyCon Latam?"
+msgstr "¿Que es PyCon Latam?"
+
+#: .\pycon\templates\home.html:43
+msgid ""
+"It is an event aimed at bringing together communities from all Latin "
+"American countries, where Python developers, software development "
+"communities, and other technical experts can share and learn about the "
+"latest advancements in the Python development ecosystem. PyCon Latam aims to "
+"connect enthusiastic communities and companies to collaborate in one place, "
+"fostering competition and innovation."
+msgstr ""
+"Es un evento que tiene como objetivo reunir a comunidades de todos los "
+"países de américa latina, donde desarrolladores de Python, comunidades de "
+"desarrollo de desarrollo de software y otros expertos técnicos podrán "
+"compartir y conocer las últimas mejoras en el ecosistema de desarrollo de "
+"Python. Pycon latam quiere conectar comunidades y empresas entusiastas para "
+"colaborar en un solo lugar, fomentando la competencia y la innovación."
+
+#: .\pycon\templates\home.html:61
 msgid "How to become a sponsor?"
 msgstr "¿Cómo ser patrocinador?"
 
-#: .\pycon\templates\home.html:44
+#: .\pycon\templates\home.html:69
 msgid "Community"
 msgstr "Comunidad"
 
-#: .\pycon\templates\home.html:49
+#: .\pycon\templates\home.html:74
 msgid "Basic"
 msgstr "Básico"
 
-#: .\pycon\templates\home.html:54
+#: .\pycon\templates\home.html:79
 msgid "Bronze"
 msgstr "Bronce"
 
-#: .\pycon\templates\home.html:60
+#: .\pycon\templates\home.html:85
 msgid "MARKETING TOOL"
 msgstr "HERRAMIENTA DE MERCADEO"
 
-#: .\pycon\templates\home.html:62
+#: .\pycon\templates\home.html:87
 msgid ""
 " If you are a user of Python technology, you host platforms and create SaaS "
 "products.\n"
@@ -184,11 +218,11 @@ msgstr ""
 "PyCon Latam te brinda la oportunidad de conocer clientes potenciales para "
 "tus productos.\n"
 
-#: .\pycon\templates\home.html:66
+#: .\pycon\templates\home.html:91
 msgid "RECRUITMENT"
 msgstr "RECLUTAMIENTO"
 
-#: .\pycon\templates\home.html:67
+#: .\pycon\templates\home.html:92
 msgid ""
 "This is the best place to find talent for your company. This is where the "
 "best technology developers in Latin America gather. PyCon Latam offers you "
@@ -198,11 +232,11 @@ msgstr ""
 "reúnen los mejores desarrolladores de tecnología en Latinoamérica. PyCon "
 "Latam te ofrece esta gran oportunidad."
 
-#: .\pycon\templates\home.html:69
+#: .\pycon\templates\home.html:94
 msgid "SUPPORTING DIVERSITY"
 msgstr "APOYANDO LA DIVERSIDAD"
 
-#: .\pycon\templates\home.html:71
+#: .\pycon\templates\home.html:96
 msgid ""
 "PyCon Latam makes a great effort to be a space where inclusion and cultural "
 "diversity are possible. To achieve this, it is necessary to have the support "
@@ -212,11 +246,11 @@ msgstr ""
 "y la diversidad cultural sean posibles. Para lograrlo es necesario contar "
 "con el apoyo de patrocinadores que nos ayuden a construir esta meta."
 
-#: .\pycon\templates\home.html:72
+#: .\pycon\templates\home.html:97
 msgid "NETWORKING"
 msgstr "RED DE CONTACTOS"
 
-#: .\pycon\templates\home.html:73
+#: .\pycon\templates\home.html:98
 msgid ""
 "At PyCon Latam, work and learning networks are built to create ties with "
 "future collaborators."
@@ -224,27 +258,27 @@ msgstr ""
 "En Pycon Latam se construyen redes de trabajo y aprendizaje para crear lazos "
 "con futuros colaboradores."
 
-#: .\pycon\templates\home.html:79
+#: .\pycon\templates\home.html:104
 msgid "Diamond"
 msgstr "Diamante"
 
-#: .\pycon\templates\home.html:84
+#: .\pycon\templates\home.html:109
 msgid "Gold"
 msgstr "Oro"
 
-#: .\pycon\templates\home.html:89
+#: .\pycon\templates\home.html:114
 msgid "Silver"
 msgstr "Plata"
 
-#: .\pycon\templates\home.html:98
+#: .\pycon\templates\home.html:123
 msgid "More information on how to sponsor"
 msgstr "Más información de cómo patrocinar"
 
-#: .\pycon\templates\home.html:118
+#: .\pycon\templates\home.html:143
 msgid "Call for papers"
 msgstr "Llamado a expositores"
 
-#: .\pycon\templates\home.html:121
+#: .\pycon\templates\home.html:146
 msgid ""
 "Would you like to become an exhibitor at the event? Showcase your knowledge "
 "in any area where Python is used."
@@ -252,47 +286,47 @@ msgstr ""
 "Te gustaría convertirte en un expositor en el evento, muéstranos tu "
 "conocimiento en cualquier área donde se utilice Python."
 
-#: .\pycon\templates\home.html:126
+#: .\pycon\templates\home.html:151
 msgid "Data Science"
 msgstr "Ciencia de datos"
 
-#: .\pycon\templates\home.html:127
+#: .\pycon\templates\home.html:152
 msgid "Machine Learning"
 msgstr "Aprendizaje de máquinas"
 
-#: .\pycon\templates\home.html:128
+#: .\pycon\templates\home.html:153
 msgid "Web developmnet"
 msgstr "Desarrollo web"
 
-#: .\pycon\templates\home.html:129
+#: .\pycon\templates\home.html:154
 msgid "Artificial Intelligence"
 msgstr "Inteligencia Artificial"
 
-#: .\pycon\templates\home.html:133
+#: .\pycon\templates\home.html:158
 msgid "Cybersecurity"
 msgstr "Cyberseguridad"
 
-#: .\pycon\templates\home.html:134
+#: .\pycon\templates\home.html:159
 msgid "Automation"
 msgstr "Automatización"
 
-#: .\pycon\templates\home.html:135
+#: .\pycon\templates\home.html:160
 msgid "IoT"
 msgstr "IoT"
 
-#: .\pycon\templates\home.html:136
+#: .\pycon\templates\home.html:161
 msgid "DevOps"
 msgstr "DevOps"
 
-#: .\pycon\templates\home.html:142
+#: .\pycon\templates\home.html:167
 msgid "and more"
 msgstr "y mucho más"
 
-#: .\pycon\templates\home.html:161
+#: .\pycon\templates\home.html:186
 msgid "Pricing"
 msgstr "Opciones de Precios"
 
-#: .\pycon\templates\home.html:163
+#: .\pycon\templates\home.html:188
 msgid ""
 "The price is per night, per person depending on occupancy.\n"
 "Minimum booking of 3 nights.\n"
@@ -313,43 +347,43 @@ msgstr ""
 "Resort Fee: $250.00 pesos por habitación por noche.\n"
 "Menores de edad deberán reservar acompañados de un adulto.\n"
 
-#: .\pycon\templates\home.html:173
+#: .\pycon\templates\home.html:198
 msgid "Contact us by WhatsApp"
 msgstr "Contactar por WhatsApp"
 
-#: .\pycon\templates\home.html:189
+#: .\pycon\templates\home.html:214
 msgid "All-inclusive Packages"
 msgstr "Paquetes todo incluido"
 
-#: .\pycon\templates\home.html:195
+#: .\pycon\templates\home.html:220
 msgid "Single room"
 msgstr "Habitación simple"
 
-#: .\pycon\templates\home.html:200
+#: .\pycon\templates\home.html:225
 msgid "Double room"
 msgstr "Habitación doble"
 
-#: .\pycon\templates\home.html:205
+#: .\pycon\templates\home.html:230
 msgid "Triple room"
 msgstr "Habitación triple"
 
-#: .\pycon\templates\home.html:210
+#: .\pycon\templates\home.html:235
 msgid "Quadruple room"
 msgstr "Habitación cuadruple"
 
-#: .\pycon\templates\home.html:214
+#: .\pycon\templates\home.html:239
 msgid "Youngs (13-17 yrs)"
 msgstr "Jóvenes (13-17 años)"
 
-#: .\pycon\templates\home.html:218
+#: .\pycon\templates\home.html:243
 msgid "Children (6- 12 yrs)"
 msgstr "Niños (6- 12 años)"
 
-#: .\pycon\templates\home.html:223
+#: .\pycon\templates\home.html:248
 msgid "Children (0- 5 yrs) without charges"
 msgstr "Niños (0- 5 años) sin cargo"
 
-#: .\pycon\templates\home.html:226
+#: .\pycon\templates\home.html:251
 msgid "Prices fluctuate based on exchange rate"
 msgstr "Precios oscilan según tipo de cambio"
 
@@ -617,14 +651,18 @@ msgstr "Ponente principal 4"
 msgid "Cierre de Conferencia"
 msgstr "Cierre de la Conferencia"
 
-#~ msgid ""
-#~ "Do not insult or expose others based on personal characteristics. Be "
-#~ "professional and completely avoid making comments or jokes with sexist, "
-#~ "racist or religious undertones."
-#~ msgstr ""
-#~ "No insultes ni expongas a los demás basándote en características "
-#~ "personales. Sé profesional y evita por completo hacer comentarios o "
-#~ "bromas con trasfondo sexista, racista o religioso."
+#: .\pycon\templates\conduct:63
+msgid ""
+"Attendees who are caught or reported to be in violation of these rules "
+"will be asked, by one of the organizers, to leave the conference and will "
+"not be entitled to ask for a refund of any fees paid."
+msgstr ""
+"A los asistentes que sean sorprendidos o denunciados incumpliendo estas "
+"reglas se les pedirá, por uno de los organizadores, que abandonen la "
+"conferencia sin derecho a pedir reembolso de lo invertido."
+
+#~ msgid "Become a sponsor"
+#~ msgstr "Conviértete en patrocinador"
 
 #~ msgid ""
 #~ "If you are a victim or witness someone violating these rules, please "
@@ -1213,9 +1251,6 @@ msgstr "Cierre de la Conferencia"
 #~ "Community y se ha desempeñado como organizadora de eventos comunitarios "
 #~ "locales e internacionales. Mesrenyame es miembro y ganador del premio "
 #~ "Community Service en la Python Software Foundation."
-
-#~ msgid "We are Back!"
-#~ msgstr "Estamos de vuelta"
 
 #~ msgid "Tickets are now available for our early birds."
 #~ msgstr "Los boletos ya están disponibles para nuestros early birds."

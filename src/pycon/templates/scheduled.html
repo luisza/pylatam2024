@@ -25,11 +25,11 @@
         <hr>
         {% for evento in details.events %}
         <div class="row p-0 mt-4 mx-0 border rounded-2 position-relative overflow-hidden">
-            {% if evento.salon == 'Salón A' %}
+            {% if evento.salon == 'Salón A' or evento.salon == 'Salon A' %}
             <span class="salon salon-a">
                 {{ evento.salon }}
             </span>
-            {% elif evento.salon == 'Salón B' %}
+            {% elif evento.salon == 'Salón B' or evento.salon == 'Salon B' %}
             <span class="salon salon-b">
                 {{ evento.salon }}
             </span>
