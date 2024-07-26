@@ -46,10 +46,12 @@ img {
 
 .salon-a{
     background-color: #d5f3ff;
+    color: #003a50
 }
 
 .salon-b{
     background-color: #dcf0b8;
+    color: #3a5f00
 }
 
 @media (max-width: 767.98px) {
