@@ -15,7 +15,6 @@ iconify-icon {
 
 .img-container {
     overflow: hidden;
-    max-height: 11rem;
     padding: 0;
 }
 
@@ -34,7 +33,7 @@ img {
 
 .salon{
     padding: .5rem;
-    width: 6rem;
+    width: 5.5rem;
     margin-right: 1rem;
     border-bottom-left-radius: .2rem;
     border-bottom-right-radius: .2rem;
@@ -51,4 +50,18 @@ img {
 
 .salon-b{
     background-color: #dcf0b8;
+}
+
+@media (max-width: 767.98px) {
+    .img-container {
+        height: 40rem;
+        max-height: none;
+    }
+}
+
+@media (max-width: 470px) {
+    .img-container {
+        height: 20rem;
+        max-height: none;
+    }
 }

@@ -158,7 +158,7 @@ def scheduled(request, lang='es'):
                     'duration': '10:00 am - 10:40 am',
                     'speaker': 'Fabio Pinto Oviedo',
                     'salon': _('Salón B'),
-                    'image': 'reputacion_analisis_sentimiento.webp'
+                    'image': 'reputacion_analisis_sentimiento.jpg'
                 },
                 {
                     'title': _('Revolutionizing CI/CD with Python and Generative AI: Next-Level Automation in DevOps'),
@@ -172,7 +172,7 @@ def scheduled(request, lang='es'):
                     'duration': '10:45 am - 11:25 am',
                     'speaker': 'Kay Hayen',
                     'salon': _('Salón B'),
-                    'image': 'nuitka_supercharge.png'
+                    'image': 'nuitka_supercharge.jpg'
                 },
                 {
                     'title': _('Tests efectivos con pytest, o sobre como escribir código duro de fallar'),
@@ -186,7 +186,7 @@ def scheduled(request, lang='es'):
                     'duration': '11:30 am - 12:10 pm',
                     'speaker': 'Ariel Ortiz',
                     'salon': _('Salón B'),
-                    'image': 'unicode_python.png'
+                    'image': 'unicode_python.jpg'
                 },
                 {
                     'title': _('PyLadies Panel'),
@@ -206,7 +206,7 @@ def scheduled(request, lang='es'):
                     'duration': '2:20 pm - 3:00 pm',
                     'speaker': 'Hugo Ramírez',
                     'salon': _('Salón B'),
-                    'image': 'python_etl.jpeg'
+                    'image': 'python_etl.jpg'
                 },
                 {
                     'title': _("A Journey into MLOps: Kubeflow's Magic Revealed"),
