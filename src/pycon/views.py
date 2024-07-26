@@ -28,13 +28,13 @@ def scheduled(request, lang='es'):
             'date': _('Viernes 20 de Septiembre'),
             'events': [
                 {
-                    'title': _('Bienvenida conferencia'),
+                    'title': _('Bienvenida'),
                     'duration': '9:00 am - 9:30 am',
                     'speaker': _('Personal administrativo'),
                     'image': 'bienvenida_conferencia.jpg'
                 },
                 {
-                    'title': _('Keynote 1'),
+                    'title': _('Keynote de Apertura'),
                     'duration': '9:30 am - 10:15 am',
                     'speaker': 'Lynn Root',
                     'image': 'Lynn.jpg'
@@ -124,13 +124,13 @@ def scheduled(request, lang='es'):
                     'image': 'micropython_first_contact.jpg'
                 },
                 {
-                    'title': _('Charlas Relámpago'),
+                    'title': _('Charlas Generales'),
                     'duration': '4:35 pm - 5:20 pm',
                     'speaker': _('Personal administrativo'),
                     'image': 'charlas_relampago.jpg'
                 },
                 {
-                    'title': _('Keynote 2'),
+                    'title': _('Keynote de cierre primer día'),
                     'duration': '5:25 pm - 6:10 pm',
                     'speaker': _('Personal administrativo'),
                     'image': 'keynote_2.jpg'
@@ -141,7 +141,7 @@ def scheduled(request, lang='es'):
             'date': _('Sábado 21 de Septiembre'),
             'events': [
                 {
-                    'title': _('Keynote 3'),
+                    'title': _('Keynote de apertura'),
                     'duration': '9:00 am - 9:45 am',
                     'speaker': 'Abigail Messreyames',
                     'image': 'Abigail.jpg'
@@ -237,9 +237,9 @@ def scheduled(request, lang='es'):
                     'image': 'sculpting_data_ml.jpg'
                 },
                 {
-                    'title': _('Keynote 4'),
+                    'title': _('Keynote cierre de conferencia'),
                     'duration': '4:45 pm - 5:30 pm',
-                    'speaker': _('Personal administrativo'),
+                    'speaker': 'Ariel Ortiz',
                     'image': 'keynote_4.jpg'
                 },
                 {
