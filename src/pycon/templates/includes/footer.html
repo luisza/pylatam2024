@@ -17,7 +17,11 @@
     </div>
     <div class='footer__nav-bar'>
       <ul>
-        <li><a href="conducta/">{% trans 'Code of conduct' %}</a></li>
+        {% if LANGUAGE_CODE == 'es' %}
+        <li><a href="{% url 'conduct' %}">{% trans 'Code of conduct' %}</a></li>
+        {% else %}
+        <li><a href="{% url 'conduct_en' %}">{% trans 'Code of conduct' %}</a></li>
+        {% endif %}
       </ul>
       <span>&copy;2024 Pycon Latam. {% trans "All rights reserved." %}</span>
     </div>
