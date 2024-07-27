@@ -404,6 +404,11 @@ ul.messages {
     color: white;
 }
 
+.navbar-nav{
+  align-items: center;
+    padding-bottom: 0;
+}
+
 section#tickets a {
     background-color: var(--palette-03);
     border-color: var(--palette-03);

@@ -18,32 +18,25 @@
     <div class="container p-2">
       <img src="{% static 'img/yellow_asterisc.png' %}" alt="Asterisc" />
       <h3 class="title has-text-white">{% trans 'From September 19th to September 22th' %}</h3>
-      <p class="" style="color: #000;">
+      <p style="color: #000;">
         {% trans 'It will take place within the facilities of "El Cid Resorts" in Mazatlán, Sinaloa, Mexico.' %}
       </p>
     </div>
 
-    <div class="row mt-4 g-4 max-900 mx-auto">
-      <div class="border rounded-2 overflow-hidden p-4 gap-3 my-3 card col-md-6">
-        <div class="col-sm-12 p-0 img-container">
-          <img class="img-introduction" src="{% static 'img/estamos_devuelta.jpg' %}" alt="Estamos de vuelta" />
-        </div>
-        <section class="col-sm-12 text-left m-auto p-0">
+    <!--We are back / What is Pyconlatam?-->
+    <div class="mt-4 g-4 max-900 mx-auto bg-light p-4 border-4 d-grid gap-4">
+      <div class="img-container"><img class="img-introduction" src="{% static 'img/estamos_devuelta.jpg' %}" alt="Estamos de vuelta" /></div>
+      <div class="d-grid gap-3 p-0">
+        <section class="mx-auto text-left p-3">
           <h2 class="fs-4 text-center mb-4 mt-2">{% trans "We're back" %}</h2>
           <p>{% trans "After the success of the first 4 editions of this conference, we're back! This time, for the third occasion, we'll have an in-person event with the same mission: to bring together communities from all Latin American countries."%}</p>
         </section>
-    </div>
-    
-    <div class="border rounded-2 overflow-hidden p-4 gap-3 my-3 card col-md-6">
-      <div class="col-sm-12 p-0 img-container">
-        <img class="img-introduction" src="{% static 'img/que_es_pyconlatam.jpg' %}" alt="Estamos de vuelta" />
+        <section class="mx-auto text-left p-3">
+          <h2 class="fs-4 text-center mb-4 mt-2">{% trans "What is PyCon Latam?" %}</h2>
+          <p>{% trans "It is an event aimed at bringing together communities from all Latin American countries, where Python developers, software development communities, and other technical experts can share and learn about the latest advancements in the Python development ecosystem. PyCon Latam aims to connect enthusiastic communities and companies to collaborate in one place, fostering competition and innovation."%}</p>
+        </section>
       </div>
-      <section class="col-sm-12 text-left m-auto p-0">
-        <h2 class="fs-4 text-center mb-4 mt-2">{% trans "What is PyCon Latam?" %}</h2>
-        <p>{% trans "It is an event aimed at bringing together communities from all Latin American countries, where Python developers, software development communities, and other technical experts can share and learn about the latest advancements in the Python development ecosystem. PyCon Latam aims to connect enthusiastic communities and companies to collaborate in one place, fostering competition and innovation."%}</p>
-      </section>
     </div>
-  </div>
   </section>
 
   <!-- Como ser Patrocidor del evento -->
