@@ -41,6 +41,7 @@ RUN ln -sf /dev/stdout /var/log/nginx/access.log && ln -sf /dev/stderr /var/log/
 ADD src /pylatam
 
 RUN python manage.py compilemessages -l es --settings=pylatam2024.settings && \
+    python manage.py compilemessages -l en --settings=pylatam2024.settings && \
     python manage.py collectstatic  --noinput --settings=pylatam2024.settings
 
 ADD docker/entrypoint.sh /run/
