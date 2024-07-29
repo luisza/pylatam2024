@@ -406,7 +406,7 @@ ul.messages {
 
 .navbar-nav{
   align-items: center;
-    padding-bottom: 0;
+  padding-bottom: 0;
 }
 
 section#tickets a {
@@ -482,3 +482,16 @@ section#tickets ul {
   max-width: 900px;
   margin: 0 auto;
 }
+
+
+@media (max-width: 992px) {
+  .navbar-nav li{
+    width: 100%;
+    text-align: center;
+  }
+
+  .navbar-nav{
+    margin-top: 1rem;
+  }
+}
+

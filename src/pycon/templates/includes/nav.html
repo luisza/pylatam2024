@@ -16,6 +16,9 @@
                 <li class="nav-item">
                     <a class="nav-link" href="{% url 'scheduled' %}">{% trans "Scheduled" %}</a>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{% url 'tickets' %}">{% trans "Tickets" %}</a>
+                </li>
                 {%else%}
                 <li class="nav-item">
                     <a class="nav-link" href="{% url 'home_en' %}">{% trans "Home" %}</a>
@@ -23,10 +26,10 @@
                 <li class="nav-item">
                     <a class="nav-link" href="{% url 'scheduled_en' %}">{% trans "Scheduled" %}</a>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{% url 'tickets_en' %}">{% trans "Tickets" %}</a>
+                </li>
                 {%endif%}
-
-
-
 
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"

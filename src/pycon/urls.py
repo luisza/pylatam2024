@@ -7,7 +7,8 @@ urlpatterns = [
     path('en/', views.home, {'lang': 'en'}, name="home_en"),
     path('conduct/', views.conduct, {'lang': 'es'}, name="conduct"),
     path('en/conduct/', views.conduct, {'lang': 'en'}, name="conduct_en"),
-    path('es/conduct/', views.conduct, {'lang': 'es'}, name="conduct_es"),
     path('scheduled/', views.scheduled, {'lang': 'es'}, name="scheduled"),
     path('en/scheduled/', views.scheduled, {'lang': 'en'}, name="scheduled_en"),
+    path('en/tickets/', views.tickets, {'lang': 'en'}, name="tickets_en"),
+    path('tickets/', views.tickets, {'lang': 'es'}, name="tickets"),
 ]

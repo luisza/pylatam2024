@@ -1,0 +1,119 @@
+body{
+    color: #253848;
+    box-sizing: border-box;
+}
+
+.icon-container{
+    padding: 1rem;
+    background-color: #256093;
+    color: #e5f0fa;
+    border-radius: .5rem;
+    max-height: 51px;
+}
+
+section h1, h2, h3, h4, h5, h6{
+    color: #194164;
+}
+
+h4{
+    font-size: 18px;
+}
+
+a{
+    color: #1a6b63;
+}
+
+a:hover{
+    color: #01a38b;
+}
+
+.wave{
+    background-color: #A6DEF5;
+    position: relative;
+    z-index: 100;
+}
+
+.bottom-wave{
+    transform: scaleX(-1);
+}
+
+
+ul{
+    list-style-type: none;
+}
+
+.details li{
+    margin-top: .8rem;
+}
+
+.ab{
+    color: #FE9226;
+}
+
+.blue-md{
+    color: #0f69b8;
+}
+
+.asset{
+    max-height: 30rem;
+    padding: 2rem;
+    object-fit: contain;
+}
+
+.initial{
+    width: 7rem;
+    height: .2rem;
+    margin: 1rem auto;
+    background-color: #fd9328;
+    border-radius: 5rem;
+}
+
+.thead-blue{
+    background-color: #256093;
+    color: #ffffff;
+}
+
+.wave{
+    background-image: url('../img/wave4.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: contain;
+    background-position: center top;
+    background-size: cover;
+}
+
+
+.header-section {
+    max-width: 900px;
+    margin: auto;
+    padding: 14rem 0;
+}
+
+.header{
+    background: linear-gradient(rgba(0, 0, 0, 0.66), rgba(0, 0, 0, 0.66)), url('../img/resort.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/* Book now */
+@media (min-width: 768px) and (max-width: 991px) {
+    .responsive-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 1rem;
+    }
+  }
+  
+  @media (max-width: 767px) {
+    .responsive-grid {
+      display: block;
+    }
+  }
+  
+/* Details and scheduled */
+@media (max-width: 768px) {
+    .mw-sm-100 {
+        max-width: 100%;
+    }
+}

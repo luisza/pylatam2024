@@ -10,6 +10,10 @@ def conduct(request, lang='es'):
     activate(lang)
     return render(request, 'conduct.html')
 
+def tickets(request, lang='en'):
+    activate(lang)
+    return render(request, 'tickets.html')
+
 def scheduled(request, lang='es'):
     activate(lang)
     data = {
