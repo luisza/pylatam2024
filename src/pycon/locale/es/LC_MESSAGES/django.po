@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-24 19:22-0600\n"
+"POT-Creation-Date: 2024-07-29 09:20-0600\n"
 "PO-Revision-Date: 2024-06-10 19:19-0600\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -18,8 +18,8 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Poedit 3.2.2\n"
 
-#: .\pycon\templates\conduct.html:13 .\pycon\templates\includes\nav.html:40
-#: .\pycon\templates\includes\nav.html:42
+#: .\pycon\templates\conduct.html:13 .\pycon\templates\includes\nav.html:42
+#: .\pycon\templates\includes\nav.html:44
 msgid "Code of Conduct"
 msgstr "Código de conducta"
 
@@ -114,7 +114,7 @@ msgstr ""
 msgid "Intimidation, stalking, harassment not allowed"
 msgstr "Intimidación, acoso, hostigamiento"
 
-#: .\pycon\templates\conduct.html:65
+#: .\pycon\templates\conduct.html:63
 msgid ""
 "Any act that makes a person uncomfortable must be stopped immediately or "
 "actions will be taken."
@@ -138,6 +138,16 @@ msgstr ""
 "múltiples orígenes. El lenguaje, las implicaciones o los ejemplos sexuales "
 "no se consideran apropiados en ningún contexto."
 
+#: .\pycon\templates\conduct.html:65
+msgid ""
+"Attendees who are caught or reported to be in violation of these rules will "
+"be asked, by one of the organizers, to leave the conference and will not be "
+"entitled to ask for a refund of any fees paid."
+msgstr ""
+"A los asistentes que sean sorprendidos o denunciados incumpliendo estas "
+"reglas se les pedirá, por uno de los organizadores, que abandonen la "
+"conferencia sin derecho a pedir reembolso de lo invertido."
+
 #: .\pycon\templates\home.html:20
 msgid "From September 19th to September 22th"
 msgstr "Del 19 Septiembre al 22 de Septiembre"
@@ -150,11 +160,11 @@ msgstr ""
 "Se llevará a cabo dentro de las instalaciones de “El Cid Resorts” en "
 "Mazatlán, Sinaloa, México."
 
-#: .\pycon\templates\home.html:32
+#: .\pycon\templates\home.html:31
 msgid "We're back"
 msgstr "Estamos de vuelta"
 
-#: .\pycon\templates\home.html:33
+#: .\pycon\templates\home.html:32
 msgid ""
 "After the success of the first 4 editions of this conference, we're back! "
 "This time, for the third occasion, we'll have an in-person event with the "
@@ -166,11 +176,11 @@ msgstr ""
 "con la misma misión, reunir a las comunidades de todos los países de "
 "Latinoamérica"
 
-#: .\pycon\templates\home.html:42
+#: .\pycon\templates\home.html:35
 msgid "What is PyCon Latam?"
 msgstr "¿Que es PyCon Latam?"
 
-#: .\pycon\templates\home.html:43
+#: .\pycon\templates\home.html:36
 msgid ""
 "It is an event aimed at bringing together communities from all Latin "
 "American countries, where Python developers, software development "
@@ -186,27 +196,27 @@ msgstr ""
 "Python. Pycon latam quiere conectar comunidades y empresas entusiastas para "
 "colaborar en un solo lugar, fomentando la competencia y la innovación."
 
-#: .\pycon\templates\home.html:61
+#: .\pycon\templates\home.html:54
 msgid "How to become a sponsor?"
 msgstr "¿Cómo ser patrocinador?"
 
-#: .\pycon\templates\home.html:69
+#: .\pycon\templates\home.html:62
 msgid "Community"
 msgstr "Comunidad"
 
-#: .\pycon\templates\home.html:74
+#: .\pycon\templates\home.html:67
 msgid "Basic"
 msgstr "Básico"
 
-#: .\pycon\templates\home.html:79
+#: .\pycon\templates\home.html:72
 msgid "Bronze"
 msgstr "Bronce"
 
-#: .\pycon\templates\home.html:85
+#: .\pycon\templates\home.html:78
 msgid "MARKETING TOOL"
 msgstr "HERRAMIENTA DE MERCADEO"
 
-#: .\pycon\templates\home.html:87
+#: .\pycon\templates\home.html:80
 msgid ""
 " If you are a user of Python technology, you host platforms and create SaaS "
 "products.\n"
@@ -218,11 +228,11 @@ msgstr ""
 "PyCon Latam te brinda la oportunidad de conocer clientes potenciales para "
 "tus productos.\n"
 
-#: .\pycon\templates\home.html:91
+#: .\pycon\templates\home.html:84
 msgid "RECRUITMENT"
 msgstr "RECLUTAMIENTO"
 
-#: .\pycon\templates\home.html:92
+#: .\pycon\templates\home.html:85
 msgid ""
 "This is the best place to find talent for your company. This is where the "
 "best technology developers in Latin America gather. PyCon Latam offers you "
@@ -232,11 +242,11 @@ msgstr ""
 "reúnen los mejores desarrolladores de tecnología en Latinoamérica. PyCon "
 "Latam te ofrece esta gran oportunidad."
 
-#: .\pycon\templates\home.html:94
+#: .\pycon\templates\home.html:87
 msgid "SUPPORTING DIVERSITY"
 msgstr "APOYANDO LA DIVERSIDAD"
 
-#: .\pycon\templates\home.html:96
+#: .\pycon\templates\home.html:89
 msgid ""
 "PyCon Latam makes a great effort to be a space where inclusion and cultural "
 "diversity are possible. To achieve this, it is necessary to have the support "
@@ -246,11 +256,11 @@ msgstr ""
 "y la diversidad cultural sean posibles. Para lograrlo es necesario contar "
 "con el apoyo de patrocinadores que nos ayuden a construir esta meta."
 
-#: .\pycon\templates\home.html:97
+#: .\pycon\templates\home.html:90
 msgid "NETWORKING"
 msgstr "RED DE CONTACTOS"
 
-#: .\pycon\templates\home.html:98
+#: .\pycon\templates\home.html:91
 msgid ""
 "At PyCon Latam, work and learning networks are built to create ties with "
 "future collaborators."
@@ -258,27 +268,27 @@ msgstr ""
 "En Pycon Latam se construyen redes de trabajo y aprendizaje para crear lazos "
 "con futuros colaboradores."
 
-#: .\pycon\templates\home.html:104
+#: .\pycon\templates\home.html:97
 msgid "Diamond"
 msgstr "Diamante"
 
-#: .\pycon\templates\home.html:109
+#: .\pycon\templates\home.html:102
 msgid "Gold"
 msgstr "Oro"
 
-#: .\pycon\templates\home.html:114
+#: .\pycon\templates\home.html:107
 msgid "Silver"
 msgstr "Plata"
 
-#: .\pycon\templates\home.html:123
+#: .\pycon\templates\home.html:116
 msgid "More information on how to sponsor"
 msgstr "Más información de cómo patrocinar"
 
-#: .\pycon\templates\home.html:143
+#: .\pycon\templates\home.html:136
 msgid "Call for papers"
 msgstr "Llamado a expositores"
 
-#: .\pycon\templates\home.html:146
+#: .\pycon\templates\home.html:139
 msgid ""
 "Would you like to become an exhibitor at the event? Showcase your knowledge "
 "in any area where Python is used."
@@ -286,47 +296,47 @@ msgstr ""
 "Te gustaría convertirte en un expositor en el evento, muéstranos tu "
 "conocimiento en cualquier área donde se utilice Python."
 
-#: .\pycon\templates\home.html:151
+#: .\pycon\templates\home.html:144
 msgid "Data Science"
 msgstr "Ciencia de datos"
 
-#: .\pycon\templates\home.html:152
+#: .\pycon\templates\home.html:145
 msgid "Machine Learning"
 msgstr "Aprendizaje de máquinas"
 
-#: .\pycon\templates\home.html:153
+#: .\pycon\templates\home.html:146
 msgid "Web developmnet"
 msgstr "Desarrollo web"
 
-#: .\pycon\templates\home.html:154
+#: .\pycon\templates\home.html:147
 msgid "Artificial Intelligence"
 msgstr "Inteligencia Artificial"
 
-#: .\pycon\templates\home.html:158
+#: .\pycon\templates\home.html:151
 msgid "Cybersecurity"
 msgstr "Cyberseguridad"
 
-#: .\pycon\templates\home.html:159
+#: .\pycon\templates\home.html:152
 msgid "Automation"
 msgstr "Automatización"
 
-#: .\pycon\templates\home.html:160
+#: .\pycon\templates\home.html:153
 msgid "IoT"
 msgstr "IoT"
 
-#: .\pycon\templates\home.html:161
+#: .\pycon\templates\home.html:154
 msgid "DevOps"
 msgstr "DevOps"
 
-#: .\pycon\templates\home.html:167
+#: .\pycon\templates\home.html:160
 msgid "and more"
 msgstr "y mucho más"
 
-#: .\pycon\templates\home.html:186
+#: .\pycon\templates\home.html:179
 msgid "Pricing"
 msgstr "Opciones de Precios"
 
-#: .\pycon\templates\home.html:188
+#: .\pycon\templates\home.html:181
 msgid ""
 "The price is per night, per person depending on occupancy.\n"
 "Minimum booking of 3 nights.\n"
@@ -347,43 +357,43 @@ msgstr ""
 "Resort Fee: $250.00 pesos por habitación por noche.\n"
 "Menores de edad deberán reservar acompañados de un adulto.\n"
 
-#: .\pycon\templates\home.html:198
+#: .\pycon\templates\home.html:191
 msgid "Contact us by WhatsApp"
 msgstr "Contactar por WhatsApp"
 
-#: .\pycon\templates\home.html:214
+#: .\pycon\templates\home.html:207
 msgid "All-inclusive Packages"
 msgstr "Paquetes todo incluido"
 
-#: .\pycon\templates\home.html:220
+#: .\pycon\templates\home.html:213
 msgid "Single room"
 msgstr "Habitación simple"
 
-#: .\pycon\templates\home.html:225
+#: .\pycon\templates\home.html:218
 msgid "Double room"
 msgstr "Habitación doble"
 
-#: .\pycon\templates\home.html:230
+#: .\pycon\templates\home.html:223
 msgid "Triple room"
 msgstr "Habitación triple"
 
-#: .\pycon\templates\home.html:235
+#: .\pycon\templates\home.html:228
 msgid "Quadruple room"
 msgstr "Habitación cuadruple"
 
-#: .\pycon\templates\home.html:239
+#: .\pycon\templates\home.html:232
 msgid "Youngs (13-17 yrs)"
 msgstr "Jóvenes (13-17 años)"
 
-#: .\pycon\templates\home.html:243
+#: .\pycon\templates\home.html:236
 msgid "Children (6- 12 yrs)"
 msgstr "Niños (6- 12 años)"
 
-#: .\pycon\templates\home.html:248
+#: .\pycon\templates\home.html:241
 msgid "Children (0- 5 yrs) without charges"
 msgstr "Niños (0- 5 años) sin cargo"
 
-#: .\pycon\templates\home.html:251
+#: .\pycon\templates\home.html:244
 msgid "Prices fluctuate based on exchange rate"
 msgstr "Precios oscilan según tipo de cambio"
 
@@ -399,33 +409,37 @@ msgstr ""
 "se compromete a respetar los derechos de todos los individuos, a partir de "
 "la tolerancia mutua y la aceptación de los demás sin distinción alguna."
 
-#: .\pycon\templates\includes\footer.html:20
+#: .\pycon\templates\includes\footer.html:21
+#: .\pycon\templates\includes\footer.html:23
 msgid "Code of conduct"
 msgstr "Código de conducta"
 
-#: .\pycon\templates\includes\footer.html:22
+#: .\pycon\templates\includes\footer.html:26
 msgid "All rights reserved."
 msgstr "Todos los derechos reservados."
 
-#: .\pycon\templates\includes\footer.html:24
+#: .\pycon\templates\includes\footer.html:28
 msgid "Built with"
 msgstr "Desarrollado con"
 
-#: .\pycon\templates\includes\nav.html:15
-#: .\pycon\templates\includes\nav.html:22
+#: .\pycon\templates\includes\nav.html:14
+#: .\pycon\templates\includes\nav.html:24
 msgid "Home"
 msgstr ""
 
-#: .\pycon\templates\includes\nav.html:18
-#: .\pycon\templates\includes\nav.html:25 .\pycon\templates\scheduled.html:12
+#: .\pycon\templates\includes\nav.html:17
+#: .\pycon\templates\includes\nav.html:27 .\pycon\templates\scheduled.html:12
 msgid "Scheduled"
 msgstr "Agenda"
 
-#: .\pycon\templates\includes\nav.html:35
-#, fuzzy
-#| msgid "Account"
+#: .\pycon\templates\includes\nav.html:20
+#: .\pycon\templates\includes\nav.html:30
+msgid "Tickets"
+msgstr "Boletos"
+
+#: .\pycon\templates\includes\nav.html:37
 msgid "About"
-msgstr "Cuenta"
+msgstr "Acerca de"
 
 #: .\pycon\templates\includes\sponsors.html:4
 msgid "Know our sponsors"
@@ -433,36 +447,234 @@ msgstr "Nuestros Patrocinadores"
 
 #: .\pycon\templates\scheduled.html:16
 msgid "Day"
-msgstr "Día:"
+msgstr "Día"
 
-#: .\pycon\views.py:17
+#: .\pycon\templates\tickets.html:13
+msgid "PyCon Latam 2024 Tickets"
+msgstr "PyCon Latam 2024 Boletos"
+
+#: .\pycon\templates\tickets.html:14
+msgid ""
+"PyCon Latam 2024 will take place at \"El Cid Resorts\" in Mazatlán, Sinaloa, "
+"Mexico. This three-day conference offers an all-inclusive experience with no "
+"additional conference fees beyond your hotel stay."
+msgstr ""
+"PyCon Latam 2024 se llevará a cabo en \"El Cid Resorts\" en Mazatlán, Sinaloa, "
+"México. Esta conferencia de tres días ofrece una experiencia todo incluido sin "
+"costos adicionales de conferencia más allá de tu estadía en el hotel."
+
+#: .\pycon\templates\tickets.html:21
+msgid "All-Inclusive Plan"
+msgstr "Plan Todo Incluido"
+
+#: .\pycon\templates\tickets.html:22
+msgid ""
+"Enjoy a hassle-free experience with our all-inclusive plan, covering <strong "
+"class='blue-md'>accommodation, meals, and access to all conference events</"
+"strong>. The prices below are per night, per person, based on room occupancy."
+msgstr ""
+"Disfruta de una experiencia sin complicaciones con nuestro plan todo incluido, que cubre <strong "
+"class='blue-md'>alojamiento, comidas y acceso a todos los eventos de la conferencia</"
+"strong>. Los precios a continuación son por noche, por persona, según la ocupación de la habitación."
+
+#: .\pycon\templates\tickets.html:27
+msgid "Room Type"
+msgstr "Tipo de Habitación"
+
+#: .\pycon\templates\tickets.html:28
+msgid "USD"
+msgstr ""
+
+#: .\pycon\templates\tickets.html:29
+msgid "MXN"
+msgstr ""
+
+#: .\pycon\templates\tickets.html:34
+msgid "Single Room"
+msgstr "Habitación Individual"
+
+#: .\pycon\templates\tickets.html:39
+msgid "Double Room"
+msgstr "Habitación Doble"
+
+#: .\pycon\templates\tickets.html:44
+msgid "Triple Room"
+msgstr "Habitación Triple"
+
+#: .\pycon\templates\tickets.html:49
+msgid "Quadruple Room"
+msgstr "Habitación Cuádruple"
+
+#: .\pycon\templates\tickets.html:54
+msgid "Junior (13-17 years)"
+msgstr ""
+
+#: .\pycon\templates\tickets.html:59
+msgid "Children (6-12 years)"
+msgstr "Niños (6-12 años)"
+
+#: .\pycon\templates\tickets.html:64
+msgid "Children (0-5 years)"
+msgstr "Niños (0-5 años)"
+
+#: .\pycon\templates\tickets.html:65 .\pycon\templates\tickets.html:66
+msgid "No Fee"
+msgstr "Sin costo"
+
+#: .\pycon\templates\tickets.html:75
+msgid "How to Book"
+msgstr "Cómo Reservar"
+
+#: .\pycon\templates\tickets.html:77
+msgid ""
+"To purchase your ticket and reserve your stay at PyCon Latam 2024, follow "
+"these steps"
+msgstr ""
+"Para comprar tu boleto y reservar tu estancia en PyCon Latam 2024, sigue "
+"estos pasos"
+
+#: .\pycon\templates\tickets.html:85
+msgid "Conference Welcome Image"
+msgstr "Imagen Bienvenida Conferencia"
+
+#: .\pycon\templates\tickets.html:96
+msgid "Choose your room type"
+msgstr "Elige tu tipo de habitación"
+
+#: .\pycon\templates\tickets.html:97
+msgid "based on the number of occupants."
+msgstr "según el número de ocupantes."
+
+#: .\pycon\templates\tickets.html:108
+msgid "Calculate your total cost"
+msgstr "Calcula tu costo total"
+
+#: .\pycon\templates\tickets.html:109
+msgid "based on the nightly rate and the number of nights you plan to stay."
+msgstr "basado en la tarifa por noche y el número de noches que planeas quedarte."
+
+#: .\pycon\templates\tickets.html:120
+msgid "Contact the hotel sales agent"
+msgstr "Contacta a la agente de ventas del hotel"
+
+#: .\pycon\templates\tickets.html:121
+msgid "via WhatsApp to start the booking process."
+msgstr "a través de WhatsApp para iniciar el proceso de reserva:"
+
+#: .\pycon\templates\tickets.html:121
+msgid "Click here to contact."
+msgstr "Haz clic aquí para contactar."
+
+#: .\pycon\templates\tickets.html:132
+msgid "Make an initial deposit"
+msgstr "Realiza un depósito inicial"
+
+#: .\pycon\templates\tickets.html:133
+msgid "of $1,000 MXN to secure your reservation."
+msgstr "de $1,000 MXN para asegurar tu reserva."
+
+#: .\pycon\templates\tickets.html:144
+msgid "Pay the remaining balance"
+msgstr "Paga el saldo restante"
+
+#: .\pycon\templates\tickets.html:145
+msgid "in installments, ensuring full payment by August 19th."
+msgstr "en abonos, asegurando el pago completo antes del 19 de agosto."
+
+#: .\pycon\templates\tickets.html:161
+msgid "Conference Schedule"
+msgstr "Agenda de Conferencia"
+
+#: .\pycon\templates\tickets.html:164
+msgid "<strong>September 19:</strong> Welcome"
+msgstr "<strong>19 de Septiembre:</strong> Welcome"
+
+#: .\pycon\templates\tickets.html:165
+msgid "<strong>September 20:</strong> 1st Day of Conference"
+msgstr "<strong>20 de Septiembre:</strong> 1st Day of Conference"
+
+#: .\pycon\templates\tickets.html:166
+msgid "<strong>September 21:</strong> 2nd Day of Conference"
+msgstr "<strong>21 de Septiembre:</strong> 2nd Day of Conference"
+
+#: .\pycon\templates\tickets.html:167
+msgid "<strong>September 22:</strong> Hotel Check-out"
+msgstr "<strong>22 de Septiembre:</strong> Hotel Check-out"
+
+#: .\pycon\templates\tickets.html:174
+msgid "Important details"
+msgstr "Detalles Importantes"
+
+#: .\pycon\templates\tickets.html:176
+msgid "Prices are per night, per person, based on room occupancy."
+msgstr "Los precios son por noche, por persona, según la ocupación de la habitación."
+
+#: .\pycon\templates\tickets.html:177
+msgid "A minimum stay of 3 nights is required."
+msgstr "Se requiere una estancia mínima de 3 noches."
+
+#: .\pycon\templates\tickets.html:178
+msgid ""
+"Special rates are valid for 3 days before and 3 days after the conference "
+"dates."
+msgstr ""
+"Las tarifas especiales son válidas por 3 días antes y 3 días después de las fechas de la "
+"conferencia."
+
+#: .\pycon\templates\tickets.html:179
+msgid "A deposit of $1,000 MXN is required to secure your reservation."
+msgstr "Se requiere un depósito de $1,000 MXN para asegurar tu reserva."
+
+#: .\pycon\templates\tickets.html:180
+msgid "The remaining balance can be paid in installments."
+msgstr "El saldo restante se puede pagar en abonos."
+
+#: .\pycon\templates\tickets.html:181
+msgid "Full payment must be completed by August 19th."
+msgstr "El pago total debe completarse antes del 19 de agosto."
+
+#: .\pycon\templates\tickets.html:182
+msgid "An adult must accompany minors."
+msgstr "Los menores de edad deben estar acompañados por un adulto."
+
+#: .\pycon\templates\tickets.html:187
+msgid ""
+"We look forward to welcoming you to Mazatlán for an enriching and "
+"unforgettable experience at PyCon Latam 2024!"
+msgstr ""
+"¡Esperamos darte la bienvenida en Mazatlán para una experiencia enriquecedora e "
+"inolvidable en PyCon Latam 2024!"
+
+#: .\pycon\views.py:21
 msgid "Jueves 19 de Septiembre"
 msgstr "Jueves 19 de Septiembre"
 
-#: .\pycon\views.py:20
+#: .\pycon\views.py:24
 msgid "Bienvenida al evento"
 msgstr "Bienvenida al evento"
 
-#: .\pycon\views.py:22 .\pycon\views.py:33 .\pycon\views.py:129
-#: .\pycon\views.py:135 .\pycon\views.py:242 .\pycon\views.py:248
+#: .\pycon\views.py:26 .\pycon\views.py:37 .\pycon\views.py:133
+#: .\pycon\views.py:139 .\pycon\views.py:252
 msgid "Personal administrativo"
 msgstr "Personal administrativo"
 
-#: .\pycon\views.py:28
+#: .\pycon\views.py:32
 msgid "Viernes 20 de Septiembre"
 msgstr "Viernes 20 de Septiembre"
 
-#: .\pycon\views.py:31
-msgid "Bienvenida conferencia"
-msgstr "Bienvenida conferencia"
-
-#: .\pycon\views.py:37
+#: .\pycon\views.py:35
 #, fuzzy
-#| msgid "4 Keynotes"
-msgid "Keynote 1"
-msgstr "Ponente principal 1"
+#| msgid "Bienvenida al evento"
+msgid "Bienvenida"
+msgstr "Bienvenida al evento"
 
-#: .\pycon\views.py:43
+#: .\pycon\views.py:41
+#, fuzzy
+#| msgid "Keynote Speakers"
+msgid "Keynote de Apertura"
+msgstr "Ponentes Principales"
+
+#: .\pycon\views.py:47
 msgid ""
 "Conviértete en un maestro de la automatización: Aprende a implementar RPA y "
 "PYTHON en el sector financiero."
@@ -470,29 +682,29 @@ msgstr ""
 "Conviértete en un maestro de la automatización: Aprende a implementar RPA y "
 "PYTHON en el sector financiero."
 
-#: .\pycon\views.py:46 .\pycon\views.py:60 .\pycon\views.py:74
-#: .\pycon\views.py:88 .\pycon\views.py:102 .\pycon\views.py:116
-#: .\pycon\views.py:153 .\pycon\views.py:167 .\pycon\views.py:181
-#: .\pycon\views.py:201 .\pycon\views.py:215 .\pycon\views.py:229
+#: .\pycon\views.py:50 .\pycon\views.py:64 .\pycon\views.py:78
+#: .\pycon\views.py:92 .\pycon\views.py:106 .\pycon\views.py:120
+#: .\pycon\views.py:157 .\pycon\views.py:171 .\pycon\views.py:185
+#: .\pycon\views.py:205 .\pycon\views.py:219 .\pycon\views.py:233
 #, fuzzy
 #| msgid "Salon A"
 msgid "Salón A"
 msgstr "Salón A"
 
-#: .\pycon\views.py:50
+#: .\pycon\views.py:54
 msgid "De Bichos y Serpientes: Seguridad en el Ecosistema de Paquetes Python"
 msgstr "De Bichos y Serpientes: Seguridad en el Ecosistema de Paquetes Python"
 
-#: .\pycon\views.py:53 .\pycon\views.py:67 .\pycon\views.py:81
-#: .\pycon\views.py:95 .\pycon\views.py:109 .\pycon\views.py:123
-#: .\pycon\views.py:160 .\pycon\views.py:174 .\pycon\views.py:188
-#: .\pycon\views.py:208 .\pycon\views.py:222 .\pycon\views.py:236
+#: .\pycon\views.py:57 .\pycon\views.py:71 .\pycon\views.py:85
+#: .\pycon\views.py:99 .\pycon\views.py:113 .\pycon\views.py:127
+#: .\pycon\views.py:164 .\pycon\views.py:178 .\pycon\views.py:192
+#: .\pycon\views.py:212 .\pycon\views.py:226 .\pycon\views.py:240
 #, fuzzy
 #| msgid "Salon B"
 msgid "Salón B"
 msgstr "Salón B"
 
-#: .\pycon\views.py:57
+#: .\pycon\views.py:61
 msgid ""
 "DeepSignBridge: Traductor de Lenguaje de Señas en Tiempo Real Usando "
 "Transformers y Visión Computacional"
@@ -500,33 +712,33 @@ msgstr ""
 "DeepSignBridge: Traductor de Lenguaje de Señas en Tiempo Real Usando "
 "Transformers y Visión Computacional"
 
-#: .\pycon\views.py:64
+#: .\pycon\views.py:68
 msgid ""
 "De pixeles a predicciones: Transformando la experiencia de videos con python"
 msgstr ""
 "De píxeles a predicciones: Transformando la experiencia de videos con Python."
 
-#: .\pycon\views.py:71
+#: .\pycon\views.py:75
 msgid "Desplegando tu aplicación Python sin morir en el intento"
 msgstr "Desplegando tu aplicación Python sin morir en el intento."
 
-#: .\pycon\views.py:78
+#: .\pycon\views.py:82
 msgid "Domina al Tiburón: Pipelines en Python para Wireshark"
 msgstr "Domina al Tiburón: Pipelines en Python para Wireshark"
 
-#: .\pycon\views.py:85
+#: .\pycon\views.py:89
 msgid "Espacios vectoriales con python y langchain"
 msgstr "Espacios vectoriales con Python y Langchain"
 
-#: .\pycon\views.py:92
+#: .\pycon\views.py:96
 msgid "Fortaleciendo el acceso a la justicia: Whisper y PyQt en Acción"
 msgstr "Fortaleciendo el acceso a la justicia: Whisper y PyQt en Acción"
 
-#: .\pycon\views.py:99
+#: .\pycon\views.py:103
 msgid "From Dependency Hell to Environment Heaven"
 msgstr "Del Infierno de Dependencias al Paraíso del Entorno"
 
-#: .\pycon\views.py:106
+#: .\pycon\views.py:110
 msgid ""
 "Insights Ocultos: Cómo la Estadística y Python Empoderan Decisiones "
 "Estratégicas"
@@ -534,35 +746,33 @@ msgstr ""
 "Insights Ocultos: Cómo la Estadística y Python Empoderan Decisiones "
 "Estratégicas"
 
-#: .\pycon\views.py:113
+#: .\pycon\views.py:117
 msgid "Laberintos del Lenguaje: Borges y las Narrativas Infinitas con LLMs"
 msgstr "Laberintos del Lenguaje: Borges y las Narrativas Infinitas con LLMs"
 
-#: .\pycon\views.py:120
+#: .\pycon\views.py:124
 msgid "Micropython First Contact"
 msgstr "Primer Contacto con Micropython"
 
-#: .\pycon\views.py:127
-msgid "Charlas Relámpago"
-msgstr "Charlas Relámpago"
+#: .\pycon\views.py:131
+msgid "Charlas Generales"
+msgstr ""
 
-#: .\pycon\views.py:133
-#, fuzzy
-#| msgid "4 Keynotes"
-msgid "Keynote 2"
-msgstr "Ponente principal 2"
+#: .\pycon\views.py:137
+msgid "Keynote de cierre primer día"
+msgstr ""
 
-#: .\pycon\views.py:141
+#: .\pycon\views.py:145
 msgid "Sábado 21 de Septiembre"
 msgstr "Sábado 21 de Septiembre"
 
-#: .\pycon\views.py:144
+#: .\pycon\views.py:148
 #, fuzzy
-#| msgid "4 Keynotes"
-msgid "Keynote 3"
-msgstr "Ponente principal 3"
+#| msgid "Keynote Speakers"
+msgid "Keynote de apertura"
+msgstr "Ponentes Principales"
 
-#: .\pycon\views.py:150
+#: .\pycon\views.py:154
 msgid ""
 "Prompt engineering: la llave maestra para aprovechar al máximo la generative "
 "IA"
@@ -570,11 +780,11 @@ msgstr ""
 "Engineering de Prompts: La llave maestra para aprovechar al máximo la IA "
 "Generativa"
 
-#: .\pycon\views.py:157
+#: .\pycon\views.py:161
 msgid "Reputación en Tiempo Real y Análisis de Sentimiento con Python"
 msgstr "Reputación en Tiempo Real y Análisis de Sentimiento con Python"
 
-#: .\pycon\views.py:164
+#: .\pycon\views.py:168
 msgid ""
 "Revolutionizing CI/CD with Python and Generative AI: Next-Level Automation "
 "in DevOps"
@@ -582,44 +792,44 @@ msgstr ""
 "Revolucionando CI/CD con Python e IA Generativa: Automatización de Próximo "
 "Nivel en DevOps"
 
-#: .\pycon\views.py:171
+#: .\pycon\views.py:175
 msgid "Supercharge Python with Nuitka: Witness a 10-Year Plan Come to Life!"
 msgstr ""
 "Potencia Python con Nuitka: Sé testigo de cómo cobra vida un plan de 10 años."
 
-#: .\pycon\views.py:178
+#: .\pycon\views.py:182
 msgid "Tests efectivos con pytest, o sobre como escribir código duro de fallar"
 msgstr "Tests Efectivos con Pytest, o Cómo Escribir Código Difícil de Fallar"
 
-#: .\pycon\views.py:185
+#: .\pycon\views.py:189
 msgid ""
 "Todo lo que necesitas saber sobre Unicode, pero nunca se te ocurrió preguntar"
 msgstr ""
 "Todo lo que necesitas saber sobre Unicode, pero nunca se te ocurrió preguntar"
 
-#: .\pycon\views.py:192
+#: .\pycon\views.py:196
 msgid "PyLadies Panel"
 msgstr "Panel de PyLadies"
 
-#: .\pycon\views.py:194
+#: .\pycon\views.py:198
 msgid "Capitulos PyLadies alrededor de América Latina"
 msgstr "Capítulos PyLadies alrededor de América Latina"
 
-#: .\pycon\views.py:198
+#: .\pycon\views.py:202
 msgid "Una introducción al análisis de datos topológicos"
 msgstr "Una Introducción al Análisis de Datos Topológicos"
 
-#: .\pycon\views.py:205
+#: .\pycon\views.py:209
 msgid ""
 "Python y los esquemas ETL: El Pivote Esencial para la Inteligencia Artificial"
 msgstr ""
 "Python y los Esquemas ETL: El Pivote Esencial para la Inteligencia Artificial"
 
-#: .\pycon\views.py:212
+#: .\pycon\views.py:216
 msgid "A Journey into MLOps: Kubeflow's Magic Revealed"
 msgstr "Un Viaje a MLOps: La Magia de Kubeflow al Descubierto"
 
-#: .\pycon\views.py:219
+#: .\pycon\views.py:223
 msgid ""
 "Del Oro Negro al Oro Digital: La Historia de un Ingeniero Convertido en "
 "Líder de Python"
@@ -627,7 +837,7 @@ msgstr ""
 "Del Oro Negro al Oro Digital: La Historia de un Ingeniero Convertido en "
 "Líder de Python"
 
-#: .\pycon\views.py:226
+#: .\pycon\views.py:230
 msgid ""
 "Transformando Startups con Kubernetes: Gestión de Aplicaciones Django para "
 "un Crecimiento Explosivo"
@@ -635,31 +845,47 @@ msgstr ""
 "Transformando Startups con Kubernetes: Gestión de Aplicaciones Django para "
 "un Crecimiento Explosivo"
 
-#: .\pycon\views.py:233
+#: .\pycon\views.py:237
 msgid "Sculpting Data for Machine Learning using Python: Generative AI edition"
 msgstr ""
 "Esculpir Datos para el Aprendizaje Automático con Python: Edición IA "
 "Generativa"
 
-#: .\pycon\views.py:240
+#: .\pycon\views.py:244
 #, fuzzy
-#| msgid "4 Keynotes"
-msgid "Keynote 4"
-msgstr "Ponente principal 4"
+#| msgid "Cierre de Conferencia"
+msgid "Keynote cierre de conferencia"
+msgstr "Cierre de la Conferencia"
 
-#: .\pycon\views.py:246
+#: .\pycon\views.py:250
 msgid "Cierre de Conferencia"
 msgstr "Cierre de la Conferencia"
 
-#: .\pycon\templates\conduct:63
-msgid ""
-"Attendees who are caught or reported to be in violation of these rules "
-"will be asked, by one of the organizers, to leave the conference and will "
-"not be entitled to ask for a refund of any fees paid."
-msgstr ""
-"A los asistentes que sean sorprendidos o denunciados incumpliendo estas "
-"reglas se les pedirá, por uno de los organizadores, que abandonen la "
-"conferencia sin derecho a pedir reembolso de lo invertido."
+#~ msgid "Bienvenida conferencia"
+#~ msgstr "Bienvenida conferencia"
+
+#, fuzzy
+#~| msgid "4 Keynotes"
+#~ msgid "Keynote 1"
+#~ msgstr "Ponente principal 1"
+
+#~ msgid "Charlas Relámpago"
+#~ msgstr "Charlas Relámpago"
+
+#, fuzzy
+#~| msgid "4 Keynotes"
+#~ msgid "Keynote 2"
+#~ msgstr "Ponente principal 2"
+
+#, fuzzy
+#~| msgid "4 Keynotes"
+#~ msgid "Keynote 3"
+#~ msgstr "Ponente principal 3"
+
+#, fuzzy
+#~| msgid "4 Keynotes"
+#~ msgid "Keynote 4"
+#~ msgstr "Ponente principal 4"
 
 #~ msgid "Become a sponsor"
 #~ msgstr "Conviértete en patrocinador"
@@ -899,9 +1125,6 @@ msgstr ""
 
 #~ msgid "Account Settings"
 #~ msgstr "Configuración de Cuenta"
-
-#~ msgid "View Conference Schedule"
-#~ msgstr "Ver el calendario de conferencias"
 
 #~ msgid "View Hotel Information"
 #~ msgstr "Ver información de Hotel"
@@ -1166,9 +1389,6 @@ msgstr ""
 
 #~ msgid "August 24th to 26th"
 #~ msgstr "24 al 26 de Agosto"
-
-#~ msgid "Keynote Speakers"
-#~ msgstr "Ponentes Principales"
 
 #~ msgid ""
 #~ "Karo is a maker and product manager with a background in robotics "
