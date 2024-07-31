@@ -587,19 +587,19 @@ msgstr "Agenda de Conferencia"
 
 #: .\pycon\templates\tickets.html:164
 msgid "<strong>September 19:</strong> Welcome"
-msgstr "<strong>19 de Septiembre:</strong> Welcome"
+msgstr "<strong>19 de Septiembre:</strong> Bienvenida"
 
 #: .\pycon\templates\tickets.html:165
 msgid "<strong>September 20:</strong> 1st Day of Conference"
-msgstr "<strong>20 de Septiembre:</strong> 1st Day of Conference"
+msgstr "<strong>20 de Septiembre:</strong> 1er Día de Conferencia"
 
 #: .\pycon\templates\tickets.html:166
 msgid "<strong>September 21:</strong> 2nd Day of Conference"
-msgstr "<strong>21 de Septiembre:</strong> 2nd Day of Conference"
+msgstr "<strong>21 de Septiembre:</strong> 2do Día de Conferencia"
 
 #: .\pycon\templates\tickets.html:167
 msgid "<strong>September 22:</strong> Hotel Check-out"
-msgstr "<strong>22 de Septiembre:</strong> Hotel Check-out"
+msgstr "<strong>22 de Septiembre:</strong> Salida del hotel"
 
 #: .\pycon\templates\tickets.html:174
 msgid "Important details"
