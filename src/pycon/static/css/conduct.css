@@ -11,19 +11,21 @@ section h3{
     color: #0F69B8;
 }
 
-.paragraph{
-    color: #194164;
+.header-section {
+    max-width: 900px;
+    margin: auto;
+    padding: 14rem 0;
 }
 
-.banner-conduct{
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),  url('../img/banner_conduct.svg');
-    background-size: cover;
+.header{
+    background: linear-gradient(rgba(0, 0, 0, 0.66), rgba(0, 0, 0, 0.66)), url('../img/conduct.jpg');
     background-repeat: no-repeat;
-    height: 25rem;
-    color: white;
-    padding: 2rem 0;
-    text-align: center;
-    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.paragraph{
+    color: #194164;
 }
 
 .icon-container{
@@ -42,8 +44,12 @@ section{
     color: #d69a38;
 }
 
+.blue-md{
+    color: #0f69b8;
+}
+
 .text-third{
-    color: #376389;
+    color: #256093;
     font-size: 1.5rem;
     font-size: 300;
 }

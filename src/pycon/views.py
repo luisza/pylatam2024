@@ -23,7 +23,7 @@ def scheduled(request, lang='es'):
                 {
                     'title': _('Bienvenida al evento'),
                     'duration': '6:00 pm - 8:00 pm',
-                    'speaker': _('Personal administrativo'),
+                    'speaker': _('Todos los participantes'),
                     'image': 'bienvenida_evento.jpg'
                 },
             ],
@@ -41,6 +41,7 @@ def scheduled(request, lang='es'):
                     'title': _('Keynote de Apertura'),
                     'duration': '9:30 am - 10:15 am',
                     'speaker': 'Lynn Root',
+                    'salon': _('Salón A'),
                     'image': 'Lynn.jpg'
                 },
                 {
@@ -113,12 +114,20 @@ def scheduled(request, lang='es'):
                     'salon': _('Salón B'),
                     'image': 'estadistica_python_decisiones.jpg'
                 },
+                # Cancelled
+                # {
+                #     'title': _('Laberintos del Lenguaje: Borges y las Narrativas Infinitas con LLMs'),
+                #     'duration': '3:40 pm - 4:20 pm',
+                #     'speaker': 'Maris Botero',
+                #     'salon': _('Salón A'),
+                #     'image': 'laberintos_lenguaje_llms.jpg'
+                # },
                 {
-                    'title': _('Laberintos del Lenguaje: Borges y las Narrativas Infinitas con LLMs'),
+                    'title': _('Ambientes virtuales en Python: venv, Poetry, Conda, Docker y más allá'),
                     'duration': '3:40 pm - 4:20 pm',
-                    'speaker': 'Maris Botero',
+                    'speaker': 'David Sol',
                     'salon': _('Salón A'),
-                    'image': 'laberintos_lenguaje_llms.jpg'
+                    'image': 'ambientes_virtuales.jpg'
                 },
                 {
                     'title': _('Micropython First Contact'),
@@ -128,15 +137,17 @@ def scheduled(request, lang='es'):
                     'image': 'micropython_first_contact.jpg'
                 },
                 {
-                    'title': _('Charlas Generales'),
+                    'title': _('Charlas Relámpago'),
                     'duration': '4:35 pm - 5:20 pm',
-                    'speaker': _('Personal administrativo'),
+                    'speaker': _('Charlas generales'),
+                    'salon': _('Salón A'),
                     'image': 'charlas_relampago.jpg'
                 },
                 {
                     'title': _('Keynote de cierre primer día'),
                     'duration': '5:25 pm - 6:10 pm',
                     'speaker': _('Personal administrativo'),
+                    'salon': _('Salón A'),
                     'image': 'keynote_2.jpg'
                 },
             ],
@@ -148,6 +159,7 @@ def scheduled(request, lang='es'):
                     'title': _('Keynote de apertura'),
                     'duration': '9:00 am - 9:45 am',
                     'speaker': 'Abigail Messreyames',
+                    'salon': _('Salón A'),
                     'image': 'Abigail.jpg'
                 },
                 {
@@ -179,12 +191,20 @@ def scheduled(request, lang='es'):
                     'image': 'nuitka_supercharge.png'
                 },
                 {
-                    'title': _('Tests efectivos con pytest, o sobre como escribir código duro de fallar'),
+                    'title': _('IA Multimodal en Educación: Transformando el Aprendizaje con Python'),
                     'duration': '11:30 am - 12:10 pm',
-                    'speaker': 'Diego Alberto Barriga Martínez',
+                    'speaker': 'Carlos Alarcón',
                     'salon': _('Salón A'),
-                    'image': 'tests_pytest.jpg'
+                    'image': 'ia_multimodial_educacion.jpg'
                 },
+                # Cancelled
+                # {
+                #     'title': _('Tests efectivos con pytest, o sobre como escribir código duro de fallar'),
+                #     'duration': '11:30 am - 12:10 pm',
+                #     'speaker': 'Diego Alberto Barriga Martínez',
+                #     'salon': _('Salón A'),
+                #     'image': 'tests_pytest.jpg'
+                # },
                 {
                     'title': _('Todo lo que necesitas saber sobre Unicode, pero nunca se te ocurrió preguntar'),
                     'duration': '11:30 am - 12:10 pm',
@@ -198,13 +218,14 @@ def scheduled(request, lang='es'):
                     'speaker': _('Capitulos PyLadies alrededor de América Latina'),
                     'image': 'pyladies_panel.jpg'
                 },
-                {
-                    'title': _('Una introducción al análisis de datos topológicos'),
-                    'duration': '2:20 pm - 3:00 pm',
-                    'speaker': 'Kaled Corona',
-                    'salon': _('Salón A'),
-                    'image': 'analisis_datos_topologicos.jpg'
-                },
+                # TBD
+                # { 
+                #     'title': _('Una introducción al análisis de datos topológicos'),
+                #     'duration': '2:20 pm - 3:00 pm',
+                #     'speaker': 'Kaled Corona',
+                #     'salon': _('Salón A'),
+                #     'image': 'analisis_datos_topologicos.jpg'
+                # },
                 {
                     'title': _('Python y los esquemas ETL: El Pivote Esencial para la Inteligencia Artificial'),
                     'duration': '2:20 pm - 3:00 pm',
@@ -234,22 +255,32 @@ def scheduled(request, lang='es'):
                     'image': 'startups_kubernetes_django.jpg'
                 },
                 {
-                    'title': _('Sculpting Data for Machine Learning using Python: Generative AI edition'),
+                    'title': _('Revealing the power of multimodal embeddings: bridging the gap between text, images, videos and more'),
                     'duration': '3:50 pm - 4:30 pm',
-                    'speaker': 'Jigyasa Grover',
+                    'speaker': 'Juan Guillermo Gómez Torres',
                     'salon': _('Salón B'),
-                    'image': 'sculpting_data_ml.jpg'
+                    'image': 'multimodal_embeddings.jpg'
                 },
+                # Cancelled
+                # {
+                #     'title': _('Sculpting Data for Machine Learning using Python: Generative AI edition'),
+                #     'duration': '3:50 pm - 4:30 pm',
+                #     'speaker': 'Jigyasa Grover',
+                #     'salon': _('Salón B'),
+                #     'image': 'sculpting_data_ml.jpg'
+                # },
                 {
                     'title': _('Keynote cierre de conferencia'),
                     'duration': '4:45 pm - 5:30 pm',
                     'speaker': 'Ariel Ortiz',
+                    'salon': _('Salón A'),
                     'image': 'keynote_4.jpg'
                 },
                 {
                     'title': _('Cierre de Conferencia'),
                     'duration': '5:30 pm - 5:50 pm',
-                    'speaker': _('Personal administrativo'),
+                    'speaker': _('Equipo organizador'),
+                    'salon': _('Salón A'),
                     'image': 'cierre_conferencia.jpg'
                 },
             ],

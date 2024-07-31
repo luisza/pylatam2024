@@ -435,17 +435,16 @@ section#tickets ul {
 /* Sponsors CSS Begins */
 .sponsors-section{
   display: grid;
-  gap: 1rem;
   margin: 0 auto;
   background-color: rgb(53, 137, 183);
-  padding: 2rem 0;
+  padding: 1rem 0;
 }
 
 .sponsors-section h2{
   text-align: center;
-  color: #103148;
+  color: #193b54;
   font-size: 2rem;
-  margin-top: 1rem;
+  margin-top: 1.5rem;
   font-weight: 500;
 }
 
