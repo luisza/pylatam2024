@@ -3,8 +3,20 @@ h1{
     font-weight: bold;
 }
 
+h1, h2, h4, h5, h6{
+    color: #0F69B8;
+}
+
+section h3{
+    color: #0F69B8;
+}
+
+.paragraph{
+    color: #194164;
+}
+
 .banner-conduct{
-    background-image: url('../img/banner_conduct.png');
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),  url('../img/banner_conduct.svg');
     background-size: cover;
     background-repeat: no-repeat;
     height: 25rem;
@@ -17,7 +29,7 @@ h1{
 .icon-container{
     padding: 1rem;
     background-color: #e5f0fa;
-    color: #376389;
+    color: #256093;
     border-radius: .5rem;
 }
 
