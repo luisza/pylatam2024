@@ -821,7 +821,7 @@ msgstr "Conference Closing"
 
 #: .\pycon\views.py:282
 msgid "Equipo organizador"
-msgstr ""
+msgstr "Organizing team"
 
 #~ msgid "Laberintos del Lenguaje: Borges y las Narrativas Infinitas con LLMs"
 #~ msgstr "Labyrinths of Language: Borges and Infinite Narratives with LLMs"
