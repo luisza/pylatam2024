@@ -626,7 +626,7 @@ msgstr "Welcome to the event"
 
 #: .\pycon\views.py:26
 msgid "Todos los participantes"
-msgstr ""
+msgstr "All participants"
 
 #: .\pycon\views.py:32
 msgid "Viernes 20 de Septiembre"
