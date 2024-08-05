@@ -8,7 +8,7 @@ services:
       - apps
 
     labels:
-      - traefik.http.routers.pylatam.rule=Host(`demo.pylatam.org`)
+      - traefik.http.routers.pylatam.rule=Host(`pylatam.org`) || Host(`www.pylatam.org`) || Host(`demo.pylatam.org`)
       - traefik.http.routers.pylatam.tls=true
       - traefik.http.routers.pylatam.tls.certresolver=le
       - traefik.http.routers.pylatam.entrypoints=websecure
