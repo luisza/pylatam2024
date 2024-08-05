@@ -31,11 +31,11 @@ msgid ""
 msgstr ""
 "PyCon Latam es una conferencia organizada por la comunidad Py Latam. Entre "
 "sus objetivos está el fomentar y mejorar la comunicación, colaboración e "
-"integración entre los desarrolladores de Latinoamérica."
+"integración entre los desarrolladores de Latinoamérica"
 
 #: .\pycon\templates\conduct.html:26
 msgid "Need help?"
-msgstr "Necesitas ayuda?"
+msgstr "¿Necesitas ayuda?"
 
 #: .\pycon\templates\conduct.html:28
 msgid ""
@@ -46,7 +46,7 @@ msgstr ""
 "Comunique cualquier infracción de las normas a conducta@pylatam.org. El "
 "comité se encargará de ello. Nuestro equipo velará por la seguridad durante "
 "la conferencia, y su cooperación contribuirá a que el evento sea un éxito y "
-"resulte agradable."
+"resulte agradable"
 
 #: .\pycon\templates\conduct.html:33
 msgid "Guiding Principles"
@@ -54,15 +54,15 @@ msgstr "Principios fundamentales"
 
 #: .\pycon\templates\conduct.html:37
 msgid "Be nice to everyone"
-msgstr "Se amable con todos"
+msgstr "Sé amable con todos"
 
 #: .\pycon\templates\conduct.html:41
 msgid "Behave professionally"
-msgstr "Comportate profesionalmente"
+msgstr "Compórtate profesionalmente"
 
 #: .\pycon\templates\conduct.html:45
 msgid "Respect differing viewpoints"
-msgstr "Respetar los diferentes puntos de vista"
+msgstr "Respeta los diferentes puntos de vista"
 
 #: .\pycon\templates\conduct.html:50
 msgid "Be mindful of your words"
@@ -70,11 +70,11 @@ msgstr "Sé consciente de tus palabras"
 
 #: .\pycon\templates\conduct.html:54
 msgid "Promote community growth"
-msgstr "Promover el crecimiento de la comunidad"
+msgstr "Promueve el crecimiento de la comunidad"
 
 #: .\pycon\templates\conduct.html:58
 msgid "Show empathy towards others"
-msgstr "Mostrar empatía hacia los demás"
+msgstr "Muestra empatía hacia los demás"
 
 #: .\pycon\templates\conduct.html:63
 msgid "Long version"
@@ -109,10 +109,8 @@ msgstr ""
 "sexista, racista o religioso."
 
 #: .\pycon\templates\conduct.html:66
-#, fuzzy
-#| msgid "Intimidation, stalking, harassment"
 msgid "Intimidation, stalking, harassment not allowed"
-msgstr "Intimidación, acoso, hostigamiento"
+msgstr "Intimidación, acoso y hostigamiento no permitidos"
 
 #: .\pycon\templates\conduct.html:66
 msgid ""
@@ -174,7 +172,7 @@ msgstr ""
 "Después del éxito de las primeras 4 ediciones de esta conferencia, ¡estamos "
 "de regreso! Esta vez tendremos por tercera ocasión  un evento presencial y "
 "con la misma misión, reunir a las comunidades de todos los países de "
-"Latinoamérica"
+"Latinoamérica."
 
 #: .\pycon\templates\home.html:35
 msgid "What is PyCon Latam?"

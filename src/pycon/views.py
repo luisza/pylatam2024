@@ -47,7 +47,7 @@ def scheduled(request, lang='es'):
                 {
                     'title': _('Conviértete en un maestro de la automatización: Aprende a implementar RPA y PYTHON en el sector financiero.'),
                     'duration': '10:30 am - 11:10 am',
-                    'speaker': 'Nadie Ayala',
+                    'speaker': 'Nadia Ayala',
                     'salon': _('Salón A'),
                     'image': 'rpa_python_sector_financiero.jpg'
                 },
@@ -101,11 +101,11 @@ def scheduled(request, lang='es'):
                     'image': 'whisper_pyqt_accion.jpg'
                 },
                 {
-                    'title': _('From Dependency Hell to Environment Heaven'),
+                    'title': _('Transformando Startups con Kubernetes: Gestión de Aplicaciones Django para un Crecimiento Explosivo'),
                     'duration': '2:55 pm - 3:35 pm',
-                    'speaker': 'Ori Ber-ilan',
+                    'speaker': 'Osiel Jacobo Torres',
                     'salon': _('Salón A'),
-                    'image': 'dependency_hell.jpg'
+                    'image': 'startups_kubernetes_django.jpg'
                 },
                 {
                     'title': _('Insights Ocultos: Cómo la Estadística y Python Empoderan Decisiones Estratégicas'),
@@ -114,14 +114,6 @@ def scheduled(request, lang='es'):
                     'salon': _('Salón B'),
                     'image': 'estadistica_python_decisiones.jpg'
                 },
-                # Cancelled
-                # {
-                #     'title': _('Laberintos del Lenguaje: Borges y las Narrativas Infinitas con LLMs'),
-                #     'duration': '3:40 pm - 4:20 pm',
-                #     'speaker': 'Maris Botero',
-                #     'salon': _('Salón A'),
-                #     'image': 'laberintos_lenguaje_llms.jpg'
-                # },
                 {
                     'title': _('Ambientes virtuales en Python: venv, Poetry, Conda, Docker y más allá'),
                     'duration': '3:40 pm - 4:20 pm',
@@ -158,9 +150,9 @@ def scheduled(request, lang='es'):
                 {
                     'title': _('Keynote de apertura'),
                     'duration': '9:00 am - 9:45 am',
-                    'speaker': 'Abigail Messreyames',
+                    'speaker': 'Ariel Ortiz',
                     'salon': _('Salón A'),
-                    'image': 'Abigail.jpg'
+                    'image': 'keynote_apertura.jpg'
                 },
                 {
                     'title': _('Prompt engineering: la llave maestra para aprovechar al máximo la generative IA'),
@@ -191,26 +183,18 @@ def scheduled(request, lang='es'):
                     'image': 'nuitka_supercharge.png'
                 },
                 {
+                    'title': _('Tests efectivos con pytest, o sobre como escribir código duro de fallar'),
+                    'duration': '11:30 am - 12:10 pm',
+                    'speaker': 'Diego Alberto Barriga Martínez',
+                    'salon': _('Salón A'),
+                    'image': 'tests_pytest.jpg'
+                },
+                {
                     'title': _('IA Multimodal en Educación: Transformando el Aprendizaje con Python'),
                     'duration': '11:30 am - 12:10 pm',
                     'speaker': 'Carlos Alarcón',
-                    'salon': _('Salón A'),
-                    'image': 'ia_multimodial_educacion.jpg'
-                },
-                # Cancelled
-                # {
-                #     'title': _('Tests efectivos con pytest, o sobre como escribir código duro de fallar'),
-                #     'duration': '11:30 am - 12:10 pm',
-                #     'speaker': 'Diego Alberto Barriga Martínez',
-                #     'salon': _('Salón A'),
-                #     'image': 'tests_pytest.jpg'
-                # },
-                {
-                    'title': _('Todo lo que necesitas saber sobre Unicode, pero nunca se te ocurrió preguntar'),
-                    'duration': '11:30 am - 12:10 pm',
-                    'speaker': 'Ariel Ortiz',
                     'salon': _('Salón B'),
-                    'image': 'unicode_python.png'
+                    'image': 'ia_multimodial_educacion.jpg'
                 },
                 {
                     'title': _('PyLadies Panel'),
@@ -219,13 +203,6 @@ def scheduled(request, lang='es'):
                     'image': 'pyladies_panel.jpg'
                 },
                 # TBD
-                # { 
-                #     'title': _('Una introducción al análisis de datos topológicos'),
-                #     'duration': '2:20 pm - 3:00 pm',
-                #     'speaker': 'Kaled Corona',
-                #     'salon': _('Salón A'),
-                #     'image': 'analisis_datos_topologicos.jpg'
-                # },
                 {
                     'title': _('Python y los esquemas ETL: El Pivote Esencial para la Inteligencia Artificial'),
                     'duration': '2:20 pm - 3:00 pm',
@@ -234,11 +211,11 @@ def scheduled(request, lang='es'):
                     'image': 'python_etl.jpeg'
                 },
                 {
-                    'title': _("A Journey into MLOps: Kubeflow's Magic Revealed"),
+                    'title': _('Revealing the power of multimodal embeddings: bridging the gap between text, images, videos and more'),
                     'duration': '3:05 pm - 3:45 pm',
-                    'speaker': 'César Leandro Higuita Pérez',
+                    'speaker': 'Juan Guillermo Gómez Torres',
                     'salon': _('Salón A'),
-                    'image': 'mlops_kubeflow.jpg'
+                    'image': 'multimodal_embeddings.jpg'
                 },
                 {
                     'title': _('Del Oro Negro al Oro Digital: La Historia de un Ingeniero Convertido en Líder de Python'),
@@ -247,34 +224,28 @@ def scheduled(request, lang='es'):
                     'salon': _('Salón B'),
                     'image': 'oro_negro_digital.jpg'
                 },
-                {
-                    'title': _('Transformando Startups con Kubernetes: Gestión de Aplicaciones Django para un Crecimiento Explosivo'),
-                    'duration': '3:50 pm - 4:30 pm',
-                    'speaker': 'Osiel Jacobo Torres',
-                    'salon': _('Salón A'),
-                    'image': 'startups_kubernetes_django.jpg'
-                },
-                {
-                    'title': _('Revealing the power of multimodal embeddings: bridging the gap between text, images, videos and more'),
-                    'duration': '3:50 pm - 4:30 pm',
-                    'speaker': 'Juan Guillermo Gómez Torres',
-                    'salon': _('Salón B'),
-                    'image': 'multimodal_embeddings.jpg'
-                },
-                # Cancelled
+                # TBD
                 # {
-                #     'title': _('Sculpting Data for Machine Learning using Python: Generative AI edition'),
+                #     'title': _('title'),
                 #     'duration': '3:50 pm - 4:30 pm',
-                #     'speaker': 'Jigyasa Grover',
+                #     'speaker': 'speaker',
+                #     'salon': _('Salón A'),
+                #     'image': 'x.jpg'
+                # },
+                # TBD
+                # {
+                #     'title': _('title'),
+                #     'duration': '3:50 pm - 4:30 pm',
+                #     'speaker': 'speaker',
                 #     'salon': _('Salón B'),
-                #     'image': 'sculpting_data_ml.jpg'
+                #     'image': 'x.jpg'
                 # },
                 {
                     'title': _('Keynote cierre de conferencia'),
                     'duration': '4:45 pm - 5:30 pm',
-                    'speaker': 'Ariel Ortiz',
+                    'speaker': 'Abigail Messreyames',
                     'salon': _('Salón A'),
-                    'image': 'keynote_4.jpg'
+                    'image': 'Abigail.jpg'
                 },
                 {
                     'title': _('Cierre de Conferencia'),

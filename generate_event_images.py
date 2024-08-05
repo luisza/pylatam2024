@@ -43,6 +43,7 @@ def generate_image(prompt, file_name):
 
 # Lista de eventos
 events = [
+    # { 'prompt': 'Genera una illustracion para esto: keynote de apertura de conferencia', 'file_name': 'keynote_apertura.jpg' },
     # {'prompt': 'Genera una illustracion para esto: Ambientes virtuales en Python: venv, Poetry, Conda, Docker y más allá', 'file_name': 'ambientes_virtuales.jpg'},
     # {'prompt': 'Genera una illustracion para esto: IA Multimodal en Educación: Transformando el Aprendizaje con Python', 'file_name': 'ia_multimodial_educacion.jpg'},
     # {'prompt': 'Genera una illustracion para esto: Multimodal embeddings: bridging the gap between text, images, videos and more', 'file_name': 'multimodal_embeddings.jpg'},
@@ -75,7 +76,6 @@ events = [
     # {'prompt': 'Genera una illustracion para esto: La Historia de un Ingeniero Convertido en Líder de Python', 'file_name': 'oro_negro_digital.jpg'},
     # {'prompt': 'Genera una illustracion para esto: Transformando Startups con Kubernetes: Gestión de Aplicaciones Django para un Crecimiento Explosivo', 'file_name': 'startups_kubernetes_django.jpg'},
     # {'prompt': 'Genera una illustracion para esto: Sculpting Data for Machine Learning using Python: Generative AI edition', 'file_name': 'sculpting_data_ml.jpg'},
-    # {'prompt': 'Genera una illustracion para esto: Keynote 4', 'file_name': 'keynote_4.jpg'},
     # {'prompt': 'Genera una illustracion para esto: Cierre de Conferencia', 'file_name': 'cierre_conferencia.jpg'}
 ]
 
