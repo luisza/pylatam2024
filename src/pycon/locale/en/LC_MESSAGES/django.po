@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-31 08:40-0600\n"
+"POT-Creation-Date: 2024-08-04 14:55-0600\n"
 "PO-Revision-Date: 2024-06-10 19:10-0600\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -636,7 +636,7 @@ msgstr "Friday Sep, 20"
 msgid "Bienvenida"
 msgstr "Welcome event"
 
-#: .\pycon\views.py:37 .\pycon\views.py:149
+#: .\pycon\views.py:37 .\pycon\views.py:141
 msgid "Personal administrativo"
 msgstr "Administrative staff"
 
@@ -646,10 +646,10 @@ msgstr "Openning Keynote"
 
 #: .\pycon\views.py:44 .\pycon\views.py:51 .\pycon\views.py:65
 #: .\pycon\views.py:79 .\pycon\views.py:93 .\pycon\views.py:107
-#: .\pycon\views.py:129 .\pycon\views.py:143 .\pycon\views.py:150
-#: .\pycon\views.py:162 .\pycon\views.py:169 .\pycon\views.py:183
-#: .\pycon\views.py:197 .\pycon\views.py:240 .\pycon\views.py:254
-#: .\pycon\views.py:276 .\pycon\views.py:283
+#: .\pycon\views.py:121 .\pycon\views.py:135 .\pycon\views.py:142
+#: .\pycon\views.py:154 .\pycon\views.py:161 .\pycon\views.py:175
+#: .\pycon\views.py:189 .\pycon\views.py:217 .\pycon\views.py:247
+#: .\pycon\views.py:254
 msgid "Salón A"
 msgstr "Salon A"
 
@@ -666,9 +666,9 @@ msgid "De Bichos y Serpientes: Seguridad en el Ecosistema de Paquetes Python"
 msgstr "Of Bugs and Snakes: Security in the Python Package Ecosystem"
 
 #: .\pycon\views.py:58 .\pycon\views.py:72 .\pycon\views.py:86
-#: .\pycon\views.py:100 .\pycon\views.py:114 .\pycon\views.py:136
-#: .\pycon\views.py:176 .\pycon\views.py:190 .\pycon\views.py:212
-#: .\pycon\views.py:233 .\pycon\views.py:247 .\pycon\views.py:261
+#: .\pycon\views.py:100 .\pycon\views.py:114 .\pycon\views.py:128
+#: .\pycon\views.py:168 .\pycon\views.py:182 .\pycon\views.py:196
+#: .\pycon\views.py:210 .\pycon\views.py:224
 msgid "Salón B"
 msgstr "Salon B"
 
@@ -703,101 +703,6 @@ msgid "Fortaleciendo el acceso a la justicia: Whisper y PyQt en Acción"
 msgstr "Strengthening Access to Justice: Whisper and PyQt in Action"
 
 #: .\pycon\views.py:104
-msgid "From Dependency Hell to Environment Heaven"
-msgstr ""
-
-#: .\pycon\views.py:111
-msgid ""
-"Insights Ocultos: Cómo la Estadística y Python Empoderan Decisiones "
-"Estratégicas"
-msgstr "Hidden Insights: How Statistics and Python Empower Strategic Decisions"
-
-#: .\pycon\views.py:126
-msgid "Ambientes virtuales en Python: venv, Poetry, Conda, Docker y más allá"
-msgstr "Python Virtual Environments: venv, Poetry, Conda, Docker and beyond"
-
-#: .\pycon\views.py:133
-msgid "Micropython First Contact"
-msgstr ""
-
-#: .\pycon\views.py:140
-msgid "Charlas Relámpago"
-msgstr "Lightning talks"
-
-#: .\pycon\views.py:142
-msgid "Charlas generales"
-msgstr "General Talks"
-
-#: .\pycon\views.py:147
-msgid "Keynote de cierre primer día"
-msgstr "Closing Keynote first day"
-
-#: .\pycon\views.py:156
-msgid "Sábado 21 de Septiembre"
-msgstr "Saturday Sep, 21"
-
-#: .\pycon\views.py:159
-msgid "Keynote de apertura"
-msgstr "Openning Keynote"
-
-#: .\pycon\views.py:166
-msgid ""
-"Prompt engineering: la llave maestra para aprovechar al máximo la generative "
-"IA"
-msgstr ""
-"Prompt engineering: the master key to get the most out of generative IA"
-
-#: .\pycon\views.py:173
-msgid "Reputación en Tiempo Real y Análisis de Sentimiento con Python"
-msgstr "Real-Time Reputation and Sentiment Analysis with Python"
-
-#: .\pycon\views.py:180
-msgid ""
-"Revolutionizing CI/CD with Python and Generative AI: Next-Level Automation "
-"in DevOps"
-msgstr ""
-
-#: .\pycon\views.py:187
-msgid "Supercharge Python with Nuitka: Witness a 10-Year Plan Come to Life!"
-msgstr ""
-
-#: .\pycon\views.py:194
-msgid "IA Multimodal en Educación: Transformando el Aprendizaje con Python"
-msgstr "Multimodal AI in Education: Transforming Learning with Python"
-
-#: .\pycon\views.py:209
-msgid ""
-"Todo lo que necesitas saber sobre Unicode, pero nunca se te ocurrió preguntar"
-msgstr ""
-"Everything you need to know about Unicode, but never thought to ask"
-
-#: .\pycon\views.py:216
-msgid "PyLadies Panel"
-msgstr ""
-
-#: .\pycon\views.py:218
-msgid "Capitulos PyLadies alrededor de América Latina"
-msgstr "PyLadies Chapters around Latin America"
-
-#: .\pycon\views.py:230
-msgid ""
-"Python y los esquemas ETL: El Pivote Esencial para la Inteligencia Artificial"
-msgstr ""
-"Python and ETL Schemas: The Essential Pivot to Artificial Intelligence"
-
-#: .\pycon\views.py:237
-msgid "A Journey into MLOps: Kubeflow's Magic Revealed"
-msgstr ""
-
-#: .\pycon\views.py:244
-msgid ""
-"Del Oro Negro al Oro Digital: La Historia de un Ingeniero Convertido en "
-"Líder de Python"
-msgstr ""
-"From Black Gold to Digital Gold: The Story of an Engineer Turned into a "
-"Python Leader"
-
-#: .\pycon\views.py:251
 msgid ""
 "Transformando Startups con Kubernetes: Gestión de Aplicaciones Django para "
 "un Crecimiento Explosivo"
@@ -805,30 +710,115 @@ msgstr ""
 "Transforming Startups with Kubernetes: Django Application Management for "
 "Explosive Growth"
 
-#: .\pycon\views.py:258
+#: .\pycon\views.py:111
+msgid ""
+"Insights Ocultos: Cómo la Estadística y Python Empoderan Decisiones "
+"Estratégicas"
+msgstr "Hidden Insights: How Statistics and Python Empower Strategic Decisions"
+
+#: .\pycon\views.py:118
+msgid "Ambientes virtuales en Python: venv, Poetry, Conda, Docker y más allá"
+msgstr "Python Virtual Environments: venv, Poetry, Conda, Docker and beyond"
+
+#: .\pycon\views.py:125
+msgid "Micropython First Contact"
+msgstr ""
+
+#: .\pycon\views.py:132
+msgid "Charlas Relámpago"
+msgstr "Lightning talks"
+
+#: .\pycon\views.py:134
+msgid "Charlas generales"
+msgstr "General Talks"
+
+#: .\pycon\views.py:139
+msgid "Keynote de cierre primer día"
+msgstr "Closing Keynote first day"
+
+#: .\pycon\views.py:148
+msgid "Sábado 21 de Septiembre"
+msgstr "Saturday Sep, 21"
+
+#: .\pycon\views.py:151
+msgid "Keynote de apertura"
+msgstr "Openning Keynote"
+
+#: .\pycon\views.py:158
+msgid ""
+"Prompt engineering: la llave maestra para aprovechar al máximo la generative "
+"IA"
+msgstr ""
+"Prompt engineering: the master key to get the most out of generative IA"
+
+#: .\pycon\views.py:165
+msgid "Reputación en Tiempo Real y Análisis de Sentimiento con Python"
+msgstr "Real-Time Reputation and Sentiment Analysis with Python"
+
+#: .\pycon\views.py:172
+msgid ""
+"Revolutionizing CI/CD with Python and Generative AI: Next-Level Automation "
+"in DevOps"
+msgstr ""
+
+#: .\pycon\views.py:179
+msgid "Supercharge Python with Nuitka: Witness a 10-Year Plan Come to Life!"
+msgstr ""
+
+#: .\pycon\views.py:186
+msgid "Tests efectivos con pytest, o sobre como escribir código duro de fallar"
+msgstr "Effective testing with pytest, or how to write hard-to-fail code"
+
+#: .\pycon\views.py:193
+msgid "IA Multimodal en Educación: Transformando el Aprendizaje con Python"
+msgstr "Multimodal AI in Education: Transforming Learning with Python"
+
+#: .\pycon\views.py:200
+msgid "PyLadies Panel"
+msgstr ""
+
+#: .\pycon\views.py:202
+msgid "Capitulos PyLadies alrededor de América Latina"
+msgstr "PyLadies Chapters around Latin America"
+
+#: .\pycon\views.py:207
+msgid ""
+"Python y los esquemas ETL: El Pivote Esencial para la Inteligencia Artificial"
+msgstr "Python and ETL Schemas: The Essential Pivot to Artificial Intelligence"
+
+#: .\pycon\views.py:214
 msgid ""
 "Revealing the power of multimodal embeddings: bridging the gap between text, "
 "images, videos and more"
 msgstr ""
 
-#: .\pycon\views.py:273
+#: .\pycon\views.py:221
+msgid ""
+"Del Oro Negro al Oro Digital: La Historia de un Ingeniero Convertido en "
+"Líder de Python"
+msgstr ""
+"From Black Gold to Digital Gold: The Story of an Engineer Turned into a "
+"Python Leader"
+
+#: .\pycon\views.py:244
 msgid "Keynote cierre de conferencia"
 msgstr "Closing Keynote"
 
-#: .\pycon\views.py:280
+#: .\pycon\views.py:251
 msgid "Cierre de Conferencia"
 msgstr "Conference Closing"
 
-#: .\pycon\views.py:282
+#: .\pycon\views.py:253
 msgid "Equipo organizador"
 msgstr "Organizing team"
 
+#~ msgid ""
+#~ "Todo lo que necesitas saber sobre Unicode, pero nunca se te ocurrió "
+#~ "preguntar"
+#~ msgstr "Everything you need to know about Unicode, but never thought to ask"
+
 #~ msgid "Laberintos del Lenguaje: Borges y las Narrativas Infinitas con LLMs"
 #~ msgstr "Labyrinths of Language: Borges and Infinite Narratives with LLMs"
-
-#~ msgid ""
-#~ "Tests efectivos con pytest, o sobre como escribir código duro de fallar"
-#~ msgstr "Effective testing with pytest, or how to write hard-to-fail code"
 
 #~ msgid "Una introducción al análisis de datos topológicos"
 #~ msgstr "An introduction to topological data analysis"
