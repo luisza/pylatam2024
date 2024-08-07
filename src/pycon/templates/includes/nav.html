@@ -51,6 +51,16 @@
                     <input type="checkbox" data-on="EN" data-off="ES" data-toggle="toggle" style="position: relative; z-index: 0;" {% if LANGUAGE_CODE == 'en' %}checked{% endif %}>
                     <input id="lang" type="checkbox" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; opacity: 0; z-index: 1;" {% if LANGUAGE_CODE == 'en' %}checked{% endif %}>
                 </li>
+
+                <!-- Paypal button -->
+                <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                    <input type="hidden" name="cmd" value="_s-xclick">
+                    <input type="hidden" name="hosted_button_id" value="NEVE32AEQEGPU">
+                    <button type="submit" class="btn-paypal my-3 ms-0 my-lg-0 ms-lg-3">
+                        <span>{% trans "Donate" %}</span>
+                        <span class="paypal-span">Pay<span id="pal">Pal</span></span>
+                    </button>
+                </form>
             </ul>
         </div>
     </nav>
