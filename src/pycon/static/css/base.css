@@ -68,6 +68,11 @@ ul{
   }
 }
 
+/* Nav */
+.nav-bg{
+  background: #193B54;
+}
+
 .nav-link{
   box-sizing: border-box;
   color:white !important;
@@ -193,9 +198,44 @@ section {
   margin-right: auto;
 }
 
-.nav-bg{
-  background: #193B54;
+/* Paypal Button */
+.btn-paypal {
+  background-color: #f8bf52;
+  color: #2d465c;
+  padding: .25rem 1rem;
+  border-radius: 2rem;
+  border: none;
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  gap: .5rem;
+  font-weight: 700;
+  font-size: 15px;
+  transition: 0.15s ease;
+
 }
+
+.btn-paypal:hover {
+  background-color: #d69a38;
+}
+
+.btn-paypal:active {
+  outline: none;
+  background-color: #f9e08a;
+}
+
+.paypal-span{
+  display: inline-block;
+  font-style: italic;
+  font-size: 20px;
+  font-weight: 700;
+  color: #236f97;
+}
+
+#pal{
+  color: #3691bd;
+}
+/* Paypal button ends */
 
 /* Footer CSS Begins */
 footer{
