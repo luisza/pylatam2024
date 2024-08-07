@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-31 11:01-0600\n"
+"POT-Creation-Date: 2024-08-07 10:44-0600\n"
 "PO-Revision-Date: 2024-06-10 19:19-0600\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -278,15 +278,15 @@ msgstr "Oro"
 msgid "Silver"
 msgstr "Plata"
 
-#: .\pycon\templates\home.html:116
+#: .\pycon\templates\home.html:115
 msgid "More information on how to sponsor"
 msgstr "Más información de cómo patrocinar"
 
-#: .\pycon\templates\home.html:136
+#: .\pycon\templates\home.html:135
 msgid "Call for papers"
 msgstr "Llamado a expositores"
 
-#: .\pycon\templates\home.html:139
+#: .\pycon\templates\home.html:138
 msgid ""
 "Would you like to become an exhibitor at the event? Showcase your knowledge "
 "in any area where Python is used."
@@ -294,47 +294,47 @@ msgstr ""
 "Te gustaría convertirte en un expositor en el evento, muéstranos tu "
 "conocimiento en cualquier área donde se utilice Python."
 
-#: .\pycon\templates\home.html:144
+#: .\pycon\templates\home.html:143
 msgid "Data Science"
 msgstr "Ciencia de datos"
 
-#: .\pycon\templates\home.html:145
+#: .\pycon\templates\home.html:144
 msgid "Machine Learning"
 msgstr "Aprendizaje de máquinas"
 
-#: .\pycon\templates\home.html:146
+#: .\pycon\templates\home.html:145
 msgid "Web developmnet"
 msgstr "Desarrollo web"
 
-#: .\pycon\templates\home.html:147
+#: .\pycon\templates\home.html:146
 msgid "Artificial Intelligence"
 msgstr "Inteligencia Artificial"
 
-#: .\pycon\templates\home.html:151
+#: .\pycon\templates\home.html:150
 msgid "Cybersecurity"
 msgstr "Cyberseguridad"
 
-#: .\pycon\templates\home.html:152
+#: .\pycon\templates\home.html:151
 msgid "Automation"
 msgstr "Automatización"
 
-#: .\pycon\templates\home.html:153
+#: .\pycon\templates\home.html:152
 msgid "IoT"
 msgstr "IoT"
 
-#: .\pycon\templates\home.html:154
+#: .\pycon\templates\home.html:153
 msgid "DevOps"
 msgstr "DevOps"
 
-#: .\pycon\templates\home.html:160
+#: .\pycon\templates\home.html:159
 msgid "and more"
 msgstr "y mucho más"
 
-#: .\pycon\templates\home.html:179
+#: .\pycon\templates\home.html:178
 msgid "Pricing"
 msgstr "Opciones de Precios"
 
-#: .\pycon\templates\home.html:181
+#: .\pycon\templates\home.html:180
 msgid ""
 "The price is per night, per person depending on occupancy.\n"
 "Minimum booking of 3 nights.\n"
@@ -355,43 +355,43 @@ msgstr ""
 "Resort Fee: $250.00 pesos por habitación por noche.\n"
 "Menores de edad deberán reservar acompañados de un adulto.\n"
 
-#: .\pycon\templates\home.html:191
+#: .\pycon\templates\home.html:190
 msgid "Contact us by WhatsApp"
 msgstr "Contactar por WhatsApp"
 
-#: .\pycon\templates\home.html:207
+#: .\pycon\templates\home.html:206
 msgid "All-inclusive Packages"
 msgstr "Paquetes todo incluido"
 
-#: .\pycon\templates\home.html:213
+#: .\pycon\templates\home.html:212
 msgid "Single room"
 msgstr "Habitación simple"
 
-#: .\pycon\templates\home.html:218
+#: .\pycon\templates\home.html:217
 msgid "Double room"
 msgstr "Habitación doble"
 
-#: .\pycon\templates\home.html:223
+#: .\pycon\templates\home.html:222
 msgid "Triple room"
 msgstr "Habitación triple"
 
-#: .\pycon\templates\home.html:228
+#: .\pycon\templates\home.html:227
 msgid "Quadruple room"
 msgstr "Habitación cuadruple"
 
-#: .\pycon\templates\home.html:232
+#: .\pycon\templates\home.html:231
 msgid "Youngs (13-17 yrs)"
 msgstr "Jóvenes (13-17 años)"
 
-#: .\pycon\templates\home.html:236
+#: .\pycon\templates\home.html:235
 msgid "Children (6- 12 yrs)"
 msgstr "Niños (6- 12 años)"
 
-#: .\pycon\templates\home.html:241
+#: .\pycon\templates\home.html:240
 msgid "Children (0- 5 yrs) without charges"
 msgstr "Niños (0- 5 años) sin cargo"
 
-#: .\pycon\templates\home.html:244
+#: .\pycon\templates\home.html:243
 msgid "Prices fluctuate based on exchange rate"
 msgstr "Precios oscilan según tipo de cambio"
 
@@ -438,6 +438,10 @@ msgstr "Boletos"
 #: .\pycon\templates\includes\nav.html:37
 msgid "About"
 msgstr "Acerca de"
+
+#: .\pycon\templates\includes\nav.html:60
+msgid "Donate"
+msgstr "Donar"
 
 #: .\pycon\templates\includes\sponsors.html:4
 msgid "Know our sponsors"
@@ -669,7 +673,7 @@ msgstr "Viernes 20 de Septiembre"
 msgid "Bienvenida"
 msgstr "Bienvenida al evento"
 
-#: .\pycon\views.py:37 .\pycon\views.py:149
+#: .\pycon\views.py:37 .\pycon\views.py:141
 msgid "Personal administrativo"
 msgstr "Personal administrativo"
 
@@ -681,10 +685,10 @@ msgstr "Ponentes Principales"
 
 #: .\pycon\views.py:44 .\pycon\views.py:51 .\pycon\views.py:65
 #: .\pycon\views.py:79 .\pycon\views.py:93 .\pycon\views.py:107
-#: .\pycon\views.py:129 .\pycon\views.py:143 .\pycon\views.py:150
-#: .\pycon\views.py:162 .\pycon\views.py:169 .\pycon\views.py:183
-#: .\pycon\views.py:197 .\pycon\views.py:240 .\pycon\views.py:254
-#: .\pycon\views.py:276 .\pycon\views.py:283
+#: .\pycon\views.py:121 .\pycon\views.py:135 .\pycon\views.py:142
+#: .\pycon\views.py:154 .\pycon\views.py:161 .\pycon\views.py:175
+#: .\pycon\views.py:189 .\pycon\views.py:217 .\pycon\views.py:247
+#: .\pycon\views.py:254
 #, fuzzy
 #| msgid "Salon A"
 msgid "Salón A"
@@ -703,9 +707,9 @@ msgid "De Bichos y Serpientes: Seguridad en el Ecosistema de Paquetes Python"
 msgstr "De Bichos y Serpientes: Seguridad en el Ecosistema de Paquetes Python"
 
 #: .\pycon\views.py:58 .\pycon\views.py:72 .\pycon\views.py:86
-#: .\pycon\views.py:100 .\pycon\views.py:114 .\pycon\views.py:136
-#: .\pycon\views.py:176 .\pycon\views.py:190 .\pycon\views.py:212
-#: .\pycon\views.py:233 .\pycon\views.py:247 .\pycon\views.py:261
+#: .\pycon\views.py:100 .\pycon\views.py:114 .\pycon\views.py:128
+#: .\pycon\views.py:168 .\pycon\views.py:182 .\pycon\views.py:196
+#: .\pycon\views.py:210 .\pycon\views.py:224
 #, fuzzy
 #| msgid "Salon B"
 msgid "Salón B"
@@ -742,8 +746,12 @@ msgid "Fortaleciendo el acceso a la justicia: Whisper y PyQt en Acción"
 msgstr "Fortaleciendo el acceso a la justicia: Whisper y PyQt en Acción"
 
 #: .\pycon\views.py:104
-msgid "From Dependency Hell to Environment Heaven"
-msgstr "Del Infierno de Dependencias al Paraíso del Entorno"
+msgid ""
+"Transformando Startups con Kubernetes: Gestión de Aplicaciones Django para "
+"un Crecimiento Explosivo"
+msgstr ""
+"Transformando Startups con Kubernetes: Gestión de Aplicaciones Django para "
+"un Crecimiento Explosivo"
 
 #: .\pycon\views.py:111
 msgid ""
@@ -753,37 +761,37 @@ msgstr ""
 "Insights Ocultos: Cómo la Estadística y Python Empoderan Decisiones "
 "Estratégicas"
 
-#: .\pycon\views.py:126
+#: .\pycon\views.py:118
 msgid "Ambientes virtuales en Python: venv, Poetry, Conda, Docker y más allá"
 msgstr ""
 
-#: .\pycon\views.py:133
+#: .\pycon\views.py:125
 msgid "Micropython First Contact"
 msgstr "Primer Contacto con Micropython"
 
-#: .\pycon\views.py:140
+#: .\pycon\views.py:132
 msgid "Charlas Relámpago"
 msgstr "Charlas Relámpago"
 
-#: .\pycon\views.py:142
+#: .\pycon\views.py:134
 msgid "Charlas generales"
 msgstr ""
 
-#: .\pycon\views.py:147
+#: .\pycon\views.py:139
 msgid "Keynote de cierre primer día"
 msgstr ""
 
-#: .\pycon\views.py:156
+#: .\pycon\views.py:148
 msgid "Sábado 21 de Septiembre"
 msgstr "Sábado 21 de Septiembre"
 
-#: .\pycon\views.py:159
+#: .\pycon\views.py:151
 #, fuzzy
 #| msgid "Keynote Speakers"
 msgid "Keynote de apertura"
 msgstr "Ponentes Principales"
 
-#: .\pycon\views.py:166
+#: .\pycon\views.py:158
 msgid ""
 "Prompt engineering: la llave maestra para aprovechar al máximo la generative "
 "IA"
@@ -791,11 +799,11 @@ msgstr ""
 "Engineering de Prompts: La llave maestra para aprovechar al máximo la IA "
 "Generativa"
 
-#: .\pycon\views.py:173
+#: .\pycon\views.py:165
 msgid "Reputación en Tiempo Real y Análisis de Sentimiento con Python"
 msgstr "Reputación en Tiempo Real y Análisis de Sentimiento con Python"
 
-#: .\pycon\views.py:180
+#: .\pycon\views.py:172
 msgid ""
 "Revolutionizing CI/CD with Python and Generative AI: Next-Level Automation "
 "in DevOps"
@@ -803,12 +811,16 @@ msgstr ""
 "Revolucionando CI/CD con Python e IA Generativa: Automatización de Próximo "
 "Nivel en DevOps"
 
-#: .\pycon\views.py:187
+#: .\pycon\views.py:179
 msgid "Supercharge Python with Nuitka: Witness a 10-Year Plan Come to Life!"
 msgstr ""
 "Potencia Python con Nuitka: Sé testigo de cómo cobra vida un plan de 10 años."
 
-#: .\pycon\views.py:194
+#: .\pycon\views.py:186
+msgid "Tests efectivos con pytest, o sobre como escribir código duro de fallar"
+msgstr "Tests Efectivos con Pytest, o Cómo Escribir Código Difícil de Fallar"
+
+#: .\pycon\views.py:193
 #, fuzzy
 #| msgid ""
 #| "De pixeles a predicciones: Transformando la experiencia de videos con "
@@ -817,47 +829,21 @@ msgid "IA Multimodal en Educación: Transformando el Aprendizaje con Python"
 msgstr ""
 "De píxeles a predicciones: Transformando la experiencia de videos con Python."
 
-#: .\pycon\views.py:209
-msgid ""
-"Todo lo que necesitas saber sobre Unicode, pero nunca se te ocurrió preguntar"
-msgstr ""
-"Todo lo que necesitas saber sobre Unicode, pero nunca se te ocurrió preguntar"
-
-#: .\pycon\views.py:216
+#: .\pycon\views.py:200
 msgid "PyLadies Panel"
 msgstr "Panel de PyLadies"
 
-#: .\pycon\views.py:218
+#: .\pycon\views.py:202
 msgid "Capitulos PyLadies alrededor de América Latina"
 msgstr "Capítulos PyLadies alrededor de América Latina"
 
-#: .\pycon\views.py:230
+#: .\pycon\views.py:207
 msgid ""
 "Python y los esquemas ETL: El Pivote Esencial para la Inteligencia Artificial"
 msgstr ""
 "Python y los Esquemas ETL: El Pivote Esencial para la Inteligencia Artificial"
 
-#: .\pycon\views.py:237
-msgid "A Journey into MLOps: Kubeflow's Magic Revealed"
-msgstr "Un Viaje a MLOps: La Magia de Kubeflow al Descubierto"
-
-#: .\pycon\views.py:244
-msgid ""
-"Del Oro Negro al Oro Digital: La Historia de un Ingeniero Convertido en "
-"Líder de Python"
-msgstr ""
-"Del Oro Negro al Oro Digital: La Historia de un Ingeniero Convertido en "
-"Líder de Python"
-
-#: .\pycon\views.py:251
-msgid ""
-"Transformando Startups con Kubernetes: Gestión de Aplicaciones Django para "
-"un Crecimiento Explosivo"
-msgstr ""
-"Transformando Startups con Kubernetes: Gestión de Aplicaciones Django para "
-"un Crecimiento Explosivo"
-
-#: .\pycon\views.py:258
+#: .\pycon\views.py:214
 msgid ""
 "Revealing the power of multimodal embeddings: bridging the gap between text, "
 "images, videos and more"
@@ -865,27 +851,43 @@ msgstr ""
 "El poder de las incrustaciones multimodales: un puente entre texto, "
 "imágenes, vídeos y más"
 
-#: .\pycon\views.py:273
+#: .\pycon\views.py:221
+msgid ""
+"Del Oro Negro al Oro Digital: La Historia de un Ingeniero Convertido en "
+"Líder de Python"
+msgstr ""
+"Del Oro Negro al Oro Digital: La Historia de un Ingeniero Convertido en "
+"Líder de Python"
+
+#: .\pycon\views.py:244
 #, fuzzy
 #| msgid "Cierre de Conferencia"
 msgid "Keynote cierre de conferencia"
 msgstr "Cierre de la Conferencia"
 
-#: .\pycon\views.py:280
+#: .\pycon\views.py:251
 msgid "Cierre de Conferencia"
 msgstr "Cierre de la Conferencia"
 
-#: .\pycon\views.py:282
+#: .\pycon\views.py:253
 msgid "Equipo organizador"
 msgstr ""
 
-#~ msgid "Laberintos del Lenguaje: Borges y las Narrativas Infinitas con LLMs"
-#~ msgstr "Laberintos del Lenguaje: Borges y las Narrativas Infinitas con LLMs"
+#~ msgid "From Dependency Hell to Environment Heaven"
+#~ msgstr "Del Infierno de Dependencias al Paraíso del Entorno"
 
 #~ msgid ""
-#~ "Tests efectivos con pytest, o sobre como escribir código duro de fallar"
+#~ "Todo lo que necesitas saber sobre Unicode, pero nunca se te ocurrió "
+#~ "preguntar"
 #~ msgstr ""
-#~ "Tests Efectivos con Pytest, o Cómo Escribir Código Difícil de Fallar"
+#~ "Todo lo que necesitas saber sobre Unicode, pero nunca se te ocurrió "
+#~ "preguntar"
+
+#~ msgid "A Journey into MLOps: Kubeflow's Magic Revealed"
+#~ msgstr "Un Viaje a MLOps: La Magia de Kubeflow al Descubierto"
+
+#~ msgid "Laberintos del Lenguaje: Borges y las Narrativas Infinitas con LLMs"
+#~ msgstr "Laberintos del Lenguaje: Borges y las Narrativas Infinitas con LLMs"
 
 #~ msgid "Una introducción al análisis de datos topológicos"
 #~ msgstr "Una Introducción al Análisis de Datos Topológicos"
