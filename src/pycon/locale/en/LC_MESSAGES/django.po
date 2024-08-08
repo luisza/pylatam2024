@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-04 14:55-0600\n"
+"POT-Creation-Date: 2024-08-08 15:57-0600\n"
 "PO-Revision-Date: 2024-06-10 19:10-0600\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -246,15 +246,15 @@ msgstr "Gold"
 msgid "Silver"
 msgstr ""
 
-#: .\pycon\templates\home.html:116
+#: .\pycon\templates\home.html:115
 msgid "More information on how to sponsor"
 msgstr "More information on how to sponsor"
 
-#: .\pycon\templates\home.html:136
+#: .\pycon\templates\home.html:135
 msgid "Call for papers"
 msgstr "Call for papers"
 
-#: .\pycon\templates\home.html:139
+#: .\pycon\templates\home.html:138
 msgid ""
 "Would you like to become an exhibitor at the event? Showcase your knowledge "
 "in any area where Python is used."
@@ -262,47 +262,47 @@ msgstr ""
 "Would you like to become an exhibitor at the event? Showcase your knowledge "
 "in any area where Python is used."
 
-#: .\pycon\templates\home.html:144
+#: .\pycon\templates\home.html:143
 msgid "Data Science"
 msgstr "Data Science"
 
-#: .\pycon\templates\home.html:145
+#: .\pycon\templates\home.html:144
 msgid "Machine Learning"
 msgstr "Machine Learning"
 
-#: .\pycon\templates\home.html:146
+#: .\pycon\templates\home.html:145
 msgid "Web developmnet"
 msgstr "Web developmnet"
 
-#: .\pycon\templates\home.html:147
+#: .\pycon\templates\home.html:146
 msgid "Artificial Intelligence"
 msgstr "Artificial Intelligence"
 
-#: .\pycon\templates\home.html:151
+#: .\pycon\templates\home.html:150
 msgid "Cybersecurity"
 msgstr "Cybersecurity"
 
-#: .\pycon\templates\home.html:152
+#: .\pycon\templates\home.html:151
 msgid "Automation"
 msgstr "Automation"
 
-#: .\pycon\templates\home.html:153
+#: .\pycon\templates\home.html:152
 msgid "IoT"
 msgstr "IoT"
 
-#: .\pycon\templates\home.html:154
+#: .\pycon\templates\home.html:153
 msgid "DevOps"
 msgstr "DevOps"
 
-#: .\pycon\templates\home.html:160
+#: .\pycon\templates\home.html:159
 msgid "and more"
 msgstr "and more"
 
-#: .\pycon\templates\home.html:179
+#: .\pycon\templates\home.html:178
 msgid "Pricing"
 msgstr "Pricing"
 
-#: .\pycon\templates\home.html:181
+#: .\pycon\templates\home.html:180
 msgid ""
 "The price is per night, per person depending on occupancy.\n"
 "Minimum booking of 3 nights.\n"
@@ -324,43 +324,43 @@ msgstr ""
 "Resort Fee: $250.00 pesos per room per night.\n"
 "Minors must book accompanied by an adult.\n"
 
-#: .\pycon\templates\home.html:191
+#: .\pycon\templates\home.html:190
 msgid "Contact us by WhatsApp"
 msgstr "Contact us by WhatsApp"
 
-#: .\pycon\templates\home.html:207
+#: .\pycon\templates\home.html:206
 msgid "All-inclusive Packages"
 msgstr "All-inclusive Packages"
 
-#: .\pycon\templates\home.html:213
+#: .\pycon\templates\home.html:212
 msgid "Single room"
 msgstr "Single room"
 
-#: .\pycon\templates\home.html:218
+#: .\pycon\templates\home.html:217
 msgid "Double room"
 msgstr "Double room"
 
-#: .\pycon\templates\home.html:223
+#: .\pycon\templates\home.html:222
 msgid "Triple room"
 msgstr "Triple room"
 
-#: .\pycon\templates\home.html:228
+#: .\pycon\templates\home.html:227
 msgid "Quadruple room"
 msgstr "Quadruple room"
 
-#: .\pycon\templates\home.html:232
+#: .\pycon\templates\home.html:231
 msgid "Youngs (13-17 yrs)"
 msgstr "Youngs (13-17 yrs)"
 
-#: .\pycon\templates\home.html:236
+#: .\pycon\templates\home.html:235
 msgid "Children (6- 12 yrs)"
 msgstr "Children (6- 12 yrs)"
 
-#: .\pycon\templates\home.html:241
+#: .\pycon\templates\home.html:240
 msgid "Children (0- 5 yrs) without charges"
 msgstr "Children (0- 5 yrs) without charges"
 
-#: .\pycon\templates\home.html:244
+#: .\pycon\templates\home.html:243
 msgid "Prices fluctuate based on exchange rate"
 msgstr "Prices fluctuate based on exchange rate"
 
@@ -393,7 +393,7 @@ msgid "Home"
 msgstr ""
 
 #: .\pycon\templates\includes\nav.html:17
-#: .\pycon\templates\includes\nav.html:27 .\pycon\templates\scheduled.html:12
+#: .\pycon\templates\includes\nav.html:27 .\pycon\templates\scheduled.html:13
 msgid "Scheduled"
 msgstr ""
 
@@ -406,13 +406,17 @@ msgstr ""
 msgid "About"
 msgstr ""
 
+#: .\pycon\templates\includes\nav.html:60
+msgid "Donate"
+msgstr ""
+
 #: .\pycon\templates\includes\sponsors.html:4
 #, fuzzy
 #| msgid "Become a sponsor"
 msgid "Know our sponsors"
 msgstr "Become a sponsor"
 
-#: .\pycon\templates\scheduled.html:16
+#: .\pycon\templates\scheduled.html:18
 msgid "Day"
 msgstr ""
 
@@ -616,44 +620,397 @@ msgid ""
 "unforgettable experience at PyCon Latam 2024!"
 msgstr ""
 
-#: .\pycon\views.py:21
-msgid "Jueves 19 de Septiembre"
-msgstr "Thursday Sep, 19"
-
-#: .\pycon\views.py:24
-msgid "Bienvenida al evento"
-msgstr "Welcome to the event"
-
-#: .\pycon\views.py:26
+#: .\pycon\views.py:22
 msgid "Todos los participantes"
 msgstr "All participants"
 
-#: .\pycon\views.py:32
-msgid "Viernes 20 de Septiembre"
-msgstr "Friday Sep, 20"
-
-#: .\pycon\views.py:35
-msgid "Bienvenida"
-msgstr "Welcome event"
-
-#: .\pycon\views.py:37 .\pycon\views.py:141
+#: .\pycon\views.py:25 .\pycon\views.py:106
 msgid "Personal administrativo"
 msgstr "Administrative staff"
 
+#: .\pycon\views.py:29
+msgid ""
+"Lynn Root is a Staff Engineer at Spotify and an adjunct professor at "
+"Columbia University's Graduate School of Engineering. She is a seasoned "
+"speaker on building and maintaining distributed systems, and is the tech "
+"lead for governance compliance for Spotify's ML/AI platform. Lynn is a "
+"global leader of diversity in the Python community, the Chair of the "
+"PyLadies Global Council, and a PSF fellow and the former Vice Chair of the "
+"PSF's Board of Directors. When her hands are not on a keyboard, they are "
+"usually holding a bass guitar."
+msgstr ""
+
+#: .\pycon\views.py:35
+msgid ""
+"En un mundo donde la tecnología avanza a pasos agigantados, a Nadia Ayala "
+"Hernandez le apasiona descubrir cómo esta puede ser utilizada para mejorar "
+"la vida de las personas. Con más de tres años de experiencia en el ámbito "
+"del desarrollo de software, incluyendo el área de robots de software, se ha "
+"consolidado como una experta en la automatización de procesos. Su mayor "
+"satisfacción es presenciar el impacto positivo que los robots de software "
+"han tenido en las personas que los utilizan. Ha visto cómo estas "
+"herramientas han liberado tiempo, reducido el estrés y mejorado la calidad "
+"de vida de sus clientes."
+msgstr ""
+"In a world where technology is advancing by leaps and bounds, Nadia Ayala "
+"Hernandez is passionate about discovering how it can be used to improve "
+"people's lives. With more than three years of experience in the field "
+"of software development, including the area of software robots, she has "
+"established herself as an expert in process automation. Her greatest "
+"satisfaction is witnessing the positive impact that software robots "
+"have had on the people who use them. She has seen how these "
+"tools have freed up time, reduced stress and improved the quality "
+"of life for her clients."
+
 #: .\pycon\views.py:41
+msgid ""
+"Oscar, nacido en Nicaragua y radicado en Colombia, es un Ingeniero de "
+"Software que se especializa en la construcción de aplicaciones de alto "
+"rendimiento utilizando Python, Go y Rust. Con experiencia en ciberdefensa, "
+"datos abiertos, agricultura e inteligencia artificial, aporta perspectivas "
+"diversas de la industria a su código. Cuando él no está detrás de una sesión "
+"de tmux, Oscar empodera a otros desarrolladores a través de mentorías y "
+"encuentros, fomentando un ecosistema tecnológico vibrante e inclusivo en "
+"Nicaragua y más allá."
+msgstr ""
+"Oscar, born in Nicaragua and based in Colombia, is a Software "
+"Engineer who specializes in building high performance "
+"applications using Python, Go and Rust. With experience in cyber defense, "
+"open data, agriculture and artificial intelligence, he brings diverse "
+"industry perspectives to his code. When he's not behind a tmux "
+"session, Oscar empowers other developers through mentorships and "
+"meetups, fostering a vibrant and inclusive tech "
+"ecosystem in Nicaragua and beyond."
+
+#: .\pycon\views.py:47
+msgid ""
+"Gerardo Vilcamiza es Ingeniero Mecatrónico por la Universidad Peruana de "
+"Ciencias Aplicadas (UPC), donde se desempeña como investigador en el "
+"fascinante mundo de los satélites y la Visión Computacional. Actualmente, "
+"está finalizando una Maestría en Inteligencia Artificial en la Universidad "
+"de Buenos Aires, ampliando sus horizontes en esta revolucionaria área. "
+"Durante los últimos 4 años, ha combinado su pasión por enseñar y su "
+"experiencia en el campo tecnológico como docente de programación en Python, "
+"enfocado en Machine Learning, Procesamiento Digital de Señales y Robótica en "
+"institutos reconocidos de Perú. Además, en los últimos 3 años ha trabajado "
+"como Data Scientist y AI Engineer en una empresa multinacional, roles que le "
+"han permitido diseñar e implementar soluciones innovadoras en la industria. "
+"Su compromiso con la divulgación tecnológica lo ha llevado a compartir sus "
+"experiencias en diversos eventos académicos y profesionales, incluyendo "
+"charlas en congresos de IEEE en Perú, México y Colombia, ponencias en "
+"eventos empresariales para la industria tecnológica y participaciones "
+"destacadas como speaker en la comunidad de Python, en los Python Meetups "
+"Perú, PyDay Perú 2023 y Pycon Colombia 2024."
+msgstr ""
+"Gerardo Vilcamiza is a Mechatronics Engineer from the Universidad Peruana de "
+"Ciencias Aplicadas (UPC), where he works as a researcher in the "
+"fascinating world of satellites and Computer Vision. Currently, "
+"he is finishing a Master in Artificial Intelligence at the University "
+"of Buenos Aires, broadening his horizons in this revolutionary area. "
+"During the last 4 years, he has combined his passion for teaching and his "
+"experience in the technological field as a teacher of Python programming, "
+"focused on Machine Learning, Digital Signal Processing and Robotics in "
+"recognized institutes in Peru. In addition, in the last 3 years he has worked "
+"as Data Scientist and AI Engineer in a multinational company, roles that have "
+"allowed him to design and implement innovative solutions in the industry. "
+"His commitment to technology outreach has led him to share his "
+"experiences in various academic and professional events, including "
+"talks at IEEE congresses in Peru, Mexico and Colombia, presentations at "
+"business events for the technology industry and outstanding participations "
+"as a speaker in the Python community, at the Python Meetups "
+"Peru, PyDay Peru 2023 and Pycon Colombia 2024."
+
+#: .\pycon\views.py:53
+msgid ""
+"Fernanda Ochoa es Directora de Producto y Tecnología en Dalia Empower. "
+"Trabajó como Sherpa Digital de Data Science y Cloud Computing con "
+"Innovacción Virtual en Microsoft, así como Program Manager de Asistentes "
+"Inteligentes en Hackademy. Fernanda tiene una pasión por la producción de "
+"eventos, productora y host de 2 temporadas de LatinXperts un show para "
+"GitHub Education en Twitch, donde obtuvo los primeros lugares en los shows "
+"más vistos de Twitch. Tiene una amplia experiencia en diferentes industrias "
+"a nivel internacional.\n"
+" Fernanda Ochoa es conocida por su visión e innovación que ha reflejado en "
+"diversos proyectos que ha liderado. Está comprometida con la construcción de "
+"comunidades a través de la participación y la capacitación significativa que "
+"ayudan a los estudiantes a aprender, crecer y capacitar a otros en las "
+"tecnologías de nube. Es una coach y mentora enérgica y centrada en la "
+"cultura que proporciona una orientación clara a sus estudiantes."
+msgstr ""
+
+#: .\pycon\views.py:59
+msgid ""
+"Desarrollador de software originario de Managua, Nicaragua. Miembro de la "
+"comunidad de software libre de Nicaragua. Actualmente trabaja como "
+"desarrollador web con tecnologías Python/Django con más de 10 años de "
+"experiencia."
+msgstr ""
+
+#: .\pycon\views.py:65
+msgid ""
+"Es un apasionado desarrollador en Electronic Cats y PwnLabs. Con un gran "
+"interés en la ciberseguridad y el hardware, ha enfocado su perfil "
+"profesional en el desarrollo de firmware y en la realización de pruebas de "
+"penetración a dispositivos electrónicos IoT. Esta apasionante trayectoria le "
+"ha brindado la oportunidad de adentrarse en una amplia gama de tecnologías y "
+"de adquirir conocimientos en diversas áreas. Desde sus primeros días en "
+"Electronic Cats, se ha dedicado con entusiasmo a explorar los desafíos y las "
+"posibilidades que ofrece el mundo del hardware libre, contribuyendo así al "
+"desarrollo y la innovación en el campo de la tecnología. Está comprometido "
+"con su crecimiento profesional continuo y con seguir aprendiendo y creando "
+"soluciones innovadoras en el emocionante mundo de la tecnología y la "
+"ciberseguridad."
+msgstr ""
+
+#: .\pycon\views.py:71
+msgid ""
+"Carla es una apasionada de la Inteligencia Artificial, participa activamente "
+"en comunidades locales e internacionales de Machine Learning y Data Science. "
+"Actualmente es women techmaker ambassador. Participó como investigadora en "
+"inteligencia artificial en el Instituto de Inteligencia Artificial (IIC) de "
+"la Universidad Privada Boliviana, además es co fundadora de Menti Academy, "
+"una academia de enseñanza online para niños, creadora de contenido en redes "
+"sociales como TikTok e Instagram donde ayuda a la comunidad a iniciar con la "
+"programación específicamente en Python y actualmente parte del team de "
+"education en Platzi."
+msgstr ""
+
+#: .\pycon\views.py:81
+msgid ""
+"Osiel Torres es Software Engineer de Cloud and Platform en Mercado Libre e "
+"Ingeniero en Tecnologías Computacionales por el Tecnológico de Monterrey. "
+"Con cinco años de experiencia gestionando aplicaciones Django en Kubernetes, "
+"Osiel es un apasionado de Python desde 2017. Le entusiasma compartir "
+"conocimientos a través de la escritura y cree firmemente que los grandes "
+"proyectos y startups se construyen sobre una buena cultura."
+msgstr ""
+
+#: .\pycon\views.py:88
+msgid ""
+"Carlos Giles es Ingeniero de Datos en DaliaEmpower con una sólida formación "
+"académica en Ingeniería Eléctrica y Electrónica por la UNAM, e Ingeniería en "
+"Sistemas Computacionales por la UVEG. Además, ha completado un diplomado en "
+"Uso y Aplicación de Energías Renovables en la Universidad Politécnica de "
+"Catalunya y está certificado por CONOCER en la instalación de sistemas "
+"fotovoltaicos para residencias, comercios e industrias.\n"
+" En su rol en DaliaEmpower, Carlos ha diseñado e implementado sistemas ETL y "
+"soluciones de visualización de datos para una plataforma de eLearning, "
+"transformando datos en herramientas valiosas para la toma de decisiones. "
+"Antes de unirse a DaliaEmpower, se desempeñó como ingeniero de redes "
+"informáticas, lo que le ha proporcionado una amplia experiencia en el campo "
+"de la tecnología y la ingeniería."
+msgstr ""
+
+#: .\pycon\views.py:99
+msgid ""
+"Gustavo Reynaga es un apasionado de la tecnología y la enseñanza que ha "
+"explorado una amplia gama de tecnologías desde una temprana edad, incluyendo "
+"Arduino, Raspberry Pi, BeagleBone, impresión 3D, y computadoras retro como "
+"el ZX Spectrum y el Commodore 64. Actualmente es instructor en el CECATI "
+"132, donde comparte su conocimiento con los estudiantes. Uno de sus "
+"proyectos más destacados es el OSHWi Octopus Badge, un distintivo "
+"electrónico diseñado para la conferencia OSHWDem en La Coruña, España, cuyo "
+"diseño y código están disponibles en GitHub. Gustavo también mantiene un "
+"sitio web personal donde documenta y comparte sus proyectos, contribuyendo "
+"al crecimiento de la comunidad tecnológica y ayudando a otros a desarrollar "
+"sus propias ideas. Su objetivo es continuar explorando nuevas tecnologías, "
+"innovando y enseñando para inspirar a futuras generaciones de tecnólogos."
+msgstr ""
+
+#: .\pycon\views.py:103
+msgid "Charlas generales"
+msgstr "General Talks"
+
+#: .\pycon\views.py:110
+msgid ""
+"El profesor Ariel Ortiz Ramírez es originario de la Ciudad de México, aunque "
+"ha vivido la mayor parte de su vida en Cuautitlán Izcalli, Estado de México. "
+"Es Ingeniero en Sistemas Computacionales y Maestro en Ciencias "
+"Computacionales con especialidad en Inteligencia Artificial por parte del "
+"Tecnológico de Monterrey. Está certificado como programador de Python, Ruby, "
+"Java y C++, y es miembro de la _Association for Computing Machinery_ (ACM) y "
+"de la _Python Software Foundation_ (PSF). Desde hace 30 años, es profesor de "
+"planta del Tecnológico de Monterrey, Campus Estado de México. Ha recibido "
+"múltiples premios por parte de esta institución, incluyendo _Profesor "
+"Inspirador_ y _Profesor que Deja Huella_, en reconocimiento a su impacto y "
+"dedicación en la labor académica.\n"
+" El profesor Ortiz tuvo su primer encuentro con Python en el año 2001 y le "
+"gustó tanto que no ha dejado de usarlo desde entonces. Actualmente, lo "
+"utiliza para enseñar sus cursos de _Algoritmos Avanzados_ y _Diseño de "
+"Compiladores_ a estudiantes de ingeniería. En años recientes, ha sido "
+"presentador en _PyCon US_, _PyCon Latam_, _EuroPython_ y _Python Brasil_, "
+"compartiendo así su pasión, conocimiento y experiencia con la comunidad "
+"internacional de pythonistas. Es el autor de la [<a href=\"https://"
+"arielortiz.info/rip3/\">RIP3: Referencia incompleta de Python 3</a>] y del "
+"blog [<a href=\"http://edupython.blogspot.com/\">EduPython</a>], el cual "
+"promueve el uso del lenguaje Python en la educación."
+msgstr ""
+
+#: .\pycon\views.py:116
+msgid ""
+"En mi rol de Especialista en Análisis de Datos y Aprendizaje Automático/"
+"Inteligencia Artificial (ML/AI), mi misión es simplificar conceptos "
+"complejos, traduciéndolos a un lenguaje accesible para todos. Me dedico a "
+"crear soluciones innovadoras que enfrentan de forma eficaz los retos que "
+"surgen en el mundo real. A través de mi participación en conferencias y la "
+"creación de recursos educativos, busco compartir mis conocimientos y "
+"experiencias con el fin de empoderar a los desarrolladores, ayudándoles a "
+"expandir sus habilidades y alcanzar sus objetivos profesionales."
+msgstr ""
+
+#: .\pycon\views.py:122
+msgid ""
+"Fabio Andrés Pinto es Ingeniero Electrónico, Magíster en Ingeniería "
+"Matemática y Computación y doctorando en Estadística, Optimización y "
+"Matemática Aplicada. Trabaja con el Grupo de Métodos Estadísticos Avanzados "
+"de la Universidad Miguel Hernández de Elche. Fabio es Analista de Datos con "
+"más de 4 años de experiencia en Python, especializado en métodos de "
+"analítica, matemáticas computacionales y procesamiento de señales. "
+"Actualmente, se desempeña como Líder de Educación en BD GUIDANCE SAS y es "
+"docente en la Universidad El Bosque y en la Escuela Superior de Empresa, "
+"Ingeniería y Tecnología en Bogotá, Colombia."
+msgstr ""
+
+#: .\pycon\views.py:128
+msgid ""
+"Soy Alejandro Parra, evangelista de tecnologías en la nube y el código "
+"abierto con más de 10 años de experiencia en IT. Comparto experiencias para "
+"inspirar un mundo más abierto, colaborativo e innovador donde 'Res publica "
+"non dominetur' sea una realidad."
+msgstr ""
+
+#: .\pycon\views.py:134
+msgid ""
+"Kay Hayen is the founder of Nuitka Services, the commercial backend of "
+"Nuitka. For the past two years, he has made a living from the commercial "
+"side of Nuitka, after having worked on developing this Python compiler as a "
+"hobby for many years."
+msgstr ""
+
+#: .\pycon\views.py:141
+msgid ""
+"Diego Barriga, Ingeniero en computación por la UNAM, trabajo con NLP y "
+"lenguas indigenas mexicanas. Es parte de Laboratorio de Investigacion y "
+"Desarrollo de Software Libre, Comunidad Elotl y actualmete desempeña un "
+"puesto como MLOps en mercado libre.\n"
+" Promotor de la cultura libre, la privacidad, neovim y de andar en bicicleta "
+"sin frenos :)"
+msgstr ""
+
+#: .\pycon\views.py:147
+msgid ""
+"Carlos Andrés Alarcón, ingeniero de sistemas y un destacado profesional en "
+"el campo de la ciencia de datos y la inteligencia artificial, con "
+"reconocimientos como Microsoft MVP en AI/ML y Google Developer Expert(GDE) "
+"en AI/ML . Ha ocupado diversos roles en el sector empresarial y en la "
+"plataforma de educación en línea Platzi, donde contribuyó al crecimiento de "
+"la compañía mediante la creación de métricas relevantes, la implementación "
+"de nuevas características basadas en IA para el producto y el fomento de una "
+"cultura basada en datos como director de la escuela de AI en Platzi. En su "
+"papel actual, se desempeña como CTO en Quix y consultor de AI asesorando a "
+"organizaciones en su transformación hacia un modelo guiado por datos y la "
+"inteligencia artificial. Carlos es un líder y divulgador reconocido en su "
+"campo, dedicado a impulsar la innovación y la eficiencia a través de la "
+"inteligencia artificial y el manejo de datos"
+msgstr ""
+
+#: .\pycon\views.py:151
+msgid "Capitulos PyLadies alrededor de América Latina"
+msgstr "PyLadies Chapters around Latin America"
+
+#: .\pycon\views.py:156
+msgid ""
+"Estudió ciencias físicas e informática, y siempre buscó involucrarse en "
+"clases de filosofía. Se apasiona por temas relacionados con el pasado, "
+"presente y futuro de la humanidad, la ciencia, el voluntariado, los datos "
+"abiertos, el hacking y el open source. Combina siempre habilidades técnicas "
+"avanzadas con una profunda curiosidad intelectual y un fuerte compromiso con "
+"la comunidad, lo que lo ha convertido en un profesional versátil y dedicado. "
+"Actualmente, trabaja como científico de datos. Fue voluntario de la Free "
+"Software Foundation GNU/Linux en Venezuela y ha participado en el desarrollo "
+"a nivel Latam de la Televisión Digital Abierta (TDA). Fue miembro de PyVe "
+"(Venezuela) y ha participado en PyCon Argentina, PyCon México, y sigue "
+"trabajando en sostener su compromiso con el Manifiesto por la Guerrilla del "
+"Acceso Abierto con resiliencia, buena voluntad y eficacia desde hace más de "
+"13 años. Es fundador del blog pybunker.org y actualmente forma parte activa "
+"de la comunidad Python CDMX."
+msgstr ""
+
+#: .\pycon\views.py:163
+msgid ""
+"Juan Guillermo coorganiza varios eventos globales y locales, como eventos de "
+"Google, Startup Weekend Colombia, PyCon, entre otros. Ha estado involucrado "
+"en tecnología y programación de software durante los últimos 20 años. Asiste "
+"a más de 30 eventos al año como orador invitado en toda América Latina, "
+"donde habla sobre temas como mobile, Android, cloud, Firebase, Kotlin, "
+"arquitectura de software y ML. Ha sido programador, arquitecto de software, "
+"líder tecnológico, profesor universitario y asesor en empresas de tecnología "
+"y departamentos de sistemas. Actualmente, es tech lead en WordBox. Juan es "
+"un GDE (Google Developer Expert) en Firebase, Machine Learning, GCP y "
+"Kotlin. Tiene una licenciatura en Ingeniería de Sistemas y una maestría en "
+"Ingeniería de Software por la Universidad San Buenaventura Cali."
+msgstr ""
+
+#: .\pycon\views.py:170
+msgid ""
+"Héctor Iván Castañeda Nazario proviene de un pueblo agricultor en la Ciudad "
+"de México y estudió ingeniería petrolera en la UNAM. Aunque no pudo ejercer "
+"su profesión debido a circunstancias imprevistas, comenzó a estudiar Python "
+"para la inteligencia artificial a finales de 2019. Con cuatro años de "
+"experiencia como desarrollador BackEnd en una consultora mexicana, Héctor ha "
+"trabajado en proyectos de logística, observabilidad, recuperación ante "
+"desastres, análisis de datos y soporte a cliente. Actualmente, está creando "
+"el área de inteligencia artificial en su empresa y capacitando a sus "
+"compañeros para desarrollar proyectos que mejoren la vida de las personas. "
+"Además, tiene un proyecto personal llamado SMAEPYP, donde enseña Python, "
+"AWS, Notion, inteligencia artificial e ingeniería petrolera al público "
+"general de forma gratuita."
+msgstr ""
+
+#: .\pycon\views.py:174
+msgid ""
+"Abigail, is an Open Source Programs Manager, Researcher and Community "
+"Builder. Her current research focuses on Improving DEI in Open Source "
+"Community Leadership. She is a contributor and community member in the "
+"African Python Software Community and has served as an organizer for local "
+"and international community events. Mesrenyame is a Fellow and a Community "
+"Service award winner at the Python Software Foundation."
+msgstr ""
+
+#: .\pycon\views.py:178
+msgid "Equipo organizador"
+msgstr "Organizing team"
+
+#: .\pycon\views.py:183
+msgid "Jueves 19 de Septiembre"
+msgstr "Thursday Sep, 19"
+
+#: .\pycon\views.py:186
+msgid "Bienvenida al evento"
+msgstr "Welcome to the event"
+
+#: .\pycon\views.py:194
+msgid "Viernes 20 de Septiembre"
+msgstr "Friday Sep, 20"
+
+#: .\pycon\views.py:197
+msgid "Bienvenida"
+msgstr "Welcome event"
+
+#: .\pycon\views.py:203
 msgid "Keynote de Apertura"
 msgstr "Openning Keynote"
 
-#: .\pycon\views.py:44 .\pycon\views.py:51 .\pycon\views.py:65
-#: .\pycon\views.py:79 .\pycon\views.py:93 .\pycon\views.py:107
-#: .\pycon\views.py:121 .\pycon\views.py:135 .\pycon\views.py:142
-#: .\pycon\views.py:154 .\pycon\views.py:161 .\pycon\views.py:175
-#: .\pycon\views.py:189 .\pycon\views.py:217 .\pycon\views.py:247
-#: .\pycon\views.py:254
+#: .\pycon\views.py:206 .\pycon\views.py:213 .\pycon\views.py:227
+#: .\pycon\views.py:241 .\pycon\views.py:255 .\pycon\views.py:269
+#: .\pycon\views.py:283 .\pycon\views.py:297 .\pycon\views.py:304
+#: .\pycon\views.py:316 .\pycon\views.py:323 .\pycon\views.py:337
+#: .\pycon\views.py:351 .\pycon\views.py:379 .\pycon\views.py:409
+#: .\pycon\views.py:416
 msgid "Salón A"
 msgstr "Salon A"
 
-#: .\pycon\views.py:48
+#: .\pycon\views.py:210
 msgid ""
 "Conviértete en un maestro de la automatización: Aprende a implementar RPA y "
 "PYTHON en el sector financiero."
@@ -661,18 +1018,18 @@ msgstr ""
 "Become a master of automation: Learn how to implement RPA and PYTHON in the "
 "financial sector."
 
-#: .\pycon\views.py:55
+#: .\pycon\views.py:217
 msgid "De Bichos y Serpientes: Seguridad en el Ecosistema de Paquetes Python"
 msgstr "Of Bugs and Snakes: Security in the Python Package Ecosystem"
 
-#: .\pycon\views.py:58 .\pycon\views.py:72 .\pycon\views.py:86
-#: .\pycon\views.py:100 .\pycon\views.py:114 .\pycon\views.py:128
-#: .\pycon\views.py:168 .\pycon\views.py:182 .\pycon\views.py:196
-#: .\pycon\views.py:210 .\pycon\views.py:224
+#: .\pycon\views.py:220 .\pycon\views.py:234 .\pycon\views.py:248
+#: .\pycon\views.py:262 .\pycon\views.py:276 .\pycon\views.py:290
+#: .\pycon\views.py:330 .\pycon\views.py:344 .\pycon\views.py:358
+#: .\pycon\views.py:372 .\pycon\views.py:386
 msgid "Salón B"
 msgstr "Salon B"
 
-#: .\pycon\views.py:62
+#: .\pycon\views.py:224
 msgid ""
 "DeepSignBridge: Traductor de Lenguaje de Señas en Tiempo Real Usando "
 "Transformers y Visión Computacional"
@@ -680,29 +1037,29 @@ msgstr ""
 "DeepSignBridge: Real-Time Sign Language Translator Using Transformers and "
 "Computer Vision"
 
-#: .\pycon\views.py:69
+#: .\pycon\views.py:231
 msgid ""
 "De pixeles a predicciones: Transformando la experiencia de videos con python"
 msgstr ""
 "From pixels to predictions: Transforming the video experience with python"
 
-#: .\pycon\views.py:76
+#: .\pycon\views.py:238
 msgid "Desplegando tu aplicación Python sin morir en el intento"
 msgstr "Deploying your Python application without dying in the attempt"
 
-#: .\pycon\views.py:83
+#: .\pycon\views.py:245
 msgid "Domina al Tiburón: Pipelines en Python para Wireshark"
 msgstr "Master the Shark: Python Pipelines for Wireshark"
 
-#: .\pycon\views.py:90
+#: .\pycon\views.py:252
 msgid "Espacios vectoriales con python y langchain"
 msgstr "Vector spaces with python and langchain"
 
-#: .\pycon\views.py:97
+#: .\pycon\views.py:259
 msgid "Fortaleciendo el acceso a la justicia: Whisper y PyQt en Acción"
 msgstr "Strengthening Access to Justice: Whisper and PyQt in Action"
 
-#: .\pycon\views.py:104
+#: .\pycon\views.py:266
 msgid ""
 "Transformando Startups con Kubernetes: Gestión de Aplicaciones Django para "
 "un Crecimiento Explosivo"
@@ -710,89 +1067,81 @@ msgstr ""
 "Transforming Startups with Kubernetes: Django Application Management for "
 "Explosive Growth"
 
-#: .\pycon\views.py:111
+#: .\pycon\views.py:273
 msgid ""
 "Insights Ocultos: Cómo la Estadística y Python Empoderan Decisiones "
 "Estratégicas"
 msgstr "Hidden Insights: How Statistics and Python Empower Strategic Decisions"
 
-#: .\pycon\views.py:118
+#: .\pycon\views.py:280
 msgid "Ambientes virtuales en Python: venv, Poetry, Conda, Docker y más allá"
 msgstr "Python Virtual Environments: venv, Poetry, Conda, Docker and beyond"
 
-#: .\pycon\views.py:125
+#: .\pycon\views.py:287
 msgid "Micropython First Contact"
 msgstr ""
 
-#: .\pycon\views.py:132
+#: .\pycon\views.py:294
 msgid "Charlas Relámpago"
 msgstr "Lightning talks"
 
-#: .\pycon\views.py:134
-msgid "Charlas generales"
-msgstr "General Talks"
-
-#: .\pycon\views.py:139
+#: .\pycon\views.py:301
 msgid "Keynote de cierre primer día"
 msgstr "Closing Keynote first day"
 
-#: .\pycon\views.py:148
+#: .\pycon\views.py:310
 msgid "Sábado 21 de Septiembre"
 msgstr "Saturday Sep, 21"
 
-#: .\pycon\views.py:151
+#: .\pycon\views.py:313
 msgid "Keynote de apertura"
 msgstr "Openning Keynote"
 
-#: .\pycon\views.py:158
+#: .\pycon\views.py:320
 msgid ""
 "Prompt engineering: la llave maestra para aprovechar al máximo la generative "
 "IA"
 msgstr ""
 "Prompt engineering: the master key to get the most out of generative IA"
 
-#: .\pycon\views.py:165
+#: .\pycon\views.py:327
 msgid "Reputación en Tiempo Real y Análisis de Sentimiento con Python"
 msgstr "Real-Time Reputation and Sentiment Analysis with Python"
 
-#: .\pycon\views.py:172
+#: .\pycon\views.py:334
 msgid ""
 "Revolutionizing CI/CD with Python and Generative AI: Next-Level Automation "
 "in DevOps"
 msgstr ""
 
-#: .\pycon\views.py:179
+#: .\pycon\views.py:341
 msgid "Supercharge Python with Nuitka: Witness a 10-Year Plan Come to Life!"
 msgstr ""
 
-#: .\pycon\views.py:186
+#: .\pycon\views.py:348
 msgid "Tests efectivos con pytest, o sobre como escribir código duro de fallar"
 msgstr "Effective testing with pytest, or how to write hard-to-fail code"
 
-#: .\pycon\views.py:193
+#: .\pycon\views.py:355
 msgid "IA Multimodal en Educación: Transformando el Aprendizaje con Python"
 msgstr "Multimodal AI in Education: Transforming Learning with Python"
 
-#: .\pycon\views.py:200
+#: .\pycon\views.py:362
 msgid "PyLadies Panel"
 msgstr ""
 
-#: .\pycon\views.py:202
-msgid "Capitulos PyLadies alrededor de América Latina"
-msgstr "PyLadies Chapters around Latin America"
-
-#: .\pycon\views.py:207
+#: .\pycon\views.py:369
 msgid ""
 "Python y los esquemas ETL: El Pivote Esencial para la Inteligencia Artificial"
 msgstr "Python and ETL Schemas: The Essential Pivot to Artificial Intelligence"
 
-#: .\pycon\views.py:214
+#: .\pycon\views.py:376
 msgid ""
 "Revealing the power of multimodal embeddings: bridging the gap between text, "
 "images, videos and more"
 msgstr ""
 
-#: .\pycon\views.py:221
+#: .\pycon\views.py:383
 msgid ""
 "Del Oro Negro al Oro Digital: La Historia de un Ingeniero Convertido en "
 "Líder de Python"
@@ -800,17 +1149,13 @@ msgstr ""
 "From Black Gold to Digital Gold: The Story of an Engineer Turned into a "
 "Python Leader"
 
-#: .\pycon\views.py:244
+#: .\pycon\views.py:406
 msgid "Keynote cierre de conferencia"
 msgstr "Closing Keynote"
 
-#: .\pycon\views.py:251
+#: .\pycon\views.py:413
 msgid "Cierre de Conferencia"
 msgstr "Conference Closing"
-
-#: .\pycon\views.py:253
-msgid "Equipo organizador"
-msgstr "Organizing team"
 
 #~ msgid ""
 #~ "Todo lo que necesitas saber sobre Unicode, pero nunca se te ocurrió "
