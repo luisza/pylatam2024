@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-09 09:51-0600\n"
+"POT-Creation-Date: 2024-08-09 10:35-0600\n"
 "PO-Revision-Date: 2024-06-10 19:19-0600\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -194,6 +194,10 @@ msgstr ""
 "quiere conectar comunidades y empresas entusiastas para colaborar en un solo "
 "lugar, fomentando la competencia y la innovación."
 
+#: .\pycon\templates\home.html:44
+msgid "Keynote Speakers"
+msgstr "Charlistas de Keynotes"
+
 #: .\pycon\templates\home.html:63
 msgid "Secure your spot today"
 msgstr "Asegure su plaza hoy mismo"
@@ -203,8 +207,8 @@ msgid ""
 "Explore different <strong>ticket types and prices</strong> and find the "
 "perfect option for you. Click below for more details!"
 msgstr ""
-"Explora los diferentes <strong>tipos de boletos y precios</strong> y encuentra la "
-"opción perfecta para ti. ¡Haz clic abajo para más detalles!"
+"Explora los diferentes <strong>tipos de boletos y precios</strong> y "
+"encuentra la opción perfecta para ti. ¡Haz clic abajo para más detalles!"
 
 #: .\pycon\templates\home.html:66 .\pycon\templates\home.html:68
 msgid "View Ticket Options"
@@ -554,15 +558,39 @@ msgstr ""
 "¡Esperamos darte la bienvenida en Mazatlán para una experiencia "
 "enriquecedora e inolvidable en PyCon Latam 2024!"
 
-#: .\pycon\views.py:28
+#: .\pycon\views.py:9
+msgid ""
+"Staff Engineer at Spotify and an professor at Columbia University's Graduate "
+"School of Engineering."
+msgstr ""
+"Staff Engineer en Spotify y profesora en la Escuela de Posgrado en "
+"Ingeniería de la Universidad de Columbia."
+
+#: .\pycon\views.py:13
+msgid ""
+"Professor at Tecnológico de Monterrey, Python expert, and international "
+"speaker."
+msgstr ""
+"Profesor en el Tecnológico de Monterrey, experto en Python y orador "
+"internacional."
+
+#: .\pycon\views.py:17
+msgid ""
+"Open Source Programs Manager, researcher, and community builder with a focus "
+"on DEI in leadership."
+msgstr ""
+"Gerente de Programas de Código Abierto, investigadora y constructora de "
+"comunidad con un enfoque en DEI en el liderazgo."
+
+#: .\pycon\views.py:35
 msgid "Todos los participantes"
 msgstr ""
 
-#: .\pycon\views.py:32 .\pycon\views.py:113
+#: .\pycon\views.py:39 .\pycon\views.py:120
 msgid "Personal administrativo"
 msgstr "Personal administrativo"
 
-#: .\pycon\views.py:36
+#: .\pycon\views.py:43
 msgid ""
 "Lynn Root is a Staff Engineer at Spotify and an adjunct professor at "
 "Columbia University's Graduate School of Engineering. She is a seasoned "
@@ -574,14 +602,15 @@ msgid ""
 "usually holding a bass guitar."
 msgstr ""
 "Lynn Root es una Staff Engineer en Spotify y profesora adjunta en la Escuela "
-"de Posgrado en Ingeniería de la Universidad de Columbia. Es una oradora experimentada "
-"en la construcción y mantenimiento de sistemas distribuidos, y es la líder técnica "
-"para el cumplimiento de la gobernanza en la plataforma de ML/AI de Spotify. Lynn es "
-"una líder global de la diversidad en la comunidad de Python, presidenta del Consejo Global "
-"de PyLadies, miembro de la PSF y ex vicepresidenta de la Junta Directiva de la PSF. Cuando "
-"no tiene sus manos en un teclado, normalmente están sosteniendo un bajo eléctrico."
+"de Posgrado en Ingeniería de la Universidad de Columbia. Es una oradora "
+"experimentada en la construcción y mantenimiento de sistemas distribuidos, y "
+"es la líder técnica para el cumplimiento de la gobernanza en la plataforma "
+"de ML/AI de Spotify. Lynn es una líder global de la diversidad en la "
+"comunidad de Python, presidenta del Consejo Global de PyLadies, miembro de "
+"la PSF y ex vicepresidenta de la Junta Directiva de la PSF. Cuando no tiene "
+"sus manos en un teclado, normalmente están sosteniendo un bajo eléctrico."
 
-#: .\pycon\views.py:42
+#: .\pycon\views.py:49
 msgid ""
 "En un mundo donde la tecnología avanza a pasos agigantados, a Nadia Ayala "
 "Hernandez le apasiona descubrir cómo esta puede ser utilizada para mejorar "
@@ -594,7 +623,7 @@ msgid ""
 "de vida de sus clientes."
 msgstr ""
 
-#: .\pycon\views.py:48
+#: .\pycon\views.py:55
 msgid ""
 "Oscar, nacido en Nicaragua y radicado en Colombia, es un Ingeniero de "
 "Software que se especializa en la construcción de aplicaciones de alto "
@@ -606,7 +635,7 @@ msgid ""
 "Nicaragua y más allá."
 msgstr ""
 
-#: .\pycon\views.py:54
+#: .\pycon\views.py:61
 msgid ""
 "Gerardo Vilcamiza es Ingeniero Mecatrónico por la Universidad Peruana de "
 "Ciencias Aplicadas (UPC), donde se desempeña como investigador en el "
@@ -627,7 +656,7 @@ msgid ""
 "Perú, PyDay Perú 2023 y Pycon Colombia 2024."
 msgstr ""
 
-#: .\pycon\views.py:60
+#: .\pycon\views.py:67
 msgid ""
 "Fernanda Ochoa es Directora de Producto y Tecnología en Dalia Empower. "
 "Trabajó como Sherpa Digital de Data Science y Cloud Computing con "
@@ -645,7 +674,7 @@ msgid ""
 "cultura que proporciona una orientación clara a sus estudiantes."
 msgstr ""
 
-#: .\pycon\views.py:66
+#: .\pycon\views.py:73
 msgid ""
 "Desarrollador de software originario de Managua, Nicaragua. Miembro de la "
 "comunidad de software libre de Nicaragua. Actualmente trabaja como "
@@ -653,7 +682,7 @@ msgid ""
 "experiencia."
 msgstr ""
 
-#: .\pycon\views.py:72
+#: .\pycon\views.py:79
 msgid ""
 "Es un apasionado desarrollador en Electronic Cats y PwnLabs. Con un gran "
 "interés en la ciberseguridad y el hardware, ha enfocado su perfil "
@@ -669,7 +698,7 @@ msgid ""
 "ciberseguridad."
 msgstr ""
 
-#: .\pycon\views.py:78
+#: .\pycon\views.py:85
 msgid ""
 "Carla es una apasionada de la Inteligencia Artificial, participa activamente "
 "en comunidades locales e internacionales de Machine Learning y Data Science. "
@@ -682,7 +711,7 @@ msgid ""
 "education en Platzi."
 msgstr ""
 
-#: .\pycon\views.py:88
+#: .\pycon\views.py:95
 msgid ""
 "Osiel Torres es Software Engineer de Cloud and Platform en Mercado Libre e "
 "Ingeniero en Tecnologías Computacionales por el Tecnológico de Monterrey. "
@@ -692,7 +721,7 @@ msgid ""
 "proyectos y startups se construyen sobre una buena cultura."
 msgstr ""
 
-#: .\pycon\views.py:95
+#: .\pycon\views.py:102
 msgid ""
 "Carlos Giles es Ingeniero de Datos en DaliaEmpower con una sólida formación "
 "académica en Ingeniería Eléctrica y Electrónica por la UNAM, e Ingeniería en "
@@ -708,7 +737,7 @@ msgid ""
 "de la tecnología y la ingeniería."
 msgstr ""
 
-#: .\pycon\views.py:106
+#: .\pycon\views.py:113
 msgid ""
 "Gustavo Reynaga es un apasionado de la tecnología y la enseñanza que ha "
 "explorado una amplia gama de tecnologías desde una temprana edad, incluyendo "
@@ -724,11 +753,11 @@ msgid ""
 "innovando y enseñando para inspirar a futuras generaciones de tecnólogos."
 msgstr ""
 
-#: .\pycon\views.py:110
+#: .\pycon\views.py:117
 msgid "Charlas generales"
 msgstr ""
 
-#: .\pycon\views.py:117
+#: .\pycon\views.py:124
 msgid ""
 "El profesor Ariel Ortiz Ramírez es originario de la Ciudad de México, aunque "
 "ha vivido la mayor parte de su vida en Cuautitlán Izcalli, Estado de México. "
@@ -748,12 +777,13 @@ msgid ""
 "presentador en _PyCon US_, _PyCon Latam_, _EuroPython_ y _Python Brasil_, "
 "compartiendo así su pasión, conocimiento y experiencia con la comunidad "
 "internacional de pythonistas. Es el autor de la [<a href=\"https://"
-"arielortiz.info/rip3/\">RIP3: Referencia incompleta de Python 3</a>] y del "
-"blog [<a href=\"http://edupython.blogspot.com/\">EduPython</a>], el cual "
-"promueve el uso del lenguaje Python en la educación."
+"arielortiz.info/rip3/\" target=\"_blank\">RIP3: Referencia incompleta de "
+"Python 3</a>] y del blog [<a href=\"http://edupython.blogspot.com/\" target="
+"\"_blank\">EduPython</a>], el cual promueve el uso del lenguaje Python en la "
+"educación."
 msgstr ""
 
-#: .\pycon\views.py:123
+#: .\pycon\views.py:130
 msgid ""
 "En mi rol de Especialista en Análisis de Datos y Aprendizaje Automático/"
 "Inteligencia Artificial (ML/AI), mi misión es simplificar conceptos "
@@ -765,7 +795,7 @@ msgid ""
 "expandir sus habilidades y alcanzar sus objetivos profesionales."
 msgstr ""
 
-#: .\pycon\views.py:129
+#: .\pycon\views.py:136
 msgid ""
 "Fabio Andrés Pinto es Ingeniero Electrónico, Magíster en Ingeniería "
 "Matemática y Computación y doctorando en Estadística, Optimización y "
@@ -778,7 +808,7 @@ msgid ""
 "Ingeniería y Tecnología en Bogotá, Colombia."
 msgstr ""
 
-#: .\pycon\views.py:135
+#: .\pycon\views.py:142
 msgid ""
 "Soy Alejandro Parra, evangelista de tecnologías en la nube y el código "
 "abierto con más de 10 años de experiencia en IT. Comparto experiencias para "
@@ -786,7 +816,7 @@ msgid ""
 "non dominetur' sea una realidad."
 msgstr ""
 
-#: .\pycon\views.py:141
+#: .\pycon\views.py:148
 msgid ""
 "Kay Hayen is the founder of Nuitka Services, the commercial backend of "
 "Nuitka. For the past two years, he has made a living from the commercial "
@@ -794,11 +824,11 @@ msgid ""
 "hobby for many years."
 msgstr ""
 "Kay Hayen es el fundador de Nuitka Services, la parte comercial de Nuitka. "
-"Durante los últimos dos años, ha vivido del lado comercial de Nuitka, después "
-"de haber trabajado en el desarrollo de este compilador de Python como un pasatiempo "
-"durante muchos años."
+"Durante los últimos dos años, ha vivido del lado comercial de Nuitka, "
+"después de haber trabajado en el desarrollo de este compilador de Python "
+"como un pasatiempo durante muchos años."
 
-#: .\pycon\views.py:148
+#: .\pycon\views.py:155
 msgid ""
 "Diego Barriga, Ingeniero en computación por la UNAM, trabajo con NLP y "
 "lenguas indigenas mexicanas. Es parte de Laboratorio de Investigacion y "
@@ -808,7 +838,7 @@ msgid ""
 "sin frenos :)"
 msgstr ""
 
-#: .\pycon\views.py:154
+#: .\pycon\views.py:161
 msgid ""
 "Carlos Andrés Alarcón, ingeniero de sistemas y un destacado profesional en "
 "el campo de la ciencia de datos y la inteligencia artificial, con "
@@ -825,11 +855,11 @@ msgid ""
 "inteligencia artificial y el manejo de datos"
 msgstr ""
 
-#: .\pycon\views.py:158
+#: .\pycon\views.py:165
 msgid "Capitulos PyLadies alrededor de América Latina"
 msgstr "Capítulos PyLadies alrededor de América Latina"
 
-#: .\pycon\views.py:163
+#: .\pycon\views.py:170
 msgid ""
 "Estudió ciencias físicas e informática, y siempre buscó involucrarse en "
 "clases de filosofía. Se apasiona por temas relacionados con el pasado, "
@@ -847,7 +877,7 @@ msgid ""
 "de la comunidad Python CDMX."
 msgstr ""
 
-#: .\pycon\views.py:170
+#: .\pycon\views.py:177
 msgid ""
 "Juan Guillermo coorganiza varios eventos globales y locales, como eventos de "
 "Google, Startup Weekend Colombia, PyCon, entre otros. Ha estado involucrado "
@@ -862,7 +892,7 @@ msgid ""
 "Ingeniería de Software por la Universidad San Buenaventura Cali."
 msgstr ""
 
-#: .\pycon\views.py:177
+#: .\pycon\views.py:184
 msgid ""
 "Héctor Iván Castañeda Nazario proviene de un pueblo agricultor en la Ciudad "
 "de México y estudió ingeniería petrolera en la UNAM. Aunque no pudo ejercer "
@@ -878,7 +908,7 @@ msgid ""
 "general de forma gratuita."
 msgstr ""
 
-#: .\pycon\views.py:181
+#: .\pycon\views.py:188
 msgid ""
 "Abigail, is an Open Source Programs Manager, Researcher and Community "
 "Builder. Her current research focuses on Improving DEI in Open Source "
@@ -887,53 +917,54 @@ msgid ""
 "and international community events. Mesrenyame is a Fellow and a Community "
 "Service award winner at the Python Software Foundation."
 msgstr ""
-"Abigail es Gerente de Programas de Código Abierto, Investigadora y Constructora de Comunidad. "
-"Su investigación actual se enfoca en mejorar la Diversidad, Equidad e Inclusión (DEI) en el liderazgo "
-"de comunidades de código abierto. Es colaboradora y miembro de la Comunidad Africana de Software Python "
-"y ha servido como organizadora de eventos comunitarios locales e internacionales. Mesrenyame es miembro "
-"y ganadora del premio de Servicio Comunitario de la Python Software Foundation."
+"Abigail es Gerente de Programas de Código Abierto, Investigadora y "
+"Constructora de Comunidad. Su investigación actual se enfoca en mejorar la "
+"Diversidad, Equidad e Inclusión (DEI) en el liderazgo de comunidades de "
+"código abierto. Es colaboradora y miembro de la Comunidad Africana de "
+"Software Python y ha servido como organizadora de eventos comunitarios "
+"locales e internacionales. Mesrenyame es miembro y ganadora del premio de "
+"Servicio Comunitario de la Python Software Foundation."
 
-
-#: .\pycon\views.py:185
+#: .\pycon\views.py:192
 msgid "Equipo organizador"
 msgstr ""
 
-#: .\pycon\views.py:190
+#: .\pycon\views.py:197
 msgid "Jueves 19 de Septiembre"
 msgstr "Jueves 19 de Septiembre"
 
-#: .\pycon\views.py:193
+#: .\pycon\views.py:200
 msgid "Bienvenida al evento"
 msgstr "Bienvenida al evento"
 
-#: .\pycon\views.py:201
+#: .\pycon\views.py:208
 msgid "Viernes 20 de Septiembre"
 msgstr "Viernes 20 de Septiembre"
 
-#: .\pycon\views.py:204
+#: .\pycon\views.py:211
 #, fuzzy
 #| msgid "Bienvenida al evento"
 msgid "Bienvenida"
 msgstr "Bienvenida al evento"
 
-#: .\pycon\views.py:210
+#: .\pycon\views.py:217
 #, fuzzy
 #| msgid "Keynote Speakers"
 msgid "Keynote de Apertura"
 msgstr "Ponentes Principales"
 
-#: .\pycon\views.py:213 .\pycon\views.py:220 .\pycon\views.py:234
-#: .\pycon\views.py:248 .\pycon\views.py:262 .\pycon\views.py:276
-#: .\pycon\views.py:290 .\pycon\views.py:304 .\pycon\views.py:311
-#: .\pycon\views.py:323 .\pycon\views.py:330 .\pycon\views.py:344
-#: .\pycon\views.py:358 .\pycon\views.py:386 .\pycon\views.py:416
-#: .\pycon\views.py:423
+#: .\pycon\views.py:220 .\pycon\views.py:227 .\pycon\views.py:241
+#: .\pycon\views.py:255 .\pycon\views.py:269 .\pycon\views.py:283
+#: .\pycon\views.py:297 .\pycon\views.py:311 .\pycon\views.py:318
+#: .\pycon\views.py:330 .\pycon\views.py:337 .\pycon\views.py:351
+#: .\pycon\views.py:365 .\pycon\views.py:393 .\pycon\views.py:423
+#: .\pycon\views.py:430
 #, fuzzy
 #| msgid "Salon A"
 msgid "Salón A"
 msgstr "Salón A"
 
-#: .\pycon\views.py:217
+#: .\pycon\views.py:224
 msgid ""
 "Conviértete en un maestro de la automatización: Aprende a implementar RPA y "
 "PYTHON en el sector financiero."
@@ -941,20 +972,20 @@ msgstr ""
 "Conviértete en un maestro de la automatización: Aprende a implementar RPA y "
 "PYTHON en el sector financiero."
 
-#: .\pycon\views.py:224
+#: .\pycon\views.py:231
 msgid "De Bichos y Serpientes: Seguridad en el Ecosistema de Paquetes Python"
 msgstr "De Bichos y Serpientes: Seguridad en el Ecosistema de Paquetes Python"
 
-#: .\pycon\views.py:227 .\pycon\views.py:241 .\pycon\views.py:255
-#: .\pycon\views.py:269 .\pycon\views.py:283 .\pycon\views.py:297
-#: .\pycon\views.py:337 .\pycon\views.py:351 .\pycon\views.py:365
-#: .\pycon\views.py:379 .\pycon\views.py:393
+#: .\pycon\views.py:234 .\pycon\views.py:248 .\pycon\views.py:262
+#: .\pycon\views.py:276 .\pycon\views.py:290 .\pycon\views.py:304
+#: .\pycon\views.py:344 .\pycon\views.py:358 .\pycon\views.py:372
+#: .\pycon\views.py:386 .\pycon\views.py:400
 #, fuzzy
 #| msgid "Salon B"
 msgid "Salón B"
 msgstr "Salón B"
 
-#: .\pycon\views.py:231
+#: .\pycon\views.py:238
 msgid ""
 "DeepSignBridge: Traductor de Lenguaje de Señas en Tiempo Real Usando "
 "Transformers y Visión Computacional"
@@ -962,71 +993,71 @@ msgstr ""
 "DeepSignBridge: Traductor de Lenguaje de Señas en Tiempo Real Usando "
 "Transformers y Visión Computacional"
 
-#: .\pycon\views.py:238
+#: .\pycon\views.py:245
 msgid ""
 "De pixeles a predicciones: Transformando la experiencia de videos con python"
 msgstr ""
 "De píxeles a predicciones: Transformando la experiencia de videos con Python."
 
-#: .\pycon\views.py:245
+#: .\pycon\views.py:252
 msgid "Desplegando tu aplicación Python sin morir en el intento"
 msgstr "Desplegando tu aplicación Python sin morir en el intento."
 
-#: .\pycon\views.py:252
+#: .\pycon\views.py:259
 msgid "Domina al Tiburón: Pipelines en Python para Wireshark"
 msgstr "Domina al Tiburón: Pipelines en Python para Wireshark"
 
-#: .\pycon\views.py:259
+#: .\pycon\views.py:266
 msgid "Espacios vectoriales con python y langchain"
 msgstr "Espacios vectoriales con Python y Langchain"
 
-#: .\pycon\views.py:266
+#: .\pycon\views.py:273
 msgid "Fortaleciendo el acceso a la justicia: Whisper y PyQt en Acción"
 msgstr "Fortaleciendo el acceso a la justicia: Whisper y PyQt en Acción"
 
-#: .\pycon\views.py:273
-msgid ""
-"Transformando Startups con Kubernetes: Gestión de Aplicaciones Django para "
-"un Crecimiento Explosivo"
-msgstr ""
-"Transformando Startups con Kubernetes: Gestión de Aplicaciones Django para "
-"un Crecimiento Explosivo"
-
 #: .\pycon\views.py:280
 msgid ""
+"Transformando Startups con Kubernetes: Gestión de Aplicaciones Django para "
+"un Crecimiento Explosivo"
+msgstr ""
+"Transformando Startups con Kubernetes: Gestión de Aplicaciones Django para "
+"un Crecimiento Explosivo"
+
+#: .\pycon\views.py:287
+msgid ""
 "Insights Ocultos: Cómo la Estadística y Python Empoderan Decisiones "
 "Estratégicas"
 msgstr ""
 "Insights Ocultos: Cómo la Estadística y Python Empoderan Decisiones "
 "Estratégicas"
 
-#: .\pycon\views.py:287
+#: .\pycon\views.py:294
 msgid "Ambientes virtuales en Python: venv, Poetry, Conda, Docker y más allá"
 msgstr ""
 
-#: .\pycon\views.py:294
+#: .\pycon\views.py:301
 msgid "Micropython First Contact"
 msgstr "Primer Contacto con Micropython"
 
-#: .\pycon\views.py:301
+#: .\pycon\views.py:308
 msgid "Charlas Relámpago"
 msgstr "Charlas Relámpago"
 
-#: .\pycon\views.py:308
+#: .\pycon\views.py:315
 msgid "Keynote de cierre primer día"
 msgstr ""
 
-#: .\pycon\views.py:317
+#: .\pycon\views.py:324
 msgid "Sábado 21 de Septiembre"
 msgstr "Sábado 21 de Septiembre"
 
-#: .\pycon\views.py:320
+#: .\pycon\views.py:327
 #, fuzzy
 #| msgid "Keynote Speakers"
 msgid "Keynote de apertura"
 msgstr "Ponentes Principales"
 
-#: .\pycon\views.py:327
+#: .\pycon\views.py:334
 msgid ""
 "Prompt engineering: la llave maestra para aprovechar al máximo la generative "
 "IA"
@@ -1034,11 +1065,11 @@ msgstr ""
 "Engineering de Prompts: La llave maestra para aprovechar al máximo la IA "
 "Generativa"
 
-#: .\pycon\views.py:334
+#: .\pycon\views.py:341
 msgid "Reputación en Tiempo Real y Análisis de Sentimiento con Python"
 msgstr "Reputación en Tiempo Real y Análisis de Sentimiento con Python"
 
-#: .\pycon\views.py:341
+#: .\pycon\views.py:348
 msgid ""
 "Revolutionizing CI/CD with Python and Generative AI: Next-Level Automation "
 "in DevOps"
@@ -1046,16 +1077,16 @@ msgstr ""
 "Revolucionando CI/CD con Python e IA Generativa: Automatización de Próximo "
 "Nivel en DevOps"
 
-#: .\pycon\views.py:348
+#: .\pycon\views.py:355
 msgid "Supercharge Python with Nuitka: Witness a 10-Year Plan Come to Life!"
 msgstr ""
 "Potencia Python con Nuitka: Sé testigo de cómo cobra vida un plan de 10 años."
 
-#: .\pycon\views.py:355
+#: .\pycon\views.py:362
 msgid "Tests efectivos con pytest, o sobre como escribir código duro de fallar"
 msgstr "Tests Efectivos con Pytest, o Cómo Escribir Código Difícil de Fallar"
 
-#: .\pycon\views.py:362
+#: .\pycon\views.py:369
 #, fuzzy
 #| msgid ""
 #| "De pixeles a predicciones: Transformando la experiencia de videos con "
@@ -1064,17 +1095,17 @@ msgid "IA Multimodal en Educación: Transformando el Aprendizaje con Python"
 msgstr ""
 "De píxeles a predicciones: Transformando la experiencia de videos con Python."
 
-#: .\pycon\views.py:369
+#: .\pycon\views.py:376
 msgid "PyLadies Panel"
 msgstr "Panel de PyLadies"
 
-#: .\pycon\views.py:376
+#: .\pycon\views.py:383
 msgid ""
 "Python y los esquemas ETL: El Pivote Esencial para la Inteligencia Artificial"
 msgstr ""
 "Python y los Esquemas ETL: El Pivote Esencial para la Inteligencia Artificial"
 
-#: .\pycon\views.py:383
+#: .\pycon\views.py:390
 msgid ""
 "Revealing the power of multimodal embeddings: bridging the gap between text, "
 "images, videos and more"
@@ -1082,7 +1113,7 @@ msgstr ""
 "El poder de las incrustaciones multimodales: un puente entre texto, "
 "imágenes, vídeos y más"
 
-#: .\pycon\views.py:390
+#: .\pycon\views.py:397
 msgid ""
 "Del Oro Negro al Oro Digital: La Historia de un Ingeniero Convertido en "
 "Líder de Python"
@@ -1090,13 +1121,13 @@ msgstr ""
 "Del Oro Negro al Oro Digital: La Historia de un Ingeniero Convertido en "
 "Líder de Python"
 
-#: .\pycon\views.py:413
+#: .\pycon\views.py:420
 #, fuzzy
 #| msgid "Cierre de Conferencia"
 msgid "Keynote cierre de conferencia"
 msgstr "Cierre de la Conferencia"
 
-#: .\pycon\views.py:420
+#: .\pycon\views.py:427
 msgid "Cierre de Conferencia"
 msgstr "Cierre de la Conferencia"
 

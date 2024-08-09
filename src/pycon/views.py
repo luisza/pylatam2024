@@ -5,9 +5,17 @@ from django.utils.translation import gettext as _
 def home(request, lang='es'):
     activate(lang)
     keynote_speakers = [
-        { 'name': 'Lynn Root', 'description': "Staff Engineer at Spotify and an professor at Columbia University's Graduate School of Engineering.", 'image': 'Lynn Root.jpg' },   
-        { 'name': 'Ariel Ortiz', 'description': 'Professor at Tecnológico de Monterrey, Python expert, and international speaker.', 'image': 'Ariel Ortiz.jpg' },
-        { 'name': 'Abigail Messreyames', 'description': 'Open Source Programs Manager, researcher, and community builder with a focus on DEI in leadership.', 'image': 'Abigail Mesrenyame Dogbe.jpg' }
+        { 'name': 'Lynn Root',
+         'description': _("Staff Engineer at Spotify and an professor at Columbia University's Graduate School of Engineering."),
+         'image': 'Lynn Root.jpg'
+         },   
+        { 'name': 'Ariel Ortiz',
+         'description': _('Professor at Tecnológico de Monterrey, Python expert, and international speaker.'),
+         'image': 'Ariel Ortiz.jpg'
+         },
+        { 'name': 'Abigail Messreyames',
+         'description': _('Open Source Programs Manager, researcher, and community builder with a focus on DEI in leadership.'),
+         'image': 'Abigail Mesrenyame Dogbe.jpg' }
     ]
     context = {'data': keynote_speakers}
     return render(request, 'home.html', context)
@@ -22,7 +30,6 @@ def tickets(request, lang='en'):
 
 def scheduled(request, lang='es'):
     activate(lang)
-    # print(speakers['1']['name'])
     speakers = {
         '1': {
         'name': _('Todos los participantes'),
