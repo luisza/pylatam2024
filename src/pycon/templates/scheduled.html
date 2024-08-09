@@ -46,13 +46,12 @@
                 <div class="d-grid gap-1 mt-3">
                     <span>
                         <iconify-icon icon="radix-icons:person" class="align-middle me-2"></iconify-icon>
-                        <span class="speaker-name cursor-pointer" 
+                        <span class="speaker-name {% if speaker.biography %}cursor-pointer{% endif %}" 
                             data-name="{{ speaker.name }}"
                             data-email="{{ speaker.email|default:'' }}"
                             data-biography="{{ speaker.biography|default:'' }}"
-                            data-photo="{{ speaker.photo }}">
-                            {{ speaker.name }}
-                        </span>
+                            data-photo="{{ speaker.photo|default:'default.jpg' }}"
+                        >{{ speaker.name }}</span>
                     </span>
                     <span>
                         <iconify-icon icon="carbon:time" class="align-middle me-2"></iconify-icon>
@@ -68,6 +67,7 @@
 </div>
 <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 <script>
+    // Modals for speaker's information functionality
     document.addEventListener('DOMContentLoaded', function () {
         document.querySelectorAll('.speaker-name').forEach((element) => {
             element.addEventListener('click', function () {
@@ -75,25 +75,27 @@
                 const email = this.getAttribute('data-email') || '';
                 const biography = this.getAttribute('data-biography') || '';
                 const photo = "{% static 'img/speakers/' %}" + this.getAttribute('data-photo') || '';
-                if(this.getAttribute('data-photo')){
-                    Swal.fire({
-                        title: name,
-                        html: `
-                                <img class="h-auto" src="${photo}" alt="${name}">
-                                <p class="mt-3 text-start" class="text-start">${biography}</p>
-                            `,
-                    });
-                }else{
-                    Swal.fire({
-                        title: name,
-                        html: `
-                                <p class="text-start">${biography}</p>
-                            `,
-                    });
+
+                if(this.getAttribute('data-biography')){
+
+                    if(this.getAttribute('data-photo')){
+                        Swal.fire({
+                            padding: '2.5em 2em .3em;',
+                            showConfirmButton: false,
+                            showCloseButton: true,
+                            html: `
+                                    <div class="rounded-circle overflow-hidden size-12 my-4 mx-auto"><img class="img" src="${photo}" alt="${name}"></div>
+                                    <swal-title class="fs-3 fw-bold">${name}</swal-title>
+                                    <p class="my-3 biography-text text-black-50">${biography}</p>
+                                `,
+                        });
+                    }
                 }
             });
         });
     });
+
+    // Schedule functionality
     let btnDays = document.querySelectorAll('.btn-day');
     let divDays = document.querySelectorAll('.day-container');
 

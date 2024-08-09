@@ -24,7 +24,7 @@
     </div>
 
     <!--We are back / What is Pyconlatam?-->
-    <div class="mt-4 g-4 max-900 mx-auto bg-light p-4 border-4 d-grid gap-4">
+    <div class="mt-4 g-4 max-900 mx-auto bg-light p-4 border-4 d-grid gap-4 rounded-3">
       <div class="img-container"><img class="img-introduction" src="{% static 'img/estamos_devuelta.jpg' %}" alt="Estamos de vuelta" /></div>
       <div class="d-grid gap-3 p-0">
         <section class="mx-auto text-left p-3">
@@ -38,6 +38,37 @@
       </div>
     </div>
   </section>
+
+  <!-- Keynotes speakers -->
+  <section class="max-900 mx-auto p-4 text-black-50">
+    <h3 class="mb-4 fw-bold">Keynote Speakers</h2>
+    <div class="grid-auto-250">
+      {% for speaker in data %}
+      <div class="card">
+        <div class="img-container">
+          <img class="img-introduction" src="{% static 'img/speakers/'|add:speaker.image %}" class="card-img-top" alt="{{speaker.name}}">
+        </div>
+        <div class="card-body my-3">
+          <h5 class="card-title mt-0 title-blue">{{speaker.name}}</h5>
+          <p class="card-text">{{speaker.description}}</p>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </section>
+
+  <!-- Call to action -->
+  <div>
+    <section class="cta-section">
+      <h2 class="text-white mt-0">{% trans "Secure your spot today" %}</h1>
+      <p class="text-white my-4">{% trans "Explore different <strong>ticket types and prices</strong> and find the perfect option for you. Click below for more details!" %}</p>
+      {% if LANGUAGE_CODE == 'es' %}
+          <a href="{% url 'tickets' %}" class="cta-button">{% trans "View Ticket Options" %}</a>
+          {% else %}
+          <a href="{% url 'tickets_en' %}" class="cta-button">{% trans "View Ticket Options" %}</a>
+          {% endif %}
+    </section>
+  </div>
 
   <!-- Como ser Patrocidor del evento -->
   <section class="section is-grey" style="background-color: #F7F7F7;">
@@ -110,203 +141,9 @@ PyCon Latam provides you with the opportunity to meet potential customers for yo
             </div>
             </div>
             </p>
-
             <a  class="btn btn-success text-center mt-5" href="https://drive.google.com/file/d/1ADKZZ9or1swZUM8TKMRaCRNYXMj7Ro3u/view?usp=sharing" target="_blank">{% trans 'More information on how to sponsor' %}</a>
           </div>
       </div>
-
-
     </div>
   </section>
-
-    <!-- Llamado a expositores -->
-  <section class="section is-danger" style="background-color: #328c99;">
-    <div class="container" style="min-height: 10em">
-
-      <div class="row">
-		  <div class="col-sm">
-		  <img class="imgserp" src="{% static 'img/serpiente.png' %}">
-		  </div>
-<div class="col-sm">
-      <div class="container">
-  <div class="container p-2">
-
-	  <a class="btn btn-warning m-2" href="https://www.papercall.io/pyconlatam24">{% trans 'Call for papers' %}</a></div>
-</div>
-	  <p class="text-black-50">
-        {% trans 'Would you like to become an exhibitor at the event? Showcase your knowledge in any area where Python is used.' %}
-      </p>
-      <!-- Animación en CSS para mostrar múltiples categorías de donde Python tiene impacto en el sector tecnológico -->
-      <div class="row">
-        <div class="col wave">
-          <span>{% trans 'Data Science' %}</span>
-          <span>{% trans 'Machine Learning' %}</span>
-          <span>{% trans 'Web developmnet' %}</span>
-          <span>{% trans 'Artificial Intelligence' %}</span>
-          <!-- Agregar más categorías aquí -->
-        </div>
-        <div class="col wave">
-          <span>{% trans 'Cybersecurity' %}</span>
-          <span>{% trans 'Automation' %}</span>
-          <span>{% trans 'IoT' %}</span>
-          <span>{% trans 'DevOps' %}</span>
-          <!-- Agregar más categorías aquí -->
-        </div>
-        <!-- Agregar más olas aquí -->
-      </div>
-        <div class="container m-3">
-	  <span class="text-center text-warning" style="font-size: 2em;">{% trans  'and more' %}</span></div>
-    </div>
-<div class="col-sm">
-	<img class="imgserp" src="{% static 'img/serpiente1.png' %}">
-</div>
-</div>
-</div>
-
-</div>
-  </section>
-
-
-  <!-- Opciones de precios -->
-  <section class="section is-warning" style="background-image: url('{% static 'img/bg1.png' %}'); text-align: justify; background-size: cover; min-height: 35em;">
-    <div class="container">
-
-
-      <div class="row align-items-start">
-  <div class="col-md-4 col-sm-12">
-        <h4 class="title card-title text-center">{% trans 'Pricing' %}</h4>
-	  <div class="card"><p class="p-2 card-body" style="color: #000;">
-{% blocktrans %}The price is per night, per person depending on occupancy.
-Minimum booking of 3 nights.
-The special price will be valid for 3 days before and 3 days after the conference dates.
-You can secure your booking with a $1,000 peso deposit, with the remaining balance to be paid in installments.
-The full payment must be completed by August 19.
-Resort Fee: $250.00 pesos per room per night.
-Minors must book accompanied by an adult.
-{% endblocktrans %}
-      </p>
-      <p>
-        <a class="btn btn-danger m-3" href="https://wa.me/message/WONVGQU7R7SPC1" target="_blank">{% trans 'Contact us by WhatsApp' %}</a>
-      </p>
-      </div>
-  </div>
-   <div class="col-md-4 col-sm-12">
-	<div>
-    <img  src="{% static 'img/serpiente_1.png' %}" alt="serpiente">
-    <img  src="{% static 'img/serpiente_2.png' %}" alt="serpiente">
-  </div>
-  </div>
-  <div class="col-md-4 col-sm-12">
-    <div class="card">
-    <div class="card-body">
-  <table class="table table-responsive table-striped">
-
- <thead>
- <td>{% trans 'All-inclusive Packages' %}</td>
-<td>USD*</td>
-<td>MX</td>
-</thead>
-<tbody>
-<tr>
-<td>{% trans 'Single room' %}</td>
-<td>$185.50</td>
-<td>$3,710</td>
-</tr>
-<tr>
-<td>{% trans 'Double room' %} </td>
-<td>$109.75</td>
-<td>$2,195</td>
-</tr>
-<tr>
-<td>{% trans 'Triple room' %}</td>
-<td>$105.50</td>
-<td>$2,110</td>
-</tr>
-<tr>
-<td>{% trans 'Quadruple room' %}</td>
-<td>$100.50</td>
-<td>$2,010</td>
-</tr>
-<td>{% trans 'Youngs (13-17 yrs)' %}</td>
-<td>$50.00</td>
-<td>$1,000</td>
-</tr>
-<tr><td>{% trans 'Children (6- 12 yrs)' %}</td>
-<td>$37.50</td>
-<td>$750</td>
-</tr>
-<tr>
-<td colspan=2>{% trans 'Children (0- 5 yrs) without charges' %}</td>
-</tbody>
-<tfoot>
-<td>* {% trans 'Prices fluctuate based on exchange rate' %}</td>
-</tfoot>
-</table>
-</div></div>
-  </div>
-
-  </div>
-
-
-
-    </div>
-  </section>
-
-  <!-- Animación en CSS para mostrar múltiples categorías de donde Python tiene impacto en el sector tecnológico -->
-  <style>
-
-    .wave  {
-      margin: 10px;
-      padding: 10px;
-      border-radius: 10px;
-      background-color: #f0f0f0;
-      transition: background-color 0.3s ease;
-    }
-    .wave :hover {
-      background-color: #ccc;
-    }
-    .imgserp{
-      max-height: 400px;
-      width: 100%;
-    }
-    .has-text-light{
-      color: darkgray;
-      padding: 1.2em;
-    }
-    section{
-      padding: 2em;
-    }
-    .hero{
-      padding: 0em;
-    }
-    .sponsorcommunity i {
-        color: #bbdb7e;
-        font-size: 2em;
-    }
-
-    .sponsorbasic i {
-        color: #92d3dc;
-        font-size: 2em;
-    }
-    .sponsorbronce i{
-        color: #cc9900;
-        font-size: 2em;
-    }
-
-
-    .sponsordiamond i{
-        color: #f1f7fb;
-        font-size: 2em;
-    }
-    .sponsorgold i{
-        color: #FFD700;
-        font-size: 2em;
-    }
-    .sponsorplate i{
-        color: #a6a6a6;
-        font-size: 2em;
-    }
-
-
-  </style>
 {% endblock content %}
