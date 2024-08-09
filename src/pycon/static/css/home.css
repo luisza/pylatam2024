@@ -9,6 +9,65 @@ h6 {
   margin-top: 35px;
 }
 
+.wave  {
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #f0f0f0;
+    transition: background-color 0.3s ease;
+  }
+  .wave :hover {
+    background-color: #ccc;
+  }
+  .imgserp{
+    max-height: 400px;
+    width: 100%;
+  }
+  .has-text-light{
+    color: darkgray;
+    padding: 1.2em;
+  }
+  section{
+    padding: 2em;
+  }
+  .hero{
+    padding: 0em;
+  }
+  .sponsorcommunity i {
+      color: #bbdb7e;
+      font-size: 2em;
+  }
+
+  .sponsorbasic i {
+      color: #92d3dc;
+      font-size: 2em;
+  }
+  .sponsorbronce i{
+      color: #cc9900;
+      font-size: 2em;
+  }
+
+  .sponsordiamond i{
+      color: #f1f7fb;
+      font-size: 2em;
+  }
+  .sponsorgold i{
+      color: #FFD700;
+      font-size: 2em;
+  }
+  .sponsorplate i{
+      color: #a6a6a6;
+      font-size: 2em;
+  }
+
+  .grid-auto-250{
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  }
+
+
+
 #banner {
     height: auto;
     background-image: url(../img/background.png);
@@ -414,12 +473,22 @@ section#speakers .btn, section#speakers p {
   margin-bottom: 20px;
 }
 
-
 /* New */
-.img-container {
+.title-blue{
+    color: #3691bd;
+}
+
+.img-container{
     overflow: hidden;
-    max-height: 15rem;
+    max-height: 20rem;
     padding: 0;
+}
+
+@media (max-width: 767.98px) {
+    .img-container {
+        height: 28rem;
+        max-height: none;
+    }
 }
 
 .introduction-info{
@@ -427,8 +496,39 @@ section#speakers .btn, section#speakers p {
     color: #767f87;
 }
 
-.img-introduction{
+.img-introduction, .img-keynote{
     width: 100%;
     height: 100%;
     object-fit: cover;
+}
+
+.cta-section {
+    background: linear-gradient(to right, #3691bd, #236f97);
+    border-radius: 1rem;
+    padding: 3.5rem 1rem;
+    text-align: center;
+    margin: 20px;
+}
+.cta-button {
+    background-color: #f8bf52;
+    border: none;
+    color: #2d465c;
+    padding: .8rem 1.5rem;
+    border-radius: 1.5rem;
+    text-decoration: none;
+    transition: .2s ease;
+}
+.cta-button:hover {
+    background-color: #d69a38;
+    text-decoration: none;
+    color: #ffffff;
+}
+.cta-text {
+    margin: 20px 0;
+    font-size: 1.1rem;
+}
+@media (max-width: 768px) {
+    .cta-section {
+        padding: 2rem 1rem;
+    }
 }
