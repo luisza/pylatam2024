@@ -1310,6 +1310,19 @@ msgstr "Closing Keynote"
 msgid "Cierre de Conferencia"
 msgstr "Conference Closing"
 
+msgid "August 19th is the last day with a special price!"
+msgstr "August 19th is the last day with a special price!"
+
+msgid "Last day with special price!"
+msgstr "Last day with special price!"
+
+msgid "Buy now and take advantage of the discounted prices, the time is now, let's shop and participate in Pylatam."
+msgstr "Buy now and take advantage of the discounted prices, the time is now, let's shop and participate in Pylatam."
+
+
+msgid "The prices in dollars are for reference only and will be charged in Mexican pesos at the exchange rate on the day of purchase"
+msgstr "The prices in dollars are for reference only and will be charged in Mexican pesos at the exchange rate on the day of purchase"
+
 #~ msgid ""
 #~ "Todo lo que necesitas saber sobre Unicode, pero nunca se te ocurrió "
 #~ "preguntar"

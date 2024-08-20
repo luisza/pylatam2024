@@ -1,4 +1,6 @@
 # Byte-compiled / optimized / DLL files
+docker/pylatam.env
+
 __pycache__/
 *.py[cod]
 *$py.class

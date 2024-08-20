@@ -1131,6 +1131,22 @@ msgstr "Cierre de la Conferencia"
 msgid "Cierre de Conferencia"
 msgstr "Cierre de la Conferencia"
 
+msgid "August 19th is the last day with a special price!"
+msgstr "¡19 de agosto es último día con precio especial!"
+
+msgid "Last day with special price!"
+msgstr "¡Último día con precio especial!"
+
+msgid "Buy now and take advantage of the discounted prices, the time is now, let's shop and participate in Pylatam."
+msgstr "Compra ahora y aprovecha los precios rebajados, el momento es ahora, vamos a comprar y a participar en el Pylatam."
+
+
+msgid "The prices in dollars are for reference only and will be charged in Mexican pesos at the exchange rate on the day of purchase"
+msgstr "Los precios en dolares son de referencia y se cobrará en pesos méxicanos al tipo de cambio del día de la compra."
+
+
+
+
 #~ msgid "Call for papers"
 #~ msgstr "Llamado a expositores"
 

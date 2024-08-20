@@ -16,8 +16,20 @@
   </section>
 </div>
 
+
 <div class="row mx-auto mt-2 p-3 gap-3 banner-conduct max-900">
   <section class="container m-auto max-900 text-start">
+    <div class="alert alert-warning alert-dismissible fade show alert-banner align-items-center" role="alert">
+
+    <div class="container d-flex">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-exclamation-triangle-fill flex-shrink-0 me-2" viewBox="0 0 16 16" role="img" aria-label="Warning:">
+    <path d="M8.982 1.566a1.13 1.13 0 0 0-1.96 0L.165 13.233c-.457.778.091 1.767.98 1.767h13.713c.889 0 1.438-.99.98-1.767L8.982 1.566zM8 5c.535 0 .954.462.9.995l-.35 3.507a.552.552 0 0 1-1.1 0L7.1 5.995A.905.905 0 0 1 8 5zm.002 6a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+  </svg>
+      <div>{% trans "August 19th is the last day with a special price!" %}</div>
+
+    </div>
+  </div>
+  
     <h3 class="my-2">{% trans "All-Inclusive Plan" %}</h3>
     <p>{% trans "Enjoy a hassle-free experience with our all-inclusive plan, covering <strong class='blue-md'>accommodation, meals, and access to all conference events</strong>. The prices below are per night, per person, based on room occupancy." %}</p>
 
@@ -69,6 +81,7 @@
     </table>
     <p></p>
   </section>
+<div class="max-900 text-center text-danger"> * {% trans "The prices in dollars are for reference only and will be charged in Mexican pesos at the exchange rate on the day of purchase" %}</div>
 </div>
 
 <section class="max-900 text-center m-auto p-4 mt-5">
@@ -215,5 +228,12 @@
     <span class="text-center">{% trans 'We look forward to welcoming you to Mazatlán for an enriching and unforgettable experience at PyCon Latam 2024!' %}</span>
     </div>
   </div>
-
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script>
+    Swal.fire({
+  title: "{% trans "Last day with special price!" %}",
+  text: "{% trans "Buy now and take advantage of the discounted prices, the time is now, let's shop and participate in Pylatam." %}",
+  icon: "success"
+});
+</script>
 {% endblock content %}
