@@ -40,9 +40,13 @@
 
                         {% if LANGUAGE_CODE == 'es' %}
                         <a class="dropdown-item" href="{% url 'conduct' %}">{% trans "Code of Conduct" %}</a>
+                        <a class="dropdown-item" href="{% url 'team' %}">{% trans "Team" %}</a>
                         {% else %}
                         <a class="dropdown-item" href="{% url 'conduct_en' %}">{% trans "Code of Conduct" %}</a>
+                        <a class="dropdown-item" href="{% url 'team_en' %}">{% trans "Team" %}</a>
                         {% endif %}
+
+                        
 
                     </div>
                 </li>

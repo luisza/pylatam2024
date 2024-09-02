@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+{% load i18n static %}
+
+{% block css %}
+<link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}" />
+<link rel="stylesheet" type="text/css" href="{% static 'css/team.css' %}" />
+{% endblock css %}
+
+{% block content %}
+{% for member in team.volunteering %}
+<h2>{{member.name}}</h2>
+<p>{{member.bio}}</p>
+<img src="{% static 'img/team/'|add:member.photo %}" alt="">
+{% endfor %}
+
+{% endblock content %}

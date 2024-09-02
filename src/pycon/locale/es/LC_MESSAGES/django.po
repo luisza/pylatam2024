@@ -7,19 +7,19 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-09 10:35-0600\n"
+"POT-Creation-Date: 2024-09-01 17:55-0600\n"
 "PO-Revision-Date: 2024-06-10 19:19-0600\n"
 "Last-Translator: \n"
 "Language-Team: \n"
+"Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: es\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Poedit 3.2.2\n"
 
 #: .\pycon\templates\conduct.html:15 .\pycon\templates\includes\nav.html:42
-#: .\pycon\templates\includes\nav.html:44
+#: .\pycon\templates\includes\nav.html:45
 msgid "Code of Conduct"
 msgstr "Código de conducta"
 
@@ -346,7 +346,12 @@ msgstr "Boletos"
 msgid "About"
 msgstr "Acerca de"
 
-#: .\pycon\templates\includes\nav.html:60
+#: .\pycon\templates\includes\nav.html:43
+#: .\pycon\templates\includes\nav.html:46
+msgid "Team"
+msgstr "Equipo"
+
+#: .\pycon\templates\includes\nav.html:64
 msgid "Donate"
 msgstr "Donar"
 
@@ -373,11 +378,15 @@ msgstr ""
 "incluido sin costos adicionales de conferencia más allá de tu estadía en el "
 "hotel."
 
-#: .\pycon\templates\tickets.html:21
+#: .\pycon\templates\tickets.html:28
+msgid "August 19th is the last day with a special price!"
+msgstr "¡19 de agosto es último día con precio especial!"
+
+#: .\pycon\templates\tickets.html:33
 msgid "All-Inclusive Plan"
 msgstr "Plan Todo Incluido"
 
-#: .\pycon\templates\tickets.html:22
+#: .\pycon\templates\tickets.html:34
 msgid ""
 "Enjoy a hassle-free experience with our all-inclusive plan, covering <strong "
 "class='blue-md'>accommodation, meals, and access to all conference events</"
@@ -388,55 +397,63 @@ msgstr ""
 "todos los eventos de la conferencia</strong>. Los precios a continuación son "
 "por noche, por persona, según la ocupación de la habitación."
 
-#: .\pycon\templates\tickets.html:27
+#: .\pycon\templates\tickets.html:39
 msgid "Room Type"
 msgstr "Tipo de Habitación"
 
-#: .\pycon\templates\tickets.html:28
+#: .\pycon\templates\tickets.html:40
 msgid "USD"
 msgstr ""
 
-#: .\pycon\templates\tickets.html:29
+#: .\pycon\templates\tickets.html:41
 msgid "MXN"
 msgstr ""
 
-#: .\pycon\templates\tickets.html:34
+#: .\pycon\templates\tickets.html:46
 msgid "Single Room"
 msgstr "Habitación Individual"
 
-#: .\pycon\templates\tickets.html:39
+#: .\pycon\templates\tickets.html:51
 msgid "Double Room"
 msgstr "Habitación Doble"
 
-#: .\pycon\templates\tickets.html:44
+#: .\pycon\templates\tickets.html:56
 msgid "Triple Room"
 msgstr "Habitación Triple"
 
-#: .\pycon\templates\tickets.html:49
+#: .\pycon\templates\tickets.html:61
 msgid "Quadruple Room"
 msgstr "Habitación Cuádruple"
 
-#: .\pycon\templates\tickets.html:54
+#: .\pycon\templates\tickets.html:66
 msgid "Junior (13-17 years)"
 msgstr ""
 
-#: .\pycon\templates\tickets.html:59
+#: .\pycon\templates\tickets.html:71
 msgid "Children (6-12 years)"
 msgstr "Niños (6-12 años)"
 
-#: .\pycon\templates\tickets.html:64
+#: .\pycon\templates\tickets.html:76
 msgid "Children (0-5 years)"
 msgstr "Niños (0-5 años)"
 
-#: .\pycon\templates\tickets.html:65 .\pycon\templates\tickets.html:66
+#: .\pycon\templates\tickets.html:77 .\pycon\templates\tickets.html:78
 msgid "No Fee"
 msgstr "Sin costo"
 
-#: .\pycon\templates\tickets.html:75
+#: .\pycon\templates\tickets.html:84
+msgid ""
+"The prices in dollars are for reference only and will be charged in Mexican "
+"pesos at the exchange rate on the day of purchase"
+msgstr ""
+"Los precios en dolares son de referencia y se cobrará en pesos méxicanos al "
+"tipo de cambio del día de la compra."
+
+#: .\pycon\templates\tickets.html:88
 msgid "How to Book"
 msgstr "Cómo Reservar"
 
-#: .\pycon\templates\tickets.html:77
+#: .\pycon\templates\tickets.html:90
 msgid ""
 "To purchase your ticket and reserve your stay at PyCon Latam 2024, follow "
 "these steps"
@@ -444,89 +461,89 @@ msgstr ""
 "Para comprar tu boleto y reservar tu estancia en PyCon Latam 2024, sigue "
 "estos pasos"
 
-#: .\pycon\templates\tickets.html:85
+#: .\pycon\templates\tickets.html:98
 msgid "Conference Welcome Image"
 msgstr "Imagen Bienvenida Conferencia"
 
-#: .\pycon\templates\tickets.html:96
+#: .\pycon\templates\tickets.html:109
 msgid "Choose your room type"
 msgstr "Elige tu tipo de habitación"
 
-#: .\pycon\templates\tickets.html:97
+#: .\pycon\templates\tickets.html:110
 msgid "based on the number of occupants."
 msgstr "según el número de ocupantes."
 
-#: .\pycon\templates\tickets.html:108
+#: .\pycon\templates\tickets.html:121
 msgid "Calculate your total cost"
 msgstr "Calcula tu costo total"
 
-#: .\pycon\templates\tickets.html:109
+#: .\pycon\templates\tickets.html:122
 msgid "based on the nightly rate and the number of nights you plan to stay."
 msgstr ""
 "basado en la tarifa por noche y el número de noches que planeas quedarte."
 
-#: .\pycon\templates\tickets.html:120
+#: .\pycon\templates\tickets.html:133
 msgid "Contact the hotel sales agent"
 msgstr "Contacta a la agente de ventas del hotel"
 
-#: .\pycon\templates\tickets.html:121
+#: .\pycon\templates\tickets.html:134
 msgid "via WhatsApp to start the booking process."
 msgstr "a través de WhatsApp para iniciar el proceso de reserva:"
 
-#: .\pycon\templates\tickets.html:121
+#: .\pycon\templates\tickets.html:134
 msgid "Click here to contact."
 msgstr "Haz clic aquí para contactar."
 
-#: .\pycon\templates\tickets.html:132
+#: .\pycon\templates\tickets.html:145
 msgid "Make an initial deposit"
 msgstr "Realiza un depósito inicial"
 
-#: .\pycon\templates\tickets.html:133
+#: .\pycon\templates\tickets.html:146
 msgid "of $1,000 MXN to secure your reservation."
 msgstr "de $1,000 MXN para asegurar tu reserva."
 
-#: .\pycon\templates\tickets.html:144
+#: .\pycon\templates\tickets.html:157
 msgid "Pay the remaining balance"
 msgstr "Paga el saldo restante"
 
-#: .\pycon\templates\tickets.html:145
+#: .\pycon\templates\tickets.html:158
 msgid "in installments, ensuring full payment by August 19th."
 msgstr "en abonos, asegurando el pago completo antes del 19 de agosto."
 
-#: .\pycon\templates\tickets.html:161
+#: .\pycon\templates\tickets.html:174
 msgid "Conference Schedule"
 msgstr "Agenda de Conferencia"
 
-#: .\pycon\templates\tickets.html:164
+#: .\pycon\templates\tickets.html:177
 msgid "<strong>September 19:</strong> Welcome"
 msgstr "<strong>19 de Septiembre:</strong> Bienvenida"
 
-#: .\pycon\templates\tickets.html:165
+#: .\pycon\templates\tickets.html:178
 msgid "<strong>September 20:</strong> 1st Day of Conference"
 msgstr "<strong>20 de Septiembre:</strong> 1er Día de Conferencia"
 
-#: .\pycon\templates\tickets.html:166
+#: .\pycon\templates\tickets.html:179
 msgid "<strong>September 21:</strong> 2nd Day of Conference"
 msgstr "<strong>21 de Septiembre:</strong> 2do Día de Conferencia"
 
-#: .\pycon\templates\tickets.html:167
+#: .\pycon\templates\tickets.html:180
 msgid "<strong>September 22:</strong> Hotel Check-out"
 msgstr "<strong>22 de Septiembre:</strong> Salida del hotel"
 
-#: .\pycon\templates\tickets.html:174
+#: .\pycon\templates\tickets.html:187
 msgid "Important details"
 msgstr "Detalles Importantes"
 
-#: .\pycon\templates\tickets.html:180
+#: .\pycon\templates\tickets.html:193
 msgid "Prices are per night, per person, based on room occupancy."
 msgstr ""
 "Los precios son por noche, por persona, según la ocupación de la habitación."
 
-#: .\pycon\templates\tickets.html:185
+#: .\pycon\templates\tickets.html:198
 msgid "A minimum stay of 3 nights is required."
 msgstr "Se requiere una estancia mínima de 3 noches."
 
-#: .\pycon\templates\tickets.html:190
+#: .\pycon\templates\tickets.html:203
 msgid ""
 "Special rates are valid for 3 days before and 3 days after the conference "
 "dates."
@@ -534,23 +551,23 @@ msgstr ""
 "Las tarifas especiales son válidas por 3 días antes y 3 días después de las "
 "fechas de la conferencia."
 
-#: .\pycon\templates\tickets.html:195
+#: .\pycon\templates\tickets.html:208
 msgid "A deposit of $1,000 MXN is required to secure your reservation."
 msgstr "Se requiere un depósito de $1,000 MXN para asegurar tu reserva."
 
-#: .\pycon\templates\tickets.html:200
+#: .\pycon\templates\tickets.html:213
 msgid "The remaining balance can be paid in installments."
 msgstr "El saldo restante se puede pagar en abonos."
 
-#: .\pycon\templates\tickets.html:205
+#: .\pycon\templates\tickets.html:218
 msgid "Full payment must be completed by August 19th."
 msgstr "El pago total debe completarse antes del 19 de agosto."
 
-#: .\pycon\templates\tickets.html:210
+#: .\pycon\templates\tickets.html:223
 msgid "An adult must accompany minors."
 msgstr "Los menores de edad deben estar acompañados por un adulto."
 
-#: .\pycon\templates\tickets.html:215
+#: .\pycon\templates\tickets.html:228
 msgid ""
 "We look forward to welcoming you to Mazatlán for an enriching and "
 "unforgettable experience at PyCon Latam 2024!"
@@ -582,15 +599,100 @@ msgstr ""
 "Gerente de Programas de Código Abierto, investigadora y constructora de "
 "comunidad con un enfoque en DEI en el liderazgo."
 
-#: .\pycon\views.py:35
+#: .\pycon\views.py:37
+msgid ""
+"Gabriela es psicopedagoga amante de la literatura y la cocina. Con más de 12 "
+"años de experiencia en la comunidad de Python, ha sido una activa "
+"colaboradora del equipo organizador de Python Monterrey. Desde 2019, ha "
+"desempeñado un rol destacado como organizadora de PyCon Latam. Su compromiso "
+"con la educación y la tecnología se refleja en su continuo esfuerzo por "
+"fomentar el desarrollo y la inclusión en la comunidad."
+msgstr ""
+
+#: .\pycon\views.py:42
+msgid ""
+"Denny es Analista de QA de Software con un título en contabilidad, "
+"apasionada por la diversidad e inclusión en comunidades tecnológicas. Como "
+"manejadora de comunidades Python y Directora de la PSF desde 2023, empodera "
+"a las comunidades de habla hispana a través de PyLadies, organizando eventos "
+"diversos y mentorando dentro de la comunidad Python para promover un "
+"ambiente inclusivo."
+msgstr ""
+
+#: .\pycon\views.py:47
+msgid ""
+"Es un apasionado de la tecnología de código abierto. Trabaja en un producto "
+"que demuestra cómo el código abierto puede impulsar nuevas tecnologías en "
+"sectores no industrializados, como la acuicultura. También es conferencista, "
+"motivando a las futuras generaciones a entender y utilizar el software de "
+"código abierto."
+msgstr ""
+
+#: .\pycon\views.py:54
+msgid ""
+"Es desarrollador Python con más de 14 años de experiencia en la realización "
+"de proyectos por demanda para diversas empresas. Es fundador de Solvosoft y "
+"creador de proyectos como Gentelella Widgets y Organilab. Además, es "
+"colaborador del proyecto xhtml2pdf y ha sido profesor universitario en la "
+"Universidad de Costa Rica."
+msgstr ""
+
+#: .\pycon\views.py:59
+msgid ""
+"Es profesor de Informática en la Universidad de Costa Rica. Durante su "
+"doctorado, trabajó con Python para la limpieza y análisis de datos generados "
+"por cursos masivos en línea. Actualmente, coordina un grupo de investigación "
+"en Python, cuyo objetivo es introducir a los estudiantes universitarios en "
+"el desarrollo de aplicaciones con este lenguaje. Cuenta con experiencia en "
+"la organización de actividades como congresos internacionales, habiendo "
+"participado en eventos como Drupal Camp y el Encuentro Centroamericano de "
+"Software Libre."
+msgstr ""
+
+#: .\pycon\views.py:66
+msgid ""
+"Es una psicóloga apasionada del psicoanálisis y entusiasta de la tecnología. "
+"Durante casi 10 años, ha combinado su interés por comprender a las personas "
+"con el mundo del desarrollo de software, trabajando en reclutamiento y "
+"recursos humanos en esta industria. Siempre está emocionada por aprender y "
+"contribuir."
+msgstr ""
+
+#: .\pycon\views.py:71
+msgid ""
+"Desarrollador de software con una pasión el UI. Especializado en la "
+"construcción de aplicaciones accesibles. Cree fuertemente en el poder de la "
+"colaboración y el intercambio de conocimiento para impulsar el crecimiento "
+"colectivo."
+msgstr ""
+
+#: .\pycon\views.py:78
+msgid ""
+"Ashley es una estudiante autodidacta de Informática y Tecnología Multimedia "
+"en la Universidad de Costa Rica. Apasionada por la tecnología y el diseño, "
+"está aprendiendo Python de manera autodidacta. Con un firme interés en "
+"integrarse más en la comunidad tecnológica, busca participar en proyectos "
+"innovadores que combinen tecnología y creatividad."
+msgstr ""
+
+#: .\pycon\views.py:83
+msgid ""
+"Jeremy es un estudiante de Informática en la Universidad de Costa Rica, "
+"actualmente centrado en el desarrollo web con Django. Disciplinado y con una "
+"gran curiosidad por aprender nuevas tecnologías, busca involucrarse en "
+"proyectos colaborativos y contribuir con sus habilidades para crear "
+"soluciones innovadoras."
+msgstr ""
+
+#: .\pycon\views.py:96
 msgid "Todos los participantes"
 msgstr ""
 
-#: .\pycon\views.py:39 .\pycon\views.py:120
+#: .\pycon\views.py:100 .\pycon\views.py:181
 msgid "Personal administrativo"
 msgstr "Personal administrativo"
 
-#: .\pycon\views.py:43
+#: .\pycon\views.py:104
 msgid ""
 "Lynn Root is a Staff Engineer at Spotify and an adjunct professor at "
 "Columbia University's Graduate School of Engineering. She is a seasoned "
@@ -610,7 +712,7 @@ msgstr ""
 "la PSF y ex vicepresidenta de la Junta Directiva de la PSF. Cuando no tiene "
 "sus manos en un teclado, normalmente están sosteniendo un bajo eléctrico."
 
-#: .\pycon\views.py:49
+#: .\pycon\views.py:110
 msgid ""
 "En un mundo donde la tecnología avanza a pasos agigantados, a Nadia Ayala "
 "Hernandez le apasiona descubrir cómo esta puede ser utilizada para mejorar "
@@ -623,7 +725,7 @@ msgid ""
 "de vida de sus clientes."
 msgstr ""
 
-#: .\pycon\views.py:55
+#: .\pycon\views.py:116
 msgid ""
 "Oscar, nacido en Nicaragua y radicado en Colombia, es un Ingeniero de "
 "Software que se especializa en la construcción de aplicaciones de alto "
@@ -635,7 +737,7 @@ msgid ""
 "Nicaragua y más allá."
 msgstr ""
 
-#: .\pycon\views.py:61
+#: .\pycon\views.py:122
 msgid ""
 "Gerardo Vilcamiza es Ingeniero Mecatrónico por la Universidad Peruana de "
 "Ciencias Aplicadas (UPC), donde se desempeña como investigador en el "
@@ -656,7 +758,7 @@ msgid ""
 "Perú, PyDay Perú 2023 y Pycon Colombia 2024."
 msgstr ""
 
-#: .\pycon\views.py:67
+#: .\pycon\views.py:128
 msgid ""
 "Fernanda Ochoa es Directora de Producto y Tecnología en Dalia Empower. "
 "Trabajó como Sherpa Digital de Data Science y Cloud Computing con "
@@ -674,7 +776,7 @@ msgid ""
 "cultura que proporciona una orientación clara a sus estudiantes."
 msgstr ""
 
-#: .\pycon\views.py:73
+#: .\pycon\views.py:134
 msgid ""
 "Desarrollador de software originario de Managua, Nicaragua. Miembro de la "
 "comunidad de software libre de Nicaragua. Actualmente trabaja como "
@@ -682,7 +784,7 @@ msgid ""
 "experiencia."
 msgstr ""
 
-#: .\pycon\views.py:79
+#: .\pycon\views.py:140
 msgid ""
 "Es un apasionado desarrollador en Electronic Cats y PwnLabs. Con un gran "
 "interés en la ciberseguridad y el hardware, ha enfocado su perfil "
@@ -698,7 +800,7 @@ msgid ""
 "ciberseguridad."
 msgstr ""
 
-#: .\pycon\views.py:85
+#: .\pycon\views.py:146
 msgid ""
 "Carla es una apasionada de la Inteligencia Artificial, participa activamente "
 "en comunidades locales e internacionales de Machine Learning y Data Science. "
@@ -711,7 +813,7 @@ msgid ""
 "education en Platzi."
 msgstr ""
 
-#: .\pycon\views.py:95
+#: .\pycon\views.py:156
 msgid ""
 "Osiel Torres es Software Engineer de Cloud and Platform en Mercado Libre e "
 "Ingeniero en Tecnologías Computacionales por el Tecnológico de Monterrey. "
@@ -721,7 +823,7 @@ msgid ""
 "proyectos y startups se construyen sobre una buena cultura."
 msgstr ""
 
-#: .\pycon\views.py:102
+#: .\pycon\views.py:163
 msgid ""
 "Carlos Giles es Ingeniero de Datos en DaliaEmpower con una sólida formación "
 "académica en Ingeniería Eléctrica y Electrónica por la UNAM, e Ingeniería en "
@@ -737,7 +839,7 @@ msgid ""
 "de la tecnología y la ingeniería."
 msgstr ""
 
-#: .\pycon\views.py:113
+#: .\pycon\views.py:174
 msgid ""
 "Gustavo Reynaga es un apasionado de la tecnología y la enseñanza que ha "
 "explorado una amplia gama de tecnologías desde una temprana edad, incluyendo "
@@ -753,11 +855,11 @@ msgid ""
 "innovando y enseñando para inspirar a futuras generaciones de tecnólogos."
 msgstr ""
 
-#: .\pycon\views.py:117
+#: .\pycon\views.py:178
 msgid "Charlas generales"
 msgstr ""
 
-#: .\pycon\views.py:124
+#: .\pycon\views.py:185
 msgid ""
 "El profesor Ariel Ortiz Ramírez es originario de la Ciudad de México, aunque "
 "ha vivido la mayor parte de su vida en Cuautitlán Izcalli, Estado de México. "
@@ -783,7 +885,7 @@ msgid ""
 "educación."
 msgstr ""
 
-#: .\pycon\views.py:130
+#: .\pycon\views.py:191
 msgid ""
 "En mi rol de Especialista en Análisis de Datos y Aprendizaje Automático/"
 "Inteligencia Artificial (ML/AI), mi misión es simplificar conceptos "
@@ -795,7 +897,7 @@ msgid ""
 "expandir sus habilidades y alcanzar sus objetivos profesionales."
 msgstr ""
 
-#: .\pycon\views.py:136
+#: .\pycon\views.py:197
 msgid ""
 "Fabio Andrés Pinto es Ingeniero Electrónico, Magíster en Ingeniería "
 "Matemática y Computación y doctorando en Estadística, Optimización y "
@@ -808,7 +910,7 @@ msgid ""
 "Ingeniería y Tecnología en Bogotá, Colombia."
 msgstr ""
 
-#: .\pycon\views.py:142
+#: .\pycon\views.py:203
 msgid ""
 "Soy Alejandro Parra, evangelista de tecnologías en la nube y el código "
 "abierto con más de 10 años de experiencia en IT. Comparto experiencias para "
@@ -816,7 +918,7 @@ msgid ""
 "non dominetur' sea una realidad."
 msgstr ""
 
-#: .\pycon\views.py:148
+#: .\pycon\views.py:209
 msgid ""
 "Kay Hayen is the founder of Nuitka Services, the commercial backend of "
 "Nuitka. For the past two years, he has made a living from the commercial "
@@ -828,7 +930,7 @@ msgstr ""
 "después de haber trabajado en el desarrollo de este compilador de Python "
 "como un pasatiempo durante muchos años."
 
-#: .\pycon\views.py:155
+#: .\pycon\views.py:216
 msgid ""
 "Diego Barriga, Ingeniero en computación por la UNAM, trabajo con NLP y "
 "lenguas indigenas mexicanas. Es parte de Laboratorio de Investigacion y "
@@ -838,7 +940,7 @@ msgid ""
 "sin frenos :)"
 msgstr ""
 
-#: .\pycon\views.py:161
+#: .\pycon\views.py:222
 msgid ""
 "Carlos Andrés Alarcón, ingeniero de sistemas y un destacado profesional en "
 "el campo de la ciencia de datos y la inteligencia artificial, con "
@@ -855,11 +957,11 @@ msgid ""
 "inteligencia artificial y el manejo de datos"
 msgstr ""
 
-#: .\pycon\views.py:165
+#: .\pycon\views.py:226
 msgid "Capitulos PyLadies alrededor de América Latina"
 msgstr "Capítulos PyLadies alrededor de América Latina"
 
-#: .\pycon\views.py:170
+#: .\pycon\views.py:231
 msgid ""
 "Estudió ciencias físicas e informática, y siempre buscó involucrarse en "
 "clases de filosofía. Se apasiona por temas relacionados con el pasado, "
@@ -877,7 +979,7 @@ msgid ""
 "de la comunidad Python CDMX."
 msgstr ""
 
-#: .\pycon\views.py:177
+#: .\pycon\views.py:238
 msgid ""
 "Juan Guillermo coorganiza varios eventos globales y locales, como eventos de "
 "Google, Startup Weekend Colombia, PyCon, entre otros. Ha estado involucrado "
@@ -892,7 +994,7 @@ msgid ""
 "Ingeniería de Software por la Universidad San Buenaventura Cali."
 msgstr ""
 
-#: .\pycon\views.py:184
+#: .\pycon\views.py:245
 msgid ""
 "Héctor Iván Castañeda Nazario proviene de un pueblo agricultor en la Ciudad "
 "de México y estudió ingeniería petrolera en la UNAM. Aunque no pudo ejercer "
@@ -908,7 +1010,7 @@ msgid ""
 "general de forma gratuita."
 msgstr ""
 
-#: .\pycon\views.py:188
+#: .\pycon\views.py:249
 msgid ""
 "Abigail, is an Open Source Programs Manager, Researcher and Community "
 "Builder. Her current research focuses on Improving DEI in Open Source "
@@ -925,46 +1027,46 @@ msgstr ""
 "locales e internacionales. Mesrenyame es miembro y ganadora del premio de "
 "Servicio Comunitario de la Python Software Foundation."
 
-#: .\pycon\views.py:192
+#: .\pycon\views.py:253
 msgid "Equipo organizador"
 msgstr ""
 
-#: .\pycon\views.py:197
+#: .\pycon\views.py:258
 msgid "Jueves 19 de Septiembre"
 msgstr "Jueves 19 de Septiembre"
 
-#: .\pycon\views.py:200
+#: .\pycon\views.py:261
 msgid "Bienvenida al evento"
 msgstr "Bienvenida al evento"
 
-#: .\pycon\views.py:208
+#: .\pycon\views.py:269
 msgid "Viernes 20 de Septiembre"
 msgstr "Viernes 20 de Septiembre"
 
-#: .\pycon\views.py:211
+#: .\pycon\views.py:272
 #, fuzzy
 #| msgid "Bienvenida al evento"
 msgid "Bienvenida"
 msgstr "Bienvenida al evento"
 
-#: .\pycon\views.py:217
+#: .\pycon\views.py:278
 #, fuzzy
 #| msgid "Keynote Speakers"
 msgid "Keynote de Apertura"
 msgstr "Ponentes Principales"
 
-#: .\pycon\views.py:220 .\pycon\views.py:227 .\pycon\views.py:241
-#: .\pycon\views.py:255 .\pycon\views.py:269 .\pycon\views.py:283
-#: .\pycon\views.py:297 .\pycon\views.py:311 .\pycon\views.py:318
-#: .\pycon\views.py:330 .\pycon\views.py:337 .\pycon\views.py:351
-#: .\pycon\views.py:365 .\pycon\views.py:393 .\pycon\views.py:423
-#: .\pycon\views.py:430
+#: .\pycon\views.py:281 .\pycon\views.py:288 .\pycon\views.py:302
+#: .\pycon\views.py:316 .\pycon\views.py:330 .\pycon\views.py:344
+#: .\pycon\views.py:358 .\pycon\views.py:372 .\pycon\views.py:379
+#: .\pycon\views.py:391 .\pycon\views.py:398 .\pycon\views.py:412
+#: .\pycon\views.py:426 .\pycon\views.py:454 .\pycon\views.py:484
+#: .\pycon\views.py:491
 #, fuzzy
 #| msgid "Salon A"
 msgid "Salón A"
 msgstr "Salón A"
 
-#: .\pycon\views.py:224
+#: .\pycon\views.py:285
 msgid ""
 "Conviértete en un maestro de la automatización: Aprende a implementar RPA y "
 "PYTHON en el sector financiero."
@@ -972,20 +1074,20 @@ msgstr ""
 "Conviértete en un maestro de la automatización: Aprende a implementar RPA y "
 "PYTHON en el sector financiero."
 
-#: .\pycon\views.py:231
+#: .\pycon\views.py:292
 msgid "De Bichos y Serpientes: Seguridad en el Ecosistema de Paquetes Python"
 msgstr "De Bichos y Serpientes: Seguridad en el Ecosistema de Paquetes Python"
 
-#: .\pycon\views.py:234 .\pycon\views.py:248 .\pycon\views.py:262
-#: .\pycon\views.py:276 .\pycon\views.py:290 .\pycon\views.py:304
-#: .\pycon\views.py:344 .\pycon\views.py:358 .\pycon\views.py:372
-#: .\pycon\views.py:386 .\pycon\views.py:400
+#: .\pycon\views.py:295 .\pycon\views.py:309 .\pycon\views.py:323
+#: .\pycon\views.py:337 .\pycon\views.py:351 .\pycon\views.py:365
+#: .\pycon\views.py:405 .\pycon\views.py:419 .\pycon\views.py:433
+#: .\pycon\views.py:447 .\pycon\views.py:461
 #, fuzzy
 #| msgid "Salon B"
 msgid "Salón B"
 msgstr "Salón B"
 
-#: .\pycon\views.py:238
+#: .\pycon\views.py:299
 msgid ""
 "DeepSignBridge: Traductor de Lenguaje de Señas en Tiempo Real Usando "
 "Transformers y Visión Computacional"
@@ -993,29 +1095,29 @@ msgstr ""
 "DeepSignBridge: Traductor de Lenguaje de Señas en Tiempo Real Usando "
 "Transformers y Visión Computacional"
 
-#: .\pycon\views.py:245
+#: .\pycon\views.py:306
 msgid ""
 "De pixeles a predicciones: Transformando la experiencia de videos con python"
 msgstr ""
 "De píxeles a predicciones: Transformando la experiencia de videos con Python."
 
-#: .\pycon\views.py:252
+#: .\pycon\views.py:313
 msgid "Desplegando tu aplicación Python sin morir en el intento"
 msgstr "Desplegando tu aplicación Python sin morir en el intento."
 
-#: .\pycon\views.py:259
+#: .\pycon\views.py:320
 msgid "Domina al Tiburón: Pipelines en Python para Wireshark"
 msgstr "Domina al Tiburón: Pipelines en Python para Wireshark"
 
-#: .\pycon\views.py:266
+#: .\pycon\views.py:327
 msgid "Espacios vectoriales con python y langchain"
 msgstr "Espacios vectoriales con Python y Langchain"
 
-#: .\pycon\views.py:273
+#: .\pycon\views.py:334
 msgid "Fortaleciendo el acceso a la justicia: Whisper y PyQt en Acción"
 msgstr "Fortaleciendo el acceso a la justicia: Whisper y PyQt en Acción"
 
-#: .\pycon\views.py:280
+#: .\pycon\views.py:341
 msgid ""
 "Transformando Startups con Kubernetes: Gestión de Aplicaciones Django para "
 "un Crecimiento Explosivo"
@@ -1023,7 +1125,7 @@ msgstr ""
 "Transformando Startups con Kubernetes: Gestión de Aplicaciones Django para "
 "un Crecimiento Explosivo"
 
-#: .\pycon\views.py:287
+#: .\pycon\views.py:348
 msgid ""
 "Insights Ocultos: Cómo la Estadística y Python Empoderan Decisiones "
 "Estratégicas"
@@ -1031,33 +1133,33 @@ msgstr ""
 "Insights Ocultos: Cómo la Estadística y Python Empoderan Decisiones "
 "Estratégicas"
 
-#: .\pycon\views.py:294
+#: .\pycon\views.py:355
 msgid "Ambientes virtuales en Python: venv, Poetry, Conda, Docker y más allá"
 msgstr ""
 
-#: .\pycon\views.py:301
+#: .\pycon\views.py:362
 msgid "Micropython First Contact"
 msgstr "Primer Contacto con Micropython"
 
-#: .\pycon\views.py:308
+#: .\pycon\views.py:369
 msgid "Charlas Relámpago"
 msgstr "Charlas Relámpago"
 
-#: .\pycon\views.py:315
+#: .\pycon\views.py:376
 msgid "Keynote de cierre primer día"
 msgstr ""
 
-#: .\pycon\views.py:324
+#: .\pycon\views.py:385
 msgid "Sábado 21 de Septiembre"
 msgstr "Sábado 21 de Septiembre"
 
-#: .\pycon\views.py:327
+#: .\pycon\views.py:388
 #, fuzzy
 #| msgid "Keynote Speakers"
 msgid "Keynote de apertura"
 msgstr "Ponentes Principales"
 
-#: .\pycon\views.py:334
+#: .\pycon\views.py:395
 msgid ""
 "Prompt engineering: la llave maestra para aprovechar al máximo la generative "
 "IA"
@@ -1065,11 +1167,11 @@ msgstr ""
 "Engineering de Prompts: La llave maestra para aprovechar al máximo la IA "
 "Generativa"
 
-#: .\pycon\views.py:341
+#: .\pycon\views.py:402
 msgid "Reputación en Tiempo Real y Análisis de Sentimiento con Python"
 msgstr "Reputación en Tiempo Real y Análisis de Sentimiento con Python"
 
-#: .\pycon\views.py:348
+#: .\pycon\views.py:409
 msgid ""
 "Revolutionizing CI/CD with Python and Generative AI: Next-Level Automation "
 "in DevOps"
@@ -1077,16 +1179,16 @@ msgstr ""
 "Revolucionando CI/CD con Python e IA Generativa: Automatización de Próximo "
 "Nivel en DevOps"
 
-#: .\pycon\views.py:355
+#: .\pycon\views.py:416
 msgid "Supercharge Python with Nuitka: Witness a 10-Year Plan Come to Life!"
 msgstr ""
 "Potencia Python con Nuitka: Sé testigo de cómo cobra vida un plan de 10 años."
 
-#: .\pycon\views.py:362
+#: .\pycon\views.py:423
 msgid "Tests efectivos con pytest, o sobre como escribir código duro de fallar"
 msgstr "Tests Efectivos con Pytest, o Cómo Escribir Código Difícil de Fallar"
 
-#: .\pycon\views.py:369
+#: .\pycon\views.py:430
 #, fuzzy
 #| msgid ""
 #| "De pixeles a predicciones: Transformando la experiencia de videos con "
@@ -1095,17 +1197,17 @@ msgid "IA Multimodal en Educación: Transformando el Aprendizaje con Python"
 msgstr ""
 "De píxeles a predicciones: Transformando la experiencia de videos con Python."
 
-#: .\pycon\views.py:376
+#: .\pycon\views.py:437
 msgid "PyLadies Panel"
 msgstr "Panel de PyLadies"
 
-#: .\pycon\views.py:383
+#: .\pycon\views.py:444
 msgid ""
 "Python y los esquemas ETL: El Pivote Esencial para la Inteligencia Artificial"
 msgstr ""
 "Python y los Esquemas ETL: El Pivote Esencial para la Inteligencia Artificial"
 
-#: .\pycon\views.py:390
+#: .\pycon\views.py:451
 msgid ""
 "Revealing the power of multimodal embeddings: bridging the gap between text, "
 "images, videos and more"
@@ -1113,7 +1215,7 @@ msgstr ""
 "El poder de las incrustaciones multimodales: un puente entre texto, "
 "imágenes, vídeos y más"
 
-#: .\pycon\views.py:397
+#: .\pycon\views.py:458
 msgid ""
 "Del Oro Negro al Oro Digital: La Historia de un Ingeniero Convertido en "
 "Líder de Python"
@@ -1121,31 +1223,25 @@ msgstr ""
 "Del Oro Negro al Oro Digital: La Historia de un Ingeniero Convertido en "
 "Líder de Python"
 
-#: .\pycon\views.py:420
+#: .\pycon\views.py:481
 #, fuzzy
 #| msgid "Cierre de Conferencia"
 msgid "Keynote cierre de conferencia"
 msgstr "Cierre de la Conferencia"
 
-#: .\pycon\views.py:427
+#: .\pycon\views.py:488
 msgid "Cierre de Conferencia"
 msgstr "Cierre de la Conferencia"
 
-msgid "August 19th is the last day with a special price!"
-msgstr "¡19 de agosto es último día con precio especial!"
+#~ msgid "Last day with special price!"
+#~ msgstr "¡Último día con precio especial!"
 
-msgid "Last day with special price!"
-msgstr "¡Último día con precio especial!"
-
-msgid "Buy now and take advantage of the discounted prices, the time is now, let's shop and participate in Pylatam."
-msgstr "Compra ahora y aprovecha los precios rebajados, el momento es ahora, vamos a comprar y a participar en el Pylatam."
-
-
-msgid "The prices in dollars are for reference only and will be charged in Mexican pesos at the exchange rate on the day of purchase"
-msgstr "Los precios en dolares son de referencia y se cobrará en pesos méxicanos al tipo de cambio del día de la compra."
-
-
-
+#~ msgid ""
+#~ "Buy now and take advantage of the discounted prices, the time is now, "
+#~ "let's shop and participate in Pylatam."
+#~ msgstr ""
+#~ "Compra ahora y aprovecha los precios rebajados, el momento es ahora, "
+#~ "vamos a comprar y a participar en el Pylatam."
 
 #~ msgid "Call for papers"
 #~ msgstr "Llamado a expositores"
@@ -1737,8 +1833,8 @@ msgstr "Los precios en dolares son de referencia y se cobrará en pesos méxican
 #~ "            <a href=\"%(terms_url)s\" target=\"_blank\">our terms & "
 #~ "conditions</a>"
 #~ msgstr ""
-#~ "Al hacer click en 'Crear una cuenta' estas de acuerdo con <a href=\"%"
-#~ "(terms_url)s\" target=\"_blank\">nuestras politicas</a>"
+#~ "Al hacer click en 'Crear una cuenta' estas de acuerdo con <a href="
+#~ "\"%(terms_url)s\" target=\"_blank\">nuestras politicas</a>"
 
 #~ msgid "Already have an account?"
 #~ msgstr "¿Ya tienes una cuenta?"

@@ -11,4 +11,6 @@ urlpatterns = [
     path('en/scheduled/', views.scheduled, {'lang': 'en'}, name="scheduled_en"),
     path('en/tickets/', views.tickets, {'lang': 'en'}, name="tickets_en"),
     path('tickets/', views.tickets, {'lang': 'es'}, name="tickets"),
+    path('team/', views.team, {'lang': 'es'}, name="team"),
+    path('en/team/', views.team, {'lang': 'en'}, name="team_en"),
 ]
