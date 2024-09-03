@@ -7,10 +7,92 @@
 {% endblock css %}
 
 {% block content %}
-{% for member in team.volunteering %}
-<h2>{{member.name}}</h2>
-<p>{{member.bio}}</p>
-<img src="{% static 'img/team/'|add:member.photo %}" alt="">
-{% endfor %}
+<div class="mx-auto">
+
+    <section class="p-4 my-5 max-1200">
+        <h2 class="fs-2 text-dark-blue">{% trans 'Equipo de Organización' %}</h2>
+        <div class="initial mb-4"></div>
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-2 g-4 mt-2">
+            {% for member in team.organizing_team %}
+            <div class="col p-3">
+                <div class="custom-card">
+                    <div class="img-cc">
+                        <img class="img-teams h-full" src="{% static 'img/team/'|add:member.photo %}" alt="{{ member.name }}">
+                    </div>
+                    <section class="grid text-start justify-content-center gray-text align-content-center px-4">
+                        <h5 class="text-dark-gray fs-5">{{ member.name }}</h5>
+                        <p class="text-light-gray"> {{ member.bio|slice:":120" }}{% if member.bio|length > 120 %}...{% endif %}</p>
+                        <button type="button" class="btn btn-outline-primary mt-3">{% trans 'Ver más' %}</button>
+                      </section>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </section>
+
+    <section class="p-4 my-5 max-1200">
+        <h2 class="fs-3 title-light-blue">{% trans 'Organización Adjunta' %}</h2>
+        <div class="initial mb-4"></div>
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-2 g-4 mt-2">
+            {% for member in team.associated_organization %}
+            <div class="col">
+                <div class="custom-card">
+                    <div class="img-cc">
+                        <img class="img-teams h-full" src="{% static 'img/team/'|add:member.photo %}" alt="{{ member.name }}">
+                    </div>
+                    <section class="grid text-start justify-content-center gray-text align-content-center px-4">
+                        <h5 class="text-dark-gray fs-5">{{ member.name }}</h5>
+                        <p class="text-light-gray"> {{ member.bio|slice:":120" }}{% if member.bio|length > 120 %}...{% endif %}</p>
+                        <button type="button" class="btn btn-outline-primary mt-3">{% trans 'Ver más' %}</button>
+                      </section>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </section>
+
+    <section class="p-4 my-5 max-1200">
+        <h2 class="fs-3 title-light-blue">{% trans 'Equipo de Colaboración' %}</h2>
+        <div class="initial mb-4"></div>
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-2 g-4 mt-2">
+            {% for member in team.collaboration_team %}
+            <div class="col">
+                <div class="custom-card">
+                    <div class="img-cc">
+                        <img class="img-teams h-full" src="{% static 'img/team/'|add:member.photo %}" alt="{{ member.name }}">
+                    </div>
+                    <section class="grid text-start justify-content-center gray-text align-content-center px-4">
+                        <h5 class="text-dark-gray fs-5">{{ member.name }}</h5>
+                        <p class="text-light-gray"> {{ member.bio|slice:":120" }}{% if member.bio|length > 120 %}...{% endif %}</p>
+                        <button type="button" class="btn btn-outline-primary mt-3">{% trans 'Ver más' %}</button>
+                      </section>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </section>
+
+    <section class="p-4 my-5 max-1200">
+        <h2 class="fs-3 title-light-blue">{% trans 'Voluntariado' %}</h2>
+        <div class="initial mb-4"></div>
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-2 g-4 mt-2">
+            {% for member in team.volunteering %}
+            <div class="col">
+                <div class="custom-card">
+                    <div class="img-cc">
+                        <img class="img-teams h-full" src="{% static 'img/team/'|add:member.photo %}" alt="{{ member.name }}">
+                    </div>
+                    <section class="grid text-start justify-content-center gray-text align-content-center px-4">
+                        <h5 class="text-dark-gray fs-5">{{ member.name }}</h5>
+                        <p class="text-light-gray"> {{ member.bio|slice:":120" }}{% if member.bio|length > 120 %}...{% endif %}</p>
+                        <button type="button" class="btn btn-outline-primary mt-3">{% trans 'Ver más' %}</button>
+                      </section>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </section>
+
+</div>
 
 {% endblock content %}

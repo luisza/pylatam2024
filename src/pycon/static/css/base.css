@@ -522,10 +522,33 @@ object-fit: contain;
 /* Sponsors CSS Ends */
 
 .max-900{
-max-width: 900px;
-margin: 0 auto;
+  max-width: 900px;
+  margin: 0 auto;
 }
 
+.grid-auto-250{
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+.img-container{
+  overflow: hidden;
+  max-height: 20rem;
+  padding: 0;
+}
+
+.title-blue{
+  color: #256093;
+}
+
+.title-light-blue{
+  color: #3691bd;
+}
+
+.gray-text{
+  color: #767f87;
+}
 
 @media (max-width: 992px) {
 .navbar-nav li{

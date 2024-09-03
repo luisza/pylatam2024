@@ -35,17 +35,20 @@ def team(request, lang='es'):
             {
                 'name': 'Gabriela Villarreal',
                 'bio': _('Gabriela es psicopedagoga amante de la literatura y la cocina. Con más de 12 años de experiencia en la comunidad de Python, ha sido una activa colaboradora del equipo organizador de Python Monterrey. Desde 2019, ha desempeñado un rol destacado como organizadora de PyCon Latam. Su compromiso con la educación y la tecnología se refleja en su continuo esfuerzo por fomentar el desarrollo y la inclusión en la comunidad.'),
-                'photo': 'gabriela-villarreal.'
+                'photo': 'default.jpg',
+                'role': _('Psicopedagoga')
             },
             {
                 'name': 'Denny Perez',
                 'bio': _('Denny es Analista de QA de Software con un título en contabilidad, apasionada por la diversidad e inclusión en comunidades tecnológicas. Como manejadora de comunidades Python y Directora de la PSF desde 2023, empodera a las comunidades de habla hispana a través de PyLadies, organizando eventos diversos y mentorando dentro de la comunidad Python para promover un ambiente inclusivo.'),
-                'photo': 'denny-perez.png'
+                'photo': 'denny-perez.png',
+                'role': _('Analista de QA de Software')
             },
             {
                 'name': 'Paul Barajas',
                 'bio': _('Es un apasionado de la tecnología de código abierto. Trabaja en un producto que demuestra cómo el código abierto puede impulsar nuevas tecnologías en sectores no industrializados, como la acuicultura. También es conferencista, motivando a las futuras generaciones a entender y utilizar el software de código abierto.'),
-                'photo': 'paul-barajas.jpeg'
+                'photo': 'paul-barajas.jpeg',
+                
             }
         ],
         'associated_organization': [
@@ -75,7 +78,7 @@ def team(request, lang='es'):
         'volunteering': [
             {
                 'name': 'Ashley Rojas',
-                'bio': _('Ashley es una estudiante autodidacta de Informática y Tecnología Multimedia en la Universidad de Costa Rica. Apasionada por la tecnología y el diseño, está aprendiendo Python de manera autodidacta. Con un firme interés en integrarse más en la comunidad tecnológica, busca participar en proyectos innovadores que combinen tecnología y creatividad.'),
+                'bio': _('Estudiante autodidacta de Informática y Tecnología Multimedia en la Universidad de Costa Rica. Apasionada por la tecnología y el diseño, está aprendiendo Python de manera autodidacta. Con un firme interés en integrarse más en la comunidad tecnológica, busca participar en proyectos innovadores que combinen tecnología y creatividad.'),
                 'photo': 'ashley-rojas.jpeg'
             },
             {

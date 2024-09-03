@@ -69,10 +69,11 @@ img {
     height: 12rem;
 }
 
-.biography-text{
-    max-height: 11rem;
-    overflow-y: overlay;
+.biography-container {
+    max-height: 14rem;
+    overflow: auto;
 }
+
 
 @media (max-width: 767.98px) {
     .img-container {

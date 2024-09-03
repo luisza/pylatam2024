@@ -60,14 +60,6 @@ h6 {
       font-size: 2em;
   }
 
-  .grid-auto-250{
-    display: grid;
-    gap: 1rem;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  }
-
-
-
 #banner {
     height: auto;
     background-image: url(../img/background.png);
@@ -474,16 +466,6 @@ section#speakers .btn, section#speakers p {
 }
 
 /* New */
-.title-blue{
-    color: #3691bd;
-}
-
-.img-container{
-    overflow: hidden;
-    max-height: 20rem;
-    padding: 0;
-}
-
 @media (max-width: 767.98px) {
     .img-container {
         height: 28rem;
