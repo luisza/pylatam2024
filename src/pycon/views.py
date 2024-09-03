@@ -83,7 +83,7 @@ def team(request, lang='es'):
             },
             {
                 'name': 'Jeremy Guzmán',
-                'bio': _('Jeremy es un estudiante de Informática en la Universidad de Costa Rica, actualmente centrado en el desarrollo web con Django. Disciplinado y con una gran curiosidad por aprender nuevas tecnologías, busca involucrarse en proyectos colaborativos y contribuir con sus habilidades para crear soluciones innovadoras.'),
+                'bio': _('Estudiante de Informática en la Universidad de Costa Rica, actualmente centrado en el desarrollo web con Django. Disciplinado y con una gran curiosidad por aprender nuevas tecnologías, busca involucrarse en proyectos colaborativos y contribuir con sus habilidades para crear soluciones innovadoras.'),
                 'photo': 'jeremy-guzman.jpeg'
             },
         ]
