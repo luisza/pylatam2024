@@ -21,8 +21,14 @@
                     </div>
                     <section class="grid text-start justify-content-center gray-text align-content-center px-4">
                         <h5 class="text-dark-gray fs-5">{{ member.name }}</h5>
-                        <p class="text-light-gray"> {{ member.bio|slice:":120" }}{% if member.bio|length > 120 %}...{% endif %}</p>
-                        <button type="button" class="btn btn-outline-primary mt-3">{% trans 'Ver más' %}</button>
+                        <p class="text-light-gray">
+                            {{ member.bio|slice:":120" }}{% if member.bio|length > 120 %}...{% endif %}
+                        </p>
+                        <button type="button" class="btn btn-outline-primary mt-3 member"
+                            data-name="{{ member.name }}"
+                            data-biography="{{ member.bio|default:'' }}"
+                            data-photo="{{ member.photo|default:'default.jpg' }}"
+                        >{% trans 'Ver más' %}</button>
                     </section>
                 </div>
             </div>
@@ -32,4 +38,31 @@
     {% endfor %}
 </div>
 
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        document.querySelectorAll('.member').forEach((element) => {
+            element.addEventListener('click', function () {
+                const name = this.getAttribute('data-name');
+                const biography = this.getAttribute('data-biography') || '';
+                const photo = "{% static 'img/team/' %}" + this.getAttribute('data-photo') || '';
+
+                Swal.fire({
+                    padding: '2.5em 2em .3em;',
+                    showConfirmButton: false,
+                    showCloseButton: true,
+                    html: `
+                        <div class="div-img">
+                            <img class="rounded-photo" src="${photo}" alt="${name}">
+                        </div>
+                        <h5 class="fs-3 fw-bold">${name}</h5>
+                        <div class="my-3 biography-container">
+                            <p class="text-black-50">${biography}</p>
+                        </div>
+                    `,
+                });
+            });
+        });
+    });
+</script>
 {% endblock content %}

@@ -57,6 +57,25 @@ body{
     color: #595d63;
 }
 
+.div-img{
+    width: 10rem;
+    height: 10rem;
+    overflow: hidden;
+    border-radius: 50%;
+    margin: 1rem auto;
+}
+
+.biography-container {
+    max-height: 14rem;
+    overflow: auto;
+}
+
+.rounded-photo{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
 @media (max-width: 992px) {
     .custom-card{
         display: grid;

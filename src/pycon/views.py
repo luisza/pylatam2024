@@ -36,19 +36,19 @@ def team(request, lang='es'):
             'members': [
                 {
                     'name': 'Gabriela Villarreal',
-                    'bio': _('Gabriela es psicopedagoga amante de la literatura y la cocina...'),
+                    'bio': _('Gabriela es psicopedagoga amante de la literatura y la cocina. Con más de 12 años de experiencia en la comunidad de Python, ha sido una activa colaboradora del equipo organizador de Python Monterrey. Desde 2019, ha desempeñado un rol destacado como organizadora de PyCon Latam. Su compromiso con la educación y la tecnología se refleja en su continuo esfuerzo por fomentar el desarrollo y la inclusión en la comunidad.'),
                     'photo': 'default.jpg',
                     'role': _('Psicopedagoga')
                 },
                 {
                     'name': 'Denny Perez',
-                    'bio': _('Denny es Analista de QA de Software con un título en contabilidad...'),
+                     'bio': _('Denny es Analista de QA de Software con un título en contabilidad, apasionada por la diversidad e inclusión en comunidades tecnológicas. Como manejadora de comunidades Python y Directora de la PSF desde 2023, empodera a las comunidades de habla hispana a través de PyLadies, organizando eventos diversos y mentorando dentro de la comunidad Python para promover un ambiente inclusivo.'),
                     'photo': 'denny-perez.png',
                     'role': _('Analista de QA de Software')
                 },
                 {
                     'name': 'Paul Barajas',
-                    'bio': _('Es un apasionado de la tecnología de código abierto...'),
+                      'bio': _('Es un apasionado de la tecnología de código abierto. Trabaja en un producto que demuestra cómo el código abierto puede impulsar nuevas tecnologías en sectores no industrializados, como la acuicultura. También es conferencista, motivando a las futuras generaciones a entender y utilizar el software de código abierto.'),
                     'photo': 'paul-barajas.jpeg',
                 }
             ]
@@ -58,12 +58,12 @@ def team(request, lang='es'):
             'members': [
                 {
                     'name': 'Luis Zárate',
-                    'bio': _('Es desarrollador Python con más de 14 años de experiencia...'),
+                     'bio': _('Es desarrollador Python con más de 14 años de experiencia en la realización de proyectos por demanda para diversas empresas. Es fundador de Solvosoft y creador de proyectos como Gentelella Widgets y Organilab. Además, es colaborador del proyecto xhtml2pdf y ha sido profesor universitario en la Universidad de Costa Rica.'),
                     'photo': 'luis-zarate.jpg'
                 },
                 {
                     'name': 'Ronald Perez',
-                    'bio': _('Es profesor de Informática en la Universidad de Costa Rica...'),
+                     'bio': _('Es profesor de Informática en la Universidad de Costa Rica. Durante su doctorado, trabajó con Python para la limpieza y análisis de datos generados por cursos masivos en línea. Actualmente, coordina un grupo de investigación en Python, cuyo objetivo es introducir a los estudiantes universitarios en el desarrollo de aplicaciones con este lenguaje. Cuenta con experiencia en la organización de actividades como congresos internacionales, habiendo participado en eventos como Drupal Camp y el Encuentro Centroamericano de Software Libre.'),
                     'photo': 'ronald-perez.jpg'
                 }
             ]
@@ -73,12 +73,12 @@ def team(request, lang='es'):
             'members': [
                 {
                     'name': 'Ivone Corona',
-                    'bio': _('Es una psicóloga apasionada del psicoanálisis...'),
+                     'bio': _('Es una psicóloga apasionada del psicoanálisis y entusiasta de la tecnología. Durante casi 10 años, ha combinado su interés por comprender a las personas con el mundo del desarrollo de software, trabajando en reclutamiento y recursos humanos en esta industria. Siempre está emocionada por aprender y contribuir.'),
                     'photo': 'ivone-corona.jpeg'
                 },
                 {
                     'name': 'Andres Pineda',
-                    'bio': _('Desarrollador de software con una pasión el UI...'),
+                    'bio': _('Desarrollador de software con una pasión el UI. Especializado en la construcción de aplicaciones accesibles. Cree fuertemente en el poder de la colaboración y el intercambio de conocimiento para impulsar el crecimiento colectivo.'),
                     'photo': 'andres-pineda.jpeg'
                 },
             ]
@@ -88,12 +88,12 @@ def team(request, lang='es'):
             'members': [
                 {
                     'name': 'Ashley Rojas',
-                    'bio': _('Estudiante autodidacta de Informática y Tecnología Multimedia...'),
+                     'bio': _('Estudiante autodidacta de Informática y Tecnología Multimedia en la Universidad de Costa Rica. Apasionada por la tecnología y el diseño, está aprendiendo Python de manera autodidacta. Con un firme interés en integrarse más en la comunidad tecnológica, busca participar en proyectos innovadores que combinen tecnología y creatividad.'),
                     'photo': 'ashley-rojas.jpeg'
                 },
                 {
                     'name': 'Jeremy Guzmán',
-                    'bio': _('Jeremy es un estudiante de Informática en la Universidad de Costa Rica...'),
+                    'bio': _('Jeremy es un estudiante de Informática en la Universidad de Costa Rica, actualmente centrado en el desarrollo web con Django. Disciplinado y con una gran curiosidad por aprender nuevas tecnologías, busca involucrarse en proyectos colaborativos y contribuir con sus habilidades para crear soluciones innovadoras.'),
                     'photo': 'jeremy-guzman.jpeg'
                 },
             ]
