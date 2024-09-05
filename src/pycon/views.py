@@ -114,7 +114,7 @@ def scheduled(request, lang='es'):
         },
         '3': {
             'name': 'Lorena Mesa',
-            'biography': _("A political analyst turned coder, I am a Latinx data engineer at GitHub, chair of the @python Software Foundation, @PyLadiesChicago organizer, and activist. I also teach Python at University of Chicago in their Masters of Computer Science program."),
+            'biography': _("Political scientist turned coder, Lorena Mesa is a data engineer, former Director & Chair of the Python Software Foundation, JOSS editor, and PyLadies Chicago co-organizer. Lorena's time at Obama for America and her subsequent graduate research required her to learn how to transform messy, incomplete data into intelligible analysis on topics like predicting Latinx voter behavior. It's this unique background in research and applied mathematics that drove Lorena to pursue a career in engineering and data science. One part activist, one part Star Wars fanatic, and another part Trekkie, Lorena abides by the motto to \"live long and prosper\""),
             'photo': 'Lorena Mesa.jpg'
         },
         '4': {
