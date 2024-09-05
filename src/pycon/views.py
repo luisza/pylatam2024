@@ -5,10 +5,10 @@ from django.utils.translation import gettext as _
 def home(request, lang='es'):
     activate(lang)
     keynote_speakers = [
-        { 'name': 'Lynn Root',
-         'description': _("Staff Engineer at Spotify and an professor at Columbia University's Graduate School of Engineering."),
-         'image': 'Lynn Root.jpg'
-         },   
+        { 'name': 'Lorena Mesa',
+         'description': _("A political analyst turned coder, also teach Python at University of Chicago in their Masters of Computer Science program"),
+         'image': 'Lorena Mesa.jpg'
+         },
         { 'name': 'Ariel Ortiz',
          'description': _('Professor at Tecnológico de Monterrey, Python expert, and international speaker.'),
          'image': 'Ariel Ortiz.jpg'
@@ -37,7 +37,7 @@ def team(request, lang='es'):
                 {
                     'name': 'Gabriela Villarreal',
                     'bio': _('Gabriela es psicopedagoga amante de la literatura y la cocina. Con más de 12 años de experiencia en la comunidad de Python, ha sido una activa colaboradora del equipo organizador de Python Monterrey. Desde 2019, ha desempeñado un rol destacado como organizadora de PyCon Latam. Su compromiso con la educación y la tecnología se refleja en su continuo esfuerzo por fomentar el desarrollo y la inclusión en la comunidad.'),
-                    'photo': 'default.jpg',
+                    'photo': 'Gabriela-Villarreal.jpg',
                     'role': _('Psicopedagoga')
                 },
                 {
@@ -113,9 +113,9 @@ def scheduled(request, lang='es'):
             'name': _('Personal administrativo')
         },
         '3': {
-            'name': 'Lynn Root',
-            'biography': _("Lynn Root is a Staff Engineer at Spotify and an adjunct professor at Columbia University's Graduate School of Engineering. She is a seasoned speaker on building and maintaining distributed systems, and is the tech lead for governance compliance for Spotify's ML/AI platform. Lynn is a global leader of diversity in the Python community, the Chair of the PyLadies Global Council, and a PSF fellow and the former Vice Chair of the PSF's Board of Directors. When her hands are not on a keyboard, they are usually holding a bass guitar."),
-            'photo': 'Lynn Root.jpg'
+            'name': 'Lorena Mesa',
+            'biography': _("A political analyst turned coder, I am a Latinx data engineer at GitHub, chair of the @python Software Foundation, @PyLadiesChicago organizer, and activist. I also teach Python at University of Chicago in their Masters of Computer Science program."),
+            'photo': 'Lorena Mesa.jpg'
         },
         '4': {
             'name': 'Nadia Ayala Hernandez',
@@ -264,6 +264,12 @@ def scheduled(request, lang='es'):
         },
         '30': {
             'name': _('Equipo organizador')
+        },
+        '31': {
+                'name': 'Luis Zárate',
+                'biography': _(
+                    'Es desarrollador Python con más de 14 años de experiencia en la realización de proyectos por demanda para diversas empresas. Es fundador de Solvosoft y creador de proyectos como Gentelella Widgets y Organilab. Además, es colaborador del proyecto xhtml2pdf y ha sido profesor universitario en la Universidad de Costa Rica.'),
+                'photo': 'luis-zarate.jpg'
         }
     }
     data = {
@@ -292,7 +298,7 @@ def scheduled(request, lang='es'):
                     'duration': '9:30 am - 10:15 am',
                     'speaker': '3',
                     'salon': _('Salón A'),
-                    'image': 'Lynn.jpg'
+                    'image': 'Lorena Mesa.jpg'
                 },
                 {
                     'title': _('Conviértete en un maestro de la automatización: Aprende a implementar RPA y PYTHON en el sector financiero.'),
@@ -459,6 +465,13 @@ def scheduled(request, lang='es'):
                     'speaker': '26',
                     'salon': _('Salón B'),
                     'image': 'python_etl.jpeg'
+                },
+                {
+                    'title': _('Organilab, un administrador de laboratoríos químicos potenciado con Django Gentelella Widgets.'),
+                    'duration': '2:20 pm - 3:00 pm',
+                    'speaker': '31',
+                    'salon': _('Salón A'),
+                    'image': 'organilab.png'
                 },
                 {
                     'title': _('Revealing the power of multimodal embeddings: bridging the gap between text, images, videos and more'),
