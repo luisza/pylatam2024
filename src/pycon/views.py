@@ -272,7 +272,13 @@ def scheduled(request, lang='es'):
                 'biography': _(
                     'Es desarrollador Python con más de 14 años de experiencia en la realización de proyectos por demanda para diversas empresas. Es fundador de Solvosoft y creador de proyectos como Gentelella Widgets y Organilab. Además, es colaborador del proyecto xhtml2pdf y ha sido profesor universitario en la Universidad de Costa Rica.'),
                 'photo': 'luis-zarate.jpg'
-        }
+        },
+        '32': {
+                'name': 'Danilo Britto',
+                'biography': _('Soy Senior Software Engineer con más de 10 años de experiencia en el desarrollo y la arquitectura de aplicaciones. A lo largo de mi carrera, he tenido la oportunidad de contribuir a varios proyectos open source como Laravel, React Native, AWS Chalice, Zustand, Expo y cmder, entre otros.</br>He sido Community Lead en el Facebook Developer Circle: Lima, donde ayudé a impulsar la colaboración y el crecimiento de la comunidad de desarrolladores. Mi trabajo se enfoca en la optimización de performance, la experiencia de usuario (UX) y la experiencia del desarrollador (DX), siempre buscando crear soluciones eficientes y escalables.</br>Mi stack principal está basado en Python y React, pero también tengo experiencia en otros lenguajes como PHP, Java, C#, Lua, entre otros. A lo largo de mi trayectoria, he desempeñado diferentes roles, incluyendo Cloud Developer, Cloud DevOps Engineer, Cloud Native Application Architect y Senior Software Engineer.</br>Como Pythonista y apasionado por el desarrollo, sigo explorando nuevas tecnologías para aportar innovación y optimización en cada proyecto.'),
+                'photo': 'Danilo Britto.png'
+        },
+
     }
     data = {
         'day1': {
@@ -419,13 +425,13 @@ def scheduled(request, lang='es'):
                     'salon': _('Salón A'),
                     'image': 'prompt_engineering_ia.jpg'
                 },
-                # {
-                #     'title': _('Reputación en Tiempo Real y Análisis de Sentimiento con Python'),
-                #     'duration': '10:00 am - 10:40 am',
-                #     'speaker': '20',
-                #     'salon': _('Salón B'),
-                #     'image': 'reputacion_analisis_sentimiento.webp'
-                # },
+                {
+                    'title': _('Data Compression is not enough'),
+                    'duration': '10:00 am - 10:40 am',
+                    'speaker': '32',
+                    'salon': _('Salón B'),
+                    'image': 'data_compression.webp'
+                },
                 {
                     'title': _('Revolutionizing CI/CD with Python and Generative AI: Next-Level Automation in DevOps'),
                     'duration': '10:45 am - 11:25 am',

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-16 19:55-0600\n"
+"POT-Creation-Date: 2024-09-17 08:37-0600\n"
 "PO-Revision-Date: 2024-09-04 20:31-0600\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -583,14 +583,6 @@ msgstr ""
 "¡Esperamos darte la bienvenida en Mazatlán para una experiencia "
 "enriquecedora e inolvidable en PyCon Latam 2024!"
 
-#: .\pycon\views.py:9
-msgid ""
-"A political analyst turned coder, also teach Python at University of Chicago "
-"in their Masters of Computer Science program"
-msgstr ""
-"Activista política convertida en programadora, también enseña Python en la "
-"Universidad de Chicago en su maestría en ciencias de la computación"
-
 #: .\pycon\views.py:13
 msgid ""
 "Professor at Tecnológico de Monterrey, Python expert, and international "
@@ -1072,38 +1064,58 @@ msgstr ""
 msgid "Equipo organizador"
 msgstr ""
 
-#: .\pycon\views.py:279
+#: .\pycon\views.py:278
+msgid ""
+"Soy Senior Software Engineer con más de 10 años de experiencia en el "
+"desarrollo y la arquitectura de aplicaciones. A lo largo de mi carrera, he "
+"tenido la oportunidad de contribuir a varios proyectos open source como "
+"Laravel, React Native, AWS Chalice, Zustand, Expo y cmder, entre otros.</"
+"br>He sido Community Lead en el Facebook Developer Circle: Lima, donde ayudé "
+"a impulsar la colaboración y el crecimiento de la comunidad de "
+"desarrolladores. Mi trabajo se enfoca en la optimización de performance, la "
+"experiencia de usuario (UX) y la experiencia del desarrollador (DX), siempre "
+"buscando crear soluciones eficientes y escalables.</br>Mi stack principal "
+"está basado en Python y React, pero también tengo experiencia en otros "
+"lenguajes como PHP, Java, C#, Lua, entre otros. A lo largo de mi "
+"trayectoria, he desempeñado diferentes roles, incluyendo Cloud Developer, "
+"Cloud DevOps Engineer, Cloud Native Application Architect y Senior Software "
+"Engineer.</br>Como Pythonista y apasionado por el desarrollo, sigo "
+"explorando nuevas tecnologías para aportar innovación y optimización en cada "
+"proyecto."
+msgstr ""
+
+#: .\pycon\views.py:285
 msgid "Jueves 19 de Septiembre"
 msgstr "Jueves 19 de Septiembre"
 
-#: .\pycon\views.py:282
+#: .\pycon\views.py:288
 #, fuzzy
 #| msgid "Bienvenida"
 msgid "Evento de Bienvenida"
 msgstr "Bienvenida al evento"
 
-#: .\pycon\views.py:290
+#: .\pycon\views.py:296
 msgid "Viernes 20 de Septiembre"
 msgstr "Viernes 20 de Septiembre"
 
-#: .\pycon\views.py:293
+#: .\pycon\views.py:299
 msgid "Presentacion e introduccion al evento"
 msgstr ""
 
-#: .\pycon\views.py:299 .\pycon\views.py:409
+#: .\pycon\views.py:305 .\pycon\views.py:415
 msgid "Keynote de apertura"
 msgstr ""
 
-#: .\pycon\views.py:302 .\pycon\views.py:309 .\pycon\views.py:323
-#: .\pycon\views.py:337 .\pycon\views.py:351 .\pycon\views.py:365
-#: .\pycon\views.py:379 .\pycon\views.py:393 .\pycon\views.py:400
-#: .\pycon\views.py:412 .\pycon\views.py:419 .\pycon\views.py:433
-#: .\pycon\views.py:447 .\pycon\views.py:475 .\pycon\views.py:482
-#: .\pycon\views.py:519
+#: .\pycon\views.py:308 .\pycon\views.py:315 .\pycon\views.py:329
+#: .\pycon\views.py:343 .\pycon\views.py:357 .\pycon\views.py:371
+#: .\pycon\views.py:385 .\pycon\views.py:399 .\pycon\views.py:406
+#: .\pycon\views.py:418 .\pycon\views.py:425 .\pycon\views.py:439
+#: .\pycon\views.py:453 .\pycon\views.py:481 .\pycon\views.py:488
+#: .\pycon\views.py:525
 msgid "Salón A"
 msgstr "Salón A"
 
-#: .\pycon\views.py:306
+#: .\pycon\views.py:312
 msgid ""
 "Conviértete en un maestro de la automatización: Aprende a implementar RPA y "
 "PYTHON en el sector financiero."
@@ -1111,18 +1123,18 @@ msgstr ""
 "Conviértete en un maestro de la automatización: Aprende a implementar RPA y "
 "PYTHON en el sector financiero."
 
-#: .\pycon\views.py:313
+#: .\pycon\views.py:319
 msgid "De Bichos y Serpientes: Seguridad en el Ecosistema de Paquetes Python"
 msgstr "De Bichos y Serpientes: Seguridad en el Ecosistema de Paquetes Python"
 
-#: .\pycon\views.py:316 .\pycon\views.py:330 .\pycon\views.py:344
-#: .\pycon\views.py:358 .\pycon\views.py:372 .\pycon\views.py:386
-#: .\pycon\views.py:440 .\pycon\views.py:454 .\pycon\views.py:468
-#: .\pycon\views.py:489
+#: .\pycon\views.py:322 .\pycon\views.py:336 .\pycon\views.py:350
+#: .\pycon\views.py:364 .\pycon\views.py:378 .\pycon\views.py:392
+#: .\pycon\views.py:432 .\pycon\views.py:446 .\pycon\views.py:460
+#: .\pycon\views.py:474 .\pycon\views.py:495
 msgid "Salón B"
 msgstr "Salón B"
 
-#: .\pycon\views.py:320
+#: .\pycon\views.py:326
 msgid ""
 "DeepSignBridge: Traductor de Lenguaje de Señas en Tiempo Real Usando "
 "Transformers y Visión Computacional"
@@ -1130,29 +1142,29 @@ msgstr ""
 "DeepSignBridge: Traductor de Lenguaje de Señas en Tiempo Real Usando "
 "Transformers y Visión Computacional"
 
-#: .\pycon\views.py:327
+#: .\pycon\views.py:333
 msgid ""
 "De pixeles a predicciones: Transformando la experiencia de videos con python"
 msgstr ""
 "De píxeles a predicciones: Transformando la experiencia de videos con Python."
 
-#: .\pycon\views.py:334
+#: .\pycon\views.py:340
 msgid "Desplegando tu aplicación Python sin morir en el intento"
 msgstr "Desplegando tu aplicación Python sin morir en el intento."
 
-#: .\pycon\views.py:341
+#: .\pycon\views.py:347
 msgid "Domina al Tiburón: Pipelines en Python para Wireshark"
 msgstr "Domina al Tiburón: Pipelines en Python para Wireshark"
 
-#: .\pycon\views.py:348
+#: .\pycon\views.py:354
 msgid "Aprendizaje por Refuerzo en Python: Optimización en el mundo real"
 msgstr ""
 
-#: .\pycon\views.py:355
+#: .\pycon\views.py:361
 msgid "Fortaleciendo el acceso a la justicia: Whisper y PyQt en Acción"
 msgstr "Fortaleciendo el acceso a la justicia: Whisper y PyQt en Acción"
 
-#: .\pycon\views.py:362
+#: .\pycon\views.py:368
 msgid ""
 "Transformando Startups con Kubernetes: Gestión de Aplicaciones Django para "
 "un Crecimiento Explosivo"
@@ -1160,7 +1172,7 @@ msgstr ""
 "Transformando Startups con Kubernetes: Gestión de Aplicaciones Django para "
 "un Crecimiento Explosivo"
 
-#: .\pycon\views.py:369
+#: .\pycon\views.py:375
 msgid ""
 "Insights Ocultos: Cómo la Estadística y Python Empoderan Decisiones "
 "Estratégicas"
@@ -1168,27 +1180,27 @@ msgstr ""
 "Insights Ocultos: Cómo la Estadística y Python Empoderan Decisiones "
 "Estratégicas"
 
-#: .\pycon\views.py:376
+#: .\pycon\views.py:382
 msgid "Ambientes virtuales en Python: venv, Poetry, Conda, Docker y más allá"
 msgstr "Ambientes virtuales en Python: venv, Poetry, Conda, Docker y más allá"
 
-#: .\pycon\views.py:383
+#: .\pycon\views.py:389
 msgid "Micropython First Contact"
 msgstr "Primer Contacto con Micropython"
 
-#: .\pycon\views.py:390
+#: .\pycon\views.py:396
 msgid "Charlas Relámpago"
 msgstr "Charlas Relámpago"
 
-#: .\pycon\views.py:397
+#: .\pycon\views.py:403
 msgid "Keynote de cierre primer día"
 msgstr "Keynote de cierre primer día"
 
-#: .\pycon\views.py:406
+#: .\pycon\views.py:412
 msgid "Sábado 21 de Septiembre"
 msgstr "Sábado 21 de Septiembre"
 
-#: .\pycon\views.py:416
+#: .\pycon\views.py:422
 msgid ""
 "Prompt engineering: la llave maestra para aprovechar al máximo la generative "
 "IA"
@@ -1196,7 +1208,11 @@ msgstr ""
 "Engineering de Prompts: La llave maestra para aprovechar al máximo la IA "
 "Generativa"
 
-#: .\pycon\views.py:430
+#: .\pycon\views.py:429
+msgid "Data Compression is not enough"
+msgstr "La compresión de datos no es suficiente"
+
+#: .\pycon\views.py:436
 msgid ""
 "Revolutionizing CI/CD with Python and Generative AI: Next-Level Automation "
 "in DevOps"
@@ -1204,30 +1220,30 @@ msgstr ""
 "Revolucionando CI/CD con Python e IA Generativa: Automatización de Próximo "
 "Nivel en DevOps"
 
-#: .\pycon\views.py:437
+#: .\pycon\views.py:443
 msgid "Supercharge Python with Nuitka: Witness a 10-Year Plan Come to Life!"
 msgstr ""
 "Potencia Python con Nuitka: Sé testigo de cómo cobra vida un plan de 10 años."
 
-#: .\pycon\views.py:444
+#: .\pycon\views.py:450
 msgid "Tests efectivos con pytest, o sobre como escribir código duro de fallar"
 msgstr "Tests Efectivos con Pytest, o Cómo Escribir Código Difícil de Fallar"
 
-#: .\pycon\views.py:451
+#: .\pycon\views.py:457
 msgid "IA Multimodal en Educación: Transformando el Aprendizaje con Python"
 msgstr "IA Multimodal en Educación: Transformando el Aprendizaje con Python"
 
-#: .\pycon\views.py:458
+#: .\pycon\views.py:464
 msgid "PyLadies Panel - Importancia de la diversidad y mujeres en tecnología"
 msgstr ""
 
-#: .\pycon\views.py:465
+#: .\pycon\views.py:471
 msgid ""
 "Python y los esquemas ETL: El Pivote Esencial para la Inteligencia Artificial"
 msgstr ""
 "Python y los Esquemas ETL: El Pivote Esencial para la Inteligencia Artificial"
 
-#: .\pycon\views.py:472
+#: .\pycon\views.py:478
 msgid ""
 "Organilab, un administrador de laboratoríos químicos potenciado con Django "
 "Gentelella Widgets."
@@ -1235,7 +1251,7 @@ msgstr ""
 "Organilab, un administrador de laboratoríos químicos potenciado con Django "
 "Gentelella Widgets."
 
-#: .\pycon\views.py:479
+#: .\pycon\views.py:485
 msgid ""
 "Revealing the power of multimodal embeddings: bridging the gap between text, "
 "images, videos and more"
@@ -1243,7 +1259,7 @@ msgstr ""
 "El poder de las incrustaciones multimodales: un puente entre texto, "
 "imágenes, vídeos y más"
 
-#: .\pycon\views.py:486
+#: .\pycon\views.py:492
 msgid ""
 "Del Oro Negro al Oro Digital: La Historia de un Ingeniero Convertido en "
 "Líder de Python"
@@ -1251,11 +1267,11 @@ msgstr ""
 "Del Oro Negro al Oro Digital: La Historia de un Ingeniero Convertido en "
 "Líder de Python"
 
-#: .\pycon\views.py:516
+#: .\pycon\views.py:522
 msgid "Cierre de Conferencia"
 msgstr "Cierre de la Conferencia"
 
-#: .\pycon\views.py:535
+#: .\pycon\views.py:541
 msgid ""
 "Especialista en colaboración, productividad y tecnologías de nube de "
 "Microsoft, abarcando su implementación y adopción. Apasionada por compartir "
@@ -1263,7 +1279,7 @@ msgid ""
 "desarrollo de nuevas habilidades dentro de la industria tecnológica."
 msgstr ""
 
-#: .\pycon\views.py:540
+#: .\pycon\views.py:546
 msgid ""
 "Beatris A. Mendez Gandica, originally from San Cristobal, Venezuela, is an "
 "engineer serving as a Program Manager at Microsoft. Her role focuses on "
@@ -1279,7 +1295,7 @@ msgstr ""
 "escalable y precisa para los clientes de Azure. Apasionada por el impacto en "
 "la comunidad, fundó la Fundación Nuevo en 2018."
 
-#: .\pycon\views.py:545
+#: .\pycon\views.py:551
 msgid ""
 "Ashley es una estudiante autodidacta de Informática y Tecnología Multimedia "
 "en la Universidad de Costa Rica. Apasionada por la tecnología y el diseño, "
@@ -1289,7 +1305,7 @@ msgid ""
 "diseño y el contenido multimedia."
 msgstr ""
 
-#: .\pycon\views.py:550
+#: .\pycon\views.py:556
 msgid ""
 "Ingeniera de sistemas, apasionada por la ciencia y los datos. Ha trabajado "
 "como backend developer con Python y como ingeniera de datos. Ha contribuido "
@@ -1297,7 +1313,7 @@ msgid ""
 "en logística y alguna vez en charla."
 msgstr ""
 
-#: .\pycon\views.py:555
+#: .\pycon\views.py:561
 msgid ""
 "Tatiana Delgadillo es una profesional multifacética con sólida formación en "
 "informática y pasión por el análisis de datos y la inteligencia artificial. "
@@ -1306,6 +1322,13 @@ msgid ""
 "informática y estadística para diseñar soluciones innovadoras en el ámbito "
 "educativo."
 msgstr ""
+
+#~ msgid ""
+#~ "A political analyst turned coder, also teach Python at University of "
+#~ "Chicago in their Masters of Computer Science program"
+#~ msgstr ""
+#~ "Activista política convertida en programadora, también enseña Python en "
+#~ "la Universidad de Chicago en su maestría en ciencias de la computación"
 
 #~ msgid "Capitulos PyLadies alrededor de América Latina"
 #~ msgstr "Capítulos PyLadies alrededor de América Latina"
