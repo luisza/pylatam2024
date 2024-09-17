@@ -46,12 +46,19 @@
                 <div class="d-grid gap-1 mt-3">
                     <span>
                         <iconify-icon icon="radix-icons:person" class="align-middle me-2"></iconify-icon>
-                        <span class="speaker-name {% if speaker.biography %}cursor-pointer{% endif %}" 
-                            data-name="{{ speaker.name }}"
-                            data-email="{{ speaker.email|default:'' }}"
+                        {% if "PyLadies" not in evento.title %}
+                        <span class="speaker-name {% if speaker.biography %}cursor-pointer{% endif %}"
+                            data-name="{{ speaker.name }}" data-email="{{ speaker.email|default:'' }}"
                             data-biography="{{ speaker.biography|default:'' }}"
-                            data-photo="{{ speaker.photo|default:'default.jpg' }}"
-                        >{{ speaker.name }}</span>
+                            data-photo="{{ speaker.photo|default:'default.jpg' }}">{{ speaker.name }}</span>
+                        {% else %}
+                        <a href="{% if LANGUAGE_CODE == 'es' %} {% url 'pyladies' %}{% else %}{% url 'pyladies_en' %}{% endif %}" style="color: #767f87">
+                            <span class="speaker-name cursor-pointer" data-name="{{ speaker.name }}"
+                                data-email="{{ speaker.email|default:'' }}"
+                                data-biography="{{ speaker.biography|default:'' }}"
+                                data-photo="{{ speaker.photo|default:'default.jpg' }}">{{ speaker.name }}</span>
+                        </a>
+                        {% endif %}
                     </span>
                     <span>
                         <iconify-icon icon="carbon:time" class="align-middle me-2"></iconify-icon>
@@ -76,9 +83,9 @@
                 const biography = this.getAttribute('data-biography') || '';
                 const photo = "{% static 'img/speakers/' %}" + this.getAttribute('data-photo') || '';
 
-                if(this.getAttribute('data-biography')){
+                if (this.getAttribute('data-biography')) {
 
-                    if(this.getAttribute('data-photo')){
+                    if (this.getAttribute('data-photo')) {
                         Swal.fire({
                             padding: '2.5em 2em .3em;',
                             showConfirmButton: false,

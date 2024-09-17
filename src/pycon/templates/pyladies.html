@@ -1,0 +1,66 @@
+{% extends 'base.html' %}
+{% load i18n static %}
+
+{% block css %}
+<link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}" />
+<link rel="stylesheet" type="text/css" href="{% static 'css/team.css' %}" />
+{% endblock css %}
+
+{% block content %}
+<div class="mx-auto">
+    <section class="p-4 my-5 max-1200">
+        <h2 class="fs-2 text-dark-blue">{% trans 'Nuestras participantes de PyLadies' %}</h2>
+        <div class="initial mb-4"></div>
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-2 g-4 mt-2">
+            {% for ladie in ladies %}
+            <div class="col p-3">
+                <div class="custom-card">
+                    <div class="img-cc">
+                        <img class="img-teams h-full" src="{% static 'img/pyladies/'|add:ladie.photo %}" alt="{{ ladie.name }}">
+                    </div>
+                    <section class="grid text-start justify-content-center gray-text align-content-center px-4">
+                        <h5 class="text-dark-gray fs-5">{{ ladie.name }}</h5>
+                        <p class="text-light-gray">
+                            {{ ladie.bio|slice:":120" }}{% if ladie.bio|length > 120 %}...{% endif %}
+                        </p>
+                        <button type="button" class="btn btn-outline-primary mt-3 member"
+                            data-name="{{ ladie.name }}"
+                            data-biography="{{ ladie.bio|default:'' }}"
+                            data-photo="{{ ladie.photo|default:'default.jpg' }}"
+                        >{% trans 'Ver más' %}</button>
+                    </section>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </section>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        document.querySelectorAll('.member').forEach((element) => {
+            element.addEventListener('click', function () {
+                const name = this.getAttribute('data-name');
+                const biography = this.getAttribute('data-biography') || '';
+                const photo = "{% static 'img/pyladies/' %}" + this.getAttribute('data-photo') || '';
+
+                Swal.fire({
+                    padding: '2.5em 2em .3em;',
+                    showConfirmButton: false,
+                    showCloseButton: true,
+                    html: `
+                        <div class="div-img">
+                            <img class="rounded-photo" src="${photo}" alt="${name}">
+                        </div>
+                        <h5 class="fs-3 fw-bold">${name}</h5>
+                        <div class="my-3 biography-container">
+                            <p class="text-black-50">${biography}</p>
+                        </div>
+                    `,
+                });
+            });
+        });
+    });
+</script>
+{% endblock content %}

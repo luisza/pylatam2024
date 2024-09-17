@@ -13,4 +13,7 @@ urlpatterns = [
     path('tickets/', views.tickets, {'lang': 'es'}, name="tickets"),
     path('team/', views.team, {'lang': 'es'}, name="team"),
     path('en/team/', views.team, {'lang': 'en'}, name="team_en"),
+    path('pyladies/', views.pyladies, {'lang': 'es'}, name="pyladies"),
+    path('en/pyladies/', views.pyladies, {'lang': 'en'}, name="pyladies_en"),
+
 ]

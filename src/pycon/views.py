@@ -106,7 +106,7 @@ def scheduled(request, lang='es'):
     activate(lang)
     speakers = {
         '1': {
-        'name': _('Todos los participantes'),
+        'name': _('Todos los asistentes'),
 
         },
         '2': {
@@ -154,10 +154,10 @@ def scheduled(request, lang='es'):
             'photo': 'Kevin Leon Morales.jpg'
         },
         '10': {
-            'name': 'Carla M. F. Román',
-            'email': 'carli.f.roman@gmail.com',
-            'biography': _('Carla es una apasionada de la Inteligencia Artificial, participa activamente en comunidades locales e internacionales de Machine Learning y Data Science. Actualmente es women techmaker ambassador. Participó como investigadora en inteligencia artificial en el Instituto de Inteligencia Artificial (IIC) de la Universidad Privada Boliviana, además es co fundadora de Menti Academy, una academia de enseñanza online para niños, creadora de contenido en redes sociales como TikTok e Instagram donde ayuda a la comunidad a iniciar con la programación específicamente en Python y actualmente parte del team de education en Platzi.'),
-            'photo': 'Carla Marcela Florida.jpg'
+            'name': 'Eduardo Ramirez Rangel',
+            'email': 'eduardo@ensitech.com',
+            'biography': _('Eduardo H. Ramírez, Ph.D. es Doctor en Sistemas Inteligentes. Co-fundador y director de Inteligencia Artificial de Ensitech, empresa mexicana con presencia en Estados Unidos y América Latina. Ex-colaborador de Yahoo! Research y Microsoft Research. Fundador de la comunidad de Ciencia de Datos en Monterrey, miembro del Consejo de la Carrera de Matemáticas y Ciencia de datos del Tec de Monterrey y miembro del consejo de de Saturdays.AI, una iniciativa global de formación en Inteligencia artificial con impacto social. Es docente en el Tecnológico de Monterrey, la Escuela Superior Politécnica del Litoral en Ecuador y Neuromatch Academy. Es colaborador en revistas como Forbes y Software Gurú.'),
+            'photo': 'Eduardo Ramirez.jpg'
         },
         '11': {
             'name': 'Angel Serrano',
@@ -179,7 +179,9 @@ def scheduled(request, lang='es'):
         },
         '14': {
             'name': 'David Sol',
-            'email': 'soldavid@gmail.com'
+            'email': 'soldavid@gmail.com',
+            'biography': _('Es un arquitecto de IT con experiencia en Computo de Nube e Ingeniería de Datos. Ha participado en importantes proyectos para empresas globales como Coca-Cola y Banco Colpatria. David desea difundir ideas para el avance de la tecnología, como su participación en el grupo AWS Community Builders confirma. Como orador, David ha ofrecido charlas sobre tecnologías en la Nube, Python, Inteligencia Artificial y otros temas, inspirando a las audiencias con su conocimiento y pasión por la innovación.'),
+            'photo': 'default.jpg'
         },
         '15': {
             'name': 'Gustavo Salvador Reynaga Aguilar',
@@ -188,10 +190,10 @@ def scheduled(request, lang='es'):
             'photo': 'Gustavo Reynaga.png'
         },
         '16': {
-            'name': _('Charlas generales')
+            'name': _('Charlas cortas de 5 minutos')
         },
         '17': {
-            'name': _('Personal administrativo')
+            'name': _('Gabriela Villarreal y Denny Pérez')
         },
         '18': {
             'name': 'Ariel Ortiz',
@@ -236,7 +238,7 @@ def scheduled(request, lang='es'):
             'photo': 'Carlos Alarcon.jpg'
         },
         '25': {
-            'name': _('Capitulos PyLadies alrededor de América Latina')
+            'name': _('Conoce a nuestras participantes')
         },
         '26': {
             'name': 'Hugo Ramírez',
@@ -277,7 +279,7 @@ def scheduled(request, lang='es'):
             'date': _('Jueves 19 de Septiembre'),
             'events': [
                 {
-                    'title': _('Bienvenida al evento'),
+                    'title': _('Evento de Bienvenida'),
                     'duration': '6:00 pm - 8:00 pm',
                     'speaker': '1',
                     'image': 'bienvenida_evento.jpg'
@@ -288,17 +290,17 @@ def scheduled(request, lang='es'):
             'date': _('Viernes 20 de Septiembre'),
             'events': [
                 {
-                    'title': _('Bienvenida'),
+                    'title': _('Presentacion e introduccion al evento'),
                     'duration': '9:00 am - 9:30 am',
                     'speaker': '2',
                     'image': 'bienvenida_conferencia.jpg'
                 },
                 {
-                    'title': _('Keynote de Apertura'),
+                    'title': _('Keynote de apertura'),
                     'duration': '9:30 am - 10:15 am',
-                    'speaker': '3',
+                    'speaker': '18',
                     'salon': _('Salón A'),
-                    'image': 'Lorena Mesa.jpg'
+                    'image': 'Ariel Ortiz.jpg'
                 },
                 {
                     'title': _('Conviértete en un maestro de la automatización: Aprende a implementar RPA y PYTHON en el sector financiero.'),
@@ -343,7 +345,7 @@ def scheduled(request, lang='es'):
                     'image': 'pipelines_python_wireshark.jpg'
                 },
                 {
-                    'title': _('Espacios vectoriales con python y langchain'),
+                    'title': _('Aprendizaje por Refuerzo en Python: Optimización en el mundo real'),
                     'duration': '2:10 pm - 2:50 pm',
                     'speaker': '10',
                     'salon': _('Salón A'),
@@ -406,9 +408,9 @@ def scheduled(request, lang='es'):
                 {
                     'title': _('Keynote de apertura'),
                     'duration': '9:00 am - 9:45 am',
-                    'speaker': '18',
+                    'speaker': '29',
                     'salon': _('Salón A'),
-                    'image': 'keynote_apertura.jpg'
+                    'image': 'Abigail.jpg'
                 },
                 {
                     'title': _('Prompt engineering: la llave maestra para aprovechar al máximo la generative IA'),
@@ -417,13 +419,13 @@ def scheduled(request, lang='es'):
                     'salon': _('Salón A'),
                     'image': 'prompt_engineering_ia.jpg'
                 },
-                {
-                    'title': _('Reputación en Tiempo Real y Análisis de Sentimiento con Python'),
-                    'duration': '10:00 am - 10:40 am',
-                    'speaker': '20',
-                    'salon': _('Salón B'),
-                    'image': 'reputacion_analisis_sentimiento.webp'
-                },
+                # {
+                #     'title': _('Reputación en Tiempo Real y Análisis de Sentimiento con Python'),
+                #     'duration': '10:00 am - 10:40 am',
+                #     'speaker': '20',
+                #     'salon': _('Salón B'),
+                #     'image': 'reputacion_analisis_sentimiento.webp'
+                # },
                 {
                     'title': _('Revolutionizing CI/CD with Python and Generative AI: Next-Level Automation in DevOps'),
                     'duration': '10:45 am - 11:25 am',
@@ -453,7 +455,7 @@ def scheduled(request, lang='es'):
                     'image': 'ia_multimodial_educacion.jpg'
                 },
                 {
-                    'title': _('PyLadies Panel'),
+                    'title': _('PyLadies Panel - Importancia de la diversidad y mujeres en tecnología'),
                     'duration': '1:30 pm - 2:20 pm',
                     'speaker': '25',
                     'image': 'pyladies_panel.jpg'
@@ -503,13 +505,13 @@ def scheduled(request, lang='es'):
                 #     'salon': _('Salón B'),
                 #     'image': 'x.jpg'
                 # },
-                {
-                    'title': _('Keynote cierre de conferencia'),
-                    'duration': '4:45 pm - 5:30 pm',
-                    'speaker': '29',
-                    'salon': _('Salón A'),
-                    'image': 'Abigail.jpg'
-                },
+                # {
+                #     'title': _('Keynote cierre de conferencia'),
+                #     'duration': '4:45 pm - 5:30 pm',
+                #     'speaker': '29',
+                #     'salon': _('Salón A'),
+                #     'image': 'Abigail.jpg'
+                # },
                 {
                     'title': _('Cierre de Conferencia'),
                     'duration': '5:30 pm - 5:50 pm',
@@ -524,3 +526,37 @@ def scheduled(request, lang='es'):
     context = {'data': data, 'speakers': speakers}
 
     return render(request, 'scheduled.html', context)
+
+def pyladies(request, lang='es'):
+    activate(lang)
+    ladies  = [
+        {
+            'name': 'Alejandra Pérez Castillo',
+                    'bio': _('Especialista en colaboración, productividad y tecnologías de nube de Microsoft, abarcando su implementación y adopción. Apasionada por compartir el conocimiento e impulsar a los equipos de trabajo moderno para el desarrollo de nuevas habilidades dentro de la industria tecnológica.'),
+                    'photo': 'Alejandra Pérez.jpeg',
+        },
+        {
+            'name': 'Bea Gandica',
+                    'bio': _("Beatris A. Mendez Gandica, originally from San Cristobal, Venezuela, is an engineer serving as a Program Manager at Microsoft. Her role focuses on managing the daily operations of Azure Data services' usage billing pipeline, ensuring secure, scalable, and accurate customer billing for Azure. Passionate about community impact, she founded Nuevo Foundation in 2018."),
+                    'photo': 'Bea Mendez Gandica.jpeg',
+        },
+        {
+            'name': 'Ashley Rojas Pérez',
+                    'bio': _("Ashley es una estudiante autodidacta de Informática y Tecnología Multimedia en la Universidad de Costa Rica. Apasionada por la tecnología y el diseño, ha aprendido Python por su cuenta para contribuir a proyectos como PyConLatam 2024. Con un firme interés en involucrarse más en la comunidad tecnológica, busca colaborar en iniciativas que integren la informática, el diseño y el contenido multimedia."),
+                    'photo': 'AshleyRojas - AP.png',
+        },
+        {
+            'name': 'Geraldine Echavarria',
+                    'bio': _("Ingeniera de sistemas, apasionada por la ciencia y los datos. Ha trabajado como backend developer con Python y como ingeniera de datos. Ha contribuido a comunidades y eventos en tecnología, ha participado en eventos de Python en logística y alguna vez en charla."),
+                    'photo': 'default.jpg',
+        },
+        {
+            'name': 'Tatiana Andrea Delgadillo',
+                    'bio': _("Tatiana Delgadillo es una profesional multifacética con sólida formación en informática y pasión por el análisis de datos y la inteligencia artificial. Ha acumulado experiencia en diversas industrias. En su rol actual cómo Data Scientist dentro de una StartUp de educación, combina su experiencia en informática y estadística para diseñar soluciones innovadoras en el ámbito educativo."),
+                    'photo': 'Tatiana Delgadillo.jpg',
+        }
+    ]
+
+    context = {'ladies': ladies}
+
+    return render(request, 'pyladies.html', context)
