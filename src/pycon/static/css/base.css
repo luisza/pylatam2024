@@ -525,6 +525,10 @@ object-fit: contain;
   max-width: 900px;
   margin: 0 auto;
 }
+.max-650{
+  max-width: 650px;
+  margin: 0 auto;
+}
 
 .grid-auto-250{
   display: grid;

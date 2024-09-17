@@ -5,10 +5,10 @@ from django.utils.translation import gettext as _
 def home(request, lang='es'):
     activate(lang)
     keynote_speakers = [
-        { 'name': 'Lorena Mesa',
-         'description': _("A political analyst turned coder, also teach Python at University of Chicago in their Masters of Computer Science program"),
-         'image': 'Lorena Mesa.jpg'
-         },
+        # { 'name': 'Lorena Mesa',
+        #  'description': _("A political analyst turned coder, also teach Python at University of Chicago in their Masters of Computer Science program"),
+        #  'image': 'Lorena Mesa.jpg'
+        #  },
         { 'name': 'Ariel Ortiz',
          'description': _('Professor at Tecnológico de Monterrey, Python expert, and international speaker.'),
          'image': 'Ariel Ortiz.jpg'
