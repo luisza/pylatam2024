@@ -15,7 +15,11 @@ def home(request, lang='es'):
          },
         { 'name': 'Abigail Messreyames',
          'description': _('Open Source Programs Manager, researcher, and community builder with a focus on DEI in leadership.'),
-         'image': 'Abigail Mesrenyame Dogbe.jpg' }
+         'image': 'Abigail Mesrenyame Dogbe.jpg' },
+         { 'name': 'Bea Gandica',
+         'description': _('Program Manager at Microsoft and founder of Nuevo Foundation, focused on Azure billing and community education.'),
+         'image': 'Bea Mendez Gandica.jpeg' },
+         
     ]
     context = {'data': keynote_speakers}
     return render(request, 'home.html', context)
@@ -278,7 +282,18 @@ def scheduled(request, lang='es'):
                 'biography': _('Soy Senior Software Engineer con más de 10 años de experiencia en el desarrollo y la arquitectura de aplicaciones. A lo largo de mi carrera, he tenido la oportunidad de contribuir a varios proyectos open source como Laravel, React Native, AWS Chalice, Zustand, Expo y cmder, entre otros.</br>He sido Community Lead en el Facebook Developer Circle: Lima, donde ayudé a impulsar la colaboración y el crecimiento de la comunidad de desarrolladores. Mi trabajo se enfoca en la optimización de performance, la experiencia de usuario (UX) y la experiencia del desarrollador (DX), siempre buscando crear soluciones eficientes y escalables.</br>Mi stack principal está basado en Python y React, pero también tengo experiencia en otros lenguajes como PHP, Java, C#, Lua, entre otros. A lo largo de mi trayectoria, he desempeñado diferentes roles, incluyendo Cloud Developer, Cloud DevOps Engineer, Cloud Native Application Architect y Senior Software Engineer.</br>Como Pythonista y apasionado por el desarrollo, sigo explorando nuevas tecnologías para aportar innovación y optimización en cada proyecto.'),
                 'photo': 'Danilo Britto.png'
         },
-
+        '33': 
+            {
+            'name': 'Bea Gandica',
+            'biography': _("Beatris A. Mendez Gandica, originally from San Cristobal, Venezuela, is an engineer serving as a Program Manager at Microsoft. Her role focuses on managing the daily operations of Azure Data services' usage billing pipeline, ensuring secure, scalable, and accurate customer billing for Azure. Passionate about community impact, she founded Nuevo Foundation in 2018."),
+            'photo': 'Bea Mendez Gandica.jpeg',
+        },
+        '34':{
+            'name': 'Alejandra Pérez Castillo',
+            'biography': _('Especialista en colaboración, productividad y tecnologías de nube de Microsoft, abarcando su implementación y adopción. Apasionada por compartir el conocimiento e impulsar a los equipos de trabajo moderno para el desarrollo de nuevas habilidades dentro de la industria tecnológica.'),
+            'photo': 'Alejandra Pérez.jpeg',
+        },
+        
     }
     data = {
         'day1': {
@@ -433,11 +448,11 @@ def scheduled(request, lang='es'):
                     'image': 'data_compression.webp'
                 },
                 {
-                    'title': _('Revolutionizing CI/CD with Python and Generative AI: Next-Level Automation in DevOps'),
+                    'title': _('GitHub Codespaces para potenciar tu trabajo como desarrollador/a'),
                     'duration': '10:45 am - 11:25 am',
-                    'speaker': '21',
+                    'speaker': '34',
                     'salon': _('Salón A'),
-                    'image': 'cicd_python_devops.jpg'
+                    'image': 'github_code.webp'
                 },
                 {
                     'title': _('Supercharge Python with Nuitka: Witness a 10-Year Plan Come to Life!'),
@@ -511,13 +526,13 @@ def scheduled(request, lang='es'):
                 #     'salon': _('Salón B'),
                 #     'image': 'x.jpg'
                 # },
-                # {
-                #     'title': _('Keynote cierre de conferencia'),
-                #     'duration': '4:45 pm - 5:30 pm',
-                #     'speaker': '29',
-                #     'salon': _('Salón A'),
-                #     'image': 'Abigail.jpg'
-                # },
+                {
+                    'title': _('Keynote cierre de conferencia'),
+                    'duration': '4:45 pm - 5:30 pm',
+                    'speaker': '33',
+                    'salon': _('Salón A'),
+                    'image': 'Bea Mendez Gandica.jpeg'
+                },
                 {
                     'title': _('Cierre de Conferencia'),
                     'duration': '5:30 pm - 5:50 pm',
