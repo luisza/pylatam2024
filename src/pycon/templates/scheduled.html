@@ -29,15 +29,21 @@
         {% with speaker=speakers|get_item:evento.speaker %}
 
         <div class="row p-0 mt-4 mx-0 border rounded-2 position-relative overflow-hidden">
-            {% if evento.salon == 'Salón A' or evento.salon == 'Salon A' %}
-            <span class="salon salon-a">
-                {{ evento.salon }}
-            </span>
-            {% elif evento.salon == 'Salón B' or evento.salon == 'Salon B' %}
-            <span class="salon salon-b">
-                {{ evento.salon }}
-            </span>
-            {% endif %}
+            {% if evento.salon %}
+                {% if evento.salon == 'Salón A' or evento.salon == 'Salon A' %}
+                <span class="salon salon-a">
+                    {{ evento.salon }}
+                </span>
+                {% elif evento.salon == 'Salón B' or evento.salon == 'Salon B' %}
+                <span class="salon salon-b">
+                    {{ evento.salon }}
+                </span>
+                {% else%}
+                <span class="salon bar">
+                    {{ evento.salon }}
+                </span>
+                {% endif %}
+            {%endif%}
             <div class="col-md-2 img-container">
                 <img src="{% static 'img/events2/'|add:evento.image %}" alt="{{evento.title|slice:" :19"}}" />
             </div>

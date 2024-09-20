@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-17 19:23-0600\n"
+"POT-Creation-Date: 2024-09-19 17:44-0600\n"
 "PO-Revision-Date: 2024-09-04 20:34-0600\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -557,9 +557,8 @@ msgstr ""
 
 #: .\pycon\views.py:20
 msgid ""
-"Program Manager at Microsoft, engineer, and founder of Nuevo Foundation, "
-"focused on Azure billing operations and community empowerment through "
-"education."
+"Program Manager at Microsoft and founder of Nuevo Foundation, focused on "
+"Azure billing and community education."
 msgstr ""
 
 #: .\pycon\views.py:39
@@ -1303,7 +1302,7 @@ msgstr ""
 "continue to explore new technologies to bring innovation and optimization to "
 "every project."
 
-#: .\pycon\views.py:288 .\pycon\views.py:561
+#: .\pycon\views.py:288 .\pycon\views.py:568
 msgid ""
 "Beatris A. Mendez Gandica, originally from San Cristobal, Venezuela, is an "
 "engineer serving as a Program Manager at Microsoft. Her role focuses on "
@@ -1313,7 +1312,7 @@ msgid ""
 "2018."
 msgstr ""
 
-#: .\pycon\views.py:293 .\pycon\views.py:556
+#: .\pycon\views.py:293 .\pycon\views.py:563
 msgid ""
 "Especialista en colaboración, productividad y tecnologías de nube de "
 "Microsoft, abarcando su implementación y adopción. Apasionada por compartir "
@@ -1333,28 +1332,32 @@ msgstr "Thursday Sep, 19"
 msgid "Evento de Bienvenida"
 msgstr "Welcome Event"
 
-#: .\pycon\views.py:311
+#: .\pycon\views.py:306
+msgid "Bar del Cid Castilla"
+msgstr "Cid Castilla's bar"
+
+#: .\pycon\views.py:312
 msgid "Viernes 20 de Septiembre"
 msgstr "Friday Sep, 20"
 
-#: .\pycon\views.py:314
+#: .\pycon\views.py:315
 msgid "Presentacion e introduccion al evento"
 msgstr "Presentation and introduction to the event"
 
-#: .\pycon\views.py:320 .\pycon\views.py:430
+#: .\pycon\views.py:321 .\pycon\views.py:431
 msgid "Keynote de apertura"
 msgstr "Openning Keynote"
 
-#: .\pycon\views.py:323 .\pycon\views.py:330 .\pycon\views.py:344
-#: .\pycon\views.py:358 .\pycon\views.py:372 .\pycon\views.py:386
-#: .\pycon\views.py:400 .\pycon\views.py:414 .\pycon\views.py:421
-#: .\pycon\views.py:433 .\pycon\views.py:440 .\pycon\views.py:454
-#: .\pycon\views.py:468 .\pycon\views.py:496 .\pycon\views.py:503
-#: .\pycon\views.py:533 .\pycon\views.py:540
+#: .\pycon\views.py:324 .\pycon\views.py:331 .\pycon\views.py:345
+#: .\pycon\views.py:359 .\pycon\views.py:373 .\pycon\views.py:387
+#: .\pycon\views.py:401 .\pycon\views.py:415 .\pycon\views.py:422
+#: .\pycon\views.py:434 .\pycon\views.py:441 .\pycon\views.py:455
+#: .\pycon\views.py:469 .\pycon\views.py:497 .\pycon\views.py:504
+#: .\pycon\views.py:534 .\pycon\views.py:541
 msgid "Salón A"
 msgstr "Salon A"
 
-#: .\pycon\views.py:327
+#: .\pycon\views.py:328
 msgid ""
 "Conviértete en un maestro de la automatización: Aprende a implementar RPA y "
 "PYTHON en el sector financiero."
@@ -1362,18 +1365,18 @@ msgstr ""
 "Become a master of automation: Learn how to implement RPA and PYTHON in the "
 "financial sector."
 
-#: .\pycon\views.py:334
+#: .\pycon\views.py:335
 msgid "De Bichos y Serpientes: Seguridad en el Ecosistema de Paquetes Python"
 msgstr "Of Bugs and Snakes: Security in the Python Package Ecosystem"
 
-#: .\pycon\views.py:337 .\pycon\views.py:351 .\pycon\views.py:365
-#: .\pycon\views.py:379 .\pycon\views.py:393 .\pycon\views.py:407
-#: .\pycon\views.py:447 .\pycon\views.py:461 .\pycon\views.py:475
-#: .\pycon\views.py:489 .\pycon\views.py:510
+#: .\pycon\views.py:338 .\pycon\views.py:352 .\pycon\views.py:380
+#: .\pycon\views.py:394 .\pycon\views.py:408 .\pycon\views.py:448
+#: .\pycon\views.py:462 .\pycon\views.py:476 .\pycon\views.py:490
+#: .\pycon\views.py:511
 msgid "Salón B"
 msgstr "Salon B"
 
-#: .\pycon\views.py:341
+#: .\pycon\views.py:342
 msgid ""
 "DeepSignBridge: Traductor de Lenguaje de Señas en Tiempo Real Usando "
 "Transformers y Visión Computacional"
@@ -1381,29 +1384,25 @@ msgstr ""
 "DeepSignBridge: Real-Time Sign Language Translator Using Transformers and "
 "Computer Vision"
 
-#: .\pycon\views.py:348
+#: .\pycon\views.py:349
 msgid ""
 "De pixeles a predicciones: Transformando la experiencia de videos con python"
 msgstr ""
 "From pixels to predictions: Transforming the video experience with python"
 
-#: .\pycon\views.py:355
+#: .\pycon\views.py:356
 msgid "Desplegando tu aplicación Python sin morir en el intento"
 msgstr "Deploying your Python application without dying in the attempt"
 
-#: .\pycon\views.py:362
-msgid "Domina al Tiburón: Pipelines en Python para Wireshark"
-msgstr "Master the Shark: Python Pipelines for Wireshark"
-
-#: .\pycon\views.py:369
+#: .\pycon\views.py:370
 msgid "Aprendizaje por Refuerzo en Python: Optimización en el mundo real"
 msgstr "Reinforcement Learning in Python: Optimization in the real world"
 
-#: .\pycon\views.py:376
+#: .\pycon\views.py:377
 msgid "Fortaleciendo el acceso a la justicia: Whisper y PyQt en Acción"
 msgstr "Strengthening Access to Justice: Whisper and PyQt in Action"
 
-#: .\pycon\views.py:383
+#: .\pycon\views.py:384
 msgid ""
 "Transformando Startups con Kubernetes: Gestión de Aplicaciones Django para "
 "un Crecimiento Explosivo"
@@ -1411,69 +1410,69 @@ msgstr ""
 "Transforming Startups with Kubernetes: Django Application Management for "
 "Explosive Growth"
 
-#: .\pycon\views.py:390
+#: .\pycon\views.py:391
 msgid ""
 "Insights Ocultos: Cómo la Estadística y Python Empoderan Decisiones "
 "Estratégicas"
 msgstr "Hidden Insights: How Statistics and Python Empower Strategic Decisions"
 
-#: .\pycon\views.py:397
+#: .\pycon\views.py:398
 msgid "Ambientes virtuales en Python: venv, Poetry, Conda, Docker y más allá"
 msgstr "Python Virtual Environments: venv, Poetry, Conda, Docker and beyond"
 
-#: .\pycon\views.py:404
+#: .\pycon\views.py:405
 msgid "Micropython First Contact"
 msgstr ""
 
-#: .\pycon\views.py:411
+#: .\pycon\views.py:412
 msgid "Charlas Relámpago"
 msgstr "Lightning talks"
 
-#: .\pycon\views.py:418
+#: .\pycon\views.py:419
 msgid "Keynote de cierre primer día"
 msgstr "Closing Keynote first day"
 
-#: .\pycon\views.py:427
+#: .\pycon\views.py:428
 msgid "Sábado 21 de Septiembre"
 msgstr "Saturday Sep, 21"
 
-#: .\pycon\views.py:437
+#: .\pycon\views.py:438
 msgid ""
 "Prompt engineering: la llave maestra para aprovechar al máximo la generative "
 "IA"
 msgstr ""
 "Prompt engineering: the master key to get the most out of generative IA"
 
-#: .\pycon\views.py:444
+#: .\pycon\views.py:445
 msgid "Data Compression is not enough"
 msgstr ""
 
-#: .\pycon\views.py:451
+#: .\pycon\views.py:452
 msgid "GitHub Codespaces para potenciar tu trabajo como desarrollador/a"
 msgstr "GitHub Codespaces to enhance your work as a developer"
 
-#: .\pycon\views.py:458
+#: .\pycon\views.py:459
 msgid "Supercharge Python with Nuitka: Witness a 10-Year Plan Come to Life!"
 msgstr ""
 
-#: .\pycon\views.py:465
+#: .\pycon\views.py:466
 msgid "Tests efectivos con pytest, o sobre como escribir código duro de fallar"
 msgstr "Effective testing with pytest, or how to write hard-to-fail code"
 
-#: .\pycon\views.py:472
+#: .\pycon\views.py:473
 msgid "IA Multimodal en Educación: Transformando el Aprendizaje con Python"
 msgstr "Multimodal AI in Education: Transforming Learning with Python"
 
-#: .\pycon\views.py:479
+#: .\pycon\views.py:480
 msgid "PyLadies Panel - Importancia de la diversidad y mujeres en tecnología"
 msgstr "PyLadies Panel - Importance of diversity and women in technology"
 
-#: .\pycon\views.py:486
+#: .\pycon\views.py:487
 msgid ""
 "Python y los esquemas ETL: El Pivote Esencial para la Inteligencia Artificial"
 msgstr "Python and ETL Schemas: The Essential Pivot to Artificial Intelligence"
 
-#: .\pycon\views.py:493
+#: .\pycon\views.py:494
 msgid ""
 "Organilab, un administrador de laboratoríos químicos potenciado con Django "
 "Gentelella Widgets."
@@ -1481,7 +1480,7 @@ msgstr ""
 "Organilab, a chemical laboratory manager powered by Django Gentelella "
 "Widgets."
 
-#: .\pycon\views.py:500
+#: .\pycon\views.py:501
 msgid ""
 "Revealing the power of multimodal embeddings: bridging the gap between text, "
 "images, videos and more"
@@ -1489,7 +1488,7 @@ msgstr ""
 "Revealing the power of multimodal embeddings: bridging the gap between text, "
 "images, videos and more"
 
-#: .\pycon\views.py:507
+#: .\pycon\views.py:508
 msgid ""
 "Del Oro Negro al Oro Digital: La Historia de un Ingeniero Convertido en "
 "Líder de Python"
@@ -1497,15 +1496,19 @@ msgstr ""
 "From Black Gold to Digital Gold: The Story of an Engineer Turned into a "
 "Python Leader"
 
-#: .\pycon\views.py:530
+#: .\pycon\views.py:531
 msgid "Keynote cierre de conferencia"
 msgstr "Closing Keynote"
 
-#: .\pycon\views.py:537
+#: .\pycon\views.py:538
 msgid "Cierre de Conferencia"
 msgstr "Conference Closing"
 
-#: .\pycon\views.py:566
+#: .\pycon\views.py:545
+msgid "Fotografía del grupo de participantes"
+msgstr "Participant's group photo"
+
+#: .\pycon\views.py:573
 msgid ""
 "Ashley es una estudiante autodidacta de Informática y Tecnología Multimedia "
 "en la Universidad de Costa Rica. Apasionada por la tecnología y el diseño, "
@@ -1520,7 +1523,7 @@ msgstr ""
 "into the tech community, she seeks to participate in innovative projects "
 "that combine technology and creativity."
 
-#: .\pycon\views.py:571
+#: .\pycon\views.py:578
 msgid ""
 "Ingeniera de sistemas, apasionada por la ciencia y los datos. Ha trabajado "
 "como backend developer con Python y como ingeniera de datos. Ha contribuido "
@@ -1532,7 +1535,7 @@ msgstr ""
 "communities and tech events, has participated in Python events in logistics, "
 "and once gave a talk."
 
-#: .\pycon\views.py:576
+#: .\pycon\views.py:583
 msgid ""
 "Tatiana Delgadillo es una profesional multifacética con sólida formación en "
 "informática y pasión por el análisis de datos y la inteligencia artificial. "
@@ -1547,6 +1550,9 @@ msgstr ""
 "current role as a Data Scientist at an education StartUp, she combines her "
 "expertise in computer science and statistics to design innovative solutions "
 "in the educational field."
+
+#~ msgid "Domina al Tiburón: Pipelines en Python para Wireshark"
+#~ msgstr "Master the Shark: Python Pipelines for Wireshark"
 
 #~ msgid ""
 #~ "Carla es una apasionada de la Inteligencia Artificial, participa "

@@ -301,8 +301,9 @@ def scheduled(request, lang='es'):
             'events': [
                 {
                     'title': _('Evento de Bienvenida'),
-                    'duration': '6:00 pm - 8:00 pm',
+                    'duration': '7:00 pm - 9:00 pm',
                     'speaker': '1',
+                    'salon': _('Bar del Cid Castilla'),
                     'image': 'bienvenida_evento.jpg'
                 },
             ],
@@ -358,13 +359,13 @@ def scheduled(request, lang='es'):
                     'salon': _('Salón A'),
                     'image': 'desplegando_python.jpg'
                 },
-                {
-                    'title': _('Domina al Tiburón: Pipelines en Python para Wireshark'),
-                    'duration': '12:00 pm - 12:40 pm',
-                    'speaker': '9',
-                    'salon': _('Salón B'),
-                    'image': 'pipelines_python_wireshark.jpg'
-                },
+                # {
+                #     'title': _('Domina al Tiburón: Pipelines en Python para Wireshark'),
+                #     'duration': '12:00 pm - 12:40 pm',
+                #     'speaker': '9',
+                #     'salon': _('Salón B'),
+                #     'image': 'pipelines_python_wireshark.jpg'
+                # },
                 {
                     'title': _('Aprendizaje por Refuerzo en Python: Optimización en el mundo real'),
                     'duration': '2:10 pm - 2:50 pm',
@@ -539,6 +540,12 @@ def scheduled(request, lang='es'):
                     'speaker': '30',
                     'salon': _('Salón A'),
                     'image': 'cierre_conferencia.jpg'
+                },
+                {
+                    'title': _('Fotografía del grupo de participantes'),
+                    'duration': '6:00 pm - 6:15 pm',
+                    'speaker': '1',
+                    'image': 'foto-grupal.webp'
                 },
             ],
         }

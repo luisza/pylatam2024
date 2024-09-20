@@ -33,7 +33,7 @@ img {
 
 .salon{
     padding: .5rem;
-    width: 5.5rem;
+    width: max-content;
     margin-right: 1rem;
     border-bottom-left-radius: .2rem;
     border-bottom-right-radius: .2rem;
@@ -52,6 +52,11 @@ img {
 .salon-b{
     background-color: #dcf0b8;
     color: #3a5f00
+}
+
+.bar{
+    background-color: #FFF39B;
+    color: #80621E
 }
 
 .cursor-pointer{
