@@ -7,10 +7,22 @@
 {% endblock css %}
 
 {% block content %}
+<div class="header">
+    <section class="max-900 header-section">
+        <div class="d-flex flex-column align-items-center p-3">
+            <h1 class="text-white">{% trans "PyCon Latam 2024 Team" %}</h1>
+            <p class="text-white">{% trans 'PyCon Latam es organizada por un dedicado equipo de voluntarios que, con esfuerzo y pasión, trabajan para fortalecer la comunidad de Python en Latinoamérica. Su objetivo es fomentar el networking y dar a conocer el lenguaje de programación Python entre los desarrolladores de la región, todo gracias al compromiso desinteresado de quienes colaboran para hacer este evento posible.' %}</p>
+        </div>
+    </section>
+  </div>
+  
 <div class="mx-auto">
     {% for team in team.values %}
     <section class="p-4 my-5 max-1200">
         <h2 class="fs-2 text-dark-blue">{{ team.title }}</h2>
+        <!-- {% if "Orga" in team.title %}
+        <p class="description max-w-900">{% trans '' %}</p>
+        {% endif %} -->
         <div class="initial mb-4"></div>
         <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-2 g-4 mt-2">
             {% for member in team.members %}

@@ -76,6 +76,25 @@ body{
     object-fit: cover;
 }
 
+.description{
+    margin-top: 1rem;
+    font-size: calc(1rem + .5vw) !important;
+    color: #253848;
+}
+
+.header-section {
+    max-width: 900px;
+    margin: auto;
+    padding: 10rem 0;
+}
+
+.header{
+    background: linear-gradient(rgba(0, 0, 0, 0.66), rgba(0, 0, 0, 0.66)), url('../img/teamwork.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
 @media (max-width: 992px) {
     .custom-card{
         display: grid;
@@ -103,5 +122,8 @@ body{
     .row-cols-1 > * {
         flex: 0 0 100%;
         max-width: 100%;
+    }
+    .header-section{
+        padding: 5rem 1rem;
     }
 }

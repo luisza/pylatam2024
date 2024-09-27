@@ -54,12 +54,7 @@ def team(request, lang='es'):
                     'name': 'Paul Barajas',
                       'bio': _('Es un apasionado de la tecnología de código abierto. Trabaja en un producto que demuestra cómo el código abierto puede impulsar nuevas tecnologías en sectores no industrializados, como la acuicultura. También es conferencista, motivando a las futuras generaciones a entender y utilizar el software de código abierto.'),
                     'photo': 'paul-barajas.jpeg',
-                }
-            ]
-        },
-        'associated_organization': {
-            'title': _('Organización Adjunta'),
-            'members': [
+                },
                 {
                     'name': 'Luis Zárate',
                      'bio': _('Es desarrollador Python con más de 14 años de experiencia en la realización de proyectos por demanda para diversas empresas. Es fundador de Solvosoft y creador de proyectos como Gentelella Widgets y Organilab. Además, es colaborador del proyecto xhtml2pdf y ha sido profesor universitario en la Universidad de Costa Rica.'),
@@ -69,12 +64,7 @@ def team(request, lang='es'):
                     'name': 'Ronald Perez',
                      'bio': _('Es profesor de Informática en la Universidad de Costa Rica. Durante su doctorado, trabajó con Python para la limpieza y análisis de datos generados por cursos masivos en línea. Actualmente, coordina un grupo de investigación en Python, cuyo objetivo es introducir a los estudiantes universitarios en el desarrollo de aplicaciones con este lenguaje. Cuenta con experiencia en la organización de actividades como congresos internacionales, habiendo participado en eventos como Drupal Camp y el Encuentro Centroamericano de Software Libre.'),
                     'photo': 'ronald-perez.jpg'
-                }
-            ]
-        },
-        'collaboration_team': {
-            'title': _('Equipo de Colaboración'),
-            'members': [
+                },
                 {
                     'name': 'Ivone Corona',
                      'bio': _('Es una psicóloga apasionada del psicoanálisis y entusiasta de la tecnología. Durante casi 10 años, ha combinado su interés por comprender a las personas con el mundo del desarrollo de software, trabajando en reclutamiento y recursos humanos en esta industria. Siempre está emocionada por aprender y contribuir.'),
@@ -99,6 +89,11 @@ def team(request, lang='es'):
                     'name': 'Jeremy Guzmán',
                     'bio': _('Estudiante de Informática en la Universidad de Costa Rica, actualmente centrado en el desarrollo web con Django. Disciplinado y con una gran curiosidad por aprender nuevas tecnologías, busca involucrarse en proyectos colaborativos y contribuir con sus habilidades para crear soluciones innovadoras.'),
                     'photo': 'jeremy-guzman.jpeg'
+                },
+                {
+                    'name': 'Juan Gabriel Camacho',
+                    'bio': _('Estudiante de la carrera Informática y Tecnología Multimedia en la Universidad de Costa Rica, apasionado por el desarrollo de software y backend, autodidacta en el lenguaje de Python. Busca involucrarse en un ambiente laboral profesional para el desarrollo de proyectos innovadores.'),
+                    'photo': 'juan-camacho.JPG'
                 },
             ]
         }
