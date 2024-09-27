@@ -514,3 +514,7 @@ section#speakers .btn, section#speakers p {
         padding: 2rem 1rem;
     }
 }
+
+.text-center {
+    text-align: center !important;
+}
